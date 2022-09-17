@@ -1,0 +1,970 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="556cfc3c-9b34-4611-8949-9f94c8806a62"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="BuyProducts"
+	namespace="TrendyolTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.trendyol.com/irmak/kup-seker-sargili-750-gr-p-43497508?boutiqueId=613502&amp;merchantId=457005
+			</url>
+		</openwebsiterecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2b7b2295-8e27-443a-9848-e1ef26d84392"
+		sx="988"
+		sy="566"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="145f3143-f3e4-4cf9-9a65-31ce6beb267b"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="766,556,503,32"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						add-to-basket-button-text
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Sepete Ekle
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						add-to-basket-button-text
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/button/div[@innertext='Sepete Ekle']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="b406da29-613c-4515-8f15-705068307315">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABSAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKyP
+Nl/56v8A99GjzZf+er/99GsPbrsdHsH3NeisjzZf+er/APfRo82X/nq//fRo9uuwewfc16KyPNl/
+56v/AN9GjzZf+er/APfRo9uuwewfc16KyPNl/wCer/8AfRo82X/nq/8A30aPbrsHsH3NeisjzZf+
+er/99GjzZf8Anq//AH0aPbrsHsH3NeisjzZf+er/APfRo82X/nq//fRo9uuwewfc16KyPNl/56v/
+AN9GjzZf+er/APfRo9uuwewfc16KyPNl/wCer/8AfRo82X/nq/8A30aPbrsHsH3NeisjzZf+er/9
+9GjzZf8Anq//AH0aPbrsHsH3NeisjzZf+er/APfRo82X/nq//fRo9uuwewfc16KyPNl/56v/AN9G
+jzZf+er/APfRo9uuwewfc16KyPNl/wCer/8AfRo82X/nq/8A30aPbrsHsH3NeisjzZf+er/99Gjz
+Zf8Anq//AH0aPbrsHsH3NeisjzZf+er/APfRo82X/nq//fRo9uuwewfc16KyPNl/56v/AN9GjzZf
++er/APfRo9uuwewfc16KyPNl/wCer/8AfRo82X/nq/8A30aPbrsHsH3NeisjzZf+er/99GjzZf8A
+nq//AH0aPbrsHsH3NeisjzZf+er/APfRo82X/nq//fRo9uuwewfc16KyPNl/56v/AN9GjzZf+er/
+APfRo9uuwewfc16KyPNl/wCer/8AfRo82X/nq/8A30aPbrsHsH3NeisjzZf+er/99GjzZf8Anq//
+AH0aPbrsHsH3NeisjzZf+er/APfRo82X/nq//fRo9uuwewfc16KyPNl/56v/AN9GjzZf+er/APfR
+o9uuwewfc16KyPNl/wCer/8AfRo82X/nq/8A30aPbrsHsH3NeisjzZf+er/99GjzZf8Anq//AH0a
+PbrsHsH3NeisjzZf+er/APfRo82X/nq//fRo9uuwewfc16KyPNl/56v/AN9GjzZf+er/APfRo9uu
+wewfc16KyPNl/wCer/8AfRo82X/nq/8A30aPbrsHsH3NeisjzZf+er/99GjzZf8Anq//AH0aPbrs
+HsH3NeisjzZf+er/APfRo82X/nq//fRo9uuwewfc16KyPNl/56v/AN9GjzZf+er/APfRo9uuwewf
+c16KyPNl/wCer/8AfRoo9uuwewfcrfa4P7/6Gj7XB/f/AENP8mL/AJ5p/wB8ijyYv+eaf98iubQ7
+fc8xn2uD+/8AoaPtcH9/9DT/ACYv+eaf98ijyYv+eaf98ijQPc8xn2uD+/8AoaPtcH9/9DT/ACYv
++eaf98ijyYv+eaf98ijQPc8xn2uD+/8AoaPtcH9/9DT/ACYv+eaf98ijyYv+eaf98ijQPc8xn2uD
++/8AoaPtcH9/9DT/ACYv+eaf98ijyYv+eaf98ijQPc8xn2uD+/8AoaPtcH9/9DT/ACYv+eaf98ij
+yYv+eaf98ijQPc8xn2uD+/8AoaPtcH9/9DT/ACYv+eaf98ijyYv+eaf98ijQPc8xn2uD+/8AoaPt
+cH9/9DT/ACYv+eaf98ijyYv+eaf98ijQPc8xn2uD+/8AoaPtcH9/9DT/ACYv+eaf98ijyYv+eaf9
+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
+iiigAooooAKKKKAP/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.trendyol.com/kahve-dunyasi/orta-kavrulmus-turk-kahvesi-100-gr-4-lu-paket-orta-kavrulmus-turk-kahvesi-100-gr-4-lu-paket-p-42720773
+			</url>
+		</openwebsiterecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="1e9da2bd-9fd7-4fc7-9be4-1c0bb1b33e7e"
+		sx="1065"
+		sy="672"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="145f3143-f3e4-4cf9-9a65-31ce6beb267b"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="0,88,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/button/div[@innertext='Sepete Ekle']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d082f272-887e-4e50-ae0a-c25514193764"
+		sx="1649"
+		sy="158"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="30140022-9b65-4374-84e9-c4f939a146bc"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, ptag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="ptag"
+				rect="1611,145,63,22"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						link-text
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Sepetim
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						link-text
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						p
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[2]/a[@href&gt;'https://www.trendyol.com/']/p[@innertext='Sepetim']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="0ba90ba0-27b6-4714-80be-f1698c2572b4">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="388988ab-ced8-46c2-a865-2a5e359ba352"
+		sx="1556"
+		sy="291"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="87145e4a-8258-4631-8aa9-bd75ad265f70"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="1466,279,135,30"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Sepeti Onayla
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[1]/?/?/span[@innertext='Sepeti Onayla']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="f0f3c07f-c8ae-46f4-94fb-7549dfb6c1ad">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f050f134-fca3-4dc4-80d9-05b9ec287bdb"
+		sx="1429"
+		sy="350"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d55e23da-dbdd-4421-937a-3cb34b09d962"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="1407,326,37,25"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						p-checkbox-text
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						p-checkbox-text
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'p-layout']/aside/div/div[2]/section//span
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="22a21f5b-611c-4040-9500-9c6d12d1d08c"
+		sx="1506"
+		sy="265"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="df87f721-3bd7-4788-841e-0141b997e9eb"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, buttontag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="buttontag"
+				rect="1391,225,308,62"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						ty-primary-btn ty-btn-large
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Ödeme Yap
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						ty-btn-large ty-primary-btn
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						submit
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'p-layout']/aside/div/div[1]/button[@innertext='Kaydet ve Devam Et']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<validationitem
+		action="Exists"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="3e18670e-0d91-42a2-aecc-e14d60770cb5">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e4f650e4-66a3-4e03-a167-26525b497eeb"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, buttontag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="buttontag"
+				rect="1401,225,308,62"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						ty-primary-btn ty-btn-large
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Ödeme Yap
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						ty-btn-large ty-primary-btn
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						submit
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'p-layout']/aside/div/div[1]/button[@innertext='Ödeme Yap']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="c2f31d46-6d87-469c-806f-feca560f10a0">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAH0AfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDJooop
+khRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRT9vmcqOe4/rQAyinNgDa
+OfU02gAooooAKKKKACingR45Zs/7v/16QhMfKzE+64/rQA2iiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigC
+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
+nR9ji9D+dWKKAsV/scXofzo+xxeh/OrFFAWK/wBji9D+dH2OL0P51YooCxX+xxeh/Oj7HF6H86sU
+UBYr/Y4vQ/nR9ji9D+dWKKAsV/scXofzo+xxeh/OrFFAWK/2OL0P50fY4vQ/nViigLFf7HF6H86P
+scXofzqxRQFiv9ji9D+dH2OL0P51YooCxX+xxeh/Oj7HF6H86sUUBYr/AGOL0P50fY4vQ/nViigL
+Ff7HF6H86PscXofzqxRQFiv9ji9D+dH2OL0P51YooCxX+xxeh/Oj7HF6H86sUUBYr/Y4vQ/nR9ji
+9D+dWKKAsV/scXofzo+xxeh/OrFFAWK/2OL0P50VYooCwUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAhIAyaZ5y5701syS7ewqTy1xjaKC
+bt7CqwYZBzS1Aw8pwR0NT0DTCimO+0gAZJpA0mRlRigLklFMkfZjAyTSbpO6igLklFNkYquRSg5A
+NA7i0UUUAJnp70tIeq/WloAKKKOlABRSAg9DmjPoM/jQAtFJn14NLQAUUm4DuKMjGcigBaKKTI9a
+AFoopFORmgBaKQnFAOaAFopNw9RS0AFFJuX1H50ZGcd6AFopCcdaCQOpAoAWikBB6EGloAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACg8CikPQ0AV1f
+a5bHWn+f/s/rUaLuYDOKeITu56UjJN9BHk3gcYqZDuQGopWXhVHTvUkX+rFCKW4Om4jnBFMLPHjc
+QRT3QMc5INIIhnLEmgbXYV0D45we1MJkj5JBFSOgfqSMU0RDPzMTQDQTHMYNPX7o+lI6hlx0pvlD
++8aYa3JKKQDAApaChD1X60tIeq/WloAKZjc5z0FPppBDbl/EUAIpTdx1pY/un60DJYEjGKTDKTgZ
+BoAQjO+lY7lA9aVQRknqaRVIbnoOlACHHmHK549KVseWcDFB3ByQM8etB3MhGMH60AA4BU+nFJ/C
+n1pzLleOopCDtXA5FAD6bH9wUAseq4/GhAQoBoAQDc5z2oI2uMd+tKQQ2V5z1FIAS2W4x0FAAoB3
+ZA60g4Dr2FKNwJwucn1oCna2epoARcYA2H64obh8+gpQWAA2frS4+cntigBsnP4UPjeMjPFKVITH
+U5oYHeCBnigBVx2XH4U6kBJ6rj8aWgAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKAK0ilW9u1KZGK4/WpyARg03yk9KViHF9CBVLHAqyBgAelAUK
+OBilpjjGwwsQ4HagM2/H6U+igYxWJJyefTFCsSR9OfrT6KAI8sEBJ69eOlKWOBzjPfFPooCw2P7g
+p1FFAxD1X60tJjp7UtABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFVdQ/wBQv+9/Q0m7K4pOyuWqKq/YYv7z/mKPsMX95/zFZ+0Q+Sp/
+KWqKq/YYv7z/AJij7DF/ef8AMUe1Q+Sr/KWqKq/YYv7z/mKPsMX95/zFHtUHJV/lLVFVfsMX95/z
+FH2GL+8/5ij2qDkq/wApaoqr9hi/vP8AmKPsMX95/wAxR7VByVf5S1RVX7DF/ef8xR9hi/vP+Yo9
+qg5Kv8paoqr9hi/vP+Yo+wxf3n/MUe1QclX+UtUVV+wxf3n/ADFH2GL+8/5ij2qDkq/ylqiqv2GL
++8/5ij7DF/ef8xR7VByVf5S1RVX7DF/ef8xR9hi/vP8AmKPaoOSr/KWqKq/YYv7z/mKPsMX95/zF
+HtUHJV/lLVFVfsMX95/zFH2GL+8/5ij2qDkq/wApaoqr9hi/vP8AmKPsMX95/wAxR7VByVf5S1RV
+X7DF/ef8xR9hi/vP+Yo9qg5Kv8paoqr9hi/vP+Yo+wxf3n/MUe1QclX+UtUVV+wxf3n/ADFH2GL+
+8/5ij2qDkq/ylqiqv2GL+8/5ij7DF/ef8xR7VByVf5S1RVX7DF/ef8xR9hi/vP8AmKPaoOSr/KWq
+Kq/YYv7z/mKPsMX95/zFHtUHJV/lLVFZ91bJDGGUsSTjmtCrjLmITd2mrBRRRVFBRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFACd6Wk70tABVXUP9Qv+9/Q1aqrqH+oX/e/oamfwsif
+wss0UUVwHqhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFAFbUP8AUL/vf0NWqq6h/qF/3v6GrVdVDZnBV/iv5BRRRW5A
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAnelpO9LQAVV1D/UL/vf0NWqq6h/q
+F/3v6Gpn8LIn8LLNFFFcB6oUUUUAFFFFABRRRQAUUUUAFFFFADkUu4VRkmrw+V1Uyx7wu3G2q9iQ
+LkZ9Dio5Fbz2H8W6tYvlV+5lJc0rCPGySbCPm9u9Sx2+Y5GkDKVGR2q4cfaGbGWVKrwSPJbz72Jw
+veq5En95PtG19xVVGf7qlvoM0BGLYCkkdgKuHCW0WJTECM5C5yadG6SXm5Dn5OTjHNL2ava4/aPV
+2KJjcLko2PXFDI6/eVlz6irkEzlJyWyVGRntTQxlsSZDn5+ppcia0Hzu+pVEbsMhGI9QKRQCwBOA
+T19K0JWWOVR52wKPuBTyKpTlTMxT7pPFKUVEcJuQ9rZluFiBzu6HFNeFhIyoGcDjIWrMcv8Aonmk
+ZeMbQabHmOFGlmdQeVVarkiTzyKoRi20KSfTFBjcLuKMB64rQwBf/VKjtpHkllVzuXB60ezV7B7R
+2uUaKKKxNgooooAKKKKACiiigAooooAKKKKAK2of6hf97+hq1VXUP9Qv+9/Q1arqobM4Kv8AFfyC
+iiityAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigBO9LSd6WgAqrqH+oX/e/oat
+VV1D/UL/AL39DUz+FkT+FlmiiiuA9UKKKKACiiigAooooAKKKKACiiigBQSpBBwRU/2yTrtQt/ex
+zVeiqUmtiXFPckSZ0l8wHLHrnvTzduVZdqAMMHAqCijmaBxT6E0dw6JswrL6MM0LcOspkAXJGMY4
+qGijmYcqJEmZFcAD5xg0CVhCYsDaTn3qOildj5UTi6cKAyo2OhYZNQsSzEnqeaSihyb3BRS2JBKw
+haIAbWOT605bl1QJhTjoSMkVDRT5mhOKZbgn33O+QquFx6UyS6chlAUAnkgcmq9FNzdrC5Fe4UUU
+VBYUUUUAFFFFABRRRQAUUUUAFFFFAFbUP9Qv+9/Q1aqrqH+oX/e/oatV1UNmcFX+K/kFFFFbkBRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFACd6Wk70tABVXUP9Qv8Avf0NWqhuommj
+CqQCDnmplqiZq8WS0VW8u8/56p+X/wBajy7z/nqn5f8A1q5PZSOr6zHsyzRVby7z/nqn5f8A1qPL
+vP8Anqn5f/Wo9lIPrMez/r5lmiq3l3n/AD1T8v8A61Hl3n/PVPy/+tR7KQfWY9n/AF8yzRVby7z/
+AJ6p+X/1qPLvP+eqfl/9aj2Ug+sx7P8Ar5lmiq3l3n/PVPy/+tR5d5/z1T8v/rUeykH1mPZ/18yz
+RVby7z/nqn5f/Wo8u8/56p+X/wBaj2Ug+sx7P+vmWaKreXef89U/L/61Hl3n/PVPy/8ArUeykH1m
+PZ/18yzRVby7z/nqn5f/AFqPLvP+eqfl/wDWo9lIPrMez/r5lmiq3l3n/PVPy/8ArUeXef8APVPy
+/wDrUeykH1mPZ/18yzRVby7z/nqn5f8A1qPLvP8Anqn5f/Wo9lIPrMez/r5lmiq3l3n/AD1T8v8A
+61Hl3n/PVPy/+tR7KQfWY9n/AF8yzRVby7z/AJ6p+X/1qPLvP+eqfl/9aj2Ug+sx7P8Ar5lmiq3l
+3n/PVPy/+tR5d5/z1T8v/rUeykH1mPZ/18yzRVby7z/nqn5f/Wo8u8/56p+X/wBaj2Ug+sx7P+vm
+WaKreXef89U/L/61Hl3n/PVPy/8ArUeykH1mPZ/18yzRVby7z/nqn5f/AFqPLvP+eqfl/wDWo9lI
+PrMez/r5lmiq3l3n/PVPy/8ArUeXef8APVPy/wDrUeykH1mPZ/18yzRVby7z/nqn5f8A1qPLvP8A
+nqn5f/Wo9lIPrMez/r5lmiq3l3n/AD1T8v8A61Hl3n/PVPy/+tR7KQfWY9n/AF8w1D/UL/vf0NWq
+pyW9zKu15EIzn/PFXK3pRcdznlLnm5WCiiitgCiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKAE70tJ3paACiiigAopQpYZA49ScUuxvVf++hQA2inbG9V/76FGxvVf8AvoUANop2xvVf
+++hRsb1X/voUANop2xvVf++hRsb1X/voUANop2xvVf8AvoUbG9V/76FADaKdsb1X/voUbG9V/wC+
+hQA2inbG9V/76FGxvVf++hQA2inbG9V/76FGxvVf++hQA2inbG9V/wC+hRsb1X/voUANop2xvVf+
++hRsb1X/AL6FADaKdsb1X/voUbG9V/76FADaKdsb1X/voUbG9V/76FADaKdsb1X/AL6FGxvVf++h
+QA2inbG9V/76FGxvVf8AvoUANop2xvVf++hRsb1X/voUANop2xvVf++hRsb1X/voUANop2xvVf8A
+voUbG9V/76FADaKdsb1X/voUbG9V/wC+hQA2inbG9V/76FHlt/s/99CgBtFBBBwRg0UAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFACd6Wk70tABRRRQA6T75XsvAptOl/wBa
+/wDvGm0AFFFFABRRRQAUUUm4E45/I0ALRRRQAUUhIAyTgDuaXrQAUUhIHUgZ45paACiikyMgZGT2
+oAWiiigAooooAKKKKACiiml1GcsBjrz0oAdRRRQAUUUUAFFFFABRRRQAUUUUAFFJuXdt3Dd1xnmg
+kAgEgE9PegBaKKKAHHmLn+E4FNpw/wBU3+8P602gAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooATvS0neloAKKKKAHS/61/8AeNNp0v8ArX/3jTaAIyxyaNx9aArPJtUZJPAp
+0cLyS+WF+bvntXC5Tb0Z3qMLaobuPrT1ORmluFjRgsZLEDDHsTTU+6K1ot8zTZjVUeVNIJCRGxXr
+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
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAVdQ/1S/71UKv6h/ql/wB6qFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAGzRRR
+QAUUUUAFFFFABRRRQBmXn/H0/wCH8qhqa8/4+n/D+VQ0AFFFFAGwv3R9KWkX7o+lLQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQBV1D/VL/vVQq/qH+qX/eqhQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQBs0UUUAFFFF
+ABRRRQAUUUUAZl5/x9P+H8qhoooAKKKKANhfuj6UtFFABVXUmZbcBGZSW6qcHoT/AEoooAsRMWiR
+j1KgmnUUUAI6h1KnOD6Eg/mKp2sINxPl5iI3AUGViBwD680UUAXaKKKAK0X/ACELj/dT+tWaKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAqhpF1LdwyvMQSHwABjAwKKKAHi4kOrm3yPLEW7G
+O+aYZZkSCXzWbzHClSBgZ9MDP60UUASancSW1mZIsbtwGSM4zTDcSm0tDvw0xUMwAzyO3aiigCWz
+leTzldt3lyFQ2OSPemXImSaELdSgSPtIwnAwTx8vtRRQBIjSJeCFpGdfLLZYDOc+wFWKKKACiiig
+CrqH+qX/AHqoUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf//Z
+			</helperscreenshot>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Ödeme Yap
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="9353f6bf-9d2b-48ce-9be0-8d0a4a110d98"
+	name="TrendyolTestRepository"
+	relativepath="TrendyolTestRepository.rxrep">
+		<codegen
+		classname="TrendyolTestRepository"
+		namespace="TrendyolTest">
+		</codegen>
+		<rootfolder
+		id="62222601-220c-44bf-a55a-74347c474ca6"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		BuyProducts.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

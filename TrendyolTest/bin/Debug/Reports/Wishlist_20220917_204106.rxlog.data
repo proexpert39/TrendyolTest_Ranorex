@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="58.55s"
+		durationms="58553"
+		type="root"
+		rid="3de053f39860990"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="17.09.2022 20:41:08"
+		timestampiso="2022-09-17T17:41:08"
+		endtime="17.09.2022 20:42:07"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Wishlist">
+		<detail>
+			Wishlist
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.701"
+			timeRelativeToTestModuleStartTime="00:11.701"
+			timeWallClock="20:41:20"
+			time="00:11.701"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.trendyol.com/irmak/kup-seker-sargili-750-gr-p-43497508?boutiqueId=613502&amp;merchantId=457005' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.844"
+			timeRelativeToTestModuleStartTime="00:11.844"
+			timeWallClock="20:41:20"
+			time="00:11.844"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.846"
+			timeRelativeToTestModuleStartTime="00:16.846"
+			timeWallClock="20:41:25"
+			time="00:16.846"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'trendyol.ProductDetails.AddToFavoritesBtn' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']/dom[@domain='www.trendyol.com']//div[@class='container-right-content']//button[@class='fv']"
+				itempath=".//div[@class='container-right-content']//button[@class='fv']"
+				fullname="TrendyolTestRepository.trendyol.ProductDetails.AddToFavoritesBtn"
+				id="8171e99b7f374cb1af52086de2980edf"
+				timeout="90000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:58.550"
+			timeRelativeToTestModuleStartTime="00:58.550"
+			timeWallClock="20:42:07"
+			time="00:58.550"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

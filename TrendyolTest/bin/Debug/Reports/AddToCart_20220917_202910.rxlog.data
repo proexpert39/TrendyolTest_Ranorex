@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="11.01s"
+		durationms="11008"
+		type="root"
+		rid="3b6c7197dc3056"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="17.09.2022 20:29:13"
+		timestampiso="2022-09-17T17:29:13"
+		endtime="17.09.2022 20:29:24"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AddToCart">
+		<detail>
+			AddToCart
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.194"
+			timeRelativeToTestModuleStartTime="00:05.194"
+			timeWallClock="20:29:18"
+			time="00:05.194"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.trendyol.com/irmak/kup-seker-sargili-750-gr-p-43497508' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.338"
+			timeRelativeToTestModuleStartTime="00:05.338"
+			timeWallClock="20:29:18"
+			time="00:05.338"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeContains (InnerText&gt;' K&#252;p &#350;eker Sarg&#305;l&#305; 750 gr 8690380009636 ') on item 'trendyol.SpanTagKuep&#350;ekerSarg&#305;l&#305;750Gr869038'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/h1[@innertext='Irmak']/span[@innertext>' Küp Şeker Sargılı 750 gr']"
+				itempath=".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/h1[@innertext='Irmak']/span[@innertext>' Küp Şeker Sargılı 750 gr']"
+				fullname="TrendyolTestRepository.trendyol.SpanTagKuepŞekerSargılı750Gr869038"
+				id="3a59b7a859334e2da24818965ace6953"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.889"
+			timeRelativeToTestModuleStartTime="00:06.889"
+			timeWallClock="20:29:20"
+			time="00:06.889"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'TrendyolTestRepository.trendyol.SpanTagKuepŞekerSargılı750Gr869038' does contain the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/h1[@innertext='Irmak']/span[@innertext>' Küp Şeker Sargılı 750 gr']"
+				itempath=".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/h1[@innertext='Irmak']/span[@innertext>' Küp Şeker Sargılı 750 gr']"
+				fullname="TrendyolTestRepository.trendyol.SpanTagKuepŞekerSargılı750Gr869038"
+				id="3a59b7a859334e2da24818965ace6953"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.999"
+			timeRelativeToTestModuleStartTime="00:06.999"
+			timeWallClock="20:29:20"
+			time="00:06.999"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'trendyol.SepeteEkle' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/button/div[@innertext='Sepete Ekle']"
+				itempath=".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/button/div[@innertext='Sepete Ekle']"
+				fullname="TrendyolTestRepository.trendyol.SepeteEkle"
+				id="145f3143f3e44cf99a6531ce6beb267b"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.655"
+			timeRelativeToTestModuleStartTime="00:07.655"
+			timeWallClock="20:29:21"
+			time="00:07.655"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.663"
+			timeRelativeToTestModuleStartTime="00:09.663"
+			timeWallClock="20:29:23"
+			time="00:09.663"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'trendyol.Sepetim' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[2]/a[@href>'https://www.trendyol.com/']/p[@innertext='Sepetim']"
+				itempath=".//div[#'account-navigation-container']/div/div[2]/a[@href>'https://www.trendyol.com/']/p[@innertext='Sepetim']"
+				fullname="TrendyolTestRepository.trendyol.Sepetim"
+				id="301400229b65437484e9c4f939a146bc"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.321"
+			timeRelativeToTestModuleStartTime="00:10.321"
+			timeWallClock="20:29:23"
+			time="00:10.321"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeContains (InnerText&gt;'K&#252;p &#350;eker Sarg&#305;l&#305; 750 gr') on item 'trendyol.IrmakKuep&#350;ekerSarg&#305;l&#305;750Gr'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'pb-container']//a[@href>'https://www.trendyol.com/']/p[@title>'Irmak Küp Şeker Sargılı 750']"
+				itempath=".//div[#'pb-container']//a[@href>'https://www.trendyol.com/']/p[@title>'Irmak Küp Şeker Sargılı 750']"
+				fullname="TrendyolTestRepository.trendyol.IrmakKuepŞekerSargılı750Gr"
+				id="03974d679ef64d6fb1626d64eb337953"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.898"
+			timeRelativeToTestModuleStartTime="00:10.898"
+			timeWallClock="20:29:24"
+			time="00:10.898"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'TrendyolTestRepository.trendyol.IrmakKuepŞekerSargılı750Gr' does contain the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'pb-container']//a[@href>'https://www.trendyol.com/']/p[@title>'Irmak Küp Şeker Sargılı 750']"
+				itempath=".//div[#'pb-container']//a[@href>'https://www.trendyol.com/']/p[@title>'Irmak Küp Şeker Sargılı 750']"
+				fullname="TrendyolTestRepository.trendyol.IrmakKuepŞekerSargılı750Gr"
+				id="03974d679ef64d6fb1626d64eb337953"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="102"
+				loglvl="Success"
+				itemindex="5">
+			</metainfo>
+		</item>
+	</activity>
+</report>

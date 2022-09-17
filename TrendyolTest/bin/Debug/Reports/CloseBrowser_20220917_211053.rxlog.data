@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="15.94s"
+		durationms="15937"
+		type="root"
+		rid="13ad7b6921f4af5"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="17.09.2022 21:10:56"
+		timestampiso="2022-09-17T18:10:56"
+		endtime="17.09.2022 21:11:12"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CloseBrowser">
+		<detail>
+			CloseBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.845"
+			timeRelativeToTestModuleStartTime="00:09.845"
+			timeWallClock="21:11:06"
+			time="00:09.845"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'Chrome'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form"
+				itempath="/form"
+				fullname="TrendyolTestRepository.Chrome.Self"
+				id="f5c8c8e14e7e4e3f8aace82fd27c022c"
+				timeout="30000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\CloseBrowser.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.136"
+			timeRelativeToTestModuleStartTime="00:11.136"
+			timeWallClock="21:11:07"
+			time="00:11.136"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Chrome.Pane1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form/container[@accessiblename='Google Chrome']/container/container[2]/container[1]"
+				itempath="container[@accessiblename='Google Chrome']/container/container[2]/container[1]"
+				fullname="TrendyolTestRepository.Chrome.Pane1"
+				id="b447615b869c47fd8d1e44cbd91ce23c"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\CloseBrowser.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.935"
+			timeRelativeToTestModuleStartTime="00:15.935"
+			timeWallClock="21:11:12"
+			time="00:15.935"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

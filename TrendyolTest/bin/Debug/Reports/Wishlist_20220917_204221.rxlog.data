@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="21.93s"
+		durationms="21933"
+		type="root"
+		rid="4079b123785f716"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="17.09.2022 20:42:23"
+		timestampiso="2022-09-17T17:42:23"
+		endtime="17.09.2022 20:42:45"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Wishlist">
+		<detail>
+			Wishlist
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.611"
+			timeRelativeToTestModuleStartTime="00:05.611"
+			timeWallClock="20:42:29"
+			time="00:05.611"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.trendyol.com/irmak/kup-seker-sargili-750-gr-p-43497508?boutiqueId=613502&amp;merchantId=457005' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.759"
+			timeRelativeToTestModuleStartTime="00:05.759"
+			timeWallClock="20:42:29"
+			time="00:05.759"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.762"
+			timeRelativeToTestModuleStartTime="00:10.762"
+			timeWallClock="20:42:34"
+			time="00:10.762"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'trendyol.ProductDetails.AddToFavoritesBtn' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[@class='container-right-content']//button[@class='fv']"
+				itempath=".//div[@class='container-right-content']//button[@class='fv']"
+				fullname="TrendyolTestRepository.trendyol.ProductDetails.AddToFavoritesBtn"
+				id="8171e99b7f374cb1af52086de2980edf"
+				timeout="90000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.768"
+			timeRelativeToTestModuleStartTime="00:12.768"
+			timeWallClock="20:42:36"
+			time="00:12.768"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="93"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.776"
+			timeRelativeToTestModuleStartTime="00:14.776"
+			timeWallClock="20:42:38"
+			time="00:14.776"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'trendyol.MyFavorites' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//a[@class='account-favorites']"
+				itempath=".//a[@class='account-favorites']"
+				fullname="TrendyolTestRepository.trendyol.MyFavorites"
+				id="29496650d78444929dceb55377b1866f"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="96"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.931"
+			timeRelativeToTestModuleStartTime="00:21.931"
+			timeWallClock="20:42:45"
+			time="00:21.931"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7s"
+		durationms="7001"
+		type="root"
+		rid="8b5f5506f202d24"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="17.09.2022 14:48:25"
+		timestampiso="2022-09-17T11:48:25"
+		endtime="17.09.2022 14:48:32"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyFields">
+		<detail>
+			VerifyFields
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.126"
+			timeRelativeToTestModuleStartTime="00:05.126"
+			timeWallClock="14:48:30"
+			time="00:05.126"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.trendyol.com/uyelik' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.275"
+			timeRelativeToTestModuleStartTime="00:05.275"
+			timeWallClock="14:48:30"
+			time="00:05.275"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Id='register-email') on item 'ApplicationUnderTest.RegisterEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+				itempath=".//input[#'register-email']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.RegisterEmail"
+				id="a8fe1c53aa9c46c39b97f766f2b2bc12"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.051"
+			timeRelativeToTestModuleStartTime="00:06.051"
+			timeWallClock="14:48:31"
+			time="00:06.051"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Id' of element for item 'TrendyolTestRepository.ApplicationUnderTest.RegisterEmail' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+				itempath=".//input[#'register-email']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.RegisterEmail"
+				id="a8fe1c53aa9c46c39b97f766f2b2bc12"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.161"
+			timeRelativeToTestModuleStartTime="00:06.161"
+			timeWallClock="14:48:31"
+			time="00:06.161"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Id='register-password-input') on item 'ApplicationUnderTest.RegisterPasswordInput'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-password-input']"
+				itempath=".//input[#'register-password-input']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.RegisterPasswordInput"
+				id="8650deb30c40458890ccbbcbfefc62e2"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.262"
+			timeRelativeToTestModuleStartTime="00:06.262"
+			timeWallClock="14:48:31"
+			time="00:06.262"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Id' of element for item 'TrendyolTestRepository.ApplicationUnderTest.RegisterPasswordInput' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-password-input']"
+				itempath=".//input[#'register-password-input']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.RegisterPasswordInput"
+				id="8650deb30c40458890ccbbcbfefc62e2"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="91"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.372"
+			timeRelativeToTestModuleStartTime="00:06.372"
+			timeWallClock="14:48:31"
+			time="00:06.372"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'ApplicationUnderTest.HttpsWwwTrendyolComUyelik.TyCheckboxWrapperTyDisplayFlex'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[3]/?/?/form[@action='https://www.trendyol.com/uyelik']/div[5]/div/div[1]"
+				itempath="div[5]/div/div[1]"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.HttpsWwwTrendyolComUyelik.TyCheckboxWrapperTyDisplayFlex"
+				id="ec539cc155e74868bef0ccf9c9a81498"
+				timeout="90000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.474"
+			timeRelativeToTestModuleStartTime="00:06.474"
+			timeWallClock="14:48:32"
+			time="00:06.474"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'TyCheckboxWrapperTyDisplayFlex' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[3]/?/?/form[@action='https://www.trendyol.com/uyelik']/div[5]/div/div[1]"
+				itempath="div[5]/div/div[1]"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.HttpsWwwTrendyolComUyelik.TyCheckboxWrapperTyDisplayFlex"
+				id="ec539cc155e74868bef0ccf9c9a81498"
+				timeout="90000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.584"
+			timeRelativeToTestModuleStartTime="00:06.584"
+			timeWallClock="14:48:32"
+			time="00:06.584"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'ApplicationUnderTest.HttpsWwwTrendyolComUyelik.TyCheckboxWrapperTyDisplayFlex1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[3]/?/?/form[@action='https://www.trendyol.com/uyelik']/div[6]/div/div[1]"
+				itempath="div[6]/div/div[1]"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.HttpsWwwTrendyolComUyelik.TyCheckboxWrapperTyDisplayFlex1"
+				id="ecfc7800b8b0460c835cb385f8678e73"
+				timeout="90000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.683"
+			timeRelativeToTestModuleStartTime="00:06.683"
+			timeWallClock="14:48:32"
+			time="00:06.683"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'TyCheckboxWrapperTyDisplayFlex1' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[3]/?/?/form[@action='https://www.trendyol.com/uyelik']/div[6]/div/div[1]"
+				itempath="div[6]/div/div[1]"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.HttpsWwwTrendyolComUyelik.TyCheckboxWrapperTyDisplayFlex1"
+				id="ecfc7800b8b0460c835cb385f8678e73"
+				timeout="90000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.793"
+			timeRelativeToTestModuleStartTime="00:06.793"
+			timeWallClock="14:48:32"
+			time="00:06.793"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'ApplicationUnderTest.UEyeOl2'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik']/?/?/span[@innertext='Üye Ol']"
+				itempath=".//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik']/?/?/span[@innertext='Üye Ol']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.UEyeOl2"
+				id="d1a38844b77644efb7f594a3125aa562"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.891"
+			timeRelativeToTestModuleStartTime="00:06.891"
+			timeWallClock="14:48:32"
+			time="00:06.891"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'UEyeOl2' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik']/?/?/span[@innertext='Üye Ol']"
+				itempath=".//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik']/?/?/span[@innertext='Üye Ol']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.UEyeOl2"
+				id="d1a38844b77644efb7f594a3125aa562"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="103"
+				loglvl="Success"
+				itemindex="5">
+			</metainfo>
+		</item>
+	</activity>
+</report>

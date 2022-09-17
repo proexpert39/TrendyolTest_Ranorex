@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="20.26s"
+		durationms="20259"
+		type="root"
+		rid="ae72fb1986f5748"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="17.09.2022 21:00:37"
+		timestampiso="2022-09-17T18:00:37"
+		endtime="17.09.2022 21:00:57"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Logout">
+		<detail>
+			Logout
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.698"
+			timeRelativeToTestModuleStartTime="00:09.698"
+			timeWallClock="21:00:46"
+			time="00:09.698"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.trendyol.com/' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Logout.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.851"
+			timeRelativeToTestModuleStartTime="00:09.851"
+			timeWallClock="21:00:47"
+			time="00:09.851"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'trendyol.MyAccount' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				fullname="TrendyolTestRepository.trendyol.MyAccount"
+				id="369d8fde4a9640448a94e0cc4df031c1"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Logout.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.357"
+			timeRelativeToTestModuleStartTime="00:15.357"
+			timeWallClock="21:00:52"
+			time="00:15.357"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Logout.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.366"
+			timeRelativeToTestModuleStartTime="00:17.366"
+			timeWallClock="21:00:54"
+			time="00:17.366"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 5s for the attribute 'Visible' to equal the specified value 'True'. Associated repository item: 'trendyol.UserLoggedinContainer'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']"
+				itempath=".//div[#'account-navigation-container']"
+				fullname="TrendyolTestRepository.trendyol.UserLoggedinContainer"
+				id="6e8f84c75e184e3cb702bb202e7edb1f"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Logout.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.429"
+			timeRelativeToTestModuleStartTime="00:17.429"
+			timeWallClock="21:00:54"
+			time="00:17.429"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'trendyol.LogoutButton' at 52;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]//button/p[@innertext='Çıkış Yap']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]//button/p[@innertext='Çıkış Yap']"
+				fullname="TrendyolTestRepository.trendyol.LogoutButton"
+				id="ec3932f7c41f4335b62f4cbf1a883e25"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Logout.cs"
+				codeline="96"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.016"
+			timeRelativeToTestModuleStartTime="00:18.016"
+			timeWallClock="21:00:55"
+			time="00:18.016"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Logout.cs"
+				codeline="100"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.023"
+			timeRelativeToTestModuleStartTime="00:20.023"
+			timeWallClock="21:00:57"
+			time="00:20.023"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='Giriş Yap') on item 'trendyol.GirisYapBtn'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+				fullname="TrendyolTestRepository.trendyol.GirisYapBtn"
+				id="0df4785aac504caeb7a627d02e1ae95c"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Logout.cs"
+				codeline="103"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.151"
+			timeRelativeToTestModuleStartTime="00:20.151"
+			timeWallClock="21:00:57"
+			time="00:20.151"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'TrendyolTestRepository.trendyol.GirisYapBtn' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+				fullname="TrendyolTestRepository.trendyol.GirisYapBtn"
+				id="0df4785aac504caeb7a627d02e1ae95c"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Logout.cs"
+				codeline="104"
+				loglvl="Success"
+				itemindex="6">
+			</metainfo>
+		</item>
+	</activity>
+</report>

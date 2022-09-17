@@ -1,0 +1,16 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="VerifyFields.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="TrendyolTest.rxtst" />
+    <Element value="VerifyFields.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections">
+      <Element value="TrendyolTest.AddToCart.Validate_BasketAppContainer(RepoItemInfo divtagInfo)" />
+      <Element value="TrendyolTest.AddToCart.Validate_BasketAppContainer(RepoItemInfo divtagInfo)" />
+    </Array>
+  </Properties>
+</Properties>

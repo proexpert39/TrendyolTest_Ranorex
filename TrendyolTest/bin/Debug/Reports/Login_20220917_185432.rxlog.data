@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="16.77s"
+		durationms="16772"
+		type="root"
+		rid="13801ce26c6a9d74"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="17.09.2022 18:54:35"
+		timestampiso="2022-09-17T15:54:35"
+		endtime="17.09.2022 18:54:52"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Login">
+		<detail>
+			Login
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.903"
+			timeRelativeToTestModuleStartTime="00:07.903"
+			timeWallClock="18:54:43"
+			time="00:07.903"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.trendyol.com/giris' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Login.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.051"
+			timeRelativeToTestModuleStartTime="00:08.051"
+			timeWallClock="18:54:43"
+			time="00:08.051"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to 'alperenkumcu@gmail.com' on item 'ApplicationUnderTest.LoginEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[@name='login email']"
+				itempath=".//input[@name='login email']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.LoginEmail"
+				id="7ca768bad1f243f382924cb1b634fa5d"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Login.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.652"
+			timeRelativeToTestModuleStartTime="00:09.652"
+			timeWallClock="18:54:45"
+			time="00:09.652"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '23mSBg9nC&amp;v9nnR' on item 'ApplicationUnderTest.LoginPasswordInput'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'login-password-input']"
+				itempath=".//input[#'login-password-input']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.LoginPasswordInput"
+				id="3e1a3b76d1c8443489d48cffb0e293c8"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Login.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.745"
+			timeRelativeToTestModuleStartTime="00:09.745"
+			timeWallClock="18:54:45"
+			time="00:09.745"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='Giriş Yap') on item 'ApplicationUnderTest.GirişYap2'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/giris']/?/?/span[@innertext='Giriş Yap']"
+				itempath=".//div[#'login-register']//form[@action='https://www.trendyol.com/giris']/?/?/span[@innertext='Giriş Yap']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.GirişYap2"
+				id="416f7969a01142cbbcebf5b36c2dcbea"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Login.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.870"
+			timeRelativeToTestModuleStartTime="00:09.870"
+			timeWallClock="18:54:45"
+			time="00:09.870"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'TrendyolTestRepository.ApplicationUnderTest.GirişYap2' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/giris']/?/?/span[@innertext='Giriş Yap']"
+				itempath=".//div[#'login-register']//form[@action='https://www.trendyol.com/giris']/?/?/span[@innertext='Giriş Yap']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.GirişYap2"
+				id="416f7969a01142cbbcebf5b36c2dcbea"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Login.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.978"
+			timeRelativeToTestModuleStartTime="00:09.978"
+			timeWallClock="18:54:45"
+			time="00:09.978"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.GirişYap2' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/giris']/?/?/span[@innertext='Giriş Yap']"
+				itempath=".//div[#'login-register']//form[@action='https://www.trendyol.com/giris']/?/?/span[@innertext='Giriş Yap']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.GirişYap2"
+				id="416f7969a01142cbbcebf5b36c2dcbea"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Login.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.567"
+			timeRelativeToTestModuleStartTime="00:10.567"
+			timeWallClock="18:54:46"
+			time="00:10.567"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Login.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.575"
+			timeRelativeToTestModuleStartTime="00:12.575"
+			timeWallClock="18:54:48"
+			time="00:12.575"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='Hesabım') on item 'ApplicationUnderTest.Hesabım'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.Hesabım"
+				id="55abeebb6cd4491abb22794570a3212f"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Login.cs"
+				codeline="105"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.660"
+			timeRelativeToTestModuleStartTime="00:16.660"
+			timeWallClock="18:54:52"
+			time="00:16.660"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'TrendyolTestRepository.ApplicationUnderTest.Hesabım' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.Hesabım"
+				id="55abeebb6cd4491abb22794570a3212f"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Login.cs"
+				codeline="106"
+				loglvl="Success"
+				itemindex="6">
+			</metainfo>
+		</item>
+	</activity>
+</report>

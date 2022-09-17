@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="7.9s"
+		durationms="7898"
+		type="root"
+		rid="23945a1ad646b64"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="15.09.2022 01:25:19"
+		timestampiso="2022-09-14T22:25:19"
+		endtime="15.09.2022 01:25:27"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyFields">
+		<detail>
+			VerifyFields
+		</detail>
+		<errormessage>
+			Element is not visible in the UI and thus click can't be perfomed.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.327"
+			timeRelativeToTestModuleStartTime="00:05.327"
+			timeWallClock="01:25:24"
+			time="00:05.327"
+			level="Info"
+			category="Mouse"
+			errimg="images_VerifyFi_aaba02c6\VerifyFi_aaba02c6_ab922b70_trace.jpg"
+			errthumb="images_VerifyFi_aaba02c6\VerifyFi_aaba02c6_ab922b70_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.GirişYap' at 50;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.GirişYap"
+				id="aa909cb524c04f448e591889312aae55"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.915"
+			timeRelativeToTestModuleStartTime="00:06.915"
+			timeWallClock="01:25:26"
+			time="00:06.915"
+			level="Warn"
+			category="Click"
+			errimg="images_VerifyFi_aaba02c6\VerifyFi_3c4a00cd_rxlog.jpg"
+			errthumb="images_VerifyFi_aaba02c6\VerifyFi_3c4a00cd_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.459"
+			timeRelativeToTestModuleStartTime="00:07.459"
+			timeWallClock="01:25:26"
+			time="00:07.459"
+			level="Info"
+			category="Mouse"
+			errimg="images_VerifyFi_aaba02c6\VerifyFi_aaba02c6_5c360199_trace.jpg"
+			errthumb="images_VerifyFi_aaba02c6\VerifyFi_aaba02c6_5c360199_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ButtonQButtonQButtonMediumQSecond' at 87;37.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[2]/div/button[2]"
+				itempath=".//div[#'login-register']/div[2]/div/button[2]"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.ButtonQButtonQButtonMediumQSecond"
+				id="33e79363806d4578a12222a90c0fb2e7"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.768"
+			timeRelativeToTestModuleStartTime="00:07.768"
+			timeWallClock="01:25:27"
+			time="00:07.768"
+			level="Error"
+			category="Module"
+			errimg="images_VerifyFi_aaba02c6\VerifyFi_aaba02c6_07b12382_trace.jpg"
+			errthumb="images_VerifyFi_aaba02c6\VerifyFi_aaba02c6_07b12382_trace_thumb.jpg">
+			<message>
+				Element is not visible in the UI and thus click can't be perfomed.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   konum: Ranorex.Adapter.Click(Location location)
+   konum: TrendyolTest.VerifyFields.Ranorex.Core.Testing.ITestModule.Run() C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs içinde: satır 87
+   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs içinde"
+				codeline="87"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

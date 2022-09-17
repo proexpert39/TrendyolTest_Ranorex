@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="11.26s"
+		durationms="11261"
+		type="root"
+		rid="7fa8a78b005840"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="17.09.2022 14:43:35"
+		timestampiso="2022-09-17T11:43:35"
+		endtime="17.09.2022 14:43:46"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyFields">
+		<detail>
+			VerifyFields
+		</detail>
+		<errormessage>
+			Attribute 'Visible' of element for item 'TrendyolTestRepository.ApplicationUnderTest.ErrorBoxWrapper' does not match the specified value (actual='True', expected='False').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.172"
+			timeRelativeToTestModuleStartTime="00:05.172"
+			timeWallClock="14:43:40"
+			time="00:05.172"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.trendyol.com/uyelik' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.323"
+			timeRelativeToTestModuleStartTime="00:05.323"
+			timeWallClock="14:43:40"
+			time="00:05.323"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Id='register-email') on item 'ApplicationUnderTest.RegisterEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+				itempath=".//input[#'register-email']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.RegisterEmail"
+				id="a8fe1c53aa9c46c39b97f766f2b2bc12"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.986"
+			timeRelativeToTestModuleStartTime="00:06.986"
+			timeWallClock="14:43:42"
+			time="00:06.986"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Id' of element for item 'TrendyolTestRepository.ApplicationUnderTest.RegisterEmail' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+				itempath=".//input[#'register-email']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.RegisterEmail"
+				id="a8fe1c53aa9c46c39b97f766f2b2bc12"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.097"
+			timeRelativeToTestModuleStartTime="00:07.097"
+			timeWallClock="14:43:42"
+			time="00:07.097"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Id='register-password-input') on item 'ApplicationUnderTest.RegisterPasswordInput'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-password-input']"
+				itempath=".//input[#'register-password-input']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.RegisterPasswordInput"
+				id="8650deb30c40458890ccbbcbfefc62e2"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.159"
+			timeRelativeToTestModuleStartTime="00:07.159"
+			timeWallClock="14:43:42"
+			time="00:07.159"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Id' of element for item 'TrendyolTestRepository.ApplicationUnderTest.RegisterPasswordInput' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-password-input']"
+				itempath=".//input[#'register-password-input']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.RegisterPasswordInput"
+				id="8650deb30c40458890ccbbcbfefc62e2"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="91"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.269"
+			timeRelativeToTestModuleStartTime="00:07.269"
+			timeWallClock="14:43:42"
+			time="00:07.269"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (TagValue='false') on item 'ApplicationUnderTest.HttpsWwwTrendyolComUyelik.TyBgBeigeTyBorderedTyCheckboxTyI'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[3]/?/?/form[@action='https://www.trendyol.com/uyelik']/div[5]/div/div[1]/div/div"
+				itempath="div[5]/div/div[1]/div/div"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.HttpsWwwTrendyolComUyelik.TyBgBeigeTyBorderedTyCheckboxTyI"
+				id="1d06dba20ea4421c970a01fce5ba9150"
+				timeout="90000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.323"
+			timeRelativeToTestModuleStartTime="00:07.323"
+			timeWallClock="14:43:42"
+			time="00:07.323"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'TagValue' of element for item 'TrendyolTestRepository.ApplicationUnderTest.HttpsWwwTrendyolComUyelik.TyBgBeigeTyBorderedTyCheckboxTyI' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[3]/?/?/form[@action='https://www.trendyol.com/uyelik']/div[5]/div/div[1]/div/div"
+				itempath="div[5]/div/div[1]/div/div"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.HttpsWwwTrendyolComUyelik.TyBgBeigeTyBorderedTyCheckboxTyI"
+				id="1d06dba20ea4421c970a01fce5ba9150"
+				timeout="90000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.430"
+			timeRelativeToTestModuleStartTime="00:07.430"
+			timeWallClock="14:43:43"
+			time="00:07.430"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (TagValue='false') on item 'ApplicationUnderTest.HttpsWwwTrendyolComUyelik.TyBgBeigeTyBorderedTyCheckboxTyI1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[3]/?/?/form[@action='https://www.trendyol.com/uyelik']/div[6]/div/div[1]/div/div"
+				itempath="div[6]/div/div[1]/div/div"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.HttpsWwwTrendyolComUyelik.TyBgBeigeTyBorderedTyCheckboxTyI1"
+				id="3ce7e4204c5c4c2792b3445135b0e707"
+				timeout="90000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.482"
+			timeRelativeToTestModuleStartTime="00:07.482"
+			timeWallClock="14:43:43"
+			time="00:07.482"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'TagValue' of element for item 'TrendyolTestRepository.ApplicationUnderTest.HttpsWwwTrendyolComUyelik.TyBgBeigeTyBorderedTyCheckboxTyI1' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[3]/?/?/form[@action='https://www.trendyol.com/uyelik']/div[6]/div/div[1]/div/div"
+				itempath="div[6]/div/div[1]/div/div"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.HttpsWwwTrendyolComUyelik.TyBgBeigeTyBorderedTyCheckboxTyI1"
+				id="3ce7e4204c5c4c2792b3445135b0e707"
+				timeout="90000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.588"
+			timeRelativeToTestModuleStartTime="00:07.588"
+			timeWallClock="14:43:43"
+			time="00:07.588"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.UEyeOl2' at 56;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik']/?/?/span[@innertext='Üye Ol']"
+				itempath=".//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik']/?/?/span[@innertext='Üye Ol']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.UEyeOl2"
+				id="d1a38844b77644efb7f594a3125aa562"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.090"
+			timeRelativeToTestModuleStartTime="00:08.090"
+			timeWallClock="14:43:43"
+			time="00:08.090"
+			level="Info"
+			category="Validation"
+			errimg="images_VerifyFi_5ab1214b\VerifyFi_5ab1214b_b24511e2_trace.jpg"
+			errthumb="images_VerifyFi_5ab1214b\VerifyFi_5ab1214b_b24511e2_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Visible='False') on item 'ApplicationUnderTest.ErrorBoxWrapper'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'error-box-wrapper']"
+				itempath=".//div[#'error-box-wrapper']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.ErrorBoxWrapper"
+				id="2c54f5e7c1ea43d6bb7a0fbaab7a8d83"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.153"
+			timeRelativeToTestModuleStartTime="00:11.153"
+			timeWallClock="14:43:46"
+			time="00:11.153"
+			level="Failure"
+			category="Validation"
+			errimg="images_VerifyFi_5ab1214b\VerifyFi_5ab1214b_a544a195_trace.jpg"
+			errthumb="images_VerifyFi_5ab1214b\VerifyFi_5ab1214b_a544a195_trace_thumb.jpg">
+			<message>
+				Attribute 'Visible' of element for item 'TrendyolTestRepository.ApplicationUnderTest.ErrorBoxWrapper' does not match the specified value (actual='True', expected='False').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'error-box-wrapper']"
+				itempath=".//div[#'error-box-wrapper']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.ErrorBoxWrapper"
+				id="2c54f5e7c1ea43d6bb7a0fbaab7a8d83"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="107"
+				loglvl="Failure"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.159"
+			timeRelativeToTestModuleStartTime="00:11.159"
+			timeWallClock="14:43:46"
+			time="00:11.159"
+			level="Error"
+			category="Module"
+			errimg="images_VerifyFi_5ab1214b\VerifyFi_5ab1214b_a544a195_trace.jpg"
+			errthumb="images_VerifyFi_5ab1214b\VerifyFi_5ab1214b_a544a195_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Visible' of element for item 'TrendyolTestRepository.ApplicationUnderTest.ErrorBoxWrapper' does not match the specified value (actual='True', expected='False').
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)
+   konum: Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)
+   konum: Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   konum: Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   konum: Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   konum: Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   konum: TrendyolTest.VerifyFields.Ranorex.Core.Testing.ITestModule.Run() C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs içinde: satır 107
+   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="107"
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'error-box-wrapper']"
+				itempath=".//div[#'error-box-wrapper']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.ErrorBoxWrapper"
+				id="2c54f5e7c1ea43d6bb7a0fbaab7a8d83"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="6">
+			</metainfo>
+		</item>
+	</activity>
+</report>

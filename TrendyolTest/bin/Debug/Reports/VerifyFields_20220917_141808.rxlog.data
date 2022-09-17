@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="54.23s"
+		durationms="54227"
+		type="root"
+		rid="86a88aa56bd4e2d"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="17.09.2022 14:18:12"
+		timestampiso="2022-09-17T11:18:12"
+		endtime="17.09.2022 14:19:06"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyFields">
+		<detail>
+			VerifyFields
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.476"
+			timeRelativeToTestModuleStartTime="00:05.476"
+			timeWallClock="14:18:17"
+			time="00:05.476"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.GirişYap' at 50;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.GirişYap"
+				id="aa909cb524c04f448e591889312aae55"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.647"
+			timeRelativeToTestModuleStartTime="00:07.647"
+			timeWallClock="14:18:19"
+			time="00:07.647"
+			level="Warn"
+			category="Click"
+			errimg="images_VerifyFi_fc5eacad\VerifyFi_8ccea25a_rxlog.jpg"
+			errthumb="images_VerifyFi_fc5eacad\VerifyFi_8ccea25a_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.303"
+			timeRelativeToTestModuleStartTime="00:08.303"
+			timeWallClock="14:18:20"
+			time="00:08.303"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ButtonQButtonQButtonMediumQSecond' at 87;37.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[2]/div/button[2]"
+				itempath=".//div[#'login-register']/div[2]/div/button[2]"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.ButtonQButtonQButtonMediumQSecond"
+				id="33e79363806d4578a12222a90c0fb2e7"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\VerifyFields.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:54.228"
+			timeRelativeToTestModuleStartTime="00:54.228"
+			timeWallClock="14:19:06"
+			time="00:54.228"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

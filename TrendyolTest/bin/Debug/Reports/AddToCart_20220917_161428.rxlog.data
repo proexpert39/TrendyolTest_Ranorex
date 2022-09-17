@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="13.08s"
+		durationms="13077"
+		type="root"
+		rid="35cc1cacd99f606"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="17.09.2022 16:14:31"
+		timestampiso="2022-09-17T13:14:31"
+		endtime="17.09.2022 16:14:44"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AddToCart">
+		<detail>
+			AddToCart
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.099"
+			timeRelativeToTestModuleStartTime="00:05.099"
+			timeWallClock="16:14:36"
+			time="00:05.099"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.trendyol.com/irmak/kup-seker-sargili-750-gr-p-43497508' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.243"
+			timeRelativeToTestModuleStartTime="00:05.243"
+			timeWallClock="16:14:36"
+			time="00:05.243"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeContains (InnerText&gt;' K&#252;p &#350;eker Sarg&#305;l&#305; 750 gr 8690380009636 ') on item 'ApplicationUnderTest.SpanTagKuep&#350;ekerSarg&#305;l&#305;750Gr869038'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/h1[@innertext='Irmak']/span[@innertext>' Küp Şeker Sargılı 750 gr']"
+				itempath=".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/h1[@innertext='Irmak']/span[@innertext>' Küp Şeker Sargılı 750 gr']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.SpanTagKuepŞekerSargılı750Gr869038"
+				id="4bc5e0a375614ff9ad849879e94bf990"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.994"
+			timeRelativeToTestModuleStartTime="00:06.994"
+			timeWallClock="16:14:38"
+			time="00:06.994"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'TrendyolTestRepository.ApplicationUnderTest.SpanTagKuepŞekerSargılı750Gr869038' does contain the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/h1[@innertext='Irmak']/span[@innertext>' Küp Şeker Sargılı 750 gr']"
+				itempath=".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/h1[@innertext='Irmak']/span[@innertext>' Küp Şeker Sargılı 750 gr']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.SpanTagKuepŞekerSargılı750Gr869038"
+				id="4bc5e0a375614ff9ad849879e94bf990"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.104"
+			timeRelativeToTestModuleStartTime="00:07.104"
+			timeWallClock="16:14:38"
+			time="00:07.104"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SepeteEkle1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[4]/button/div[@innertext='Sepete Ekle']"
+				itempath=".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[4]/button/div[@innertext='Sepete Ekle']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.SepeteEkle1"
+				id="b649c462ce1b450288074bd1b8ed4061"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.074"
+			timeRelativeToTestModuleStartTime="00:13.074"
+			timeWallClock="16:14:44"
+			time="00:13.074"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

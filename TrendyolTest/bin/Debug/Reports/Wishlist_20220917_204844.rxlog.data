@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="23.25s"
+		durationms="23246"
+		type="root"
+		rid="32fa59df666ae56a"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="17.09.2022 20:48:47"
+		timestampiso="2022-09-17T17:48:47"
+		endtime="17.09.2022 20:49:10"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Wishlist">
+		<detail>
+			Wishlist
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.995"
+			timeRelativeToTestModuleStartTime="00:04.995"
+			timeWallClock="20:48:52"
+			time="00:04.995"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.trendyol.com/irmak/kup-seker-sargili-750-gr-p-43497508?boutiqueId=613502&amp;merchantId=457005' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.147"
+			timeRelativeToTestModuleStartTime="00:05.147"
+			timeWallClock="20:48:52"
+			time="00:05.147"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'trendyol.ProductDetails.AddToFavoritesBtn' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[@class='container-right-content']//button[@class='fv']"
+				itempath=".//div[@class='container-right-content']//button[@class='fv']"
+				fullname="TrendyolTestRepository.trendyol.ProductDetails.AddToFavoritesBtn"
+				id="8171e99b7f374cb1af52086de2980edf"
+				timeout="90000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.476"
+			timeRelativeToTestModuleStartTime="00:07.476"
+			timeWallClock="20:48:54"
+			time="00:07.476"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.477"
+			timeRelativeToTestModuleStartTime="00:09.477"
+			timeWallClock="20:48:56"
+			time="00:09.477"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'trendyol.RegisterPage.Favorilerim' at 17;1.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/a[@href>'https://www.trendyol.com/']/?/?/p[@innertext='Favorilerim']"
+				itempath=".//div[#'account-navigation-container']/div/a[@href>'https://www.trendyol.com/']/?/?/p[@innertext='Favorilerim']"
+				fullname="TrendyolTestRepository.trendyol.RegisterPage.Favorilerim"
+				id="3195a5c9449f408d86145a131ace07b5"
+				timeout="90000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.058"
+			timeRelativeToTestModuleStartTime="00:10.058"
+			timeWallClock="20:48:57"
+			time="00:10.058"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeContains (InnerText&gt;'K&#252;p &#350;eker Sarg&#305;l&#305; 750 gr') on item 'trendyol.MyFavoritesPage.FavoriteProductsContainer'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']/dom[@domain='www.trendyol.com']//div[@class='favored-product-container']"
+				itempath=".//div[@class='favored-product-container']"
+				fullname="TrendyolTestRepository.trendyol.MyFavoritesPage.FavoriteProductsContainer"
+				id="30521293b3ba48e7b4117bd795461d33"
+				timeout="90000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.242"
+			timeRelativeToTestModuleStartTime="00:23.242"
+			timeWallClock="20:49:10"
+			time="00:23.242"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

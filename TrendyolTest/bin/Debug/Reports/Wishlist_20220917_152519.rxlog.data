@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="10.36s"
+		durationms="10362"
+		type="root"
+		rid="11c4688cd71d39ec"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="17.09.2022 15:25:22"
+		timestampiso="2022-09-17T12:25:22"
+		endtime="17.09.2022 15:25:32"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Wishlist">
+		<detail>
+			Wishlist
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.828"
+			timeRelativeToTestModuleStartTime="00:06.828"
+			timeWallClock="15:25:28"
+			time="00:06.828"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.trendyol.com/irmak/kup-seker-sargili-750-gr-p-43497508?boutiqueId=613502&amp;merchantId=457005' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.978"
+			timeRelativeToTestModuleStartTime="00:06.978"
+			timeWallClock="15:25:29"
+			time="00:06.978"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeContains (InnerText&gt;' K&#252;p &#350;eker Sarg&#305;l&#305; 750 gr 8690380009636 ') on item 'ApplicationUnderTest.SpanTagKuep&#350;ekerSarg&#305;l&#305;750Gr869038'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/h1[@innertext='Irmak']/span[@innertext>' Küp Şeker Sargılı 750 gr']"
+				itempath=".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/h1[@innertext='Irmak']/span[@innertext>' Küp Şeker Sargılı 750 gr']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.SpanTagKuepŞekerSargılı750Gr869038"
+				id="4bc5e0a375614ff9ad849879e94bf990"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.660"
+			timeRelativeToTestModuleStartTime="00:08.660"
+			timeWallClock="15:25:30"
+			time="00:08.660"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'TrendyolTestRepository.ApplicationUnderTest.SpanTagKuepŞekerSargılı750Gr869038' does contain the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/h1[@innertext='Irmak']/span[@innertext>' Küp Şeker Sargılı 750 gr']"
+				itempath=".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/h1[@innertext='Irmak']/span[@innertext>' Küp Şeker Sargılı 750 gr']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.SpanTagKuepŞekerSargılı750Gr869038"
+				id="4bc5e0a375614ff9ad849879e94bf990"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.769"
+			timeRelativeToTestModuleStartTime="00:08.769"
+			timeWallClock="15:25:30"
+			time="00:08.769"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ButtonTagFv' at 55;46.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/div/div/div[1]/button"
+				itempath=".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/div/div/div[1]/button"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.ButtonTagFv"
+				id="3d89ca79823a476e8893925b16ec47e0"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.442"
+			timeRelativeToTestModuleStartTime="00:09.442"
+			timeWallClock="15:25:31"
+			time="00:09.442"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Favorilerim' at 40;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/a[@href>'https://www.trendyol.com/']/?/?/p[@innertext='Favorilerim']"
+				itempath=".//div[#'account-navigation-container']/div/a[@href>'https://www.trendyol.com/']/?/?/p[@innertext='Favorilerim']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.Favorilerim"
+				id="6cbcaf4c316f462fab009c64ce9644a0"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.139"
+			timeRelativeToTestModuleStartTime="00:10.139"
+			timeWallClock="15:25:32"
+			time="00:10.139"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeContains (InnerText&gt;'K&#252;p &#350;eker Sarg&#305;l&#305; 750 gr') on item 'ApplicationUnderTest.Kuep&#350;ekerSarg&#305;l&#305;750Gr'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-gw-favorites']/div/div[3]/div/div[1]/a[@href>'https://www.trendyol.com/']//span[@title='Küp Şeker Sargılı 750 gr']"
+				itempath=".//div[#'account-gw-favorites']/div/div[3]/div/div[1]/a[@href>'https://www.trendyol.com/']//span[@title='Küp Şeker Sargılı 750 gr']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.KuepŞekerSargılı750Gr"
+				id="89a17d7b71504ca5a2b612a9ebc07867"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.254"
+			timeRelativeToTestModuleStartTime="00:10.254"
+			timeWallClock="15:25:32"
+			time="00:10.254"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'TrendyolTestRepository.ApplicationUnderTest.KuepŞekerSargılı750Gr' does contain the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-gw-favorites']/div/div[3]/div/div[1]/a[@href>'https://www.trendyol.com/']//span[@title='Küp Şeker Sargılı 750 gr']"
+				itempath=".//div[#'account-gw-favorites']/div/div[3]/div/div[1]/a[@href>'https://www.trendyol.com/']//span[@title='Küp Şeker Sargılı 750 gr']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.KuepŞekerSargılı750Gr"
+				id="89a17d7b71504ca5a2b612a9ebc07867"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="8.3s"
+		durationms="8296"
+		type="root"
+		rid="14dfd86321ac0fc4"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="17.09.2022 15:34:50"
+		timestampiso="2022-09-17T12:34:50"
+		endtime="17.09.2022 15:34:58"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Logout">
+		<detail>
+			Logout
+		</detail>
+		<errormessage>
+			Element is not visible in the UI and thus click can't be perfomed.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.152"
+			timeRelativeToTestModuleStartTime="00:05.152"
+			timeWallClock="15:34:55"
+			time="00:05.152"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.trendyol.com/' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Logout.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.318"
+			timeRelativeToTestModuleStartTime="00:05.318"
+			timeWallClock="15:34:55"
+			time="00:05.318"
+			level="Info"
+			category="Mouse"
+			errimg="images_Logout_2_11ff9c6c\Logout_2_11ff9c6c_af6b58c4_trace.jpg"
+			errthumb="images_Logout_2_11ff9c6c\Logout_2_11ff9c6c_af6b58c4_trace_thumb.jpg">
+			<message>
+				Mouse Left Move item 'ApplicationUnderTest.Hesabım' at 19;1.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.Hesabım"
+				id="55abeebb6cd4491abb22794570a3212f"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Logout.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.844"
+			timeRelativeToTestModuleStartTime="00:07.844"
+			timeWallClock="15:34:58"
+			time="00:07.844"
+			level="Info"
+			category="Mouse"
+			errimg="images_Logout_2_11ff9c6c\Logout_2_11ff9c6c_988c9093_trace.jpg"
+			errthumb="images_Logout_2_11ff9c6c\Logout_2_11ff9c6c_988c9093_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.CıkışYap' at 42;24.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]//button/p[@innertext='Çıkış Yap']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]//button/p[@innertext='Çıkış Yap']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.CıkışYap"
+				id="15147bfe99e34ebca23d1725473afe68"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Logout.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.058"
+			timeRelativeToTestModuleStartTime="00:08.058"
+			timeWallClock="15:34:58"
+			time="00:08.058"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Logout.cs"
+				codeline="91"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.161"
+			timeRelativeToTestModuleStartTime="00:08.161"
+			timeWallClock="15:34:58"
+			time="00:08.161"
+			level="Error"
+			category="Module"
+			errimg="images_Logout_2_11ff9c6c\Logout_2_11ff9c6c_2220e84f_trace.jpg"
+			errthumb="images_Logout_2_11ff9c6c\Logout_2_11ff9c6c_2220e84f_trace_thumb.jpg">
+			<message>
+				Element is not visible in the UI and thus click can't be perfomed.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   konum: Ranorex.Adapter.Click(Location location)
+   konum: TrendyolTest.Logout.Ranorex.Core.Testing.ITestModule.Run() C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Logout.cs içinde: satır 91
+   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Logout.cs içinde"
+				codeline="91"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.9m"
+		durationms="115422"
+		type="root"
+		rid="12c9e9ee5e391e62"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="15.09.2022 02:07:16"
+		timestampiso="2022-09-14T23:07:16"
+		endtime="15.09.2022 02:09:11"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="BlankFields">
+		<detail>
+			BlankFields
+		</detail>
+		<errormessage>
+			Attribute 'Value' of element for item 'TrendyolTestRepository.ApplicationUnderTest.RegisterEmail' does contain the specified value (actual='', expected!='').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="01:48.988"
+			timeRelativeToTestModuleStartTime="01:48.988"
+			timeWallClock="02:09:05"
+			time="01:48.988"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.RegisterEmail' at 239;36.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+				itempath=".//input[#'register-email']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.RegisterEmail"
+				id="a8fe1c53aa9c46c39b97f766f2b2bc12"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\BlankFields.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:51.343"
+			timeRelativeToTestModuleStartTime="01:51.343"
+			timeWallClock="02:09:07"
+			time="01:51.343"
+			level="Warn"
+			category="Click"
+			errimg="images_BlankFie_83d47160\BlankFie_b07a56f8_rxlog.jpg"
+			errthumb="images_BlankFie_83d47160\BlankFie_b07a56f8_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\BlankFields.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:51.849"
+			timeRelativeToTestModuleStartTime="01:51.849"
+			timeWallClock="02:09:08"
+			time="01:51.849"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence ' ' with focus on 'ApplicationUnderTest.RegisterEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+				itempath=".//input[#'register-email']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.RegisterEmail"
+				id="a8fe1c53aa9c46c39b97f766f2b2bc12"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\BlankFields.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:52.014"
+			timeRelativeToTestModuleStartTime="01:52.014"
+			timeWallClock="02:09:08"
+			time="01:52.014"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeNotContains (TagValue!&gt;' ') on item 'ApplicationUnderTest.RegisterEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+				itempath=".//input[#'register-email']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.RegisterEmail"
+				id="a8fe1c53aa9c46c39b97f766f2b2bc12"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\BlankFields.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:52.101"
+			timeRelativeToTestModuleStartTime="01:52.101"
+			timeWallClock="02:09:08"
+			time="01:52.101"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'TagValue' of element for item 'TrendyolTestRepository.ApplicationUnderTest.RegisterEmail' does not contain the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+				itempath=".//input[#'register-email']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.RegisterEmail"
+				id="a8fe1c53aa9c46c39b97f766f2b2bc12"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\BlankFields.cs"
+				codeline="91"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:52.207"
+			timeRelativeToTestModuleStartTime="01:52.207"
+			timeWallClock="02:09:08"
+			time="01:52.207"
+			level="Info"
+			category="Validation"
+			errimg="images_BlankFie_83d47160\BlankFie_83d47160_ae960df6_trace.jpg"
+			errthumb="images_BlankFie_83d47160\BlankFie_83d47160_ae960df6_trace_thumb.jpg">
+			<message>
+				Validating AttributeNotContains (Value!&gt;'') on item 'ApplicationUnderTest.RegisterEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+				itempath=".//input[#'register-email']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.RegisterEmail"
+				id="a8fe1c53aa9c46c39b97f766f2b2bc12"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\BlankFields.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:55.322"
+			timeRelativeToTestModuleStartTime="01:55.322"
+			timeWallClock="02:09:11"
+			time="01:55.322"
+			level="Failure"
+			category="Validation"
+			errimg="images_BlankFie_83d47160\BlankFie_83d47160_3c9a5f32_trace.jpg"
+			errthumb="images_BlankFie_83d47160\BlankFie_83d47160_3c9a5f32_trace_thumb.jpg">
+			<message>
+				Attribute 'Value' of element for item 'TrendyolTestRepository.ApplicationUnderTest.RegisterEmail' does contain the specified value (actual='', expected!='').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+				itempath=".//input[#'register-email']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.RegisterEmail"
+				id="a8fe1c53aa9c46c39b97f766f2b2bc12"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\BlankFields.cs"
+				codeline="95"
+				loglvl="Failure"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:55.327"
+			timeRelativeToTestModuleStartTime="01:55.327"
+			timeWallClock="02:09:11"
+			time="01:55.327"
+			level="Error"
+			category="Module"
+			errimg="images_BlankFie_83d47160\BlankFie_83d47160_3c9a5f32_trace.jpg"
+			errthumb="images_BlankFie_83d47160\BlankFie_83d47160_3c9a5f32_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Value' of element for item 'TrendyolTestRepository.ApplicationUnderTest.RegisterEmail' does contain the specified value (actual='', expected!='').
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)
+   konum: Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)
+   konum: Ranorex.Validate.AttributeNotContainsInternal(IElement element, String name, String value, String message, Options options, RepoItemInfo itemInfo)
+   konum: Ranorex.Validate.AttributeNotContainsInternal(RepoItemInfo itemInfo, String name, String value, String message, Options options)
+   konum: Ranorex.Validate.AttributeNotContains(RepoItemInfo itemInfo, String name, String value, String message, Options options)
+   konum: Ranorex.Validate.AttributeNotContains(RepoItemInfo itemInfo, String name, String value)
+   konum: TrendyolTest.BlankFields.Ranorex.Core.Testing.ITestModule.Run() C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\BlankFields.cs içinde: satır 95
+   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\BlankFields.cs"
+				codeline="95"
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+				itempath=".//input[#'register-email']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.RegisterEmail"
+				id="a8fe1c53aa9c46c39b97f766f2b2bc12"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

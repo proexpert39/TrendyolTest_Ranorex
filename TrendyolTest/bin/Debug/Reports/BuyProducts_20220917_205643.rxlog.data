@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="12.2s"
+		durationms="12199"
+		type="root"
+		rid="7ea7d6ad47fec70"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="17.09.2022 20:56:46"
+		timestampiso="2022-09-17T17:56:46"
+		endtime="17.09.2022 20:56:58"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="BuyProducts">
+		<detail>
+			BuyProducts
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.830"
+			timeRelativeToTestModuleStartTime="00:05.830"
+			timeWallClock="20:56:51"
+			time="00:05.830"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.trendyol.com/irmak/kup-seker-sargili-750-gr-p-43497508?boutiqueId=613502&amp;merchantId=457005' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\BuyProducts.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.976"
+			timeRelativeToTestModuleStartTime="00:05.976"
+			timeWallClock="20:56:52"
+			time="00:05.976"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'trendyol.SepeteEkle' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/button/div[@innertext='Sepete Ekle']"
+				itempath=".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/button/div[@innertext='Sepete Ekle']"
+				fullname="TrendyolTestRepository.trendyol.SepeteEkle"
+				id="145f3143f3e44cf99a6531ce6beb267b"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\BuyProducts.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.737"
+			timeRelativeToTestModuleStartTime="00:07.737"
+			timeWallClock="20:56:53"
+			time="00:07.737"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.trendyol.com/kahve-dunyasi/orta-kavrulmus-turk-kahvesi-100-gr-4-lu-paket-orta-kavrulmus-turk-kahvesi-100-gr-4-lu-paket-p-42720773' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\BuyProducts.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.760"
+			timeRelativeToTestModuleStartTime="00:07.760"
+			timeWallClock="20:56:53"
+			time="00:07.760"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'trendyol.SepeteEkle' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/button/div[@innertext='Sepete Ekle']"
+				itempath=".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/button/div[@innertext='Sepete Ekle']"
+				fullname="TrendyolTestRepository.trendyol.SepeteEkle"
+				id="145f3143f3e44cf99a6531ce6beb267b"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\BuyProducts.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.504"
+			timeRelativeToTestModuleStartTime="00:08.504"
+			timeWallClock="20:56:54"
+			time="00:08.504"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'trendyol.Sepetim' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[2]/a[@href>'https://www.trendyol.com/']/p[@innertext='Sepetim']"
+				itempath=".//div[#'account-navigation-container']/div/div[2]/a[@href>'https://www.trendyol.com/']/p[@innertext='Sepetim']"
+				fullname="TrendyolTestRepository.trendyol.Sepetim"
+				id="301400229b65437484e9c4f939a146bc"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\BuyProducts.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.119"
+			timeRelativeToTestModuleStartTime="00:09.119"
+			timeWallClock="20:56:55"
+			time="00:09.119"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'trendyol.SepetiOnayla' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[1]/?/?/span[@innertext='Sepeti Onayla']"
+				itempath=".//div[#'pb-container']/aside/div/div[1]/?/?/span[@innertext='Sepeti Onayla']"
+				fullname="TrendyolTestRepository.trendyol.SepetiOnayla"
+				id="87145e4a825846318aa9bd75ad265f70"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\BuyProducts.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.303"
+			timeRelativeToTestModuleStartTime="00:10.303"
+			timeWallClock="20:56:56"
+			time="00:10.303"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'trendyol.CartPage.PCheckboxText' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'p-layout']/aside/div/div[2]/section//span"
+				itempath=".//div[#'p-layout']/aside/div/div[2]/section//span"
+				fullname="TrendyolTestRepository.trendyol.CartPage.PCheckboxText"
+				id="d55e23dadbdd4421937a3cb34b09d962"
+				timeout="90000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\BuyProducts.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.288"
+			timeRelativeToTestModuleStartTime="00:11.288"
+			timeWallClock="20:56:57"
+			time="00:11.288"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'trendyol.CartPage.KaydetVeDevamEt' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//button[@innertext='Kaydet ve Devam Et']"
+				itempath=".//button[@innertext='Kaydet ve Devam Et']"
+				fullname="TrendyolTestRepository.trendyol.CartPage.KaydetVeDevamEt"
+				id="df87f7213bd74788841e0141b997e9eb"
+				timeout="90000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\BuyProducts.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.935"
+			timeRelativeToTestModuleStartTime="00:11.935"
+			timeWallClock="20:56:57"
+			time="00:11.935"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'trendyol.CartPage.OEdemeYap'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//button[@innertext='Ödeme Yap']"
+				itempath=".//button[@innertext='Ödeme Yap']"
+				fullname="TrendyolTestRepository.trendyol.CartPage.OEdemeYap"
+				id="e4f650e466a34e03a16726525b497eeb"
+				timeout="90000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\BuyProducts.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.089"
+			timeRelativeToTestModuleStartTime="00:12.089"
+			timeWallClock="20:56:58"
+			time="00:12.089"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'OEdemeYap' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//button[@innertext='Ödeme Yap']"
+				itempath=".//button[@innertext='Ödeme Yap']"
+				fullname="TrendyolTestRepository.trendyol.CartPage.OEdemeYap"
+				id="e4f650e466a34e03a16726525b497eeb"
+				timeout="90000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\BuyProducts.cs"
+				codeline="115"
+				loglvl="Success"
+				itemindex="8">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="16.86s"
+		durationms="16859"
+		type="root"
+		rid="d80af6abb16882"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="17.09.2022 20:03:52"
+		timestampiso="2022-09-17T17:03:52"
+		endtime="17.09.2022 20:04:09"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="MandatoryFields">
+		<detail>
+			MandatoryFields
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.503"
+			timeRelativeToTestModuleStartTime="00:06.503"
+			timeWallClock="20:03:58"
+			time="00:06.503"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.trendyol.com/uyelik' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\MandatoryFields.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.654"
+			timeRelativeToTestModuleStartTime="00:06.654"
+			timeWallClock="20:03:58"
+			time="00:06.654"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Value='') on item 'trendyol.RegisterEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+				itempath=".//input[#'register-email']"
+				fullname="TrendyolTestRepository.trendyol.RegisterEmail"
+				id="85df90b81a3b4517a07bf17096ccda49"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\MandatoryFields.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.196"
+			timeRelativeToTestModuleStartTime="00:08.196"
+			timeWallClock="20:04:00"
+			time="00:08.196"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Value' of element for item 'TrendyolTestRepository.trendyol.RegisterEmail' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+				itempath=".//input[#'register-email']"
+				fullname="TrendyolTestRepository.trendyol.RegisterEmail"
+				id="85df90b81a3b4517a07bf17096ccda49"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\MandatoryFields.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.305"
+			timeRelativeToTestModuleStartTime="00:08.305"
+			timeWallClock="20:04:00"
+			time="00:08.305"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Value='') on item 'trendyol.RegisterPasswordInput'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-password-input']"
+				itempath=".//input[#'register-password-input']"
+				fullname="TrendyolTestRepository.trendyol.RegisterPasswordInput"
+				id="7556e76cf2364a6abc49bfbee4e070b1"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\MandatoryFields.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.347"
+			timeRelativeToTestModuleStartTime="00:08.347"
+			timeWallClock="20:04:00"
+			time="00:08.347"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Value' of element for item 'TrendyolTestRepository.trendyol.RegisterPasswordInput' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-password-input']"
+				itempath=".//input[#'register-password-input']"
+				fullname="TrendyolTestRepository.trendyol.RegisterPasswordInput"
+				id="7556e76cf2364a6abc49bfbee4e070b1"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\MandatoryFields.cs"
+				codeline="91"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.457"
+			timeRelativeToTestModuleStartTime="00:08.457"
+			timeWallClock="20:04:00"
+			time="00:08.457"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (TagValue='false') on item 'trendyol.MarketingEmailCheckboxDiv'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[@name='marketing-email']"
+				itempath=".//div[@name='marketing-email']"
+				fullname="TrendyolTestRepository.trendyol.MarketingEmailCheckboxDiv"
+				id="e3abd9cc54b945a19bf9141a9ab18028"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\MandatoryFields.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.514"
+			timeRelativeToTestModuleStartTime="00:08.514"
+			timeWallClock="20:04:00"
+			time="00:08.514"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'TagValue' of element for item 'TrendyolTestRepository.trendyol.MarketingEmailCheckboxDiv' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[@name='marketing-email']"
+				itempath=".//div[@name='marketing-email']"
+				fullname="TrendyolTestRepository.trendyol.MarketingEmailCheckboxDiv"
+				id="e3abd9cc54b945a19bf9141a9ab18028"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\MandatoryFields.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.624"
+			timeRelativeToTestModuleStartTime="00:08.624"
+			timeWallClock="20:04:00"
+			time="00:08.624"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (TagValue='false') on item 'trendyol.PersonalDataCheckboxDiv'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[@name='personal-data-error']"
+				itempath=".//div[@name='personal-data-error']"
+				fullname="TrendyolTestRepository.trendyol.PersonalDataCheckboxDiv"
+				id="3f4881b2570549f0bf2538d7b2d1244a"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\MandatoryFields.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.673"
+			timeRelativeToTestModuleStartTime="00:08.673"
+			timeWallClock="20:04:00"
+			time="00:08.673"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'TagValue' of element for item 'TrendyolTestRepository.trendyol.PersonalDataCheckboxDiv' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[@name='personal-data-error']"
+				itempath=".//div[@name='personal-data-error']"
+				fullname="TrendyolTestRepository.trendyol.PersonalDataCheckboxDiv"
+				id="3f4881b2570549f0bf2538d7b2d1244a"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\MandatoryFields.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.780"
+			timeRelativeToTestModuleStartTime="00:08.780"
+			timeWallClock="20:04:00"
+			time="00:08.780"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'trendyol.RegisterPage.RegisterButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//button[@type='submit']"
+				itempath=".//button[@type='submit']"
+				fullname="TrendyolTestRepository.trendyol.RegisterPage.RegisterButton"
+				id="88f0ecb62b8447f895e520db467d3f80"
+				timeout="90000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\MandatoryFields.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.264"
+			timeRelativeToTestModuleStartTime="00:09.264"
+			timeWallClock="20:04:01"
+			time="00:09.264"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\MandatoryFields.cs"
+				codeline="106"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.267"
+			timeRelativeToTestModuleStartTime="00:11.267"
+			timeWallClock="20:04:03"
+			time="00:11.267"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='False') on item 'trendyol.ErrorBoxWrapper'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'error-box-wrapper']"
+				itempath=".//div[#'error-box-wrapper']"
+				fullname="TrendyolTestRepository.trendyol.ErrorBoxWrapper"
+				id="2bbe84ec347e4ad49ecab0126a57744f"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\MandatoryFields.cs"
+				codeline="109"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.857"
+			timeRelativeToTestModuleStartTime="00:16.857"
+			timeWallClock="20:04:09"
+			time="00:16.857"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

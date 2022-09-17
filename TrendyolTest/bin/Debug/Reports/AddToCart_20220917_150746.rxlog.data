@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="11.46s"
+		durationms="11455"
+		type="root"
+		rid="150c564fc7de7dea"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="17.09.2022 15:07:48"
+		timestampiso="2022-09-17T12:07:48"
+		endtime="17.09.2022 15:08:00"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AddToCart">
+		<detail>
+			AddToCart
+		</detail>
+		<errormessage>
+			Attribute 'InnerText' of element for item 'TrendyolTestRepository.ApplicationUnderTest.BasketAppContainer' does not contain the specified value (actual='', expected='·Nıke·Everyday·All·Court·8p·Basketbol·Topu·TYC00549531765·').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.117"
+			timeRelativeToTestModuleStartTime="00:05.117"
+			timeWallClock="15:07:53"
+			time="00:05.117"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.trendyol.com/nike/nike-everyday-all-court-8p-basketbol-topu-p-348111746?boutiqueId=61&amp;merchantId=622262' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.266"
+			timeRelativeToTestModuleStartTime="00:05.266"
+			timeWallClock="15:07:54"
+			time="00:05.266"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeContains (InnerText&gt;' N&#305;ke Everyday All Court 8p Basketbol Topu TYC00549531765 ') on item 'ApplicationUnderTest.SpanTagN&#305;keEverydayAllCourt8pBaske'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/?/?/span[@innertext>' Nıke Everyday All Court 8p']"
+				itempath=".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/?/?/span[@innertext>' Nıke Everyday All Court 8p']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.SpanTagNıkeEverydayAllCourt8pBaske"
+				id="60bf3fcc44174dcb9f48aec60bc551bd"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.911"
+			timeRelativeToTestModuleStartTime="00:06.911"
+			timeWallClock="15:07:55"
+			time="00:06.911"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'TrendyolTestRepository.ApplicationUnderTest.SpanTagNıkeEverydayAllCourt8pBaske' does contain the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/?/?/span[@innertext>' Nıke Everyday All Court 8p']"
+				itempath=".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/?/?/span[@innertext>' Nıke Everyday All Court 8p']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.SpanTagNıkeEverydayAllCourt8pBaske"
+				id="60bf3fcc44174dcb9f48aec60bc551bd"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.021"
+			timeRelativeToTestModuleStartTime="00:07.021"
+			timeWallClock="15:07:55"
+			time="00:07.021"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SepeteEkle1' at 247;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[4]/button/div[@innertext='Sepete Ekle']"
+				itempath=".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[4]/button/div[@innertext='Sepete Ekle']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.SepeteEkle1"
+				id="b649c462ce1b450288074bd1b8ed4061"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.565"
+			timeRelativeToTestModuleStartTime="00:07.565"
+			timeWallClock="15:07:56"
+			time="00:07.565"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Sepetim' at 15;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[2]/a[@href>'https://www.trendyol.com/']/p[@innertext='Sepetim']"
+				itempath=".//div[#'account-navigation-container']/div/div[2]/a[@href>'https://www.trendyol.com/']/p[@innertext='Sepetim']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.Sepetim"
+				id="235f77f6b0a24ec6870b19b32e1a8418"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.232"
+			timeRelativeToTestModuleStartTime="00:08.232"
+			timeWallClock="15:07:57"
+			time="00:08.232"
+			level="Info"
+			category="Validation"
+			errimg="images_AddToCar_fd979a05\AddToCar_fd979a05_9cd3317e_trace.jpg"
+			errthumb="images_AddToCar_fd979a05\AddToCar_fd979a05_9cd3317e_trace_thumb.jpg">
+			<message>
+				Validating AttributeContains (InnerText&gt;' N&#305;ke Everyday All Court 8p Basketbol Topu TYC00549531765 ') on item 'ApplicationUnderTest.BasketAppContainer'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'basket-app-container']"
+				itempath=".//div[#'basket-app-container']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.BasketAppContainer"
+				id="bcf0feebb0704f8a95732c26c2e2608f"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.357"
+			timeRelativeToTestModuleStartTime="00:11.357"
+			timeWallClock="15:08:00"
+			time="00:11.357"
+			level="Failure"
+			category="Validation"
+			errimg="images_AddToCar_fd979a05\AddToCar_fd979a05_5138c7cd_trace.jpg"
+			errthumb="images_AddToCar_fd979a05\AddToCar_fd979a05_5138c7cd_trace_thumb.jpg">
+			<message>
+				Attribute 'InnerText' of element for item 'TrendyolTestRepository.ApplicationUnderTest.BasketAppContainer' does not contain the specified value (actual='', expected='·Nıke·Everyday·All·Court·8p·Basketbol·Topu·TYC00549531765·').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'basket-app-container']"
+				itempath=".//div[#'basket-app-container']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.BasketAppContainer"
+				id="bcf0feebb0704f8a95732c26c2e2608f"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="99"
+				loglvl="Failure"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.361"
+			timeRelativeToTestModuleStartTime="00:11.361"
+			timeWallClock="15:08:00"
+			time="00:11.361"
+			level="Error"
+			category="Module"
+			errimg="images_AddToCar_fd979a05\AddToCar_fd979a05_5138c7cd_trace.jpg"
+			errthumb="images_AddToCar_fd979a05\AddToCar_fd979a05_5138c7cd_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'InnerText' of element for item 'TrendyolTestRepository.ApplicationUnderTest.BasketAppContainer' does not contain the specified value (actual='', expected='·Nıke·Everyday·All·Court·8p·Basketbol·Topu·TYC00549531765·').
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)
+   konum: Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)
+   konum: Ranorex.Validate.AttributeContainsInternal(IElement element, String name, String value, String message, Options options, RepoItemInfo itemInfo)
+   konum: Ranorex.Validate.AttributeContainsInternal(RepoItemInfo itemInfo, String name, String value, String message, Options options)
+   konum: Ranorex.Validate.AttributeContains(RepoItemInfo itemInfo, String name, String value, String message, Options options)
+   konum: Ranorex.Validate.AttributeContains(RepoItemInfo itemInfo, String name, String value)
+   konum: TrendyolTest.AddToCart.Ranorex.Core.Testing.ITestModule.Run() C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs içinde: satır 99
+   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="99"
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'basket-app-container']"
+				itempath=".//div[#'basket-app-container']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.BasketAppContainer"
+				id="bcf0feebb0704f8a95732c26c2e2608f"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="4">
+			</metainfo>
+		</item>
+	</activity>
+</report>

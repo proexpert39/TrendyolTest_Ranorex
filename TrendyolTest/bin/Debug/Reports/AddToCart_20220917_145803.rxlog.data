@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="9.71s"
+		durationms="9708"
+		type="root"
+		rid="4a3628003613f1"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="17.09.2022 14:58:06"
+		timestampiso="2022-09-17T11:58:06"
+		endtime="17.09.2022 14:58:16"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AddToCart">
+		<detail>
+			AddToCart
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.280"
+			timeRelativeToTestModuleStartTime="00:05.280"
+			timeWallClock="14:58:11"
+			time="00:05.280"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.trendyol.com/sr?fl=sepetteurunler' with browser 'IE' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.438"
+			timeRelativeToTestModuleStartTime="00:05.438"
+			timeWallClock="14:58:11"
+			time="00:05.438"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SepeteEkle' at 76;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'search-app']/div/div[1]/div[2]/div[4]/div[1]/div/div[1]//button/div[@innertext='Sepete Ekle']"
+				itempath=".//div[#'search-app']/div/div[1]/div[2]/div[4]/div[1]/div/div[1]//button/div[@innertext='Sepete Ekle']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.SepeteEkle"
+				id="3fe28a1555034296bba41ce25d8390f3"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.867"
+			timeRelativeToTestModuleStartTime="00:08.867"
+			timeWallClock="14:58:15"
+			time="00:08.867"
+			level="Warn"
+			category="Click"
+			errimg="images_AddToCar_177b80ee\AddToCar_fe75c68f_rxlog.jpg"
+			errthumb="images_AddToCar_177b80ee\AddToCar_fe75c68f_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\AddToCart.cs"
+				codeline="87"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,12 @@
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\bin\Debug\TrendyolTest.rxtmg
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\bin\Debug\TrendyolTest.rxtst
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\bin\Debug\TrendyolTest.exe.config
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\bin\Debug\TrendyolTest.xml
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\bin\Debug\TrendyolTest.exe
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\bin\Debug\TrendyolTest.pdb
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\obj\x86\Debug\TrendyolTest.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\obj\x86\Debug\TrendyolTest.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\obj\x86\Debug\TrendyolTest.csproj.CopyComplete
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\obj\x86\Debug\TrendyolTest.exe
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\obj\x86\Debug\TrendyolTest.pdb

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="14.05s"
+		durationms="14045"
+		type="root"
+		rid="b6850432c647ffd"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="17.09.2022 15:52:02"
+		timestampiso="2022-09-17T12:52:02"
+		endtime="17.09.2022 15:52:16"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Wishlist">
+		<detail>
+			Wishlist
+		</detail>
+		<errormessage>
+			Attribute 'Class' of element for item 'TrendyolTestRepository.ApplicationUnderTest.IHeartOrange' does not match the specified value (actual='i-heart', expected='i-heart-orange').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.962"
+			timeRelativeToTestModuleStartTime="00:08.962"
+			timeWallClock="15:52:11"
+			time="00:08.962"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.trendyol.com/irmak/kup-seker-sargili-750-gr-p-43497508?boutiqueId=613502&amp;merchantId=457005' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.107"
+			timeRelativeToTestModuleStartTime="00:09.107"
+			timeWallClock="15:52:11"
+			time="00:09.107"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ButtonTagFv' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/div/div/div[1]/button"
+				itempath=".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/div/div/div[1]/button"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.ButtonTagFv"
+				id="3d89ca79823a476e8893925b16ec47e0"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.635"
+			timeRelativeToTestModuleStartTime="00:10.635"
+			timeWallClock="15:52:13"
+			time="00:10.635"
+			level="Info"
+			category="Validation"
+			errimg="images_Wishlist_728a929a\Wishlist_728a929a_2623e841_trace.jpg"
+			errthumb="images_Wishlist_728a929a\Wishlist_728a929a_2623e841_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Class='i-heart-orange') on item 'ApplicationUnderTest.IHeartOrange'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/div/div/div[1]/button/i"
+				itempath=".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/div/div/div[1]/button/i"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.IHeartOrange"
+				id="18e626f45e674c07abe644f8a82e9e63"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.934"
+			timeRelativeToTestModuleStartTime="00:13.934"
+			timeWallClock="15:52:16"
+			time="00:13.934"
+			level="Failure"
+			category="Validation"
+			errimg="images_Wishlist_728a929a\Wishlist_728a929a_fba0c346_trace.jpg"
+			errthumb="images_Wishlist_728a929a\Wishlist_728a929a_fba0c346_trace_thumb.jpg">
+			<message>
+				Attribute 'Class' of element for item 'TrendyolTestRepository.ApplicationUnderTest.IHeartOrange' does not match the specified value (actual='i-heart', expected='i-heart-orange').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/div/div/div[1]/button/i"
+				itempath=".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/div/div/div[1]/button/i"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.IHeartOrange"
+				id="18e626f45e674c07abe644f8a82e9e63"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="91"
+				loglvl="Failure"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.939"
+			timeRelativeToTestModuleStartTime="00:13.939"
+			timeWallClock="15:52:16"
+			time="00:13.939"
+			level="Error"
+			category="Module"
+			errimg="images_Wishlist_728a929a\Wishlist_728a929a_fba0c346_trace.jpg"
+			errthumb="images_Wishlist_728a929a\Wishlist_728a929a_fba0c346_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Class' of element for item 'TrendyolTestRepository.ApplicationUnderTest.IHeartOrange' does not match the specified value (actual='i-heart', expected='i-heart-orange').
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)
+   konum: Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)
+   konum: Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   konum: Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   konum: Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   konum: Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   konum: TrendyolTest.Wishlist.Ranorex.Core.Testing.ITestModule.Run() C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs içinde: satır 91
+   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Wishlist.cs"
+				codeline="91"
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/div/div/div[1]/button/i"
+				itempath=".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/div/div/div[1]/button/i"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.IHeartOrange"
+				id="18e626f45e674c07abe644f8a82e9e63"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>

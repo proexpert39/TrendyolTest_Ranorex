@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4d691ce2-d48c-4c18-9e93-d38d0a4917f0"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Wishlist"
+	namespace="TrendyolTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.trendyol.com/irmak/kup-seker-sargili-750-gr-p-43497508?boutiqueId=613502&amp;merchantId=457005
+			</url>
+		</openwebsiterecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="100ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="8910b088-aeb3-4f73-b206-30977c51ded3"
+		sx="1352"
+		sy="585"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8171e99b-7f37-4cb1-af52-086de2980edf"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//div[@class='container-right-content']//button[@class='fv']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="17;1"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2cb7bb82-802d-4b2e-b21f-3045e4014918"
+		sx="1264"
+		sy="146"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3195a5c9-449f-408d-8614-5a131ace07b5"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, ptag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="ptag"
+				rect="1247,145,86,22"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						link-text
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Favorilerim
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						link-text
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						p
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/a[@href&gt;'https://www.trendyol.com/']/?/?/p[@innertext='Favorilerim']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="c833f489-5833-4359-9d95-3e2d666063fb">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		action="Exists"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="b5d3f3e6-8a13-4e78-a0c1-e980cc51b482">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b27716f6-b8df-4297-aa2d-c2955671c4df"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="263,738,171,23"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						prdct-desc-cntnr-name no-white-space
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Küp Şeker Sargılı 750 gr
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						no-white-space prdct-desc-cntnr-name
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Küp Şeker Sargılı 750 gr
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'account-gw-favorites']/div/div[3]/div/div[1]/a[@href&gt;'https://www.trendyol.com/']//span[@title='K&#252;p &#350;eker Sarg&#305;l&#305; 750 gr']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="6319cb53-fec2-4a20-b670-ba1d2402c371">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABBAQ4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACm9zTqb3NADqKqJeYubtZdqxwBTkA5wRk5p32+1+b98PlYKTg4BPTmgCzRVT+07Ly2f7Qu1
+Tg8HP5VJLe20MKyyTKEflT1zQBPUV07R2szocMqMQffFV7i7yltJbyApLKFJA6jmn3M0clpdqjbi
+iMG44Bx60PYT2KNt/atzAsyXMYVs4BUZ649Kl8jWP+fqH8v/ALGl02Ux6faDjDswJPYZJq0lxuje
+ZsLCPukg5Pv9KhRuiIxuk7lTyNY/5+ofy/8AsaPI1j/n6h/L/wCxq+HKyKjupZlyAFI6daat1C+3
+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
+			</helperscreenshot>
+			<matchname>
+			</matchname>
+			<matchvalue>
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="9353f6bf-9d2b-48ce-9be0-8d0a4a110d98"
+	name="TrendyolTestRepository"
+	relativepath="TrendyolTestRepository.rxrep">
+		<codegen
+		classname="TrendyolTestRepository"
+		namespace="TrendyolTest">
+		</codegen>
+		<rootfolder
+		id="62222601-220c-44bf-a55a-74347c474ca6"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Wishlist.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
