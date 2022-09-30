@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="7.02s"
+		durationms="7022"
+		type="root"
+		rid="17422192748cc917"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SYS00289"
+		rxversion="10.2.3.0"
+		host="TRRONM00033"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/28/2022 4:33:36 AM"
+		timestampiso="2022-09-28T11:33:36"
+		endtime="9/28/2022 4:33:43 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AddToCart">
+		<detail>
+			AddToCart
+		</detail>
+		<errormessage>
+			Action 'executescript' failed on element '{WebDocument:KVK PRİVACY Iphone 11 Kılıf Şeffaf Kartlıklı Antishock Darbeye Dayanıklı Kamera Korumalı Yumuşak Silikon Şeffaf Fiyatı, Yorumları - TRENDYOL}'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.689"
+			timeRelativeToTestModuleStartTime="00:05.689"
+			timeWallClock="04:33:42"
+			time="00:05.689"
+			level="Warn"
+			category="Data"
+			errimg="images_AddToCar_cca7c3f4\AddToCar_cca7c3f4_49c03fb1_trace.jpg"
+			errthumb="images_AddToCar_cca7c3f4\AddToCar_cca7c3f4_49c03fb1_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>ProductName, CartProductsCount
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.705"
+			timeRelativeToTestModuleStartTime="00:05.705"
+			timeWallClock="04:33:42"
+			time="00:05.705"
+			level="Info"
+			category="Invoke action"
+			errimg="images_AddToCar_cca7c3f4\AddToCar_cca7c3f4_49c03fb1_trace.jpg"
+			errthumb="images_AddToCar_cca7c3f4\AddToCar_cca7c3f4_49c03fb1_trace_thumb.jpg">
+			<message>
+				Invoking ExecuteScript('document.getElementsByClassName('basket-item-count-container')[0].innerText') on item 'trendyol'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']"
+				itempath="/dom[@domain='www.trendyol.com']"
+				fullname="TrendyolTestRepository.trendyol.Self"
+				id="20f41ba75a2840aea06a52591aa57649"
+				timeout="30000"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\AddToCart.cs"
+				codeline="108"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.904"
+			timeRelativeToTestModuleStartTime="00:06.904"
+			timeWallClock="04:33:43"
+			time="00:06.904"
+			level="Error"
+			category="Module"
+			errimg="images_AddToCar_cca7c3f4\AddToCar_cca7c3f4_100f2f82_trace.jpg"
+			errthumb="images_AddToCar_cca7c3f4\AddToCar_cca7c3f4_100f2f82_trace_thumb.jpg">
+			<message>
+				Action 'executescript' failed on element '{WebDocument:KVK PRİVACY Iphone 11 Kılıf Şeffaf Kartlıklı Antishock Darbeye Dayanıklı Kamera Korumalı Yumuşak Silikon Şeffaf Fiyatı, Yorumları - TRENDYOL}'.<br/>The operation is not supported.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Element.InvokeAction(String name, Object[] args)
+   at Ranorex.WebDocument.ExecuteScript(String code)
+   at TrendyolTest.AddToCart.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\AddToCart.cs:line 109
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\AddToCart.cs"
+				codeline="109"
+				loglvl="Error"
+				itemindex="19">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -41,6 +41,14 @@ namespace TrendyolTest
         /// </summary>
         public AddToCart()
         {
+            ProductName = "iphone 11";
+            CartProductsCount = "0";
+            CardProductsCountAfter = "0";
+            CardProductsCountBefore = "0";
+            SearchKeyword = "iphone 11";
+            ProductName_Cart = "";
+            CartUrl = "https://www.trendyol.com/sepet";
+            BodyInnerText = "";
         }
 
         /// <summary>
@@ -52,6 +60,102 @@ namespace TrendyolTest
         }
 
 #region Variables
+
+        string _ProductName;
+
+        /// <summary>
+        /// Gets or sets the value of variable ProductName.
+        /// </summary>
+        [TestVariable("54006aca-5f1b-49fc-b755-569d2461c6ca")]
+        public string ProductName
+        {
+            get { return _ProductName; }
+            set { _ProductName = value; }
+        }
+
+        string _CartProductsCount;
+
+        /// <summary>
+        /// Gets or sets the value of variable CartProductsCount.
+        /// </summary>
+        [TestVariable("d77b2691-f09a-4daa-ac62-ed340843a803")]
+        public string CartProductsCount
+        {
+            get { return _CartProductsCount; }
+            set { _CartProductsCount = value; }
+        }
+
+        string _CardProductsCountAfter;
+
+        /// <summary>
+        /// Gets or sets the value of variable CardProductsCountAfter.
+        /// </summary>
+        [TestVariable("995aee8e-cefa-46cc-b86f-34cffd6710c0")]
+        public string CardProductsCountAfter
+        {
+            get { return _CardProductsCountAfter; }
+            set { _CardProductsCountAfter = value; }
+        }
+
+        string _CardProductsCountBefore;
+
+        /// <summary>
+        /// Gets or sets the value of variable CardProductsCountBefore.
+        /// </summary>
+        [TestVariable("eb4b8d0f-29d7-49dc-8b57-9495aa05422a")]
+        public string CardProductsCountBefore
+        {
+            get { return _CardProductsCountBefore; }
+            set { _CardProductsCountBefore = value; }
+        }
+
+        string _SearchKeyword;
+
+        /// <summary>
+        /// Gets or sets the value of variable SearchKeyword.
+        /// </summary>
+        [TestVariable("b58a28c9-300f-4a38-b309-12cbb2ab20e2")]
+        public string SearchKeyword
+        {
+            get { return _SearchKeyword; }
+            set { _SearchKeyword = value; }
+        }
+
+        string _ProductName_Cart;
+
+        /// <summary>
+        /// Gets or sets the value of variable ProductName_Cart.
+        /// </summary>
+        [TestVariable("beec0769-561f-4887-a0c4-b666e37939cd")]
+        public string ProductName_Cart
+        {
+            get { return _ProductName_Cart; }
+            set { _ProductName_Cart = value; }
+        }
+
+        string _CartUrl;
+
+        /// <summary>
+        /// Gets or sets the value of variable CartUrl.
+        /// </summary>
+        [TestVariable("e43a21ba-5499-4059-97c8-44d0b96a499f")]
+        public string CartUrl
+        {
+            get { return _CartUrl; }
+            set { _CartUrl = value; }
+        }
+
+        string _BodyInnerText;
+
+        /// <summary>
+        /// Gets or sets the value of variable BodyInnerText.
+        /// </summary>
+        [TestVariable("430061e4-0e8d-4a26-9a21-2f8d11333e6a")]
+        public string BodyInnerText
+        {
+            get { return _BodyInnerText; }
+            set { _BodyInnerText = value; }
+        }
 
 #endregion
 
@@ -79,28 +183,15 @@ namespace TrendyolTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.trendyol.com/irmak/kup-seker-sargili-750-gr-p-43497508' with browser 'Chrome' in maximized mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("https://www.trendyol.com/irmak/kup-seker-sargili-750-gr-p-43497508", "Chrome", "", false, true, false, false, false, false, false, true);
+            // Add to cart the product
+            Report.Log(ReportLevel.Info, "Section", "Add to cart the product", new RecordItemIndex(0));
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking PerformClick() on item 'trendyol.AddToCartButton'.", repo.trendyol.AddToCartButtonInfo, new RecordItemIndex(1));
+            repo.trendyol.AddToCartButton.As<WebElement>().PerformClick();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>' Küp Şeker Sargılı 750 gr 8690380009636 ') on item 'trendyol.SpanTagKuepŞekerSargılı750Gr869038'.", repo.trendyol.SpanTagKuepŞekerSargılı750Gr869038Info, new RecordItemIndex(1));
-            Validate.AttributeContains(repo.trendyol.SpanTagKuepŞekerSargılı750Gr869038Info, "InnerText", " Küp Şeker Sargılı 750 gr 8690380009636 ");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'trendyol.SepeteEkle' at Center.", repo.trendyol.SepeteEkleInfo, new RecordItemIndex(2));
-            repo.trendyol.SepeteEkle.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(3));
-            Delay.Duration(2000, false);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'trendyol.Sepetim' at Center.", repo.trendyol.SepetimInfo, new RecordItemIndex(4));
-            repo.trendyol.Sepetim.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (InnerText>'Küp Şeker Sargılı 750 gr') on item 'trendyol.IrmakKuepŞekerSargılı750Gr'.", repo.trendyol.IrmakKuepŞekerSargılı750GrInfo, new RecordItemIndex(5));
-            Validate.AttributeContains(repo.trendyol.IrmakKuepŞekerSargılı750GrInfo, "InnerText", "Küp Şeker Sargılı 750 gr");
-            Delay.Milliseconds(100);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(2));
+            Delay.Duration(5000, false);
             
         }
 

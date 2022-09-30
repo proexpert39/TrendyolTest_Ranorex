@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.73s"
+		durationms="7734"
+		type="root"
+		rid="2aef1f821eb6f830"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SYS00289"
+		rxversion="10.2.3.0"
+		host="TRRONM00033"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/29/2022 4:51:07 AM"
+		timestampiso="2022-09-29T11:51:07"
+		endtime="9/29/2022 4:51:14 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SearchProduct">
+		<detail>
+			SearchProduct
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.150"
+			timeRelativeToTestModuleStartTime="00:07.150"
+			timeWallClock="04:51:14"
+			time="00:07.150"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>SearchKeyword
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.167"
+			timeRelativeToTestModuleStartTime="00:07.167"
+			timeWallClock="04:51:14"
+			time="00:07.167"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking PerformClick() on item 'trendyol.FirstProductLinkInSearchPage'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[@class~'p-card-chldrn-cntnr card-border']/a"
+				itempath=".//div[@class~'p-card-chldrn-cntnr card-border']/a"
+				fullname="TrendyolTestRepository.trendyol.FirstProductLinkInSearchPage"
+				id="cc9739c12ad249e285139477a7a6bbdb"
+				timeout="60000"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\SearchProduct.cs"
+				codeline="95"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

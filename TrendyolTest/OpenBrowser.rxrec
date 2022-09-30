@@ -46,6 +46,28 @@ mode="Desktop">
 				https://www.trendyol.com
 			</url>
 		</openwebsiterecorditem>
+		<invokeactionrecorditem
+		action="EnsureVisible"
+		enabled="True"
+		optional="False"
+		searchpropertyid="69d3b1a6-6f14-46fe-800b-09a406b797f9">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="20f41ba7-5a28-40ae-a06a-52591aa57649"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="3c29e7c7-1dce-4891-a23f-ec72d81d1f7d">
+			</arguments>
+		</invokeactionrecorditem>
 	</recorditems>
 	<repository
 	id="9353f6bf-9d2b-48ce-9be0-8d0a4a110d98"

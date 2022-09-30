@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="8.39s"
+		durationms="8388"
+		type="root"
+		rid="9784895a055a00a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SYS00289"
+		rxversion="10.2.3.0"
+		host="TRRONM00033"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/28/2022 12:55:22 AM"
+		timestampiso="2022-09-28T07:55:22"
+		endtime="9/28/2022 12:55:30 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.272"
+			timeRelativeToTestModuleStartTime="00:08.272"
+			timeWallClock="00:55:30"
+			time="00:08.272"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.trendyol.com' with browser 'chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\OpenBrowser.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

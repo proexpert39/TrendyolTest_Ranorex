@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="14.51s"
+		durationms="14512"
+		type="root"
+		rid="120b7fe0e4865ba6"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SYS00289"
+		rxversion="10.2.3.0"
+		host="TRRONM00033"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/28/2022 1:52:25 AM"
+		timestampiso="2022-09-28T08:52:25"
+		endtime="9/28/2022 1:52:40 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Login">
+		<detail>
+			Login
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.965"
+			timeRelativeToTestModuleStartTime="00:05.965"
+			timeWallClock="01:52:31"
+			time="00:05.965"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>InputEmail, InputPassword
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.984"
+			timeRelativeToTestModuleStartTime="00:05.984"
+			timeWallClock="01:52:31"
+			time="00:05.984"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Focus() on item 'trendyol'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']"
+				itempath="/dom[@domain='www.trendyol.com']"
+				fullname="TrendyolTestRepository.trendyol.Self"
+				id="20f41ba75a2840aea06a52591aa57649"
+				timeout="30000"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\Login.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.071"
+			timeRelativeToTestModuleStartTime="00:08.071"
+			timeWallClock="01:52:33"
+			time="00:08.071"
+			level="Info"
+			category="Section">
+			<message>
+				Email input
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\Login.cs"
+				codeline="113"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.071"
+			timeRelativeToTestModuleStartTime="00:08.071"
+			timeWallClock="01:52:33"
+			time="00:08.071"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'trendyol.LoginPage.LoginEmailInput' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'login-email']"
+				itempath=".//input[#'login-email']"
+				fullname="TrendyolTestRepository.trendyol.LoginPage.LoginEmailInput"
+				id="6f5e46d8bfec40db8dec831bd68382a4"
+				timeout="90000"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\Login.cs"
+				codeline="115"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.516"
+			timeRelativeToTestModuleStartTime="00:14.516"
+			timeWallClock="01:52:40"
+			time="00:14.516"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

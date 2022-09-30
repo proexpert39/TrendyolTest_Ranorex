@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="5.32s"
+		durationms="5315"
+		type="root"
+		rid="13ed38fd0c312068"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SYS00289"
+		rxversion="10.2.3.0"
+		host="TRRONM00033"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/29/2022 4:52:03 AM"
+		timestampiso="2022-09-29T11:52:03"
+		endtime="9/29/2022 4:52:08 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SearchProduct">
+		<detail>
+			SearchProduct
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.796"
+			timeRelativeToTestModuleStartTime="00:04.796"
+			timeWallClock="04:52:08"
+			time="00:04.796"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>SearchKeyword, ProductLink
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.812"
+			timeRelativeToTestModuleStartTime="00:04.812"
+			timeWallClock="04:52:08"
+			time="00:04.812"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'Href' from item 'trendyol.FirstProductLinkInSearchPage' and assigning its value to variable 'ProductLink'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[@class~'p-card-chldrn-cntnr card-border']/a"
+				itempath=".//div[@class~'p-card-chldrn-cntnr card-border']/a"
+				fullname="TrendyolTestRepository.trendyol.FirstProductLinkInSearchPage"
+				id="cc9739c12ad249e285139477a7a6bbdb"
+				timeout="60000"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\SearchProduct.cs"
+				codeline="108"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

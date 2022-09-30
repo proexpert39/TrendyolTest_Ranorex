@@ -79,30 +79,16 @@ namespace TrendyolTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.trendyol.com/' with browser 'Chrome' in maximized mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("https://www.trendyol.com/", "Chrome", "", false, true, false, false, false, false, false, true);
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking PerformClick() on item 'trendyol.LogoutButton'.", repo.trendyol.LogoutButtonInfo, new RecordItemIndex(0));
+            repo.trendyol.LogoutButton.As<WebElement>().PerformClick();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'trendyol.MyAccount' at Center.", repo.trendyol.MyAccountInfo, new RecordItemIndex(1));
-            repo.trendyol.MyAccount.MoveTo();
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(1));
+            Delay.Duration(5000, false);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'trendyol.UserNotLoggedInContainer'.", repo.trendyol.UserNotLoggedInContainerInfo, new RecordItemIndex(2));
+            Validate.Exists(repo.trendyol.UserNotLoggedInContainerInfo);
             Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(2));
-            Delay.Duration(2000, false);
-            
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s for the attribute 'Visible' to equal the specified value 'True'. Associated repository item: 'trendyol.UserLoggedinContainer'", repo.trendyol.UserLoggedinContainerInfo, new RecordItemIndex(3));
-            repo.trendyol.UserLoggedinContainerInfo.WaitForAttributeEqual(5000, "Visible", "True");
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'trendyol.LogoutButton' at 52;18.", repo.trendyol.LogoutButtonInfo, new RecordItemIndex(4));
-            repo.trendyol.LogoutButton.Click("52;18");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(5));
-            Delay.Duration(2000, false);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Giriş Yap') on item 'trendyol.GirisYapBtn'.", repo.trendyol.GirisYapBtnInfo, new RecordItemIndex(6));
-            Validate.AttributeEqual(repo.trendyol.GirisYapBtnInfo, "InnerText", "Giriş Yap");
-            Delay.Milliseconds(100);
             
         }
 

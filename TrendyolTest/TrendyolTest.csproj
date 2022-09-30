@@ -138,15 +138,15 @@
     <Compile Include="AssemblyInfo.cs">
       <id>e9816a83-f3da-44d2-9ae0-010f44a925a0</id>
     </Compile>
-    <Compile Include="BlankFields.cs">
+    <Compile Include="BlankSpacesOnMandatoryFields.cs">
       <BoundTo>358ec3a0-7eb2-46b0-92f8-ec7948a82738</BoundTo>
-      <DependentUpon>BlankFields.rxrec</DependentUpon>
+      <DependentUpon>BlankSpacesOnMandatoryFields.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>7aa49382-1551-4701-a0d4-5c8ffc80852b</id>
     </Compile>
-    <Compile Include="BlankFields.UserCode.cs">
+    <Compile Include="BlankSpacesOnMandatoryFields.UserCode.cs">
       <BoundTo>358ec3a0-7eb2-46b0-92f8-ec7948a82738</BoundTo>
-      <DependentUpon>BlankFields.rxrec</DependentUpon>
+      <DependentUpon>BlankSpacesOnMandatoryFields.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>50ab70ec-7a5a-46bb-93b7-45b1679bf3bb</id>
     </Compile>
@@ -162,6 +162,30 @@
       <UserCode>true</UserCode>
       <id>4afeba2b-855b-44a1-88b4-e3e5add9c290</id>
     </Compile>
+    <Compile Include="CheckProductIfExistsInCartPage.cs">
+      <BoundTo>81a63e4f-859c-420b-b2bc-2a915bcb7bcf</BoundTo>
+      <DependentUpon>CheckProductIfExistsInCartPage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>256e7711-b90c-4d4d-8509-7aaafb21c030</id>
+    </Compile>
+    <Compile Include="CheckProductIfExistsInCartPage.UserCode.cs">
+      <BoundTo>81a63e4f-859c-420b-b2bc-2a915bcb7bcf</BoundTo>
+      <DependentUpon>CheckProductIfExistsInCartPage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4c92085c-0395-4159-8cd4-49dc7c1ac71e</id>
+    </Compile>
+    <Compile Include="CheckProductIfExistsInWishlistPage.cs">
+      <BoundTo>84499c5b-f555-4761-b8a5-dc83511f962d</BoundTo>
+      <DependentUpon>CheckProductIfExistsInWishlistPage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bca8143c-7b33-40fe-9dda-a6e69a1e5ef4</id>
+    </Compile>
+    <Compile Include="CheckProductIfExistsInWishlistPage.UserCode.cs">
+      <BoundTo>84499c5b-f555-4761-b8a5-dc83511f962d</BoundTo>
+      <DependentUpon>CheckProductIfExistsInWishlistPage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8efa6c3d-98e9-4688-889f-d5af81b2691b</id>
+    </Compile>
     <Compile Include="CloseBrowser.cs">
       <BoundTo>300d49b7-5370-4823-a08b-dc7b7667c48a</BoundTo>
       <DependentUpon>CloseBrowser.rxrec</DependentUpon>
@@ -173,6 +197,42 @@
       <DependentUpon>CloseBrowser.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>c39b3803-f323-46b5-ba9c-dfb28ce0cbac</id>
+    </Compile>
+    <Compile Include="GoToCartPage.cs">
+      <BoundTo>bd829a50-dd42-4140-9cee-e8de597c2cae</BoundTo>
+      <DependentUpon>GoToCartPage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>36dd007a-6d39-4458-901c-9ff52644b946</id>
+    </Compile>
+    <Compile Include="GoToCartPage.UserCode.cs">
+      <BoundTo>bd829a50-dd42-4140-9cee-e8de597c2cae</BoundTo>
+      <DependentUpon>GoToCartPage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1b0e7a00-ee79-4c6b-8fa2-bc88e16472d0</id>
+    </Compile>
+    <Compile Include="ProceedToCheckout.cs">
+      <BoundTo>1a7ebfe9-3c9e-4dcb-bc43-f99f062b7024</BoundTo>
+      <DependentUpon>ProceedToCheckout.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f5fc3fbd-0564-490b-bc73-7f3980c5cfd5</id>
+    </Compile>
+    <Compile Include="ProceedToCheckout.UserCode.cs">
+      <BoundTo>1a7ebfe9-3c9e-4dcb-bc43-f99f062b7024</BoundTo>
+      <DependentUpon>ProceedToCheckout.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6e9e651b-b013-4d06-9c11-463d7189fea0</id>
+    </Compile>
+    <Compile Include="GoToWishlistPage.cs">
+      <BoundTo>d22baa5a-3477-4d5e-ab7d-6561604b986f</BoundTo>
+      <DependentUpon>GoToWishlistPage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0dd14e5f-1012-49f1-ba00-cb6113e0d2a5</id>
+    </Compile>
+    <Compile Include="GoToWishlistPage.UserCode.cs">
+      <BoundTo>d22baa5a-3477-4d5e-ab7d-6561604b986f</BoundTo>
+      <DependentUpon>GoToWishlistPage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b46bcb7e-8f4a-495c-9192-8d861a1a81cc</id>
     </Compile>
     <Compile Include="Login.cs">
       <BoundTo>d610d048-7a0b-48a6-a052-7272a701f11d</BoundTo>
@@ -198,15 +258,39 @@
       <UserCode>true</UserCode>
       <id>538a3a4d-68b9-41ef-99a8-c2511fa02301</id>
     </Compile>
-    <Compile Include="MandatoryFields.cs">
+    <Compile Include="GoHomePage.cs">
+      <BoundTo>3fe07b78-8c45-4726-9ee6-adc2ee3756d3</BoundTo>
+      <DependentUpon>GoHomePage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5b855768-7476-443d-91c8-313d471a0840</id>
+    </Compile>
+    <Compile Include="GoHomePage.UserCode.cs">
+      <BoundTo>3fe07b78-8c45-4726-9ee6-adc2ee3756d3</BoundTo>
+      <DependentUpon>GoHomePage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2ed7426b-ef45-42e3-bbbe-70ac34c8e2a1</id>
+    </Compile>
+    <Compile Include="SearchProduct.cs">
+      <BoundTo>5342412d-67af-4bc9-ae29-07960d0175fc</BoundTo>
+      <DependentUpon>SearchProduct.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>25a16cb9-6a5f-4499-ab71-a7b0574505cb</id>
+    </Compile>
+    <Compile Include="SearchProduct.UserCode.cs">
+      <BoundTo>5342412d-67af-4bc9-ae29-07960d0175fc</BoundTo>
+      <DependentUpon>SearchProduct.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>395c0448-ab35-4624-846c-cb1a8cf15356</id>
+    </Compile>
+    <Compile Include="VerifyMandatoryFieldsExists.cs">
       <BoundTo>f22af87c-a193-4fda-bbd4-92d22f402807</BoundTo>
-      <DependentUpon>MandatoryFields.rxrec</DependentUpon>
+      <DependentUpon>VerifyMandatoryFieldsExists.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>ed5b6e96-a624-4a92-94e7-3fd7b8409244</id>
     </Compile>
-    <Compile Include="MandatoryFields.UserCode.cs">
+    <Compile Include="VerifyMandatoryFieldsExists.UserCode.cs">
       <BoundTo>f22af87c-a193-4fda-bbd4-92d22f402807</BoundTo>
-      <DependentUpon>MandatoryFields.rxrec</DependentUpon>
+      <DependentUpon>VerifyMandatoryFieldsExists.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>fcdb9d67-d755-4d02-afef-0c0b432aefd0</id>
     </Compile>
@@ -222,15 +306,15 @@
       <UserCode>true</UserCode>
       <id>97c814c1-0a24-4335-8aee-83c46573bd49</id>
     </Compile>
-    <Compile Include="OpenLoginPage.cs">
+    <Compile Include="GoToLoginPage.cs">
       <BoundTo>693dd00c-5dde-499b-9d07-2a22f89d2a68</BoundTo>
-      <DependentUpon>OpenLoginPage.rxrec</DependentUpon>
+      <DependentUpon>GoToLoginPage.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>6055047f-4eb3-4642-88bf-98a12290f364</id>
     </Compile>
-    <Compile Include="OpenLoginPage.UserCode.cs">
+    <Compile Include="GoToLoginPage.UserCode.cs">
       <BoundTo>693dd00c-5dde-499b-9d07-2a22f89d2a68</BoundTo>
-      <DependentUpon>OpenLoginPage.rxrec</DependentUpon>
+      <DependentUpon>GoToLoginPage.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>bb4e1920-69ba-4cd3-9229-bfeb87d64e89</id>
     </Compile>
@@ -246,15 +330,15 @@
       <UserCode>true</UserCode>
       <id>2bd92525-52e8-4948-9933-b24fb7d96078</id>
     </Compile>
-    <Compile Include="OpenRegisterPage.cs">
+    <Compile Include="GoToRegisterPage.cs">
       <BoundTo>40f85500-e7d3-46ed-b5e0-3a94abba434b</BoundTo>
-      <DependentUpon>OpenRegisterPage.rxrec</DependentUpon>
+      <DependentUpon>GoToRegisterPage.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>46eef7e9-53cf-4623-9621-098765783f89</id>
     </Compile>
-    <Compile Include="OpenRegisterPage.UserCode.cs">
+    <Compile Include="GoToRegisterPage.UserCode.cs">
       <BoundTo>40f85500-e7d3-46ed-b5e0-3a94abba434b</BoundTo>
-      <DependentUpon>OpenRegisterPage.rxrec</DependentUpon>
+      <DependentUpon>GoToRegisterPage.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>2a98b365-f320-49a9-bd0c-2e9e88aa7bfb</id>
     </Compile>
@@ -267,27 +351,27 @@
       <RepositoryCode>true</RepositoryCode>
       <id>975ea613-cf09-4b6b-9ea5-2a5100e531b0</id>
     </Compile>
-    <Compile Include="VerifyFields.cs">
+    <Compile Include="VerifySpecifiedFields.cs">
       <BoundTo>a2f626b3-8add-4b54-a6c0-b5e0535bcb27</BoundTo>
-      <DependentUpon>VerifyFields.rxrec</DependentUpon>
+      <DependentUpon>VerifySpecifiedFields.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>aa3e7798-cf02-47ae-b6db-9556de50832a</id>
     </Compile>
-    <Compile Include="VerifyFields.UserCode.cs">
+    <Compile Include="VerifySpecifiedFields.UserCode.cs">
       <BoundTo>a2f626b3-8add-4b54-a6c0-b5e0535bcb27</BoundTo>
-      <DependentUpon>VerifyFields.rxrec</DependentUpon>
+      <DependentUpon>VerifySpecifiedFields.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>38856020-8b2a-4e2d-8428-648b0d08024d</id>
     </Compile>
-    <Compile Include="Wishlist.cs">
+    <Compile Include="AddToWishlist.cs">
       <BoundTo>ebd7c079-b9ff-4af6-a609-f6cc851914ee</BoundTo>
-      <DependentUpon>Wishlist.rxrec</DependentUpon>
+      <DependentUpon>AddToWishlist.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>11bfb185-2242-4906-875b-fe037cb23f61</id>
     </Compile>
-    <Compile Include="Wishlist.UserCode.cs">
+    <Compile Include="AddToWishlist.UserCode.cs">
       <BoundTo>ebd7c079-b9ff-4af6-a609-f6cc851914ee</BoundTo>
-      <DependentUpon>Wishlist.rxrec</DependentUpon>
+      <DependentUpon>AddToWishlist.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>5284421c-f452-42a5-925a-74acf9505ee0</id>
     </Compile>
@@ -298,10 +382,24 @@
       <id>6819395e-8b91-43d2-883b-a72c8f15ac03</id>
       <recordtableid>b26515fe-4cd1-4099-b3c7-e6127a6c7083</recordtableid>
     </None>
+    <Content Include="AddToWishlistTest_DataSource1.csv">
+      <Link>AddToWishlistTest_DataSource1.csv</Link>
+      <BoundTo>5942b839-62bf-4672-b944-a7a37671d919</BoundTo>
+      <DependentUpon>TrendyolTest.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>28e208e2-3dbb-4027-a7ab-69c69d75f6a9</id>
+    </Content>
+    <Content Include="AddToCartTest_DataSource.csv">
+      <Link>AddToCartTest_DataSource.csv</Link>
+      <BoundTo>5942b839-62bf-4672-b944-a7a37671d919</BoundTo>
+      <DependentUpon>TrendyolTest.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>9a0131e5-4dfb-4233-8424-7060a79c332a</id>
+    </Content>
     <None Include="app.config">
       <id>f43930a6-2bf3-4884-ab3e-357a8114e419</id>
     </None>
-    <None Include="BlankFields.rxrec">
+    <None Include="BlankSpacesOnMandatoryFields.rxrec">
       <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
       <id>358ec3a0-7eb2-46b0-92f8-ec7948a82738</id>
       <recordtableid>5a01f772-e1a0-498e-acc9-3dde4630dff9</recordtableid>
@@ -311,10 +409,35 @@
       <id>9677bd39-6e8d-4f67-a7b0-ab780ae0a36f</id>
       <recordtableid>556cfc3c-9b34-4611-8949-9f94c8806a62</recordtableid>
     </None>
+    <None Include="CheckProductIfExistsInCartPage.rxrec">
+      <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
+      <id>81a63e4f-859c-420b-b2bc-2a915bcb7bcf</id>
+      <recordtableid>1989ecd6-8298-42ae-b855-557a977949be</recordtableid>
+    </None>
+    <None Include="CheckProductIfExistsInWishlistPage.rxrec">
+      <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
+      <id>84499c5b-f555-4761-b8a5-dc83511f962d</id>
+      <recordtableid>e3ad91a5-9a88-458d-945d-89e577f77d50</recordtableid>
+    </None>
     <None Include="CloseBrowser.rxrec">
       <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
       <id>300d49b7-5370-4823-a08b-dc7b7667c48a</id>
       <recordtableid>528ab128-e5c7-4d0e-acf9-bd225d141d89</recordtableid>
+    </None>
+    <None Include="GoToCartPage.rxrec">
+      <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
+      <id>bd829a50-dd42-4140-9cee-e8de597c2cae</id>
+      <recordtableid>1c82fb79-0c39-4d27-8f1b-5bc8e0558003</recordtableid>
+    </None>
+    <None Include="ProceedToCheckout.rxrec">
+      <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
+      <id>1a7ebfe9-3c9e-4dcb-bc43-f99f062b7024</id>
+      <recordtableid>20e99209-5a6c-4426-9011-5db57b59c61d</recordtableid>
+    </None>
+    <None Include="GoToWishlistPage.rxrec">
+      <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
+      <id>d22baa5a-3477-4d5e-ab7d-6561604b986f</id>
+      <recordtableid>7edaa8a0-43e4-4fd5-a1b2-0d9e866625c1</recordtableid>
     </None>
     <None Include="Login.rxrec">
       <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
@@ -326,7 +449,17 @@
       <id>2abe8600-89a9-49c4-bb6d-5951233a8a58</id>
       <recordtableid>a8795fe2-6377-423e-b9b7-ada5ccbc62f9</recordtableid>
     </None>
-    <None Include="MandatoryFields.rxrec">
+    <None Include="GoHomePage.rxrec">
+      <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
+      <id>3fe07b78-8c45-4726-9ee6-adc2ee3756d3</id>
+      <recordtableid>e97fea61-2381-47af-a7de-598b8aa61a6e</recordtableid>
+    </None>
+    <None Include="SearchProduct.rxrec">
+      <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
+      <id>5342412d-67af-4bc9-ae29-07960d0175fc</id>
+      <recordtableid>8e7f3ea2-bde1-48c0-9faa-75625e8a54c4</recordtableid>
+    </None>
+    <None Include="VerifyMandatoryFieldsExists.rxrec">
       <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
       <id>f22af87c-a193-4fda-bbd4-92d22f402807</id>
       <recordtableid>6b75094d-ce25-4cde-b9db-b40c572b2d83</recordtableid>
@@ -336,7 +469,7 @@
       <id>742533cb-cb8e-4b32-9d06-f606845a82cc</id>
       <recordtableid>707ab480-8839-4b5e-9a59-39309dfd2ae0</recordtableid>
     </None>
-    <None Include="OpenLoginPage.rxrec">
+    <None Include="GoToLoginPage.rxrec">
       <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
       <id>693dd00c-5dde-499b-9d07-2a22f89d2a68</id>
       <recordtableid>730e824c-ec7e-4221-bcbf-bc5efe4d1a9c</recordtableid>
@@ -346,7 +479,7 @@
       <id>a4061073-592c-45a0-baf1-722a1b1cd528</id>
       <recordtableid>103a2960-9d81-4de0-b315-ae9ed88ad8ec</recordtableid>
     </None>
-    <None Include="OpenRegisterPage.rxrec">
+    <None Include="GoToRegisterPage.rxrec">
       <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
       <id>40f85500-e7d3-46ed-b5e0-3a94abba434b</id>
       <recordtableid>b23aa907-f7be-4af2-96d6-901520759c17</recordtableid>
@@ -362,12 +495,12 @@
       <repoid>9353f6bf-9d2b-48ce-9be0-8d0a4a110d98</repoid>
       <reporootid>62222601-220c-44bf-a55a-74347c474ca6</reporootid>
     </None>
-    <None Include="VerifyFields.rxrec">
+    <None Include="VerifySpecifiedFields.rxrec">
       <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
       <id>a2f626b3-8add-4b54-a6c0-b5e0535bcb27</id>
       <recordtableid>b0f775a6-e7cc-46e4-9db9-0c990a3f9e56</recordtableid>
     </None>
-    <None Include="Wishlist.rxrec">
+    <None Include="AddToWishlist.rxrec">
       <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
       <id>ebd7c079-b9ff-4af6-a609-f6cc851914ee</id>
       <recordtableid>4d691ce2-d48c-4c18-9e93-d38d0a4917f0</recordtableid>

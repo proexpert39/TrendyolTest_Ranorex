@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.39s"
+		durationms="7391"
+		type="root"
+		rid="3fdb403765e2a62"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SYS00289"
+		rxversion="10.2.3.0"
+		host="TRRONM00033"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/28/2022 4:45:08 AM"
+		timestampiso="2022-09-28T11:45:08"
+		endtime="9/28/2022 4:45:15 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AddToCart">
+		<detail>
+			AddToCart
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.443"
+			timeRelativeToTestModuleStartTime="00:05.443"
+			timeWallClock="04:45:13"
+			time="00:05.443"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ProductName, CartProductsCount
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.459"
+			timeRelativeToTestModuleStartTime="00:05.459"
+			timeWallClock="04:45:13"
+			time="00:05.459"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'InnerText' from item 'trendyol.BasketItemCountContainer' and assigning its value to variable 'CartProductsCount'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[@class~'basket-item-count-container']"
+				itempath=".//div[@class~'basket-item-count-container']"
+				fullname="TrendyolTestRepository.trendyol.BasketItemCountContainer"
+				id="7b58c81c793d44218c335ff51a2f0890"
+				timeout="60000"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\AddToCart.cs"
+				codeline="108"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

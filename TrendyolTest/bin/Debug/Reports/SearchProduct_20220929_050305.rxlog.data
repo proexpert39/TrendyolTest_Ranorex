@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="20.29s"
+		durationms="20291"
+		type="root"
+		rid="32444899ab0cd895"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SYS00289"
+		rxversion="10.2.3.0"
+		host="TRRONM00033"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/29/2022 5:03:08 AM"
+		timestampiso="2022-09-29T12:03:08"
+		endtime="9/29/2022 5:03:28 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SearchProduct">
+		<detail>
+			SearchProduct
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.721"
+			timeRelativeToTestModuleStartTime="00:04.721"
+			timeWallClock="05:03:12"
+			time="00:04.721"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>SearchKeyword, ProductLink, FirstProductNameInSearch
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.735"
+			timeRelativeToTestModuleStartTime="00:04.735"
+			timeWallClock="05:03:12"
+			time="00:04.735"
+			level="Info"
+			category="Section">
+			<message>
+				Search Product
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\SearchProduct.cs"
+				codeline="122"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.737"
+			timeRelativeToTestModuleStartTime="00:04.737"
+			timeWallClock="05:03:12"
+			time="00:04.737"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking PerformClick() on item 'trendyol.SearchInput'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[@id='sfx-discovery-search-suggestions']//input"
+				itempath=".//div[@id='sfx-discovery-search-suggestions']//input"
+				fullname="TrendyolTestRepository.trendyol.SearchInput"
+				id="9802ff523124481d8de5384343e9aa44"
+				timeout="60000"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\SearchProduct.cs"
+				codeline="124"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.022"
+			timeRelativeToTestModuleStartTime="00:06.022"
+			timeWallClock="05:03:14"
+			time="00:06.022"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\SearchProduct.cs"
+				codeline="128"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.028"
+			timeRelativeToTestModuleStartTime="00:07.028"
+			timeWallClock="05:03:15"
+			time="00:07.028"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '$SearchKeyword' on item 'trendyol.SearchInput'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[@id='sfx-discovery-search-suggestions']//input"
+				itempath=".//div[@id='sfx-discovery-search-suggestions']//input"
+				fullname="TrendyolTestRepository.trendyol.SearchInput"
+				id="9802ff523124481d8de5384343e9aa44"
+				timeout="60000"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\SearchProduct.cs"
+				codeline="131"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.100"
+			timeRelativeToTestModuleStartTime="00:07.100"
+			timeWallClock="05:03:15"
+			time="00:07.100"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\SearchProduct.cs"
+				codeline="135"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.110"
+			timeRelativeToTestModuleStartTime="00:08.110"
+			timeWallClock="05:03:16"
+			time="00:08.110"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Enter' Press with focus on 'trendyol.SearchInput'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[@id='sfx-discovery-search-suggestions']//input"
+				itempath=".//div[@id='sfx-discovery-search-suggestions']//input"
+				fullname="TrendyolTestRepository.trendyol.SearchInput"
+				id="9802ff523124481d8de5384343e9aa44"
+				timeout="60000"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\SearchProduct.cs"
+				codeline="138"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.209"
+			timeRelativeToTestModuleStartTime="00:08.209"
+			timeWallClock="05:03:16"
+			time="00:08.209"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking WaitForDocumentLoaded() on item 'trendyol'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']"
+				itempath="/dom[@domain='www.trendyol.com']"
+				fullname="TrendyolTestRepository.trendyol.Self"
+				id="20f41ba75a2840aea06a52591aa57649"
+				timeout="30000"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\SearchProduct.cs"
+				codeline="143"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.234"
+			timeRelativeToTestModuleStartTime="00:09.234"
+			timeWallClock="05:03:17"
+			time="00:09.234"
+			level="Info"
+			category="Section">
+			<message>
+				Go to Details Page of First Product in search results
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\SearchProduct.cs"
+				codeline="148"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.235"
+			timeRelativeToTestModuleStartTime="00:09.235"
+			timeWallClock="05:03:17"
+			time="00:09.235"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'trendyol.FirstProductLinkInSearchPage'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[@class~'p-card-chldrn-cntnr card-border']/a"
+				itempath=".//div[@class~'p-card-chldrn-cntnr card-border']/a"
+				fullname="TrendyolTestRepository.trendyol.FirstProductLinkInSearchPage"
+				id="cc9739c12ad249e285139477a7a6bbdb"
+				timeout="60000"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\SearchProduct.cs"
+				codeline="150"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.308"
+			timeRelativeToTestModuleStartTime="00:16.308"
+			timeWallClock="05:03:24"
+			time="00:16.308"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'FirstProductLinkInSearchPage' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[@class~'p-card-chldrn-cntnr card-border']/a"
+				itempath=".//div[@class~'p-card-chldrn-cntnr card-border']/a"
+				fullname="TrendyolTestRepository.trendyol.FirstProductLinkInSearchPage"
+				id="cc9739c12ad249e285139477a7a6bbdb"
+				timeout="60000"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\SearchProduct.cs"
+				codeline="151"
+				loglvl="Success"
+				itemindex="8">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.308"
+			timeRelativeToTestModuleStartTime="00:16.308"
+			timeWallClock="05:03:24"
+			time="00:16.308"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'Href' from item 'trendyol.FirstProductLinkInSearchPage' and assigning its value to variable 'ProductLink'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[@class~'p-card-chldrn-cntnr card-border']/a"
+				itempath=".//div[@class~'p-card-chldrn-cntnr card-border']/a"
+				fullname="TrendyolTestRepository.trendyol.FirstProductLinkInSearchPage"
+				id="cc9739c12ad249e285139477a7a6bbdb"
+				timeout="60000"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\SearchProduct.cs"
+				codeline="154"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.288"
+			timeRelativeToTestModuleStartTime="00:20.288"
+			timeWallClock="05:03:28"
+			time="00:20.288"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -18,43 +18,9 @@ name="TrendyolTestRepository">
 		id="20f41ba7-5a28-40ae-a06a-52591aa57649"
 		isrooted="True"
 		name="trendyol"
-		refimgid="9223fc7e-b89d-44ad-9bb3-2dfed7165cdf"
 		refpath="/dom[@domain='www.trendyol.com']"
 		searchtimeout="30000ms"
 		usecache="False">
-			<item
-			addcaps="unknown,webelement,ptag"
-			capname="ptag"
-			id="369d8fde-4a96-4044-8a94-e0cc4df031c1"
-			name="MyAccount"
-			refimgid="0cc9feac-a82f-448f-9254-bd6f5198e7c7"
-			refpath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[1]/p[@innertext='Hesabım']"
-			robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//p[@innertext='Hesabım']"
-			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']
-			</item>
-			<item
-			addcaps="unknown,webelement,inputtag"
-			capname="inputtag"
-			id="85df90b8-1a3b-4517-a07b-f17096ccda49"
-			name="RegisterEmail"
-			refimgid="d7407014-7a15-45c9-a026-f577d52fd08b"
-			refpath="/dom[@domain='www.trendyol.com']//input[#'register-email']"
-			robustPath="/dom[@domain='www.trendyol.com']//input[#'register-email']"
-			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//input[#'register-email']
-			</item>
-			<item
-			addcaps="unknown,webelement,inputtag"
-			capname="inputtag"
-			id="7556e76c-f236-4a6a-bc49-bfbee4e070b1"
-			name="RegisterPasswordInput"
-			refimgid="ab955163-0e0f-4d11-b47e-75371d6b5d69"
-			refpath="/dom[@domain='www.trendyol.com']//input[#'register-password-input']"
-			robustPath="/dom[@domain='www.trendyol.com']//input[#'register-password-input']"
-			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//input[#'register-password-input']
-			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
 			capname="divtag"
@@ -77,36 +43,13 @@ name="TrendyolTestRepository">
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
-			capname="divtag"
-			id="2bbe84ec-347e-4ad4-9eca-b0126a57744f"
-			name="ErrorBoxWrapper"
-			refimgid="96707d56-77e0-471e-9095-ef7794747377"
-			refpath="/dom[@domain='www.trendyol.com']//div[#'error-box-wrapper']"
-			robustPath="/dom[@domain='www.trendyol.com']//div[#'error-box-wrapper']"
-			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//div[#'error-box-wrapper']
-			</item>
-			<item
-			addcaps="unknown,webelement,spantag"
-			capname="spantag"
-			id="3a59b7a8-5933-4e2d-a248-18965ace6953"
-			name="SpanTagKuepŞekerSargılı750Gr869038"
-			refimgid="a2b52abb-3edd-4ebf-b7c4-c261b4702e85"
-			refpath="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/h1[@innertext='Irmak']/span[@innertext=' Küp Şeker Sargılı 750 gr 8690380009636 ']"
-			robustPath="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']//span[@innertext>' Küp Şeker Sargılı 750 gr']"
-			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/h1[@innertext='Irmak']/span[@innertext&gt;' K&#252;p &#350;eker Sarg&#305;l&#305; 750 gr']
-			</item>
-			<item
-			addcaps="unknown,webelement,divtag"
-			capname="divtag"
+			capname="button"
 			id="145f3143-f3e4-4cf9-9a65-31ce6beb267b"
-			name="SepeteEkle"
-			refimgid="6df87b2b-55f1-4c47-8567-3de4ccc4c1e2"
-			refpath="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/button/div[@innertext='Sepete Ekle']"
+			name="AddToCartButton"
+			refimgid="b6ccb3f0-b3ff-4eaf-93cd-a79c92ac92a3"
 			robustPath="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']//div[@innertext='Sepete Ekle']"
 			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/button/div[@innertext='Sepete Ekle']
+				/dom[@domain='www.trendyol.com']//button[@class='add-to-basket']
 			</item>
 			<item
 			addcaps="unknown,webelement,ptag"
@@ -114,83 +57,92 @@ name="TrendyolTestRepository">
 			id="30140022-9b65-4374-84e9-c4f939a146bc"
 			name="Sepetim"
 			refimgid="cae14bc4-d432-492e-8a09-b81f047db476"
-			refpath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[2]/a[@href='https://www.trendyol.com/sepet']/p[@innertext='Sepetim']"
 			robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//p[@innertext='Sepetim']"
 			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[2]/a[@href&gt;'https://www.trendyol.com/']/p[@innertext='Sepetim']
-			</item>
-			<item
-			addcaps="unknown,webelement,ptag"
-			capname="ptag"
-			id="03974d67-9ef6-4d6f-b162-6d64eb337953"
-			name="IrmakKuepŞekerSargılı750Gr"
-			refimgid="fdaf9096-9922-40b4-bbf6-9f6376c26ed7"
-			refpath="/dom[@domain='www.trendyol.com']//div[#'pb-container']/div/div[2]/div[3]/a/p[@title>'Irmak Küp Şeker Sargılı 750']"
-			robustPath="/dom[@domain='www.trendyol.com']//div[#'pb-container']//p[@title>'Irmak Küp Şeker Sargılı 750']"
-			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//div[#'pb-container']//a[@href&gt;'https://www.trendyol.com/']/p[@title&gt;'Irmak K&#252;p &#350;eker Sarg&#305;l&#305; 750']
-			</item>
-			<item
-			addcaps="unknown,webelement,imgtag"
-			capname="imgtag"
-			id="c089645d-6d46-4109-83b5-19196ab5a78f"
-			name="Trendyol"
-			refimgid="83d02696-0c1d-4b85-a074-3615c7a18b30"
-			refpath="/dom[@domain='www.trendyol.com']//a[#'logo']/img[@alt='Trendyol']"
-			robustPath="/dom[@domain='www.trendyol.com']//a[#'logo']/img[@alt='Trendyol']"
-			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//a[#'logo']/img[@alt='Trendyol']
+				/dom[@domain='www.trendyol.com']//p[@innertext='Sepetim']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
 			capname="spantag"
 			id="87145e4a-8258-4631-8aa9-bd75ad265f70"
-			name="SepetiOnayla"
-			refimgid="293a7d2c-1139-4111-9c5d-d8efdd96692c"
-			refpath="/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[1]/a[@href='https://www.trendyol.com/sepetim/odeme']/span[@innertext='Sepeti Onayla']"
+			name="ProceedToCheckoutButton"
+			refimgid="2b8ee27d-cdb3-4524-a6d3-333016e6c71c"
 			robustPath="/dom[@domain='www.trendyol.com']//div[#'pb-container']//span[@innertext='Sepeti Onayla']"
 			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[1]/?/?/span[@innertext='Sepeti Onayla']
+				/dom[@domain='www.trendyol.com']//span[@innertext='Sepeti Onayla']
 			</item>
 			<item
-			addcaps="unknown,webelement,divtag"
-			capname="divtag"
-			id="6e8f84c7-5e18-4e3c-b702-bb202e7edb1f"
-			name="UserLoggedinContainer"
-			refimgid="df430629-8de2-4a3b-a26b-03d4cae266dd"
-			robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[2]/div"
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="9802ff52-3124-481d-8de5-384343e9aa44"
+			name="SearchInput"
+			refimgid="2b6b27fa-e0bf-4b60-b478-d946fde70c5c"
+			robustPath="/dom[@domain='www.trendyol.com']//div[#'sfx-discovery-search-suggestions']//input[@type='text']"
 			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']
-			</item>
-			<item
-			capname="atag"
-			id="29496650-d784-4492-9dce-b55377b1866f"
-			name="MyFavorites"
-			robustPath="/dom[@domain='www.trendyol.com']/element"
-			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']/a[@href='/Hesabim/Favoriler']
+				/dom[@domain='www.trendyol.com']//div[@id='sfx-discovery-search-suggestions']//input
 			</item>
 			<item
 			addcaps="unknown,webelement,ptag"
-			capname="ptag"
+			capname="button"
 			id="ec3932f7-c41f-4335-b62f-4cbf1a883e25"
 			name="LogoutButton"
 			refimgid="9d8b85af-b397-4390-8488-fdf0deacf7bf"
-			refpath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[2]/div/button/p[@innertext='Çıkış Yap']"
-			robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//p[@innertext='Çıkış Yap']"
+			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]//button/p[@innertext='Çıkış Yap']
+				/dom[@domain='www.trendyol.com']//button[@class='loggedin-account-item']
 			</item>
 			<item
 			addcaps="unknown,webelement,ptag"
 			capname="ptag"
-			id="0df4785a-ac50-4cae-b7a6-27d02e1ae95c"
-			name="GirisYapBtn"
-			refimgid="bd23dd6a-0743-4ccd-a55d-c28faf9d373f"
-			refpath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[1]/p[@innertext='Giriş Yap']"
-			robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//p[@innertext='Giriş Yap']"
+			id="7c14b9ca-221d-4a87-8076-2e1f24a83769"
+			name="MyAccountButton"
+			refimgid="97a5f322-355d-453f-83df-f7573e247152"
+			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']
+				<image
+				guid="5922e6a8-f452-4613-ae43-0d40fd4da345"
+				name="MyAccountButtonScreenshot">
+					iVBORw0KGgoAAAANSUhEUgAAADYAAAASCAYAAAAQeC39AAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAiZJREFUWEftVD1r21AU7X96kwaDoWDIoKleYijYZGgoRODBBBK6mILR
+EEQGjQoUTyIQ5CFoepsKphmMAwUbigaDBoMgIPBgEJyeJynEH4JCa1Lc+oCG+/HePUf3vvsG/ygO
+wvYN/5uwMSwhYAziwlYo8+0G8cCAEBYr7A4HYWW+5Q8PZrNKUhoanz2Ei9wfPzgwjrTMX2tbkLMl
+k0PI6w7qb0Xh72PynK+EvTdh91qosoZ23IWM8thm3fG1QOPKhdOuQaO/2jThD/0VHhIq8/eFPUlc
+VnRYwwRIE3y70lG/mWR5dkWgc8+8dIloNEaUqgMRPBKaMB1JAJM5rducfd6xFpzH/K6gx5/SdHlC
+YVuYqBjwZjRiHx3GtBMHY3Xvow1d6HCmvxAmSr7nAvG9+ssuwswiHiyIDx7JhOi/Y7E2i0XsVCkS
+yAve1wugMrZGUd0lSH6ujBJhZ17Wlc0Y5h4M2tboDzqWFaC99lXsnNzMR/dYjSJH5ZwjWuhLpj7s
+T6doZGPK/ILglrDRXxQW3Z2ud6wEyXcXBkfOUGM5dVAXdXQHE8R8W6sEN4Utv5q0LyHVeL22MMx9
+ktZg3BWv/ClEqEJpBHkbIJvClO9Nz4Vloyu6CNTCSCbon20K68BXHeJ5lzHtQnJgFV5bGPGyFUnk
+yIA9ZGwRwuN2q7FTQlTR6sl8eSwo5mO+udRG9L+w46vCzq1i061vzB0L238chO0bDsL2C8BPP2DH
+HWHUJLIAAAAASUVORK5CYII=
+				</image>
+				/dom[@domain='www.trendyol.com']//p[text()~'Hesabım']
+			</item>
+			<item
+			capname="divtag"
+			id="8a0628f8-34df-46d8-94ae-7ee4d756d0b0"
+			name="FirstProductNameInSearch"
+			refimgid="83d6cb1c-34b2-4a4a-a4e7-5edeb2e60ee1"
+			robustPath="/dom[@domain='www.trendyol.com']/element"
+			searchtimeout="30000ms">
+				/dom[@domain='www.trendyol.com']//div[@class~'prdct-desc-cntnr'][1]
+			</item>
+			<item
+			capname="spantag"
+			id="9ab1077c-422a-444a-8fe4-6eeca5d38214"
+			name="ProductNameSpan"
+			refimgid="c343e142-78b9-4334-991d-bfef5eb770c0"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.trendyol.com']//h1[@class='pr-new-br']/span
+			</item>
+			<item
+			capname="ptag"
+			id="3ce6aebc-722b-4549-ad7c-5bd29b78943f"
+			name="ProductNameCartPage"
+			refimgid="00bca643-66cd-4f2c-b0ef-72ef39728d8d"
+			robustPath="/dom[@domain='www.trendyol.com']/element"
+			searchtimeout="30000ms">
+				/dom[@domain='www.trendyol.com']//p[@class='pb-item'][1]
 			</item>
 			<folder
 			capname="webdocument"
@@ -229,32 +181,32 @@ name="TrendyolTestRepository">
 				searchtimeout="30000ms">
 					/dom[@domain='www.trendyol.com']//form/button
 				</item>
-				<item
-				addcaps="unknown,webelement,ptag"
-				capname="ptag"
-				id="3195a5c9-449f-408d-8614-5a131ace07b5"
-				name="Favorilerim"
-				refimgid="c6c8de38-8a5d-4f6c-aa33-56f37614855e"
-				refpath="/dom[1]//div[#'account-navigation-container']/div/a/div/p[@innertext='Favorilerim']"
-				robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//p[@innertext='Favorilerim']"
-				searchtimeout="30000ms">
-					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/a[@href&gt;'https://www.trendyol.com/']/?/?/p[@innertext='Favorilerim']
-				</item>
-				<item
-				addcaps="unknown,webelement,spantag"
-				capname="spantag"
-				id="b27716f6-b8df-4297-aa2d-c2955671c4df"
-				name="KuepŞekerSargılı750Gr"
-				refimgid="2e57fb45-d872-472b-bf53-2eb7a5901e98"
-				refpath="/dom[@domain='www.trendyol.com']//div[#'account-gw-favorites']/div/div[3]/div/div[1]/a[@href='https://www.trendyol.com/irmak/kup-seker-sargili-750-gr-p-43497508']/div[2]/div[1]/div/span[@title='Küp Şeker Sargılı 750 gr']"
-				robustPath="/dom[@domain='www.trendyol.com']//div[#'account-gw-favorites']//span[@title='Küp Şeker Sargılı 750 gr']"
-				searchtimeout="30000ms">
-					/dom[@domain='www.trendyol.com']//div[#'account-gw-favorites']/div/div[3]/div/div[1]/a[@href&gt;'https://www.trendyol.com/']//span[@title='K&#252;p &#350;eker Sarg&#305;l&#305; 750 gr']
-				</item>
 				<basepath>
 					/dom[@domain='www.trendyol.com']
 				</basepath>
 			</folder>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="85df90b8-1a3b-4517-a07b-f17096ccda49"
+			name="RegisterEmailInput"
+			refimgid="d7407014-7a15-45c9-a026-f577d52fd08b"
+			refpath="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+			robustPath="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.trendyol.com']//input[#'register-email']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="7556e76c-f236-4a6a-bc49-bfbee4e070b1"
+			name="RegisterPasswordInput"
+			refimgid="ab955163-0e0f-4d11-b47e-75371d6b5d69"
+			refpath="/dom[@domain='www.trendyol.com']//input[#'register-password-input']"
+			robustPath="/dom[@domain='www.trendyol.com']//input[#'register-password-input']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.trendyol.com']//input[#'register-password-input']
+			</item>
 			<folder
 			capname="webdocument"
 			id="27698d01-8ea9-4b65-9edd-3224afe26aef"
@@ -271,33 +223,6 @@ name="TrendyolTestRepository">
 				robustPath="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/div/div/div[1]/button"
 				searchtimeout="30000ms">
 					/dom[@domain='www.trendyol.com']//div[@class='container-right-content']//button[@class='fv']
-				</item>
-				<item
-				capname="itag"
-				id="663042a2-a6e4-406c-af1a-87f759da0c78"
-				name="heart_icon_full"
-				robustPath="/dom[@domain='www.trendyol.com']/element"
-				searchtimeout="30000ms">
-					/dom[@domain='www.trendyol.com']//div[@class='favorite-button']/button[@class='fv']/i[@class='i-hearth-orange']
-				</item>
-				<basepath>
-					/dom[@domain='www.trendyol.com']
-				</basepath>
-			</folder>
-			<folder
-			capname="webdocument"
-			id="d46cc1fe-5ca7-42c2-a6d7-39bda40200d6"
-			isrooted="True"
-			name="MyFavoritesPage"
-			searchtimeout="30000ms"
-			usecache="False">
-				<item
-				capname="divtag"
-				id="30521293-b3ba-48e7-b411-7bd795461d33"
-				name="FavoriteProductsContainer"
-				robustPath="/dom[@domain='www.trendyol.com']/element"
-				searchtimeout="30000ms">
-					/dom[@domain='www.trendyol.com']//div[@class='favored-product-container']
 				</item>
 				<basepath>
 					/dom[@domain='www.trendyol.com']
@@ -355,6 +280,16 @@ name="TrendyolTestRepository">
 				<item
 				addcaps="unknown,webelement,inputtag"
 				capname="inputtag"
+				id="6f5e46d8-bfec-40db-8dec-831bd68382a4"
+				name="LoginEmailInput"
+				refimgid="a339ebbc-35cd-45c6-805e-492f614d5a2e"
+				robustPath="/dom[@domain='www.trendyol.com']//input[#'login-email']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.trendyol.com']//input[#'login-email']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
 				id="5636cfae-ee04-4b6d-8568-a3aa9efabb86"
 				name="LoginPasswordInput"
 				refimgid="03a3eb9a-03b4-48f0-a7bc-49e163b7ec50"
@@ -362,16 +297,6 @@ name="TrendyolTestRepository">
 				robustPath="/dom[@domain='www.trendyol.com']//input[#'login-password-input']"
 				searchtimeout="30000ms">
 					/dom[@domain='www.trendyol.com']//input[#'login-password-input']
-				</item>
-				<item
-				addcaps="unknown,webelement,inputtag"
-				capname="inputtag"
-				id="6f5e46d8-bfec-40db-8dec-831bd68382a4"
-				name="LoginEmail"
-				refimgid="a339ebbc-35cd-45c6-805e-492f614d5a2e"
-				robustPath="/dom[@domain='www.trendyol.com']//input[#'login-email']"
-				searchtimeout="30000ms">
-					/dom[@domain='www.trendyol.com']//input[#'login-email']
 				</item>
 				<item
 				addcaps="unknown,webelement,spantag"
@@ -387,6 +312,30 @@ name="TrendyolTestRepository">
 					/dom[@domain='www.trendyol.com']
 				</basepath>
 			</folder>
+			<item
+			capname="divtag"
+			id="fcb005b8-73ca-4121-9846-634fef9f40db"
+			name="UserNotLoggedInContainer"
+			robustPath="/dom[@domain='www.trendyol.com']/element"
+			searchtimeout="30000ms">
+				/dom[@domain='www.trendyol.com']//div[@class='user-notloggedin-container']
+			</item>
+			<item
+			capname="atag"
+			id="cc9739c1-2ad2-49e2-8513-9477a7a6bbdb"
+			name="FirstProductLinkInSearchPage"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.trendyol.com']//div[@class~'p-card-chldrn-cntnr card-border']/a
+			</item>
+			<item
+			capname="atag"
+			id="562e393f-d3ee-4c03-8464-d3d86e336eaf"
+			name="FirstProductLinkInCartPage"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.trendyol.com']//div[@class='pb-basket-item']/a
+			</item>
 			<basepath>
 				/dom[@domain='www.trendyol.com']
 			</basepath>
@@ -414,16 +363,6 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		name="Chrome"
 		searchtimeout="30000ms"
 		usecache="True">
-			<item
-			addcaps="container,accessible"
-			capname="container"
-			id="b447615b-869c-47fd-8d1e-44cbd91ce23c"
-			name="Pane1"
-			refimgid="14e9f609-3ebe-4442-8233-3a583a8945a5"
-			robustPath="/form/?/?/container[@accessiblename='Google Chrome']/container[@accessiblerole='Pane']/container[2]/container[1]"
-			searchtimeout="30000ms">
-				/form/container[@accessiblename='Google Chrome']/container/container[2]/container[1]
-			</item>
 			<basepath>
 				/form
 			</basepath>
@@ -444,6 +383,17 @@ egPi6nQkrlZHYqQm1DR3Y8rtwZDNhXNXn0ISo0O4ROPy24JrPSMu3ng2deihNRbWmpAntkUPqhue
 4/gFC0JDOYg37KJmkeg36IDFOOQDY6QAAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
+		<item
+		addcaps="unknown,webelement,divtag"
+		capname="divtag"
+		id="2bbe84ec-347e-4ad4-9eca-b0126a57744f"
+		name="ErrorBoxWrapper"
+		refimgid="96707d56-77e0-471e-9095-ef7794747377"
+		refpath="/dom[@domain='www.trendyol.com']//div[#'error-box-wrapper']"
+		robustPath="/dom[@domain='www.trendyol.com']//div[#'error-box-wrapper']"
+		searchtimeout="30000ms">
+			/dom[@domain='www.trendyol.com']//div[#'error-box-wrapper']
+		</item>
 		<basepath>
 		</basepath>
 	</rootfolder>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="8.75s"
+		durationms="8746"
+		type="root"
+		rid="50a20a210d5ac74"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SYS00289"
+		rxversion="10.2.3.0"
+		host="TRRONM00033"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/29/2022 4:55:13 AM"
+		timestampiso="2022-09-29T11:55:13"
+		endtime="9/29/2022 4:55:22 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CheckProductIfExists">
+		<detail>
+			CheckProductIfExists
+		</detail>
+		<errormessage>
+			Attribute 'Title' of element for item 'TrendyolTestRepository.trendyol.ProductNameCartPage' does not contain the specified value (actual='Apple·iPhone·11·128GB·Aksesuarsız·Kutu·Siyah·Cep·Telefonu·(Apple·Türkiye·Garantili)', expected='iphone·11').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.070"
+			timeRelativeToTestModuleStartTime="00:05.070"
+			timeWallClock="04:55:18"
+			time="00:05.070"
+			level="Warn"
+			category="Data"
+			errimg="images_CheckPro_2876dc1a\CheckPro_2876dc1a_db3a45d6_trace.jpg"
+			errthumb="images_CheckPro_2876dc1a\CheckPro_2876dc1a_db3a45d6_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>ProductName_Cart, ProductName, ProductNameWishlist, WishlistItemAdded
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.086"
+			timeRelativeToTestModuleStartTime="00:05.086"
+			timeWallClock="04:55:18"
+			time="00:05.086"
+			level="Info"
+			category="Validation"
+			errimg="images_CheckPro_2876dc1a\CheckPro_2876dc1a_db3a45d6_trace.jpg"
+			errthumb="images_CheckPro_2876dc1a\CheckPro_2876dc1a_db3a45d6_trace_thumb.jpg">
+			<message>
+				Validating AttributeContains (Title&gt;$ProductName) on item 'trendyol.ProductNameCartPage'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//p[@class='pb-item'][1]"
+				itempath=".//p[@class='pb-item'][1]"
+				fullname="TrendyolTestRepository.trendyol.ProductNameCartPage"
+				id="3ce6aebc722b4549ad7c5bd29b78943f"
+				timeout="60000"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\CheckProductIfExistsInCartPage.cs"
+				codeline="134"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.622"
+			timeRelativeToTestModuleStartTime="00:08.622"
+			timeWallClock="04:55:22"
+			time="00:08.622"
+			level="Failure"
+			category="Validation"
+			errimg="images_CheckPro_2876dc1a\CheckPro_2876dc1a_261e2853_trace.jpg"
+			errthumb="images_CheckPro_2876dc1a\CheckPro_2876dc1a_261e2853_trace_thumb.jpg">
+			<message>
+				Attribute 'Title' of element for item 'TrendyolTestRepository.trendyol.ProductNameCartPage' does not contain the specified value (actual='Apple·iPhone·11·128GB·Aksesuarsız·Kutu·Siyah·Cep·Telefonu·(Apple·Türkiye·Garantili)', expected='iphone·11').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//p[@class='pb-item'][1]"
+				itempath=".//p[@class='pb-item'][1]"
+				fullname="TrendyolTestRepository.trendyol.ProductNameCartPage"
+				id="3ce6aebc722b4549ad7c5bd29b78943f"
+				timeout="60000"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\CheckProductIfExistsInCartPage.cs"
+				codeline="135"
+				loglvl="Failure"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.634"
+			timeRelativeToTestModuleStartTime="00:08.634"
+			timeWallClock="04:55:22"
+			time="00:08.634"
+			level="Error"
+			category="Module"
+			errimg="images_CheckPro_2876dc1a\CheckPro_2876dc1a_261e2853_trace.jpg"
+			errthumb="images_CheckPro_2876dc1a\CheckPro_2876dc1a_261e2853_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Title' of element for item 'TrendyolTestRepository.trendyol.ProductNameCartPage' does not contain the specified value (actual='Apple·iPhone·11·128GB·Aksesuarsız·Kutu·Siyah·Cep·Telefonu·(Apple·Türkiye·Garantili)', expected='iphone·11').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)
+   at Ranorex.Validate.AttributeContainsInternal(IElement element, String name, String value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeContainsInternal(RepoItemInfo itemInfo, String name, String value, String message, Options options)
+   at Ranorex.Validate.AttributeContains(RepoItemInfo itemInfo, String name, String value, String message, Options options)
+   at Ranorex.Validate.AttributeContains(RepoItemInfo itemInfo, String name, String value)
+   at TrendyolTest.CheckProductIfExists.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\CheckProductIfExistsInCartPage.cs:line 135
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\CheckProductIfExistsInCartPage.cs"
+				codeline="135"
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//p[@class='pb-item'][1]"
+				itempath=".//p[@class='pb-item'][1]"
+				fullname="TrendyolTestRepository.trendyol.ProductNameCartPage"
+				id="3ce6aebc722b4549ad7c5bd29b78943f"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

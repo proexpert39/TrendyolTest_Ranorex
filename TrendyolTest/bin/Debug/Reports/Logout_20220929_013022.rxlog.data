@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="12.2s"
+		durationms="12200"
+		type="root"
+		rid="18ff1713c8ad6483"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SYS00289"
+		rxversion="10.2.3.0"
+		host="TRRONM00033"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/29/2022 1:30:25 AM"
+		timestampiso="2022-09-29T08:30:25"
+		endtime="9/29/2022 1:30:37 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Logout">
+		<detail>
+			Logout
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.084"
+			timeRelativeToTestModuleStartTime="00:10.084"
+			timeWallClock="01:30:35"
+			time="00:10.084"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking PerformClick() on item 'trendyol.LogoutButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//button[@class='loggedin-account-item']"
+				itempath=".//button[@class='loggedin-account-item']"
+				fullname="TrendyolTestRepository.trendyol.LogoutButton"
+				id="ec3932f7c41f4335b62f4cbf1a883e25"
+				timeout="60000"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\Logout.cs"
+				codeline="96"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

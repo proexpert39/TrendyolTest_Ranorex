@@ -7,10 +7,14 @@
   <SerializedValue name="ModuleBrowserState">
     <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <string>{584C6127-C22C-47A4-B266-7431D0329C2A}</string>
-      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>bbf24092-27a4-433d-b66d-e2736b237630</string>
+      <string>da7341ca-6f1c-4ead-88ac-c34a680560cd</string>
+      <string>8e7f3ea2-bde1-48c0-9faa-75625e8a54c4</string>
+      <string>ca589e3b-8562-435c-9741-89d602273641</string>
+      <string>6b75094d-ce25-4cde-b9db-b40c572b2d83</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution TrendyolTest[TrendyolTest[]]]&#xD;&#xA;Solution TrendyolTest\TrendyolTest\VerifyFields.rxrec&#xD;&#xA;Solution TrendyolTest" />
+  <ProjectBrowserState value="[Solution TrendyolTest[TrendyolTest[Reports[]]]]&#xD;&#xA;Solution TrendyolTest\TrendyolTest\TrendyolTest.rxtst&#xD;&#xA;Solution TrendyolTest\TrendyolTest\BuyProducts.rxrec" />
   <StartupProject value="{584C6127-C22C-47A4-B266-7431D0329C2A}" />
 </Properties>

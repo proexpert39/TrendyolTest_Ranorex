@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="20e99209-5a6c-4426-9011-5db57b59c61d"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ProceedToCheckout"
+	namespace="TrendyolTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="388988ab-ced8-46c2-a865-2a5e359ba352"
+		sx="1556"
+		sy="291"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="87145e4a-8258-4631-8aa9-bd75ad265f70"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="1466,279,135,30"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Sepeti Onayla
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[1]/?/?/span[@innertext='Sepeti Onayla']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="f0f3c07f-c8ae-46f4-94fb-7549dfb6c1ad">
+				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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="9353f6bf-9d2b-48ce-9be0-8d0a4a110d98"
+	name="TrendyolTestRepository"
+	relativepath="TrendyolTestRepository.rxrep">
+		<codegen
+		classname="TrendyolTestRepository"
+		namespace="TrendyolTest">
+		</codegen>
+		<rootfolder
+		id="62222601-220c-44bf-a55a-74347c474ca6"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ProceedToCheckout.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

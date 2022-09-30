@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="5.48s"
+		durationms="5478"
+		type="root"
+		rid="4f5690bef81e57b"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SYS00289"
+		rxversion="10.2.3.0"
+		host="TRRONM00033"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/28/2022 4:32:19 AM"
+		timestampiso="2022-09-28T11:32:19"
+		endtime="9/28/2022 4:32:24 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AddToCart">
+		<detail>
+			AddToCart
+		</detail>
+		<errormessage>
+			Action 'ExecuteScript' failed on element '{Form:KVK PRİVACY Iphone 11 Kılıf Şeffaf Kartlıklı Antishock Darbeye Dayanıklı Kamera Korumalı Yumuşak Silikon Şeffaf Fiyatı, Yorumları - TRENDYOL - Google Chrome}'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.887"
+			timeRelativeToTestModuleStartTime="00:04.887"
+			timeWallClock="04:32:24"
+			time="00:04.887"
+			level="Warn"
+			category="Data"
+			errimg="images_AddToCar_86193892\AddToCar_86193892_93834341_trace.jpg"
+			errthumb="images_AddToCar_86193892\AddToCar_86193892_93834341_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>ProductName, CartProductsCount
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.902"
+			timeRelativeToTestModuleStartTime="00:04.902"
+			timeWallClock="04:32:24"
+			time="00:04.902"
+			level="Info"
+			category="Invoke action"
+			errimg="images_AddToCar_86193892\AddToCar_86193892_93834341_trace.jpg"
+			errthumb="images_AddToCar_86193892\AddToCar_86193892_93834341_trace_thumb.jpg">
+			<message>
+				Invoking ExecuteScript('document.getElementsByClassName('basket-item-count-container')[0].innerText') on item 'Chrome'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form"
+				itempath="/form"
+				fullname="TrendyolTestRepository.Chrome.Self"
+				id="f5c8c8e14e7e4e3f8aace82fd27c022c"
+				timeout="30000"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\AddToCart.cs"
+				codeline="108"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.377"
+			timeRelativeToTestModuleStartTime="00:05.377"
+			timeWallClock="04:32:24"
+			time="00:05.377"
+			level="Error"
+			category="Module"
+			errimg="images_AddToCar_86193892\AddToCar_86193892_441a04ac_trace.jpg"
+			errthumb="images_AddToCar_86193892\AddToCar_86193892_441a04ac_trace_thumb.jpg">
+			<message>
+				Action 'ExecuteScript' failed on element '{Form:KVK PRİVACY Iphone 11 Kılıf Şeffaf Kartlıklı Antishock Darbeye Dayanıklı Kamera Korumalı Yumuşak Silikon Şeffaf Fiyatı, Yorumları - TRENDYOL - Google Chrome}'.<br/>The operation is not supported.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Element.InvokeAction(String name, Object[] args)
+   at Ranorex.Core.Element.InvokeActionWithText(String name, String[] args)
+   at TrendyolTest.AddToCart.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\AddToCart.cs:line 109
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\AddToCart.cs"
+				codeline="109"
+				loglvl="Error"
+				itemindex="19">
+			</metainfo>
+		</item>
+	</activity>
+</report>

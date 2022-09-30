@@ -29,6 +29,7 @@ namespace TrendyolTest
         static TrendyolTestRepository instance = new TrendyolTestRepository();
         TrendyolTestRepositoryFolders.TrendyolAppFolder _trendyol;
         TrendyolTestRepositoryFolders.ChromeAppFolder _chrome;
+        RepoItemInfo _errorboxwrapperInfo;
 
         /// <summary>
         /// Gets the singleton class instance representing the TrendyolTestRepository element repository.
@@ -47,6 +48,7 @@ namespace TrendyolTest
         {
             _trendyol = new TrendyolTestRepositoryFolders.TrendyolAppFolder(this);
             _chrome = new TrendyolTestRepositoryFolders.ChromeAppFolder(this);
+            _errorboxwrapperInfo = new RepoItemInfo(this, "ErrorBoxWrapper", "/dom[@domain='www.trendyol.com']//div[#'error-box-wrapper']", 30000, null, "2bbe84ec-347e-4ad4-9eca-b0126a57744f");
         }
 
 #region Variables
@@ -62,6 +64,30 @@ namespace TrendyolTest
             get
             {
                 return _selfInfo;
+            }
+        }
+
+        /// <summary>
+        /// The ErrorBoxWrapper item.
+        /// </summary>
+        [RepositoryItem("2bbe84ec-347e-4ad4-9eca-b0126a57744f")]
+        public virtual Ranorex.DivTag ErrorBoxWrapper
+        {
+            get
+            {
+                 return _errorboxwrapperInfo.CreateAdapter<Ranorex.DivTag>(true);
+            }
+        }
+
+        /// <summary>
+        /// The ErrorBoxWrapper item info.
+        /// </summary>
+        [RepositoryItemInfo("2bbe84ec-347e-4ad4-9eca-b0126a57744f")]
+        public virtual RepoItemInfo ErrorBoxWrapperInfo
+        {
+            get
+            {
+                return _errorboxwrapperInfo;
             }
         }
 
@@ -98,25 +124,24 @@ namespace TrendyolTest
         {
             TrendyolTestRepositoryFolders.RegisterPageFolder _registerpage;
             TrendyolTestRepositoryFolders.ProductDetailsFolder _productdetails;
-            TrendyolTestRepositoryFolders.MyFavoritesPageFolder _myfavoritespage;
             TrendyolTestRepositoryFolders.CartPageFolder _cartpage;
             TrendyolTestRepositoryFolders.LoginPageFolder _loginpage;
-            RepoItemInfo _myaccountInfo;
-            RepoItemInfo _registeremailInfo;
-            RepoItemInfo _registerpasswordinputInfo;
             RepoItemInfo _marketingemailcheckboxdivInfo;
             RepoItemInfo _personaldatacheckboxdivInfo;
-            RepoItemInfo _errorboxwrapperInfo;
-            RepoItemInfo _spantagkuepşekersargılı750gr869038Info;
-            RepoItemInfo _sepeteekleInfo;
+            RepoItemInfo _addtocartbuttonInfo;
             RepoItemInfo _sepetimInfo;
-            RepoItemInfo _irmakkuepşekersargılı750grInfo;
-            RepoItemInfo _trendyolInfo;
-            RepoItemInfo _sepetionaylaInfo;
-            RepoItemInfo _userloggedincontainerInfo;
-            RepoItemInfo _myfavoritesInfo;
+            RepoItemInfo _proceedtocheckoutbuttonInfo;
+            RepoItemInfo _searchinputInfo;
             RepoItemInfo _logoutbuttonInfo;
-            RepoItemInfo _girisyapbtnInfo;
+            MyAccountButtonInfoClass _myaccountbuttonInfo;
+            RepoItemInfo _firstproductnameinsearchInfo;
+            RepoItemInfo _productnamespanInfo;
+            RepoItemInfo _productnamecartpageInfo;
+            RepoItemInfo _registeremailinputInfo;
+            RepoItemInfo _registerpasswordinputInfo;
+            RepoItemInfo _usernotloggedincontainerInfo;
+            RepoItemInfo _firstproductlinkinsearchpageInfo;
+            RepoItemInfo _firstproductlinkincartpageInfo;
 
             /// <summary>
             /// Creates a new trendyol  folder.
@@ -126,25 +151,59 @@ namespace TrendyolTest
             {
                 _registerpage = new TrendyolTestRepositoryFolders.RegisterPageFolder(this);
                 _productdetails = new TrendyolTestRepositoryFolders.ProductDetailsFolder(this);
-                _myfavoritespage = new TrendyolTestRepositoryFolders.MyFavoritesPageFolder(this);
                 _cartpage = new TrendyolTestRepositoryFolders.CartPageFolder(this);
                 _loginpage = new TrendyolTestRepositoryFolders.LoginPageFolder(this);
-                _myaccountInfo = new RepoItemInfo(this, "MyAccount", ".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']", ".//div[#'account-navigation-container']//p[@innertext='Hesabım']", 30000, null, "369d8fde-4a96-4044-8a94-e0cc4df031c1");
-                _registeremailInfo = new RepoItemInfo(this, "RegisterEmail", ".//input[#'register-email']", ".//input[#'register-email']", 30000, null, "85df90b8-1a3b-4517-a07b-f17096ccda49");
-                _registerpasswordinputInfo = new RepoItemInfo(this, "RegisterPasswordInput", ".//input[#'register-password-input']", ".//input[#'register-password-input']", 30000, null, "7556e76c-f236-4a6a-bc49-bfbee4e070b1");
                 _marketingemailcheckboxdivInfo = new RepoItemInfo(this, "MarketingEmailCheckboxDiv", ".//div[@name='marketing-email']", ".//div[#'login-register']//form/div[5]/div/div[1]/div/div", 30000, null, "e3abd9cc-54b9-45a1-9bf9-141a9ab18028");
                 _personaldatacheckboxdivInfo = new RepoItemInfo(this, "PersonalDataCheckboxDiv", ".//div[@name='personal-data-error']", ".//div[#'login-register']//form/div[5]/div/div[1]/div/div", 30000, null, "3f4881b2-5705-49f0-bf25-38d7b2d1244a");
-                _errorboxwrapperInfo = new RepoItemInfo(this, "ErrorBoxWrapper", ".//div[#'error-box-wrapper']", ".//div[#'error-box-wrapper']", 30000, null, "2bbe84ec-347e-4ad4-9eca-b0126a57744f");
-                _spantagkuepşekersargılı750gr869038Info = new RepoItemInfo(this, "SpanTagKuepŞekerSargılı750Gr869038", ".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/h1[@innertext='Irmak']/span[@innertext>' Küp Şeker Sargılı 750 gr']", ".//main[#'product-detail-app']//span[@innertext>' Küp Şeker Sargılı 750 gr']", 30000, null, "3a59b7a8-5933-4e2d-a248-18965ace6953");
-                _sepeteekleInfo = new RepoItemInfo(this, "SepeteEkle", ".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/button/div[@innertext='Sepete Ekle']", ".//main[#'product-detail-app']//div[@innertext='Sepete Ekle']", 30000, null, "145f3143-f3e4-4cf9-9a65-31ce6beb267b");
-                _sepetimInfo = new RepoItemInfo(this, "Sepetim", ".//div[#'account-navigation-container']/div/div[2]/a[@href>'https://www.trendyol.com/']/p[@innertext='Sepetim']", ".//div[#'account-navigation-container']//p[@innertext='Sepetim']", 30000, null, "30140022-9b65-4374-84e9-c4f939a146bc");
-                _irmakkuepşekersargılı750grInfo = new RepoItemInfo(this, "IrmakKuepŞekerSargılı750Gr", ".//div[#'pb-container']//a[@href>'https://www.trendyol.com/']/p[@title>'Irmak Küp Şeker Sargılı 750']", ".//div[#'pb-container']//p[@title>'Irmak Küp Şeker Sargılı 750']", 30000, null, "03974d67-9ef6-4d6f-b162-6d64eb337953");
-                _trendyolInfo = new RepoItemInfo(this, "Trendyol", ".//a[#'logo']/img[@alt='Trendyol']", ".//a[#'logo']/img[@alt='Trendyol']", 30000, null, "c089645d-6d46-4109-83b5-19196ab5a78f");
-                _sepetionaylaInfo = new RepoItemInfo(this, "SepetiOnayla", ".//div[#'pb-container']/aside/div/div[1]/?/?/span[@innertext='Sepeti Onayla']", ".//div[#'pb-container']//span[@innertext='Sepeti Onayla']", 30000, null, "87145e4a-8258-4631-8aa9-bd75ad265f70");
-                _userloggedincontainerInfo = new RepoItemInfo(this, "UserLoggedinContainer", ".//div[#'account-navigation-container']", ".//div[#'account-navigation-container']/div/div[1]/div[2]/div", 30000, null, "6e8f84c7-5e18-4e3c-b702-bb202e7edb1f");
-                _myfavoritesInfo = new RepoItemInfo(this, "MyFavorites", "a[@href='/Hesabim/Favoriler']", "element", 30000, null, "29496650-d784-4492-9dce-b55377b1866f");
-                _logoutbuttonInfo = new RepoItemInfo(this, "LogoutButton", ".//div[#'account-navigation-container']/div/div[1]//button/p[@innertext='Çıkış Yap']", ".//div[#'account-navigation-container']//p[@innertext='Çıkış Yap']", 30000, null, "ec3932f7-c41f-4335-b62f-4cbf1a883e25");
-                _girisyapbtnInfo = new RepoItemInfo(this, "GirisYapBtn", ".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']", ".//div[#'account-navigation-container']//p[@innertext='Giriş Yap']", 30000, null, "0df4785a-ac50-4cae-b7a6-27d02e1ae95c");
+                _addtocartbuttonInfo = new RepoItemInfo(this, "AddToCartButton", ".//button[@class='add-to-basket']", ".//main[#'product-detail-app']//div[@innertext='Sepete Ekle']", 30000, null, "145f3143-f3e4-4cf9-9a65-31ce6beb267b");
+                _sepetimInfo = new RepoItemInfo(this, "Sepetim", ".//p[@innertext='Sepetim']", ".//div[#'account-navigation-container']//p[@innertext='Sepetim']", 30000, null, "30140022-9b65-4374-84e9-c4f939a146bc");
+                _proceedtocheckoutbuttonInfo = new RepoItemInfo(this, "ProceedToCheckoutButton", ".//span[@innertext='Sepeti Onayla']", ".//div[#'pb-container']//span[@innertext='Sepeti Onayla']", 30000, null, "87145e4a-8258-4631-8aa9-bd75ad265f70");
+                _searchinputInfo = new RepoItemInfo(this, "SearchInput", ".//div[@id='sfx-discovery-search-suggestions']//input", ".//div[#'sfx-discovery-search-suggestions']//input[@type='text']", 30000, null, "9802ff52-3124-481d-8de5-384343e9aa44");
+                _logoutbuttonInfo = new RepoItemInfo(this, "LogoutButton", ".//button[@class='loggedin-account-item']", "", 30000, null, "ec3932f7-c41f-4335-b62f-4cbf1a883e25");
+                _myaccountbuttonInfo = new MyAccountButtonInfoClass(this);
+                _firstproductnameinsearchInfo = new RepoItemInfo(this, "FirstProductNameInSearch", ".//div[@class~'prdct-desc-cntnr'][1]", "element", 30000, null, "8a0628f8-34df-46d8-94ae-7ee4d756d0b0");
+                _productnamespanInfo = new RepoItemInfo(this, "ProductNameSpan", ".//h1[@class='pr-new-br']/span", "", 30000, null, "9ab1077c-422a-444a-8fe4-6eeca5d38214");
+                _productnamecartpageInfo = new RepoItemInfo(this, "ProductNameCartPage", ".//p[@class='pb-item'][1]", "element", 30000, null, "3ce6aebc-722b-4549-ad7c-5bd29b78943f");
+                _registeremailinputInfo = new RepoItemInfo(this, "RegisterEmailInput", ".//input[#'register-email']", ".//input[#'register-email']", 30000, null, "85df90b8-1a3b-4517-a07b-f17096ccda49");
+                _registerpasswordinputInfo = new RepoItemInfo(this, "RegisterPasswordInput", ".//input[#'register-password-input']", ".//input[#'register-password-input']", 30000, null, "7556e76c-f236-4a6a-bc49-bfbee4e070b1");
+                _usernotloggedincontainerInfo = new RepoItemInfo(this, "UserNotLoggedInContainer", ".//div[@class='user-notloggedin-container']", "element", 30000, null, "fcb005b8-73ca-4121-9846-634fef9f40db");
+                _firstproductlinkinsearchpageInfo = new RepoItemInfo(this, "FirstProductLinkInSearchPage", ".//div[@class~'p-card-chldrn-cntnr card-border']/a", "", 30000, null, "cc9739c1-2ad2-49e2-8513-9477a7a6bbdb");
+                _firstproductlinkincartpageInfo = new RepoItemInfo(this, "FirstProductLinkInCartPage", ".//div[@class='pb-basket-item']/a", "", 30000, null, "562e393f-d3ee-4c03-8464-d3d86e336eaf");
+            }
+
+            /// <summary>
+            /// The MyAccountButtonInfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("7c14b9ca-221d-4a87-8076-2e1f24a83769")]
+            public class MyAccountButtonInfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// MyAccountButtonInfoClass class constructor.
+                /// </summary>
+                public MyAccountButtonInfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "MyAccountButton", ".//p[text()~'Hesabım']", 30000, null, "7c14b9ca-221d-4a87-8076-2e1f24a83769")
+                { }
+
+                /// <summary>
+                /// Gets the MyAccountButtonScreenshot item image.
+                /// </summary>
+                /// <returns>The MyAccountButtonScreenshot image.</returns>
+                [RepositoryImage("5922e6a8-f452-4613-ae43-0d40fd4da345")]
+                public CompressedImage GetMyAccountButtonScreenshot()
+                {
+                    return GetImage("5922e6a8-f452-4613-ae43-0d40fd4da345");
+                }
+
+                /// <summary>
+                /// Gets the MyAccountButtonScreenshot item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("5922e6a8-f452-4613-ae43-0d40fd4da345")]
+                public CompressedImage GetMyAccountButtonScreenshot(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("5922e6a8-f452-4613-ae43-0d40fd4da345", cropRect);
+                }
             }
 
             /// <summary>
@@ -168,78 +227,6 @@ namespace TrendyolTest
                 get
                 {
                     return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The MyAccount item.
-            /// </summary>
-            [RepositoryItem("369d8fde-4a96-4044-8a94-e0cc4df031c1")]
-            public virtual Ranorex.PTag MyAccount
-            {
-                get
-                {
-                    return _myaccountInfo.CreateAdapter<Ranorex.PTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The MyAccount item info.
-            /// </summary>
-            [RepositoryItemInfo("369d8fde-4a96-4044-8a94-e0cc4df031c1")]
-            public virtual RepoItemInfo MyAccountInfo
-            {
-                get
-                {
-                    return _myaccountInfo;
-                }
-            }
-
-            /// <summary>
-            /// The RegisterEmail item.
-            /// </summary>
-            [RepositoryItem("85df90b8-1a3b-4517-a07b-f17096ccda49")]
-            public virtual Ranorex.InputTag RegisterEmail
-            {
-                get
-                {
-                    return _registeremailInfo.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The RegisterEmail item info.
-            /// </summary>
-            [RepositoryItemInfo("85df90b8-1a3b-4517-a07b-f17096ccda49")]
-            public virtual RepoItemInfo RegisterEmailInfo
-            {
-                get
-                {
-                    return _registeremailInfo;
-                }
-            }
-
-            /// <summary>
-            /// The RegisterPasswordInput item.
-            /// </summary>
-            [RepositoryItem("7556e76c-f236-4a6a-bc49-bfbee4e070b1")]
-            public virtual Ranorex.InputTag RegisterPasswordInput
-            {
-                get
-                {
-                    return _registerpasswordinputInfo.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The RegisterPasswordInput item info.
-            /// </summary>
-            [RepositoryItemInfo("7556e76c-f236-4a6a-bc49-bfbee4e070b1")]
-            public virtual RepoItemInfo RegisterPasswordInputInfo
-            {
-                get
-                {
-                    return _registerpasswordinputInfo;
                 }
             }
 
@@ -292,74 +279,26 @@ namespace TrendyolTest
             }
 
             /// <summary>
-            /// The ErrorBoxWrapper item.
-            /// </summary>
-            [RepositoryItem("2bbe84ec-347e-4ad4-9eca-b0126a57744f")]
-            public virtual Ranorex.DivTag ErrorBoxWrapper
-            {
-                get
-                {
-                    return _errorboxwrapperInfo.CreateAdapter<Ranorex.DivTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ErrorBoxWrapper item info.
-            /// </summary>
-            [RepositoryItemInfo("2bbe84ec-347e-4ad4-9eca-b0126a57744f")]
-            public virtual RepoItemInfo ErrorBoxWrapperInfo
-            {
-                get
-                {
-                    return _errorboxwrapperInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SpanTagKuepŞekerSargılı750Gr869038 item.
-            /// </summary>
-            [RepositoryItem("3a59b7a8-5933-4e2d-a248-18965ace6953")]
-            public virtual Ranorex.SpanTag SpanTagKuepŞekerSargılı750Gr869038
-            {
-                get
-                {
-                    return _spantagkuepşekersargılı750gr869038Info.CreateAdapter<Ranorex.SpanTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SpanTagKuepŞekerSargılı750Gr869038 item info.
-            /// </summary>
-            [RepositoryItemInfo("3a59b7a8-5933-4e2d-a248-18965ace6953")]
-            public virtual RepoItemInfo SpanTagKuepŞekerSargılı750Gr869038Info
-            {
-                get
-                {
-                    return _spantagkuepşekersargılı750gr869038Info;
-                }
-            }
-
-            /// <summary>
-            /// The SepeteEkle item.
+            /// The AddToCartButton item.
             /// </summary>
             [RepositoryItem("145f3143-f3e4-4cf9-9a65-31ce6beb267b")]
-            public virtual Ranorex.DivTag SepeteEkle
+            public virtual Ranorex.Button AddToCartButton
             {
                 get
                 {
-                    return _sepeteekleInfo.CreateAdapter<Ranorex.DivTag>(true);
+                    return _addtocartbuttonInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
             /// <summary>
-            /// The SepeteEkle item info.
+            /// The AddToCartButton item info.
             /// </summary>
             [RepositoryItemInfo("145f3143-f3e4-4cf9-9a65-31ce6beb267b")]
-            public virtual RepoItemInfo SepeteEkleInfo
+            public virtual RepoItemInfo AddToCartButtonInfo
             {
                 get
                 {
-                    return _sepeteekleInfo;
+                    return _addtocartbuttonInfo;
                 }
             }
 
@@ -388,122 +327,50 @@ namespace TrendyolTest
             }
 
             /// <summary>
-            /// The IrmakKuepŞekerSargılı750Gr item.
-            /// </summary>
-            [RepositoryItem("03974d67-9ef6-4d6f-b162-6d64eb337953")]
-            public virtual Ranorex.PTag IrmakKuepŞekerSargılı750Gr
-            {
-                get
-                {
-                    return _irmakkuepşekersargılı750grInfo.CreateAdapter<Ranorex.PTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The IrmakKuepŞekerSargılı750Gr item info.
-            /// </summary>
-            [RepositoryItemInfo("03974d67-9ef6-4d6f-b162-6d64eb337953")]
-            public virtual RepoItemInfo IrmakKuepŞekerSargılı750GrInfo
-            {
-                get
-                {
-                    return _irmakkuepşekersargılı750grInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Trendyol item.
-            /// </summary>
-            [RepositoryItem("c089645d-6d46-4109-83b5-19196ab5a78f")]
-            public virtual Ranorex.ImgTag Trendyol
-            {
-                get
-                {
-                    return _trendyolInfo.CreateAdapter<Ranorex.ImgTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Trendyol item info.
-            /// </summary>
-            [RepositoryItemInfo("c089645d-6d46-4109-83b5-19196ab5a78f")]
-            public virtual RepoItemInfo TrendyolInfo
-            {
-                get
-                {
-                    return _trendyolInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SepetiOnayla item.
+            /// The ProceedToCheckoutButton item.
             /// </summary>
             [RepositoryItem("87145e4a-8258-4631-8aa9-bd75ad265f70")]
-            public virtual Ranorex.SpanTag SepetiOnayla
+            public virtual Ranorex.SpanTag ProceedToCheckoutButton
             {
                 get
                 {
-                    return _sepetionaylaInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                    return _proceedtocheckoutbuttonInfo.CreateAdapter<Ranorex.SpanTag>(true);
                 }
             }
 
             /// <summary>
-            /// The SepetiOnayla item info.
+            /// The ProceedToCheckoutButton item info.
             /// </summary>
             [RepositoryItemInfo("87145e4a-8258-4631-8aa9-bd75ad265f70")]
-            public virtual RepoItemInfo SepetiOnaylaInfo
+            public virtual RepoItemInfo ProceedToCheckoutButtonInfo
             {
                 get
                 {
-                    return _sepetionaylaInfo;
+                    return _proceedtocheckoutbuttonInfo;
                 }
             }
 
             /// <summary>
-            /// The UserLoggedinContainer item.
+            /// The SearchInput item.
             /// </summary>
-            [RepositoryItem("6e8f84c7-5e18-4e3c-b702-bb202e7edb1f")]
-            public virtual Ranorex.DivTag UserLoggedinContainer
+            [RepositoryItem("9802ff52-3124-481d-8de5-384343e9aa44")]
+            public virtual Ranorex.InputTag SearchInput
             {
                 get
                 {
-                    return _userloggedincontainerInfo.CreateAdapter<Ranorex.DivTag>(true);
+                    return _searchinputInfo.CreateAdapter<Ranorex.InputTag>(true);
                 }
             }
 
             /// <summary>
-            /// The UserLoggedinContainer item info.
+            /// The SearchInput item info.
             /// </summary>
-            [RepositoryItemInfo("6e8f84c7-5e18-4e3c-b702-bb202e7edb1f")]
-            public virtual RepoItemInfo UserLoggedinContainerInfo
+            [RepositoryItemInfo("9802ff52-3124-481d-8de5-384343e9aa44")]
+            public virtual RepoItemInfo SearchInputInfo
             {
                 get
                 {
-                    return _userloggedincontainerInfo;
-                }
-            }
-
-            /// <summary>
-            /// The MyFavorites item.
-            /// </summary>
-            [RepositoryItem("29496650-d784-4492-9dce-b55377b1866f")]
-            public virtual Ranorex.ATag MyFavorites
-            {
-                get
-                {
-                    return _myfavoritesInfo.CreateAdapter<Ranorex.ATag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The MyFavorites item info.
-            /// </summary>
-            [RepositoryItemInfo("29496650-d784-4492-9dce-b55377b1866f")]
-            public virtual RepoItemInfo MyFavoritesInfo
-            {
-                get
-                {
-                    return _myfavoritesInfo;
+                    return _searchinputInfo;
                 }
             }
 
@@ -511,11 +378,11 @@ namespace TrendyolTest
             /// The LogoutButton item.
             /// </summary>
             [RepositoryItem("ec3932f7-c41f-4335-b62f-4cbf1a883e25")]
-            public virtual Ranorex.PTag LogoutButton
+            public virtual Ranorex.Button LogoutButton
             {
                 get
                 {
-                    return _logoutbuttonInfo.CreateAdapter<Ranorex.PTag>(true);
+                    return _logoutbuttonInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
@@ -532,26 +399,218 @@ namespace TrendyolTest
             }
 
             /// <summary>
-            /// The GirisYapBtn item.
+            /// The MyAccountButton item.
             /// </summary>
-            [RepositoryItem("0df4785a-ac50-4cae-b7a6-27d02e1ae95c")]
-            public virtual Ranorex.PTag GirisYapBtn
+            [RepositoryItem("7c14b9ca-221d-4a87-8076-2e1f24a83769")]
+            public virtual Ranorex.PTag MyAccountButton
             {
                 get
                 {
-                    return _girisyapbtnInfo.CreateAdapter<Ranorex.PTag>(true);
+                    return _myaccountbuttonInfo.CreateAdapter<Ranorex.PTag>(true);
                 }
             }
 
             /// <summary>
-            /// The GirisYapBtn item info.
+            /// The MyAccountButton item info.
             /// </summary>
-            [RepositoryItemInfo("0df4785a-ac50-4cae-b7a6-27d02e1ae95c")]
-            public virtual RepoItemInfo GirisYapBtnInfo
+            [RepositoryItemInfo("7c14b9ca-221d-4a87-8076-2e1f24a83769")]
+            public virtual MyAccountButtonInfoClass MyAccountButtonInfo
             {
                 get
                 {
-                    return _girisyapbtnInfo;
+                    return _myaccountbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FirstProductNameInSearch item.
+            /// </summary>
+            [RepositoryItem("8a0628f8-34df-46d8-94ae-7ee4d756d0b0")]
+            public virtual Ranorex.DivTag FirstProductNameInSearch
+            {
+                get
+                {
+                    return _firstproductnameinsearchInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FirstProductNameInSearch item info.
+            /// </summary>
+            [RepositoryItemInfo("8a0628f8-34df-46d8-94ae-7ee4d756d0b0")]
+            public virtual RepoItemInfo FirstProductNameInSearchInfo
+            {
+                get
+                {
+                    return _firstproductnameinsearchInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ProductNameSpan item.
+            /// </summary>
+            [RepositoryItem("9ab1077c-422a-444a-8fe4-6eeca5d38214")]
+            public virtual Ranorex.SpanTag ProductNameSpan
+            {
+                get
+                {
+                    return _productnamespanInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ProductNameSpan item info.
+            /// </summary>
+            [RepositoryItemInfo("9ab1077c-422a-444a-8fe4-6eeca5d38214")]
+            public virtual RepoItemInfo ProductNameSpanInfo
+            {
+                get
+                {
+                    return _productnamespanInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ProductNameCartPage item.
+            /// </summary>
+            [RepositoryItem("3ce6aebc-722b-4549-ad7c-5bd29b78943f")]
+            public virtual Ranorex.PTag ProductNameCartPage
+            {
+                get
+                {
+                    return _productnamecartpageInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ProductNameCartPage item info.
+            /// </summary>
+            [RepositoryItemInfo("3ce6aebc-722b-4549-ad7c-5bd29b78943f")]
+            public virtual RepoItemInfo ProductNameCartPageInfo
+            {
+                get
+                {
+                    return _productnamecartpageInfo;
+                }
+            }
+
+            /// <summary>
+            /// The RegisterEmailInput item.
+            /// </summary>
+            [RepositoryItem("85df90b8-1a3b-4517-a07b-f17096ccda49")]
+            public virtual Ranorex.InputTag RegisterEmailInput
+            {
+                get
+                {
+                    return _registeremailinputInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The RegisterEmailInput item info.
+            /// </summary>
+            [RepositoryItemInfo("85df90b8-1a3b-4517-a07b-f17096ccda49")]
+            public virtual RepoItemInfo RegisterEmailInputInfo
+            {
+                get
+                {
+                    return _registeremailinputInfo;
+                }
+            }
+
+            /// <summary>
+            /// The RegisterPasswordInput item.
+            /// </summary>
+            [RepositoryItem("7556e76c-f236-4a6a-bc49-bfbee4e070b1")]
+            public virtual Ranorex.InputTag RegisterPasswordInput
+            {
+                get
+                {
+                    return _registerpasswordinputInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The RegisterPasswordInput item info.
+            /// </summary>
+            [RepositoryItemInfo("7556e76c-f236-4a6a-bc49-bfbee4e070b1")]
+            public virtual RepoItemInfo RegisterPasswordInputInfo
+            {
+                get
+                {
+                    return _registerpasswordinputInfo;
+                }
+            }
+
+            /// <summary>
+            /// The UserNotLoggedInContainer item.
+            /// </summary>
+            [RepositoryItem("fcb005b8-73ca-4121-9846-634fef9f40db")]
+            public virtual Ranorex.DivTag UserNotLoggedInContainer
+            {
+                get
+                {
+                    return _usernotloggedincontainerInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UserNotLoggedInContainer item info.
+            /// </summary>
+            [RepositoryItemInfo("fcb005b8-73ca-4121-9846-634fef9f40db")]
+            public virtual RepoItemInfo UserNotLoggedInContainerInfo
+            {
+                get
+                {
+                    return _usernotloggedincontainerInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FirstProductLinkInSearchPage item.
+            /// </summary>
+            [RepositoryItem("cc9739c1-2ad2-49e2-8513-9477a7a6bbdb")]
+            public virtual Ranorex.ATag FirstProductLinkInSearchPage
+            {
+                get
+                {
+                    return _firstproductlinkinsearchpageInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FirstProductLinkInSearchPage item info.
+            /// </summary>
+            [RepositoryItemInfo("cc9739c1-2ad2-49e2-8513-9477a7a6bbdb")]
+            public virtual RepoItemInfo FirstProductLinkInSearchPageInfo
+            {
+                get
+                {
+                    return _firstproductlinkinsearchpageInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FirstProductLinkInCartPage item.
+            /// </summary>
+            [RepositoryItem("562e393f-d3ee-4c03-8464-d3d86e336eaf")]
+            public virtual Ranorex.ATag FirstProductLinkInCartPage
+            {
+                get
+                {
+                    return _firstproductlinkincartpageInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FirstProductLinkInCartPage item info.
+            /// </summary>
+            [RepositoryItemInfo("562e393f-d3ee-4c03-8464-d3d86e336eaf")]
+            public virtual RepoItemInfo FirstProductLinkInCartPageInfo
+            {
+                get
+                {
+                    return _firstproductlinkincartpageInfo;
                 }
             }
 
@@ -571,15 +630,6 @@ namespace TrendyolTest
             public virtual TrendyolTestRepositoryFolders.ProductDetailsFolder ProductDetails
             {
                 get { return _productdetails; }
-            }
-
-            /// <summary>
-            /// The MyFavoritesPage folder.
-            /// </summary>
-            [RepositoryFolder("d46cc1fe-5ca7-42c2-a6d7-39bda40200d6")]
-            public virtual TrendyolTestRepositoryFolders.MyFavoritesPageFolder MyFavoritesPage
-            {
-                get { return _myfavoritespage; }
             }
 
             /// <summary>
@@ -610,8 +660,6 @@ namespace TrendyolTest
             RepoItemInfo _personalcheckboxdivInfo;
             RepoItemInfo _marketingcheckboxdivInfo;
             RepoItemInfo _registerbuttonInfo;
-            RepoItemInfo _favorilerimInfo;
-            RepoItemInfo _kuepşekersargılı750grInfo;
 
             /// <summary>
             /// Creates a new RegisterPage  folder.
@@ -622,8 +670,6 @@ namespace TrendyolTest
                 _personalcheckboxdivInfo = new RepoItemInfo(this, "PersonalCheckboxDiv", ".//div[@class='personal-checkbox']", ".//div[#'login-register']//form/div[6]/div/div[1]", 30000, null, "49e66d49-8381-4708-a1a0-fe36dc994057");
                 _marketingcheckboxdivInfo = new RepoItemInfo(this, "MarketingCheckboxDiv", ".//div[@class='marketing-checkbox']", ".//div[#'login-register']//form/div[5]/div/div[1]", 30000, null, "cb1d2aaf-e139-4612-b6b1-c9311b50efc6");
                 _registerbuttonInfo = new RepoItemInfo(this, "RegisterButton", ".//form/button", ".//div[#'login-register']//form/button", 30000, null, "ea0e4a66-6c0b-4f1a-b677-e867cd149887");
-                _favorilerimInfo = new RepoItemInfo(this, "Favorilerim", ".//div[#'account-navigation-container']/div/a[@href>'https://www.trendyol.com/']/?/?/p[@innertext='Favorilerim']", ".//div[#'account-navigation-container']//p[@innertext='Favorilerim']", 30000, null, "3195a5c9-449f-408d-8614-5a131ace07b5");
-                _kuepşekersargılı750grInfo = new RepoItemInfo(this, "KuepŞekerSargılı750Gr", ".//div[#'account-gw-favorites']/div/div[3]/div/div[1]/a[@href>'https://www.trendyol.com/']//span[@title='Küp Şeker Sargılı 750 gr']", ".//div[#'account-gw-favorites']//span[@title='Küp Şeker Sargılı 750 gr']", 30000, null, "b27716f6-b8df-4297-aa2d-c2955671c4df");
             }
 
             /// <summary>
@@ -721,54 +767,6 @@ namespace TrendyolTest
                     return _registerbuttonInfo;
                 }
             }
-
-            /// <summary>
-            /// The Favorilerim item.
-            /// </summary>
-            [RepositoryItem("3195a5c9-449f-408d-8614-5a131ace07b5")]
-            public virtual Ranorex.PTag Favorilerim
-            {
-                get
-                {
-                    return _favorilerimInfo.CreateAdapter<Ranorex.PTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Favorilerim item info.
-            /// </summary>
-            [RepositoryItemInfo("3195a5c9-449f-408d-8614-5a131ace07b5")]
-            public virtual RepoItemInfo FavorilerimInfo
-            {
-                get
-                {
-                    return _favorilerimInfo;
-                }
-            }
-
-            /// <summary>
-            /// The KuepŞekerSargılı750Gr item.
-            /// </summary>
-            [RepositoryItem("b27716f6-b8df-4297-aa2d-c2955671c4df")]
-            public virtual Ranorex.SpanTag KuepŞekerSargılı750Gr
-            {
-                get
-                {
-                    return _kuepşekersargılı750grInfo.CreateAdapter<Ranorex.SpanTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The KuepŞekerSargılı750Gr item info.
-            /// </summary>
-            [RepositoryItemInfo("b27716f6-b8df-4297-aa2d-c2955671c4df")]
-            public virtual RepoItemInfo KuepŞekerSargılı750GrInfo
-            {
-                get
-                {
-                    return _kuepşekersargılı750grInfo;
-                }
-            }
         }
 
         /// <summary>
@@ -778,7 +776,6 @@ namespace TrendyolTest
         public partial class ProductDetailsFolder : RepoGenBaseFolder
         {
             RepoItemInfo _addtofavoritesbtnInfo;
-            RepoItemInfo _heart_icon_fullInfo;
 
             /// <summary>
             /// Creates a new ProductDetails  folder.
@@ -787,7 +784,6 @@ namespace TrendyolTest
                     base("ProductDetails", "", parentFolder, 30000, null, false, "27698d01-8ea9-4b65-9edd-3224afe26aef", "")
             {
                 _addtofavoritesbtnInfo = new RepoItemInfo(this, "AddToFavoritesBtn", ".//div[@class='container-right-content']//button[@class='fv']", ".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[5]/div/div/div[1]/button", 30000, null, "8171e99b-7f37-4cb1-af52-086de2980edf");
-                _heart_icon_fullInfo = new RepoItemInfo(this, "heart_icon_full", ".//div[@class='favorite-button']/button[@class='fv']/i[@class='i-hearth-orange']", "element", 30000, null, "663042a2-a6e4-406c-af1a-87f759da0c78");
             }
 
             /// <summary>
@@ -835,96 +831,6 @@ namespace TrendyolTest
                 get
                 {
                     return _addtofavoritesbtnInfo;
-                }
-            }
-
-            /// <summary>
-            /// The heart_icon_full item.
-            /// </summary>
-            [RepositoryItem("663042a2-a6e4-406c-af1a-87f759da0c78")]
-            public virtual Ranorex.ITag heart_icon_full
-            {
-                get
-                {
-                    return _heart_icon_fullInfo.CreateAdapter<Ranorex.ITag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The heart_icon_full item info.
-            /// </summary>
-            [RepositoryItemInfo("663042a2-a6e4-406c-af1a-87f759da0c78")]
-            public virtual RepoItemInfo heart_icon_fullInfo
-            {
-                get
-                {
-                    return _heart_icon_fullInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The MyFavoritesPageFolder folder.
-        /// </summary>
-        [RepositoryFolder("d46cc1fe-5ca7-42c2-a6d7-39bda40200d6")]
-        public partial class MyFavoritesPageFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _favoriteproductscontainerInfo;
-
-            /// <summary>
-            /// Creates a new MyFavoritesPage  folder.
-            /// </summary>
-            public MyFavoritesPageFolder(RepoGenBaseFolder parentFolder) :
-                    base("MyFavoritesPage", "", parentFolder, 30000, null, false, "d46cc1fe-5ca7-42c2-a6d7-39bda40200d6", "")
-            {
-                _favoriteproductscontainerInfo = new RepoItemInfo(this, "FavoriteProductsContainer", ".//div[@class='favored-product-container']", "element", 30000, null, "30521293-b3ba-48e7-b411-7bd795461d33");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("d46cc1fe-5ca7-42c2-a6d7-39bda40200d6")]
-            public virtual Ranorex.WebDocument Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("d46cc1fe-5ca7-42c2-a6d7-39bda40200d6")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The FavoriteProductsContainer item.
-            /// </summary>
-            [RepositoryItem("30521293-b3ba-48e7-b411-7bd795461d33")]
-            public virtual Ranorex.DivTag FavoriteProductsContainer
-            {
-                get
-                {
-                    return _favoriteproductscontainerInfo.CreateAdapter<Ranorex.DivTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The FavoriteProductsContainer item info.
-            /// </summary>
-            [RepositoryItemInfo("30521293-b3ba-48e7-b411-7bd795461d33")]
-            public virtual RepoItemInfo FavoriteProductsContainerInfo
-            {
-                get
-                {
-                    return _favoriteproductscontainerInfo;
                 }
             }
         }
@@ -1053,8 +959,8 @@ namespace TrendyolTest
         [RepositoryFolder("75057fdc-53fe-44a0-ac72-159d02765518")]
         public partial class LoginPageFolder : RepoGenBaseFolder
         {
+            RepoItemInfo _loginemailinputInfo;
             RepoItemInfo _loginpasswordinputInfo;
-            RepoItemInfo _loginemailInfo;
             RepoItemInfo _loginbuttonInfo;
 
             /// <summary>
@@ -1063,8 +969,8 @@ namespace TrendyolTest
             public LoginPageFolder(RepoGenBaseFolder parentFolder) :
                     base("LoginPage", "", parentFolder, 30000, null, false, "75057fdc-53fe-44a0-ac72-159d02765518", "")
             {
+                _loginemailinputInfo = new RepoItemInfo(this, "LoginEmailInput", ".//input[#'login-email']", ".//input[#'login-email']", 30000, null, "6f5e46d8-bfec-40db-8dec-831bd68382a4");
                 _loginpasswordinputInfo = new RepoItemInfo(this, "LoginPasswordInput", ".//input[#'login-password-input']", ".//input[#'login-password-input']", 30000, null, "5636cfae-ee04-4b6d-8568-a3aa9efabb86");
-                _loginemailInfo = new RepoItemInfo(this, "LoginEmail", ".//input[#'login-email']", ".//input[#'login-email']", 30000, null, "6f5e46d8-bfec-40db-8dec-831bd68382a4");
                 _loginbuttonInfo = new RepoItemInfo(this, "LoginButton", ".//form/button", ".//div[#'login-register']//form/button/span[@innertext='Giriş Yap']", 30000, null, "998acbc8-a2bb-490b-b287-ed89a4098891");
             }
 
@@ -1093,6 +999,30 @@ namespace TrendyolTest
             }
 
             /// <summary>
+            /// The LoginEmailInput item.
+            /// </summary>
+            [RepositoryItem("6f5e46d8-bfec-40db-8dec-831bd68382a4")]
+            public virtual Ranorex.InputTag LoginEmailInput
+            {
+                get
+                {
+                    return _loginemailinputInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LoginEmailInput item info.
+            /// </summary>
+            [RepositoryItemInfo("6f5e46d8-bfec-40db-8dec-831bd68382a4")]
+            public virtual RepoItemInfo LoginEmailInputInfo
+            {
+                get
+                {
+                    return _loginemailinputInfo;
+                }
+            }
+
+            /// <summary>
             /// The LoginPasswordInput item.
             /// </summary>
             [RepositoryItem("5636cfae-ee04-4b6d-8568-a3aa9efabb86")]
@@ -1113,30 +1043,6 @@ namespace TrendyolTest
                 get
                 {
                     return _loginpasswordinputInfo;
-                }
-            }
-
-            /// <summary>
-            /// The LoginEmail item.
-            /// </summary>
-            [RepositoryItem("6f5e46d8-bfec-40db-8dec-831bd68382a4")]
-            public virtual Ranorex.InputTag LoginEmail
-            {
-                get
-                {
-                    return _loginemailInfo.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The LoginEmail item info.
-            /// </summary>
-            [RepositoryItemInfo("6f5e46d8-bfec-40db-8dec-831bd68382a4")]
-            public virtual RepoItemInfo LoginEmailInfo
-            {
-                get
-                {
-                    return _loginemailInfo;
                 }
             }
 
@@ -1171,7 +1077,6 @@ namespace TrendyolTest
         [RepositoryFolder("f5c8c8e1-4e7e-4e3f-8aac-e82fd27c022c")]
         public partial class ChromeAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _pane1Info;
 
             /// <summary>
             /// Creates a new Chrome  folder.
@@ -1179,7 +1084,6 @@ namespace TrendyolTest
             public ChromeAppFolder(RepoGenBaseFolder parentFolder) :
                     base("Chrome", "/form", parentFolder, 30000, null, true, "f5c8c8e1-4e7e-4e3f-8aac-e82fd27c022c", "")
             {
-                _pane1Info = new RepoItemInfo(this, "Pane1", "container[@accessiblename='Google Chrome']/container/container[2]/container[1]", "?/?/container[@accessiblename='Google Chrome']/container[@accessiblerole='Pane']/container[2]/container[1]", 30000, null, "b447615b-869c-47fd-8d1e-44cbd91ce23c");
             }
 
             /// <summary>
@@ -1203,30 +1107,6 @@ namespace TrendyolTest
                 get
                 {
                     return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Pane1 item.
-            /// </summary>
-            [RepositoryItem("b447615b-869c-47fd-8d1e-44cbd91ce23c")]
-            public virtual Ranorex.Container Pane1
-            {
-                get
-                {
-                    return _pane1Info.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Pane1 item info.
-            /// </summary>
-            [RepositoryItemInfo("b447615b-869c-47fd-8d1e-44cbd91ce23c")]
-            public virtual RepoItemInfo Pane1Info
-            {
-                get
-                {
-                    return _pane1Info;
                 }
             }
         }

@@ -10,3 +10,16 @@ C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest
 C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\obj\x86\Debug\TrendyolTest.csproj.CopyComplete
 C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\obj\x86\Debug\TrendyolTest.exe
 C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\obj\x86\Debug\TrendyolTest.pdb
+C:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\bin\Debug\TrendyolTest.rxtmg
+C:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\bin\Debug\TrendyolTest.rxtst
+C:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\bin\Debug\TrendyolTest.exe.config
+C:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\bin\Debug\TrendyolTest.xml
+C:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\bin\Debug\TrendyolTest.exe
+C:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\bin\Debug\TrendyolTest.pdb
+C:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\obj\x86\Debug\TrendyolTest.csprojResolveAssemblyReference.cache
+C:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\obj\x86\Debug\TrendyolTest.exe
+C:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\obj\x86\Debug\TrendyolTest.pdb
+C:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\bin\Debug\RepositoryImages\TrendyolTestRepository62222601.rximgres
+C:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\bin\Debug\AddToWishlistTest_DataSource1.csv
+C:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\bin\Debug\AddToCartTest_DataSource.csv

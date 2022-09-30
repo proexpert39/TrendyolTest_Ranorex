@@ -83,6 +83,10 @@ namespace TrendyolTest
             Host.Current.OpenBrowser("https://www.trendyol.com", "chrome", "", false, true, false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(1));
+            repo.trendyol.Self.EnsureVisible();
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

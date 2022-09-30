@@ -8,84 +8,138 @@
 			ref="a8795fe2-6377-423e-b9b7-ada5ccbc62f9"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="0d0df94f-e2ef-4b16-b52f-fdff5de075aa"
+			name="setup">
+			</setup>
 			<testmodule
-			id="0d747fce-e6c9-4e58-91c7-f328b9ce32c9"
-			name="CloseBrowser"
-			ref="528ab128-e5c7-4d0e-acf9-bd225d141d89"
+			id="0d4b49c8-8b2e-4f95-9c6b-b715a32cab4a"
+			name="CheckProductIfExistsInWishlistPage"
+			ref="e3ad91a5-9a88-458d-945d-89e577f77d50"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ProductName"
+					datasourceid="56e4463d-bf95-4a2b-a6d8-0a21d832f2b7"
+					variableid="ad3d84bc-f34d-4c2c-a43f-fb0448914614"
+					variablename="ProductName">
+					</var>
+					<var
+					dataname="ProductName_Cart"
+					datasourceid="56e4463d-bf95-4a2b-a6d8-0a21d832f2b7"
+					variableid="e6b47195-0761-42bf-95f8-e91948cfcc89"
+					variablename="ProductName_Cart">
+					</var>
+					<var
+					dataname="ProductNameWishlistPage"
+					datasourceid="56e4463d-bf95-4a2b-a6d8-0a21d832f2b7"
+					variableid="e0bd456b-2525-4479-99fb-c410ebea2451"
+					variablename="ProductNameWishlistPage">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="0ea8e771-1193-48f7-a481-451ef1d7e614"
+			name="SearchProduct"
+			ref="8e7f3ea2-bde1-48c0-9faa-75625e8a54c4"
 			type="Recording">
 			</testmodule>
 			<testmodule
 			id="17cc37f5-ce00-49c5-b4a9-db346ad19674"
-			name="OpenLoginPage"
+			name="GoToLoginPage"
 			ref="730e824c-ec7e-4221-bcbf-bc5efe4d1a9c"
 			type="Recording">
 			</testmodule>
 			<testcase
+			datasource="AddToWishlistTest_DataSource"
 			id="30075852-d831-4dbb-a2ac-a3d3eab0a01b"
-			name="Case5">
+			name="AddToWishlistTest">
 			</testcase>
-			<testmodule
-			id="3223dea3-9280-44fa-8918-2c696450579b"
-			name="BuyProducts"
-			ref="556cfc3c-9b34-4611-8949-9f94c8806a62"
-			type="Recording">
-			</testmodule>
-			<teardown
-			id="32d0fc43-ad56-4087-9227-48e865142ec5"
-			name="teardown">
-			</teardown>
 			<testcase
 			id="36e3825b-18ab-41ee-ac39-4387a44affc5"
-			name="Case2">
+			name="VerifyMandatoryFieldsExists">
+				<description>
+					<![CDATA[Verify that not filling the mandatory fields and clicking the submit button will lead to validation error.]]>
+				</description>
 			</testcase>
 			<testmodule
 			id="3adcb8cc-6164-42c8-a771-ee734ee7d859"
-			name="OpenRegisterPage"
+			name="GoToRegisterPage"
 			ref="b23aa907-f7be-4af2-96d6-901520759c17"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="RegistrationPage"
+					datasourceid="8323668b-0ff2-4ca2-a7c1-999e1899767d"
+					variableid="8dc1394f-8622-4c57-bf07-2cc3b3b5d5e0"
+					variablename="RegistrationPage">
+					</var>
+				</databinding>
 			</testmodule>
 			<testcase
 			id="3c5d5b4c-3a01-4ad9-840c-bd501a83e4f9"
-			name="Case7">
+			name="LogoutTest">
 			</testcase>
-			<testmodule
-			id="40f6cf83-2d84-467f-9dff-edf7926337cc"
-			name="CloseBrowser"
-			ref="528ab128-e5c7-4d0e-acf9-bd225d141d89"
-			type="Recording">
-			</testmodule>
-			<teardown
-			id="433b8e31-dd75-400a-bf23-4ee78b3e2170"
-			name="teardown">
-			</teardown>
+			<smartfoldernode
+			id="427e3a4b-7b5a-4870-9822-8fa333d4de6f"
+			name="Product1_AddToCart">
+			</smartfoldernode>
 			<testcase
 			id="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
 			name="TrendyolTest"
 			reportlevel="Info;20">
+				<parameters>
+					<param
+					name="isLoggedIn"
+					value="false">
+					</param>
+				</parameters>
 			</testcase>
 			<setup
 			id="50768b94-1b48-48be-a524-f710bc31a53d"
 			name="setup">
 			</setup>
 			<testmodule
-			id="57f73600-2fc5-4220-9c99-e6f41776b19c"
-			name="CloseBrowser"
-			ref="528ab128-e5c7-4d0e-acf9-bd225d141d89"
+			id="57e3e0d1-4268-4daa-8ad9-2b747bc73c5b"
+			name="GoHomePage"
+			ref="e97fea61-2381-47af-a7de-598b8aa61a6e"
 			type="Recording">
 			</testmodule>
-			<teardown
-			id="5f8cd800-5109-4324-b1df-a0d6d5d2d65f"
-			name="teardown">
-			</teardown>
-			<teardown
-			id="653c29a5-dde2-4a17-9dcc-a2ca92b4c806"
-			name="teardown">
-			</teardown>
+			<smartfoldernode
+			id="58d82a3a-44ef-4266-a774-c67622c4b79b"
+			name="Product2_AddToCart">
+			</smartfoldernode>
 			<testmodule
-			id="6e003fd3-8a97-4fc0-b054-5bbc8d96b781"
-			name="CloseBrowser"
-			ref="528ab128-e5c7-4d0e-acf9-bd225d141d89"
+			id="5a970e8f-1857-43b5-84eb-75f684fa775f"
+			name="AddToCart"
+			ref="b26515fe-4cd1-4099-b3c7-e6127a6c7083"
 			type="Recording">
+			</testmodule>
+			<testmodule
+			id="65aa2766-d97f-48c5-88ce-73b6042cb6b7"
+			name="SearchProduct"
+			ref="8e7f3ea2-bde1-48c0-9faa-75625e8a54c4"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="69dae1f8-c931-41e2-837b-47a0e94302ba"
+			name="SearchProduct"
+			ref="8e7f3ea2-bde1-48c0-9faa-75625e8a54c4"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="SearchKeyword"
+					datasourceid="32a3ccd7-7f96-4548-b685-42afbcca5d79"
+					variableid="380126c1-b383-40ae-a755-e0889a9187e4"
+					variablename="SearchKeyword">
+					</var>
+					<var
+					dataname="ProductUrl"
+					datasourceid="c8ffc20b-f242-4a18-906e-d8ffc68c6563"
+					variableid="ca589e3b-8562-435c-9741-89d602273641"
+					variablename="ProductUrl">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="6f753638-69aa-4cc7-8ac2-977be19d7e7b"
@@ -105,37 +159,87 @@
 			</setup>
 			<testcase
 			id="8323668b-0ff2-4ca2-a7c1-999e1899767d"
-			name="Case1">
+			name="VerifySpecifiedFieldsExists">
+				<description>
+					<![CDATA[Verify that all the specified fields are present on the registration page.]]>
+				</description>
+				<parameters>
+					<param
+					name="RegistrationPage"
+					value="https://www.trendyol.com/uyelik">
+					</param>
+				</parameters>
 			</testcase>
 			<testmodule
-			id="8bb2c71e-629f-4c25-b958-effb36dc8427"
-			name="CloseBrowser"
-			ref="528ab128-e5c7-4d0e-acf9-bd225d141d89"
+			id="87a5932d-baa5-4863-9798-19d1c7c7321c"
+			name="SearchProduct"
+			ref="8e7f3ea2-bde1-48c0-9faa-75625e8a54c4"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="SearchKeyword"
+					datasourceid="56e4463d-bf95-4a2b-a6d8-0a21d832f2b7"
+					variableid="380126c1-b383-40ae-a755-e0889a9187e4"
+					variablename="SearchKeyword">
+					</var>
+				</databinding>
+			</testmodule>
+			<testcase
+			id="8ac5078a-d512-485d-94d4-b9f26e884eb2"
+			name="LoginTest">
+				<description>
+					<![CDATA[Verify that user can login]]>
+				</description>
+				<parameters>
+					<param
+					name="InputEmail"
+					value="alperenkumcu@gmail.com">
+					</param>
+					<param
+					name="InputPassword"
+					value="23mSBg9nC&amp;v9nnR">
+					</param>
+				</parameters>
+			</testcase>
+			<testmodule
+			id="927f21fa-653d-4099-9503-b539a92a0cd1"
+			name="GoToWishlistPage"
+			ref="7edaa8a0-43e4-4fd5-a1b2-0d9e866625c1"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="WishlistPageUrl"
+					datasourceid="56e4463d-bf95-4a2b-a6d8-0a21d832f2b7"
+					variableid="06562ce9-d07a-4501-8658-d9e90bd27a05"
+					variablename="WishlistPageUrl">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="9976e6d8-8183-4419-82f7-39a0741d7123"
+			name="GoHomePage"
+			ref="e97fea61-2381-47af-a7de-598b8aa61a6e"
 			type="Recording">
 			</testmodule>
 			<testmodule
-			id="a0f88fc0-8793-4c23-a286-1fa0f2e8c797"
-			name="CloseBrowser"
-			ref="528ab128-e5c7-4d0e-acf9-bd225d141d89"
+			id="9d76230c-aeb7-46c0-8577-394f2c3a9d39"
+			name="AddToCart"
+			ref="b26515fe-4cd1-4099-b3c7-e6127a6c7083"
 			type="Recording">
 			</testmodule>
 			<setup
 			id="a547a904-69b9-4ed7-99ff-f8ac180333e5"
 			name="setup">
 			</setup>
-			<teardown
-			id="b06cb968-059e-46c6-b50a-4d41c5fe1d3b"
-			name="teardown">
-			</teardown>
 			<testmodule
-			id="b7b0dffa-742a-427c-b9ee-f39feb5dd2c4"
-			name="CloseBrowser"
-			ref="528ab128-e5c7-4d0e-acf9-bd225d141d89"
+			id="b63861df-2f51-4714-8fa6-00309637278c"
+			name="GoHomePage"
+			ref="e97fea61-2381-47af-a7de-598b8aa61a6e"
 			type="Recording">
 			</testmodule>
 			<testmodule
 			id="bd549586-be5d-4476-a3d9-80d7c91d4d58"
-			name="BlankFields"
+			name="BlankSpacesOnMandatoryFields"
 			ref="5a01f772-e1a0-498e-acc9-3dde4630dff9"
 			type="Recording">
 			</testmodule>
@@ -169,11 +273,54 @@
 			</setup>
 			<testcase
 			id="c44a623d-24a0-4306-8c26-784d69c1d244"
-			name="Case3">
+			name="BlankSpacesOnMandatoryFieldsTest">
+				<description>
+					<![CDATA[Verify that entering blank spaces on mandatory fields leads to validation error.]]>
+				</description>
 			</testcase>
 			<testcase
+			datasource="AddToCartTest_DataSource"
 			id="c8ffc20b-f242-4a18-906e-d8ffc68c6563"
-			name="Case4">
+			name="AddToCartTest">
+				<parameters>
+					<param
+					name="InputEmail"
+					value="">
+					</param>
+					<param
+					name="InputPassword"
+					value="">
+					</param>
+					<param
+					name="ProductUrl"
+					value="">
+					</param>
+					<param
+					name="NewParameter"
+					value="">
+					</param>
+				</parameters>
+				<conditiongroup
+				comparison="AND"
+				enabled="False">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="Parameter"
+								dataname="isLoggedIn"
+								id="473d3b13-88ac-4a30-9b5c-bd6063ace7f8">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="true">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</testcase>
 			<setup
 			id="caba97fa-89e0-4c11-a2f8-06d362077c57"
@@ -188,12 +335,40 @@
 			name="Login"
 			ref="da7341ca-6f1c-4ead-88ac-c34a680560cd"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="InputPassword"
+					datasourceid="8ac5078a-d512-485d-94d4-b9f26e884eb2"
+					variableid="dd158856-b362-4024-997b-e58850145375"
+					variablename="InputPassword">
+					</var>
+					<var
+					dataname="InputEmail"
+					datasourceid="8ac5078a-d512-485d-94d4-b9f26e884eb2"
+					variableid="3e12afe3-7283-47a2-8aa1-4bffa4c6d145"
+					variablename="InputEmail">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="d44c0621-dc0a-411a-84f5-c21a22315d14"
-			name="Wishlist"
+			name="AddToWishlist"
 			ref="4d691ce2-d48c-4c18-9e93-d38d0a4917f0"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="ProductName"
+					datasourceid="56e4463d-bf95-4a2b-a6d8-0a21d832f2b7"
+					variableid="13f2fe6f-5eaf-4e3c-b188-dcf53d623ca1"
+					variablename="ProductName">
+					</var>
+					<var
+					dataname="WishlistItemToBeAdded"
+					datasourceid="56e4463d-bf95-4a2b-a6d8-0a21d832f2b7"
+					variableid="29c84ac9-4c44-4e42-9634-8cab71679f83"
+					variablename="WishlistItemToBeAdded">
+					</var>
+				</databinding>
 			</testmodule>
 			<setup
 			id="d4f7efa0-40dc-415f-9542-28cd401b21c0"
@@ -201,42 +376,48 @@
 			</setup>
 			<testmodule
 			id="d7fa16f1-97ac-4972-b244-ac69d6ea72ad"
-			name="OpenRegisterPage"
+			name="GoToRegisterPage"
 			ref="b23aa907-f7be-4af2-96d6-901520759c17"
 			type="Recording">
 			</testmodule>
 			<testmodule
-			id="e5de5a0b-45ce-46cc-be04-dbc30e7fcd2e"
-			name="OpenProductPage"
-			ref="103a2960-9d81-4de0-b315-ae9ed88ad8ec"
+			id="d910cee5-eedf-41d8-88c3-d212978e6e2f"
+			name="OpenBrowser"
+			ref="707ab480-8839-4b5e-9a59-39309dfd2ae0"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="dd499d3c-2959-45b2-95da-0d8b91786f68"
+			name="ProceedToCheckout"
+			ref="20e99209-5a6c-4426-9011-5db57b59c61d"
 			type="Recording">
 			</testmodule>
 			<testmodule
 			id="e865c735-b427-4ca6-9392-3a3d12fae935"
-			name="OpenRegisterPage"
+			name="GoToRegisterPage"
 			ref="b23aa907-f7be-4af2-96d6-901520759c17"
 			type="Recording">
 			</testmodule>
 			<testmodule
-			id="eebfad56-9222-43fe-913c-a0fc88549101"
-			name="AddToCart"
-			ref="b26515fe-4cd1-4099-b3c7-e6127a6c7083"
+			id="ea255235-61fa-47d6-8abd-1bf0a8ed972a"
+			name="GoToCartPage"
+			ref="1c82fb79-0c39-4d27-8f1b-5bc8e0558003"
 			type="Recording">
 			</testmodule>
 			<testmodule
 			id="f05708b4-95c8-460a-9215-cd09c0e2e57d"
-			name="MandatoryFields"
+			name="VerifyMandatoryFieldsExists"
 			ref="6b75094d-ce25-4cde-b9db-b40c572b2d83"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="f2d8fcdb-61a0-4f45-90f8-760e7081dc69"
+			name="setup">
+			</setup>
 			<testcase
 			id="fa43bbff-80f1-4b77-b329-b74c1f74551d"
-			name="Case6">
+			name="BuyProductsTest">
 			</testcase>
-			<teardown
-			id="fc990b8e-7eaf-484d-965f-62b720b9b57d"
-			name="teardown">
-			</teardown>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -247,147 +428,167 @@
 				name="TrendyolTest">
 					<testcase
 					id="8323668b-0ff2-4ca2-a7c1-999e1899767d"
-					name="Case1">
+					name="VerifySpecifiedFieldsExists">
 						<setup
 						id="c09524d4-f4fa-44ae-b4db-aca4fed009f6"
 						name="setup">
 							<testmodule
+							id="d910cee5-eedf-41d8-88c3-d212978e6e2f"
+							name="OpenBrowser">
+							</testmodule>
+							<testmodule
 							id="3adcb8cc-6164-42c8-a771-ee734ee7d859"
-							name="OpenRegisterPage">
+							name="GoToRegisterPage">
 							</testmodule>
 						</setup>
 						<testmodule
 						id="6f753638-69aa-4cc7-8ac2-977be19d7e7b"
 						name="VerifyFields">
 						</testmodule>
-						<teardown
-						id="433b8e31-dd75-400a-bf23-4ee78b3e2170"
-						name="teardown">
-							<testmodule
-							id="6e003fd3-8a97-4fc0-b054-5bbc8d96b781"
-							name="CloseBrowser">
-							</testmodule>
-						</teardown>
 					</testcase>
 					<testcase
 					id="36e3825b-18ab-41ee-ac39-4387a44affc5"
-					name="Case2">
+					name="VerifyMandatoryFieldsExists">
 						<setup
 						id="d4f7efa0-40dc-415f-9542-28cd401b21c0"
 						name="setup">
 							<testmodule
 							id="e865c735-b427-4ca6-9392-3a3d12fae935"
-							name="OpenRegisterPage">
+							name="GoToRegisterPage">
 							</testmodule>
 						</setup>
 						<testmodule
 						id="f05708b4-95c8-460a-9215-cd09c0e2e57d"
-						name="MandatoryFields">
+						name="VerifyMandatoryFieldsExists">
 						</testmodule>
-						<teardown
-						id="5f8cd800-5109-4324-b1df-a0d6d5d2d65f"
-						name="teardown">
-							<testmodule
-							id="b7b0dffa-742a-427c-b9ee-f39feb5dd2c4"
-							name="CloseBrowser">
-							</testmodule>
-						</teardown>
 					</testcase>
 					<testcase
 					id="c44a623d-24a0-4306-8c26-784d69c1d244"
-					name="Case3">
+					name="BlankSpacesOnMandatoryFieldsTest">
 						<setup
 						id="a547a904-69b9-4ed7-99ff-f8ac180333e5"
 						name="setup">
 							<testmodule
 							id="d7fa16f1-97ac-4972-b244-ac69d6ea72ad"
-							name="OpenRegisterPage">
+							name="GoToRegisterPage">
 							</testmodule>
 						</setup>
 						<testmodule
 						id="bd549586-be5d-4476-a3d9-80d7c91d4d58"
-						name="BlankFields">
+						name="BlankSpacesOnMandatoryFields">
 						</testmodule>
-						<teardown
-						id="32d0fc43-ad56-4087-9227-48e865142ec5"
-						name="teardown">
+					</testcase>
+					<testcase
+					id="8ac5078a-d512-485d-94d4-b9f26e884eb2"
+					name="LoginTest">
+						<setup
+						id="f2d8fcdb-61a0-4f45-90f8-760e7081dc69"
+						name="setup">
 							<testmodule
-							id="8bb2c71e-629f-4c25-b958-effb36dc8427"
-							name="CloseBrowser">
+							id="17cc37f5-ce00-49c5-b4a9-db346ad19674"
+							name="GoToLoginPage">
 							</testmodule>
-						</teardown>
+						</setup>
+						<testmodule
+						id="cdd7e128-3b0f-4213-9327-405b544eb130"
+						name="Login">
+						</testmodule>
 					</testcase>
 					<testcase
 					id="c8ffc20b-f242-4a18-906e-d8ffc68c6563"
-					name="Case4">
+					name="AddToCartTest">
 						<setup
 						id="caba97fa-89e0-4c11-a2f8-06d362077c57"
 						name="setup">
 							<testmodule
-							id="17cc37f5-ce00-49c5-b4a9-db346ad19674"
-							name="OpenLoginPage">
-							</testmodule>
-							<testmodule
-							id="cdd7e128-3b0f-4213-9327-405b544eb130"
-							name="Login">
+							id="9976e6d8-8183-4419-82f7-39a0741d7123"
+							name="GoHomePage">
 							</testmodule>
 						</setup>
 						<testmodule
-						id="eebfad56-9222-43fe-913c-a0fc88549101"
-						name="AddToCart">
+						id="69dae1f8-c931-41e2-837b-47a0e94302ba"
+						name="SearchProduct">
 						</testmodule>
-						<teardown
-						id="fc990b8e-7eaf-484d-965f-62b720b9b57d"
-						name="teardown">
-							<testmodule
-							id="57f73600-2fc5-4220-9c99-e6f41776b19c"
-							name="CloseBrowser">
-							</testmodule>
-						</teardown>
 					</testcase>
 					<testcase
 					id="30075852-d831-4dbb-a2ac-a3d3eab0a01b"
-					name="Case5">
+					name="AddToWishlistTest">
 						<setup
 						id="50768b94-1b48-48be-a524-f710bc31a53d"
 						name="setup">
 							<testmodule
-							id="e5de5a0b-45ce-46cc-be04-dbc30e7fcd2e"
-							name="OpenProductPage">
+							id="57e3e0d1-4268-4daa-8ad9-2b747bc73c5b"
+							name="GoHomePage">
 							</testmodule>
 						</setup>
 						<testmodule
+						id="87a5932d-baa5-4863-9798-19d1c7c7321c"
+						name="SearchProduct">
+						</testmodule>
+						<testmodule
 						id="d44c0621-dc0a-411a-84f5-c21a22315d14"
-						name="Wishlist">
+						name="AddToWishlist">
+						</testmodule>
+						<testmodule
+						id="927f21fa-653d-4099-9503-b539a92a0cd1"
+						name="GoToWishlistPage">
+						</testmodule>
+						<testmodule
+						id="0d4b49c8-8b2e-4f95-9c6b-b715a32cab4a"
+						name="CheckProductIfExistsInWishlistPage">
 						</testmodule>
 						<teardown
 						id="cd4dbc86-92d0-4c2c-bfdc-07600b41ede0"
 						name="teardown">
-							<testmodule
-							id="0d747fce-e6c9-4e58-91c7-f328b9ce32c9"
-							name="CloseBrowser">
-							</testmodule>
 						</teardown>
 					</testcase>
 					<testcase
 					id="fa43bbff-80f1-4b77-b329-b74c1f74551d"
-					name="Case6">
-						<testmodule
-						id="3223dea3-9280-44fa-8918-2c696450579b"
-						name="BuyProducts">
-						</testmodule>
-						<teardown
-						id="b06cb968-059e-46c6-b50a-4d41c5fe1d3b"
-						name="teardown">
+					name="BuyProductsTest">
+						<setup
+						id="0d0df94f-e2ef-4b16-b52f-fdff5de075aa"
+						name="setup">
 							<testmodule
-							id="a0f88fc0-8793-4c23-a286-1fa0f2e8c797"
-							name="CloseBrowser">
+							id="b63861df-2f51-4714-8fa6-00309637278c"
+							name="GoHomePage">
 							</testmodule>
-						</teardown>
+						</setup>
+						<smartfoldernode
+						id="427e3a4b-7b5a-4870-9822-8fa333d4de6f"
+						name="Product1_AddToCart">
+							<testmodule
+							id="65aa2766-d97f-48c5-88ce-73b6042cb6b7"
+							name="SearchProduct">
+							</testmodule>
+							<testmodule
+							id="9d76230c-aeb7-46c0-8577-394f2c3a9d39"
+							name="AddToCart">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="58d82a3a-44ef-4266-a774-c67622c4b79b"
+						name="Product2_AddToCart">
+							<testmodule
+							id="0ea8e771-1193-48f7-a481-451ef1d7e614"
+							name="SearchProduct">
+							</testmodule>
+							<testmodule
+							id="5a970e8f-1857-43b5-84eb-75f684fa775f"
+							name="AddToCart">
+							</testmodule>
+						</smartfoldernode>
+						<testmodule
+						id="ea255235-61fa-47d6-8abd-1bf0a8ed972a"
+						name="GoToCartPage">
+						</testmodule>
+						<testmodule
+						id="dd499d3c-2959-45b2-95da-0d8b91786f68"
+						name="ProceedToCheckout">
+						</testmodule>
 					</testcase>
 					<testcase
 					id="3c5d5b4c-3a01-4ad9-840c-bd501a83e4f9"
-					name="Case7">
+					name="LogoutTest">
 						<setup
 						id="79ae64f9-9d9f-40e7-b65f-b7c29e0b3b47"
 						name="setup">
@@ -400,20 +601,103 @@
 						id="08a0853d-2472-4822-b6fa-c65473705928"
 						name="Logout">
 						</testmodule>
-						<teardown
-						id="653c29a5-dde2-4a17-9dcc-a2ca92b4c806"
-						name="teardown">
-							<testmodule
-							id="40f6cf83-2d84-467f-9dff-edf7926337cc"
-							name="CloseBrowser">
-							</testmodule>
-						</teardown>
 					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
 	</testsuiteentryhierarchy>
 	<datasources>
+		<DataSource
+		id="32a3ccd7-7f96-4548-b685-42afbcca5d79"
+		includefile="Checked"
+		lastknownrowcount="1"
+		name="AddToCartTest_DataSource"
+		type="Ranorex.Core.Data.CsvDataConnector"
+		withheaders="True">
+			<lastknowncolumns>
+				<column>
+					SearchKeyword
+				</column>
+				<column>
+					ProductName
+				</column>
+				<column>
+					CartProductsCount
+				</column>
+				<column>
+					CardProductsCountAfter
+				</column>
+				<column>
+					CardProductsCountBefore
+				</column>
+				<column>
+					ProductName_Cart
+				</column>
+				<column>
+					CartUrl
+				</column>
+				<column>
+					BodyInnerText
+				</column>
+				<column>
+					ProductNameWishlist
+				</column>
+				<column>
+					WishlistItemAdded
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<file>
+				AddToCartTest_DataSource.csv
+			</file>
+		</DataSource>
+		<DataSource
+		id="56e4463d-bf95-4a2b-a6d8-0a21d832f2b7"
+		includefile="Checked"
+		lastknownrowcount="1"
+		name="AddToWishlistTest_DataSource"
+		type="Ranorex.Core.Data.CsvDataConnector"
+		withheaders="True">
+			<lastknowncolumns>
+				<column>
+					SearchKeyword
+				</column>
+				<column>
+					ProductName
+				</column>
+				<column>
+					WishlistItemToBeAdded
+				</column>
+				<column>
+					WishlistPageUrl
+				</column>
+				<column>
+					ProductName_Cart
+				</column>
+				<column>
+					ProductNameWishlistPage
+				</column>
+				<column>
+					NewColumn
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<file>
+				AddToWishlistTest_DataSource1.csv
+			</file>
+		</DataSource>
+		<DataSource
+		id="8eeda06c-baa7-4b5d-8b30-05bf28ac71f2"
+		lastknownrowcount="0"
+		name="NewConnector"
+		type="Ranorex.Core.Data.SimpleDataConnector">
+			<lastknowncolumns>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
 	</datasources>
 	<testconfigurations
 	default="TestRun">
@@ -435,13 +719,13 @@
 			id="8323668b-0ff2-4ca2-a7c1-999e1899767d">
 			</testcontainer>
 			<testcontainer
+			id="8ac5078a-d512-485d-94d4-b9f26e884eb2">
+			</testcontainer>
+			<testcontainer
 			id="c44a623d-24a0-4306-8c26-784d69c1d244">
 			</testcontainer>
 			<testcontainer
 			id="c8ffc20b-f242-4a18-906e-d8ffc68c6563">
-			</testcontainer>
-			<testcontainer
-			id="fa43bbff-80f1-4b77-b329-b74c1f74551d">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

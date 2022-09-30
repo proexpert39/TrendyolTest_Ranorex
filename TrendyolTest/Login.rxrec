@@ -23,38 +23,99 @@ mode="Global">
 	namespace="TrendyolTest">
 	</codegen>
 	<variables>
+		<var
+		id="3e12afe3-7283-47a2-8aa1-4bffa4c6d145"
+		name="InputEmail">
+			alperenkumcu@gmail.com
+		</var>
+		<var
+		id="dd158856-b362-4024-997b-e58850145375"
+		name="InputPassword">
+			23mSBg9nC&amp;v9nnR
+		</var>
 	</variables>
 	<recorditems>
-		<openwebsiterecorditem
-		args=""
-		browser="Chrome"
-		clearcache="False"
-		clearcodecache="False"
-		clearcookies="False"
-		clearserviceworker="False"
+		<separatoritem
 		enabled="True"
-		incognito="False"
-		instrument="True"
-		killexisting="False"
-		maximized="True"
 		optional="False">
+			<comment>
+				Go to Login Page
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<invokeactionrecorditem
+		action="Navigate"
+		enabled="True"
+		optional="False"
+		searchpropertyid="3bdbb7a7-7e70-4507-ac91-c6387669d72d">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<url>
-				https://www.trendyol.com/giris
-			</url>
-		</openwebsiterecorditem>
+			<info
+			id="20f41ba7-5a28-40ae-a06a-52591aa57649"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="f223f66a-ec47-4383-b9f8-4f57135a4471">
+				<argument
+				argname="url"
+				id="fcd67011-02eb-4af3-a295-402e2d3399cd">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						https://www.trendyol.com/giris
+					</argvalue>
+				</argument>
+			</arguments>
+		</invokeactionrecorditem>
+		<invokeactionrecorditem
+		action="WaitForDocumentLoaded"
+		enabled="True"
+		optional="False"
+		searchpropertyid="dfd16a54-06c5-41e1-bb3f-87b411082c53">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="20f41ba7-5a28-40ae-a06a-52591aa57649"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="c5691a1c-f13e-4717-acc1-d8cdadd2f24b">
+			</arguments>
+		</invokeactionrecorditem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				Email input
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
 		<mouseitem
-		action="Click"
+		action="Move"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="0329a7b8-e650-45bb-bfeb-37dcf2aac783"
+		searchpropertyid="7de71778-677b-4243-b1fe-49d52f3d1e4f"
 		sx="0"
 		sy="0"
 		warnoutofbounds="False">
@@ -66,17 +127,61 @@ mode="Global">
 			id="6f5e46d8-bfec-40db-8dec-831bd68382a4"
 			sourcename="RepositoryEditor">
 				<path>
-					/element/dom[@domain='www.trendyol.com']//input[#'login-email']
+					/dom[@domain='www.trendyol.com']//input[#'login-email']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
 		</mouseitem>
-		<setvaluerecorditem
-		attrname="Value"
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="aa097a94-4a01-4aff-88fd-b063e9abb036"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6f5e46d8-bfec-40db-8dec-831bd68382a4"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//input[#'login-email']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<invokeactionrecorditem
+		action="PerformClick"
 		enabled="True"
 		optional="False"
-		searchpropertyid="f031dd2f-8e33-400b-a018-5218ad008da9">
+		searchpropertyid="dcd3fe02-874e-4712-83d9-8a5d9f2565cd">
 			<comment>
 			</comment>
 			<bindings>
@@ -84,145 +189,119 @@ mode="Global">
 			<info
 			id="6f5e46d8-bfec-40db-8dec-831bd68382a4"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, inputtag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="True"
-				index="1"
-				prefcap="inputtag"
-				rect="741,525,416,55"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						q-input
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="id"
-					type="System.String">
-						login-email
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						q-input
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						input
-					</attribute>
-					<attribute
-					name="tagvalue"
-					type="System.String">
-						alperenkumcu@gmail.com
-					</attribute>
-					<attribute
-					name="autocomplete"
-					type="System.String">
-						username
-					</attribute>
-					<attribute
-					name="autofocus"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="checked"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="disabled"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="height"
-					type="System.String">
-						0
-					</attribute>
-					<attribute
-					name="list"
-					type="System.String">
-						email-list
-					</attribute>
-					<attribute
-					name="multiple"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="name"
-					type="System.String">
-						login email
-					</attribute>
-					<attribute
-					name="required"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="size"
-					type="System.String">
-						20
-					</attribute>
-					<attribute
-					name="type"
-					type="System.String">
-						text
-					</attribute>
-					<attribute
-					name="value"
-					type="System.String">
-						alperenkumcu@gmail.com
-					</attribute>
-					<attribute
-					name="width"
-					type="System.String">
-						0
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="data-testid"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
 				<path>
 					/dom[@domain='www.trendyol.com']//input[#'login-email']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
-			<AttributeValue>
-				alperenkumcu@gmail.com
-			</AttributeValue>
-		</setvaluerecorditem>
+			<arguments
+			id="8a7bcd10-5bc4-4571-afbe-c8b72ccadb00">
+			</arguments>
+		</invokeactionrecorditem>
+		<keysequenceitem
+		KeySequence=""
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="0633ca34-1819-4670-85d6-6d5c4d65c1b3">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="InputEmail">
+				</binding>
+			</bindings>
+			<info
+			id="6f5e46d8-bfec-40db-8dec-831bd68382a4"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//input[#'login-email']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="fa8c4853-09f6-434f-bb73-66849903e219">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="InputEmail">
+				</binding>
+			</bindings>
+			<info
+			id="6f5e46d8-bfec-40db-8dec-831bd68382a4"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//input[#'login-email']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				Value
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				Password input
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<mouseitem
+		action="Move"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="03b5a40c-7e58-4fee-8df7-db74f1a0e77c"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5636cfae-ee04-4b6d-8568-a3aa9efabb86"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//input[#'login-password-input']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -363,11 +442,20 @@ mode="Global">
 				</robustPath>
 			</info>
 		</mouseitem>
-		<setvaluerecorditem
-		attrname="Value"
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<invokeactionrecorditem
+		action="PerformClick"
 		enabled="True"
 		optional="False"
-		searchpropertyid="fba69516-89d8-407c-805e-a0075dc20342">
+		searchpropertyid="530806bd-d22d-4a81-abb4-c802b094220e">
 			<comment>
 			</comment>
 			<bindings>
@@ -375,46 +463,84 @@ mode="Global">
 			<info
 			id="5636cfae-ee04-4b6d-8568-a3aa9efabb86"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, inputtag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="1"
-				prefcap="inputtag"
-				rect="0,0,0,0"
-				role="unknown"
-				snapElem=""
-				valid="False"
-				visible="False">
-					<attribute
-					name="tagname"
-					type="System.String">
-						input
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="data-testid"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
 				<path>
 					/dom[@domain='www.trendyol.com']//input[#'login-password-input']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
-			<AttributeValue>
-				23mSBg9nC&amp;v9nnR
-			</AttributeValue>
-		</setvaluerecorditem>
+			<arguments
+			id="d644ebca-3ad2-4113-a194-c65faad1c285">
+			</arguments>
+		</invokeactionrecorditem>
+		<keysequenceitem
+		KeySequence=""
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="01ca9e44-0e5e-4439-8180-5c358d1171d7">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="InputPassword">
+				</binding>
+			</bindings>
+			<info
+			id="5636cfae-ee04-4b6d-8568-a3aa9efabb86"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//input[#'login-password-input']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="c9c8a005-021d-4b69-8e19-688f86bfb7be">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="InputPassword">
+				</binding>
+			</bindings>
+			<info
+			id="5636cfae-ee04-4b6d-8568-a3aa9efabb86"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//input[#'login-password-input']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				Value
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				Click Login Button
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
 		<mouseitem
 		action="Move"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -436,11 +562,20 @@ mode="Global">
 				</robustPath>
 			</info>
 		</mouseitem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -462,8 +597,30 @@ mode="Global">
 				</robustPath>
 			</info>
 		</mouseitem>
+		<invokeactionrecorditem
+		action="PerformClick"
+		enabled="True"
+		optional="False"
+		searchpropertyid="8f178060-3013-47e6-b21b-7fa53488c224">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="998acbc8-a2bb-490b-b287-ed89a4098891"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//form/button
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="8a0521cf-4bcb-432c-8714-31f6bdae0019">
+			</arguments>
+		</invokeactionrecorditem>
 		<explicitdelayitem
-		duration="2000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -471,8 +628,17 @@ mode="Global">
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				Validate if logged in
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
 		<validationitem
-		action="AttributeEqual"
+		action="Exists"
 		duration="100ms"
 		enabled="True"
 		optional="False"
@@ -482,7 +648,37 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="369d8fde-4a96-4044-8a94-e0cc4df031c1"
+			id="7c14b9ca-221d-4a87-8076-2e1f24a83769"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//p[text()~'Hesabım']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Hesabım
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="ContainsImage"
+		codegenpropertyname="MyAccountButton_MyAccountButtonScreenshot"
+		duration="100ms"
+		enabled="True"
+		imagerect="0,0,54,18"
+		optional="True"
+		screenshotguid="5922e6a8-f452-4613-ae43-0d40fd4da345"
+		screenshotname="MyAccountButtonScreenshot"
+		searchpropertyid="4b0d42f2-9628-4e7b-be57-c98e5805f573">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7c14b9ca-221d-4a87-8076-2e1f24a83769"
 			sourcename="ElementTree">
 				<element
 				capabilities="webelement, ptag"
@@ -492,7 +688,7 @@ mode="Global">
 				hasfocus="False"
 				index="1"
 				prefcap="ptag"
-				rect="1343,145,67,22"
+				rect="1267,117,54,18"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -535,10 +731,10 @@ mode="Global">
 				</robustPath>
 			</info>
 			<helperscreenshot
-			guid="e7aa5497-b9ad-40e2-90bc-7665d4cc5fc8">
-				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+			guid="e79d88ce-f90e-4e57-a9a5-fc38bbeb36b3">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
 YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABGAGsDASIA
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA8AFoDASIA
 AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
 AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
 ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
@@ -547,27 +743,21 @@ AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
 BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
 U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
 uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
-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
+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
 			</helperscreenshot>
 			<matchname>
-				InnerText
 			</matchname>
 			<matchvalue>
-				Hesabım
 			</matchvalue>
 		</validationitem>
 	</recorditems>
