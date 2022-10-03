@@ -23,53 +23,46 @@ mode="Global">
 	namespace="TrendyolTest">
 	</codegen>
 	<variables>
-		<var
-		id="6b022691-510c-4429-90d1-e2adb64fa641"
-		name="CartUrl">
-			https://www.trendyol.com/sepet
-		</var>
-		<var
-		id="93e6ee0f-78d0-4a01-b1de-277280783197"
-		name="ProductName_Cart">
-		</var>
-		<var
-		id="8e6eb13d-1b5e-4f51-bf94-22b27ea4c1ad"
-		name="ProductName">
-			iphone 11
-		</var>
 	</variables>
 	<recorditems>
 		<invokeactionrecorditem
-		action="Navigate"
+		action="Focus"
 		enabled="True"
 		optional="False"
-		searchpropertyid="9ee8af9b-fc2a-404a-832e-8e9824ba6563">
+		searchpropertyid="3315a48b-6bcc-433e-9fb2-d326130247d7">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="20f41ba7-5a28-40ae-a06a-52591aa57649"
-			sourcename="ItemRecorderEditor">
+			id="30140022-9b65-4374-84e9-c4f939a146bc"
+			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='www.trendyol.com']
+					/dom[@domain='www.trendyol.com']//p[@innertext='Sepetim']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<arguments
-			id="0c80eec7-9d1e-4313-9687-1e27562f8d55">
-				<argument
-				argname="url"
-				id="b61f752c-8259-4434-9b72-8d087d62f5db"
-				variable="CartUrl">
-					<argvaluetype>
-						System.String
-					</argvaluetype>
-					<argvalue>
-						https://www.trendyol.com/sepet
-					</argvalue>
-				</argument>
+			id="d21bcf06-b4db-46bc-a659-ac4b6ee56c8f">
+			</arguments>
+		</invokeactionrecorditem>
+		<invokeactionrecorditem
+		action="PerformClick"
+		enabled="True"
+		optional="False"
+		searchpropertyid="dc64ee76-873b-473c-bc4b-92c15781ecc1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="30140022-9b65-4374-84e9-c4f939a146bc"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//p[@innertext='Sepetim']
+				</path>
+			</info>
+			<arguments
+			id="97275a62-20c6-46de-bda4-60e5dfd60d9a">
 			</arguments>
 		</invokeactionrecorditem>
 		<invokeactionrecorditem
@@ -87,8 +80,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<arguments
 			id="75a92a6b-19ea-44cd-81d3-aa2a8025c7e2">

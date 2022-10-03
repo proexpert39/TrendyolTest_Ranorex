@@ -52,9 +52,7 @@ table td {
     margin: 0;
 }
 
-.module-report table td
-/* needed to fix word-wrap error in all browsers */
-{
+.module-report table td /* needed to fix word-wrap error in all browsers */ {
     max-width: 0px;
 }
 
@@ -171,7 +169,10 @@ label {
     margin-right: 0em;
     padding: 2px 0;
 }
-
+/* input {
+            margin-right: 10px;
+            font-size: 11px;
+        }*/
 tr.Debug {
     color: gray;
 }
@@ -240,7 +241,7 @@ tr.Success {
 }
 
 .video-button a, .jira-button a {
-    text-decoration: none;
+	text-decoration: none;
     font-weight: normal;
 }
 
@@ -253,16 +254,16 @@ tr.Success {
     font-size: 12px;
 }
 
+/*h3.module-title a span.ui-status-icon {
+        }*/
 .ui-testcase-icon {
     background-position: -144px 0px;
     width: 20px;
     height: 20px;
     margin-top: -2px;
 }
-
 /*.ui-module-icon {
         }*/
-
 .ui-module-icon.Recording {
     background-position: -164px -1px;
 }
@@ -306,14 +307,14 @@ tr.Success {
 
 .ui-module-icon.video {
     background-position: -636px -1px;
-    width: 16px;
-    height: 16px;
+	width: 16px;
+	height: 16px;
 }
 
 .ui-module-icon.jira {
     background-position: -652px -1px;
-    width: 16px;
-    height: 16px;
+	width: 16px;
+	height: 16px;
 }
 
 .ui-icon.modulegroup {
@@ -340,9 +341,7 @@ tr.Success {
     margin: 0px 0px 0px 0px;
     padding: 15px 5px 15px 5px;
 }
-
 /* customization */
-
 .ui-treeList {
     border: 0;
     margin: 0;
@@ -355,14 +354,22 @@ tr.Success {
     position: relative;
 }
 
+.ui-treeList li ul {
+    /* margin-bottom: 20px; */
+}
+
 .ui-treeList li ul li {
     padding-left: 0;
 }
-
+/*.ui-treeList li:first-letter {margin:5px 0px 0px 25px;}*/
+/*.ui-treeList li.ui-treeList-item, .ui-treeList li.ui-state-active, .ui-treeList li.ui-state-hover {
+        }*/
 .ui-treeList li.ui-treeList-item ul, .ui-treeList li.ui-state-active ul {
     padding: 0;
 }
 
+/*.ui-treeList li.ui-state-hover {
+        }*/
 #treeList em {
     display: inline;
     padding: 0;
@@ -417,7 +424,7 @@ tr.Success {
     font-size: 14px;
 }
 
-.ui-treeList li.test-case>h2 {
+.ui-treeList li.test-case > h2 {
     background-color: #e3f1ff;
 }
 
@@ -459,18 +466,51 @@ tr.Success {
 }
 
 /* define font sizes for headers of individual folders */
-
-.displayname.smart-folder.runiteration, .displayname.smart-folder.dataiteration, .displayname.test-case.runiteration, .displayname.test-case.dataiteration, .displayname.iteration-container.testcase.runiteration, .displayname.iteration-container.testmodule.dataiteration, .displayname.entry-container.testcase.runiteration, .displayname.entry-container.testmodule.dataiteration {
+.displayname.smart-folder.runiteration,
+.displayname.smart-folder.dataiteration,
+.displayname.test-case.runiteration,
+.displayname.test-case.dataiteration,
+.displayname.iteration-container.testcase.runiteration,
+.displayname.iteration-container.testmodule.dataiteration,
+.displayname.entry-container.testcase.runiteration,
+.displayname.entry-container.testmodule.dataiteration {
     font-size: 13px;
 }
 
-.displayname.smart-folder.execute, .displayname.test-case.execute, .displayname.iteration-container.smartfolder.execute, .displayname.entry-container.smartfolder.execute {
+.displayname.smart-folder.execute,
+.displayname.test-case.execute,
+.displayname.iteration-container.smartfolder.execute,
+.displayname.entry-container.smartfolder.execute {
     font-size: 14px;
 }
 
-.displayname.smart-folder.execute, .displayname.smart-folder.runiteration, .displayname.smart-folder.dataiteration, .displayname.test-case.execute, .displayname.test-case.runiteration, .displayname.test-case.dataiteration, .displayname.iteration-container.smartfolder.execute, .displayname.iteration-container.testcase.runiteration, .displayname.iteration-container.testmodule.dataiteration, .displayname.entry-container.smartfolder.execute, .displayname.entry-container.testcase.runiteration, .displayname.entry-container.testmodule.dataiteration {}
+.displayname.smart-folder.execute,
+.displayname.smart-folder.runiteration,
+.displayname.smart-folder.dataiteration,
+.displayname.test-case.execute,
+.displayname.test-case.runiteration,
+.displayname.test-case.dataiteration,
+.displayname.iteration-container.smartfolder.execute,
+.displayname.iteration-container.testcase.runiteration,
+.displayname.iteration-container.testmodule.dataiteration,
+.displayname.entry-container.smartfolder.execute,
+.displayname.entry-container.testcase.runiteration,
+.displayname.entry-container.testmodule.dataiteration {
+}
 
-.iterationinfo.smart-folder.execute, .iterationinfo.smart-folder.runiteration, .iterationinfo.smart-folder.dataiteration, .iterationinfo.test-case.execute, .iterationinfo.test-case.runiteration, .iterationinfo.test-case.dataiteration, .iterationinfo.iteration-container.smartfolder.execute, .iterationinfo.iteration-container.testcase.runiteration, .iterationinfo.iteration-container.testmodule.dataiteration, .iterationinfo.entry-container.smartfolder.execute, .iterationinfo.entry-container.testcase.runiteration, .iterationinfo.entry-container.testmodule.dataiteration, .iterationcountinfo, .iterationruninfo, .iterationinfo {
+.iterationinfo.smart-folder.execute,
+.iterationinfo.smart-folder.runiteration,
+.iterationinfo.smart-folder.dataiteration,
+.iterationinfo.test-case.execute,
+.iterationinfo.test-case.runiteration,
+.iterationinfo.test-case.dataiteration,
+.iterationinfo.iteration-container.smartfolder.execute,
+.iterationinfo.iteration-container.testcase.runiteration,
+.iterationinfo.iteration-container.testmodule.dataiteration,
+.iterationinfo.entry-container.smartfolder.execute,
+.iterationinfo.entry-container.testcase.runiteration,
+.iterationinfo.entry-container.testmodule.dataiteration,
+.iterationcountinfo, .iterationruninfo, .iterationinfo {
     font-size: 12px;
     color: #999;
     font-weight: normal;
@@ -481,53 +521,56 @@ strong.iterationinfo, strong.iterationcountinfo, strong.iterationruninfo {
 }
 
 /*xsl example "ui-icon {@type} @iteration-exectype} | {@activity-exectype}"*/
-
-.ui-icon.smart-folder.execute, .ui-icon.entry-container.smartfolder.execute {
-    /*20x20*/
+.ui-icon.smart-folder.execute,
+.ui-icon.entry-container.smartfolder.execute { /*20x20*/
     background-position: -287px -1px;
     height: 20px;
     width: 20px;
 }
 
-.ui-icon.test-case.execute, .ui-icon.entry-container.testcase.execute {
-    /*20x20*/
+.ui-icon.test-case.execute,
+.ui-icon.entry-container.testcase.execute { /*20x20*/
     background-position: -307px -1px;
     height: 20px;
     width: 20px;
 }
 
-.ui-icon.test-module.execute, .ui-icon.entry-container.testmodule.execute {
-    /*20x20*/
+.ui-icon.test-module.execute,
+.ui-icon.entry-container.testmodule.execute { /*20x20*/
     background-position: -327px -1px;
     height: 20px;
     width: 20px;
 }
 
 /*xsl example "ui-icon {@type} {@activity-exectype}"*/
-
-.ui-icon.smart-folder.runiteration, .ui-icon.smart-folder.dataiteration, .ui-icon.entry-container.smartfolder.runiteration, .ui-icon.entry-container.smartfolder.dataiteration {
-    /*16x16*/
+.ui-icon.smart-folder.runiteration,
+.ui-icon.smart-folder.dataiteration,
+.ui-icon.entry-container.smartfolder.runiteration,
+.ui-icon.entry-container.smartfolder.dataiteration { /*16x16*/
     background-position: -467px -1px;
     height: 16px;
     width: 16px;
 }
 
-.ui-icon.test-case.runiteration, .ui-icon.test-case.dataiteration, .ui-icon.entry-container.testcase.runiteration, .ui-icon.entry-container.testcase.dataiteration {
-    /*16x16*/
+.ui-icon.test-case.runiteration,
+.ui-icon.test-case.dataiteration,
+.ui-icon.entry-container.testcase.runiteration,
+.ui-icon.entry-container.testcase.dataiteration { /*16x16*/
     background-position: -483px -1px;
     height: 16px;
     width: 16px;
 }
 
-.ui-icon.test-module.runiteration, .ui-icon.test-module.dataiteration, .ui-icon.entry-container.testmodule.runiteration, .ui-icon.entry-container.testmodule.dataiteration {
-    /*16x16*/
+.ui-icon.test-module.runiteration,
+.ui-icon.test-module.dataiteration,
+.ui-icon.entry-container.testmodule.runiteration,
+.ui-icon.entry-container.testmodule.dataiteration { /*16x16*/
     background-position: -500px -1px;
     height: 16px;
     width: 16px;
 }
 
 /*xsl example "ui-icon {@type} {@testentry-activity-type} {@iteration-exectype}"*/
-
 .ui-icon.iteration-container.smartfolder.dataiteration {
     background-position: -347px -1px;
     height: 20px;
@@ -545,9 +588,7 @@ strong.iterationinfo, strong.iterationcountinfo, strong.iterationruninfo {
     height: 20px;
     width: 20px;
 }
-
 /*xsl example "ui-icon {@type} {@testentry-activity-type} {@iteration-exectype}"*/
-
 .ui-icon.iteration-container.smartfolder.runiteration {
     background-position: -407px -1px;
     width: 20px;
@@ -576,12 +617,11 @@ strong.iterationinfo, strong.iterationcountinfo, strong.iterationruninfo {
     margin-bottom: 7px;
 }
 
-.ui-treeList-item.iteration-container>h2 {
+.ui-treeList-item.iteration-container > h2 {
     background-color: transparent !important;
 }
 
 /* setup and teardown container style */
-
 .setup-teardown {
     border-top: 1px dashed #999;
     border-bottom: 1px dashed #999;
@@ -596,7 +636,6 @@ strong.iterationinfo, strong.iterationcountinfo, strong.iterationruninfo {
 }
 
 /* setup and teardown header style */
-
 .setup-teardown h2 {
     padding: 2px 30px;
     font-size: 12px;
@@ -604,7 +643,7 @@ strong.iterationinfo, strong.iterationcountinfo, strong.iterationruninfo {
     letter-spacing: 1px;
 }
 
-.ui-treeList li.iteration-container>h2 {
+.ui-treeList li.iteration-container > h2 {
     padding: 6px 0 4px 30px;
 }
 
@@ -617,8 +656,12 @@ ul.ui-treeList-childs li {
 }
 
 /* iteration style */
-
-li.smart-folder.dataiteration, li.test-case.dataiteration, li.test-case.runiteration, li.smart-folder.runiteration, li.testcase.runiteration, li.testcase.dataiteration {
+li.smart-folder.dataiteration,
+li.test-case.dataiteration,
+li.test-case.runiteration,
+li.smart-folder.runiteration,
+li.testcase.runiteration,
+li.testcase.dataiteration {
     border: 1px solid #b6daff;
     border-right: 0;
     border-top: 0;
@@ -626,53 +669,68 @@ li.smart-folder.dataiteration, li.test-case.dataiteration, li.test-case.runitera
 }
 
 /* iteration style */
-
 li.entry-container.smartfolder.runiteration {
     border-bottom: 1px solid #fff;
 }
 
 /* iteration style (currently unused) */
-
-li.smart-folder.dataiteration h2, li.test-case.dataiteration h2, li.smart-folder.runiteration h2, li.testcase.runiteration h2 {
+li.smart-folder.dataiteration h2,
+li.test-case.dataiteration h2,
+li.smart-folder.runiteration h2,
+li.testcase.runiteration h2 {
     /* background-color: #fff; */
 }
 
 /* test case execute */
-
-li.test-case.execute>h2 {
+li.test-case.execute > h2 {
     background-color: #e3f1ff;
 }
 
 /* style for iteration container */
-
-li.iteration-container.smart-folder.runiteration, li.iteration-container.smart-folder.dataiteration, li.iteration-container.smartfolder.runiteration, li.iteration-container.smartfolder.dataiteration, li.iteration-container.testcase.runiteration, li.iteration-container.testcase.dataiteration, li.iteration-container.test-case.runiteration, li.iteration-container.test-case.dataiteration {
+li.iteration-container.smart-folder.runiteration,
+li.iteration-container.smart-folder.dataiteration,
+li.iteration-container.smartfolder.runiteration,
+li.iteration-container.smartfolder.dataiteration,
+li.iteration-container.testcase.runiteration,
+li.iteration-container.testcase.dataiteration,
+li.iteration-container.test-case.runiteration,
+li.iteration-container.test-case.dataiteration {
     border: 1px solid #E6E6E6;
     border-right: 0;
 }
 
 /* style for iteration container highlight effect */
-
-li.iteration-container.smart-folder.runiteration:hover, li.iteration-container.smart-folder.dataiteration:hover, li.iteration-container.smartfolder.runiteration:hover, li.iteration-container.smartfolder.dataiteration:hover, li.iteration-container.testcase.runiteration:hover, li.iteration-container.testcase.dataiteration:hover, li.iteration-container.test-case.runiteration:hover, li.iteration-container.test-case.dataiteration:hover {
+li.iteration-container.smart-folder.runiteration:hover,
+li.iteration-container.smart-folder.dataiteration:hover,
+li.iteration-container.smartfolder.runiteration:hover,
+li.iteration-container.smartfolder.dataiteration:hover,
+li.iteration-container.testcase.runiteration:hover,
+li.iteration-container.testcase.dataiteration:hover,
+li.iteration-container.test-case.runiteration:hover,
+li.iteration-container.test-case.dataiteration:hover {
     border: 1px solid #888;
     background-color: #fbfbfb;
     border-right: 0;
 }
 
-span.displayname.testcase, span.displayname.iteration-container {
+span.displayname.testcase,
+span.displayname.iteration-container {
     font-size: 14px;
 }
 
-li.entry-container.testcase.runiteration, li.smart-folder.dataiteration {
+li.entry-container.testcase.runiteration,
+li.smart-folder.dataiteration {
     margin-left: 6px;
 }
 
-li.entry-container.testcase.runiteration>h2, li.smart-folder.dataiteration>h2 {
+li.entry-container.testcase.runiteration > h2,
+li.smart-folder.dataiteration > h2 {
     /* background-color:#eee; */
 }
 
 /* style for execute container */
-
-li.test-case.execute, li.smart-folder.execute {
+li.test-case.execute,
+li.smart-folder.execute {
     border: 1px solid #E6E6E6;
     border-right: 0;
     margin-top: 7px;
@@ -680,30 +738,31 @@ li.test-case.execute, li.smart-folder.execute {
 }
 
 /* style for iteration info */
-
 span.iterationinfo {
     margin-right: 4px;
 }
 
 /* style for iteration info */
-
 span.displayname {
     margin-right: 4px;
 }
 
 /* style for toggle, requires different margin */
-
-li.smart-folder.dataiteration div.ui-treeList-toggle, li.testcase.runiteration div.ui-treeList-toggle, li.test-case.dataiteration div.ui-treeList-toggle, li.test-case.dataiteration div.ui-treeList-toggle, li.test-case.dataiteration.ui-widget-content div.ui-treeList-toggle, li.entry-container.testcase.runiteration.ui-widget-content div.ui-treeList-toggle {
+li.smart-folder.dataiteration div.ui-treeList-toggle,
+li.testcase.runiteration div.ui-treeList-toggle,
+li.test-case.dataiteration div.ui-treeList-toggle,
+li.test-case.dataiteration div.ui-treeList-toggle,
+li.test-case.dataiteration.ui-widget-content div.ui-treeList-toggle,
+li.entry-container.testcase.runiteration.ui-widget-content div.ui-treeList-toggle {
     margin: -23px 0 0 11px;
 }
 
 /* style for iteration container toggle */
-
-li.iteration-container>div.ui-treeList-toggle {
+li.iteration-container > div.ui-treeList-toggle {
     margin: -24px 0 0 11px !important;
 }
 
-.ui-treeList-childs>li {
+.ui-treeList-childs > li {
     margin: 0;
 }
 
@@ -797,13 +856,11 @@ h2.Ignored span.ui-status-icon, h3.module-title.Ignored a span.ui-status-icon, h
 }
 
 /* style for header in case of success */
-
 h3.module-title.Success a, h3.module-title.Success a:active, h3.module-title.Success a:visited, h2.module.Success {
     color: #202020;
 }
 
 /* style for header in case of failure */
-
 h3.module-title.Failed a, h3.module-title.Failed a:active, h3.module-title.Failed a:visited, h2.module.Failed {
     color: #202020;
 }
@@ -932,7 +989,7 @@ table.Integration tr.Error td .stacktrace, table.Integration tr.Error .stacktrac
     background-color: #f9cccc;
 }
 
-#integration-testsuite>h2 {
+#integration-testsuite > h2 {
     font-size: 14px;
 }
 
@@ -940,8 +997,8 @@ table.Integration tr.Error td .stacktrace, table.Integration tr.Error .stacktrac
     padding-top: 0;
 }
 
-/* Used for jump-to-functionality */
 
+/* Used for jump-to-functionality */
 .controls-container {
     position: absolute;
     display: none;
@@ -953,7 +1010,11 @@ table.Integration tr.Error td .stacktrace, table.Integration tr.Error .stacktrac
     margin-top: -24px;
     border: 1px solid #888;
     border-bottom: 0;
+    /*position:absolute; float:right; z-index:2; top:0px;  left:0px; width: 115px; background-color: #fff; padding: 3px;  border: 1px solid #888; border-bottom: 0;*/
+    /* For IE 8 */
     -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=30, Color='#bbbbbb')";
+    /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=30, Color='#bbbbbb');
 }
 
 .controls-container.two-columns {
@@ -1016,6 +1077,7 @@ table.Integration tr.Error td .stacktrace, table.Integration tr.Error .stacktrac
     cursor: pointer;
 }
 
+
 .stacktrace {
     padding-top: 7px;
     color: #eee;
@@ -1042,7 +1104,6 @@ tr.error .stacktrace, tr.error .stacktrace p, tr.failure .stacktrace, tr.failure
 }
 
 /* General style for messages */
-
 .datarow, .dataparams, .errormessage, .warnmessage, .integration-errormessage, .integrationmessage {
     margin-left: 0;
     font-size: 12px;
@@ -1125,7 +1186,7 @@ tr.error .stacktrace, tr.error .stacktrace p, tr.failure .stacktrace, tr.failure
     color: #606060 !important;
 }
 
-.htmlDescription ul li {
+.htmlDescription ul li  {
     list-style-type: circle;
     list-style-position: outside;
 }
@@ -1153,7 +1214,6 @@ tr.error .stacktrace, tr.error .stacktrace p, tr.failure .stacktrace, tr.failure
 }
 
 /* Buttons for expanding and collapsing test containers */
-
 input.exButton {
     background-color: #ededed;
     border: 1px solid #dcdcdc;
@@ -1180,7 +1240,8 @@ input.exButton {
 }
 
 input.hyperlinkButton {
-    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
     background: none !important;
     border: none;
     padding: 0 !important;
@@ -1209,7 +1270,6 @@ input.hyperlinkButton {
     margin-right: 5px;
     margin-top: 4px !important;
 }
-
 /* ----------------------------------------------------------------------------------------------------------------*/
 /* ---------->>> global settings needed for thickbox <<<-----------------------------------------------------------*/
 /* ----------------------------------------------------------------------------------------------------------------*/
@@ -1217,7 +1277,6 @@ input.hyperlinkButton {
     padding: 0;
     margin: 0;
 }
-
 /* ----------------------------------------------------------------------------------------------------------------*/
 /* ---------->>> thickbox specific link and font settings <<<------------------------------------------------------*/
 /* ----------------------------------------------------------------------------------------------------------------*/
@@ -1265,7 +1324,8 @@ input.hyperlinkButton {
     padding: 0;
     margin: 0;
 }
-
+/*#TB_window tr { }
+        #tb_window table { }*/
 
 #TB_window a:link {
     color: #666666;
@@ -1286,7 +1346,6 @@ input.hyperlinkButton {
 #TB_window a:focus {
     color: #666666;
 }
-
 /* ----------------------------------------------------------------------------------------------------------------*/
 /* ---------->>> thickbox settings <<<-----------------------------------------------------------------------------*/
 /* ----------------------------------------------------------------------------------------------------------------*/
@@ -1319,6 +1378,8 @@ input.hyperlinkButton {
 * html #TB_overlay {
     /* ie6 hack */
     position: absolute;
+    /*Ignore Expected RBRACE ERROR*/
+    height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight +'px');
 }
 
 #TB_window {
@@ -1335,6 +1396,8 @@ input.hyperlinkButton {
 * html #TB_window {
     /* ie6 hack */
     position: absolute;
+    /*Ignore Expected RBRACE ERROR*/
+    margin-top: expression(0 - parseInt(this.offsetHeight / 2) +(TBWindowMargin=document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) +'px');
 }
 
 #TB_window img#TB_Image {
@@ -1408,6 +1471,8 @@ input.hyperlinkButton {
 * html #TB_load {
     /* ie6 hack */
     position: absolute;
+    /*Ignore Expected RBRACE ERROR*/
+    margin-top: expression(0 - parseInt(this.offsetHeight / 2) +(TBWindowMargin=document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) +'px');
 }
 
 #TB_HideSelect {
@@ -1428,7 +1493,9 @@ input.hyperlinkButton {
 * html #TB_HideSelect {
     /* ie6 hack */
     position: absolute;
-    }
+    /*Ignore Expected RBRACE ERROR*/
+    height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight +'px');
+}
 
 #TB_iframeContent {
     clear: both;
@@ -1439,7 +1506,6 @@ input.hyperlinkButton {
 }
 
 /* http://www.jqplot.com/jquery.jqplot.css */
-
 table.jqplot-table-legend, table.jqplot-cursor-legend {
     background-color: rgba(255, 255, 255, 0.6);
     position: absolute;
@@ -1450,7 +1516,7 @@ td.jqplot-table-legend {
     vertical-align: middle;
 }
 
-td.jqplot-table-legend>div {
+td.jqplot-table-legend > div {
     border: 1px solid #cccccc;
     padding: 2px;
 }

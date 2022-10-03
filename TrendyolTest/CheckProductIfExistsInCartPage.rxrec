@@ -65,8 +65,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']//div[@class='pb-basket-item']/a
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<matchname>
 				Title
@@ -91,8 +89,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']//div[@class='pb-basket-item']/a
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</getvaluerecorditem>
 		<validationitem
@@ -118,8 +114,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']//div[@class='pb-basket-item']/a
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<matchname>
 				Text

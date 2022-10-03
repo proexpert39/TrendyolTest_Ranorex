@@ -25,6 +25,59 @@ mode="Global">
 	<variables>
 	</variables>
 	<recorditems>
+		<mouseitem
+		action="Move"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2b00dea3-5089-436b-9dfa-42d7f79f87a7"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7c14b9ca-221d-4a87-8076-2e1f24a83769"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//p[text()~'Hesabım']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<invokeactionrecorditem
+		action="Focus"
+		enabled="True"
+		optional="False"
+		searchpropertyid="6cb0480c-b151-4590-8230-2dce6b06b8f7">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ec3932f7-c41f-4335-b62f-4cbf1a883e25"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//*[@class='loggedin-account-item']
+				</path>
+			</info>
+			<arguments
+			id="7ebf445e-eb04-4a22-8eb7-7e37d7e10246">
+			</arguments>
+		</invokeactionrecorditem>
 		<invokeactionrecorditem
 		action="PerformClick"
 		enabled="True"
@@ -38,24 +91,33 @@ mode="Global">
 			id="ec3932f7-c41f-4335-b62f-4cbf1a883e25"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='www.trendyol.com']//button[@class='loggedin-account-item']
+					/dom[@domain='www.trendyol.com']//*[@class='loggedin-account-item']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<arguments
 			id="7ebf445e-eb04-4a22-8eb7-7e37d7e10246">
 			</arguments>
 		</invokeactionrecorditem>
-		<explicitdelayitem
-		duration="5000ms"
+		<invokeactionrecorditem
+		action="WaitForDocumentLoaded"
 		enabled="True"
-		optional="False">
+		optional="False"
+		searchpropertyid="36cde0a5-c5c9-4f58-9a3b-2185ae32c640">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-		</explicitdelayitem>
+			<info
+			id="20f41ba7-5a28-40ae-a06a-52591aa57649"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']
+				</path>
+			</info>
+			<arguments
+			id="221afec8-8c77-4bd0-acd2-b785bbfbb532">
+			</arguments>
+		</invokeactionrecorditem>
 		<validationitem
 		action="Exists"
 		enabled="True"
@@ -114,8 +176,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']//div[@class='user-notloggedin-container']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<matchname>
 				Text

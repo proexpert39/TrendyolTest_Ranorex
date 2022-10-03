@@ -80,7 +80,7 @@ namespace TrendyolTest
             Init();
 
             Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.trendyol.com/irmak/kup-seker-sargili-750-gr-p-43497508?boutiqueId=613502&merchantId=457005' with browser 'Chrome' in maximized mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("https://www.trendyol.com/irmak/kup-seker-sargili-750-gr-p-43497508?boutiqueId=613502&merchantId=457005", "Chrome", "", false, true, false, false, false, false, false, true);
+            Host.Current.OpenBrowser("https://www.trendyol.com/irmak/kup-seker-sargili-750-gr-p-43497508?boutiqueId=613502&merchantId=457005", "Chrome", "", false, true, false, false, false, true);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'trendyol.AddToCartButton' at Center.", repo.trendyol.AddToCartButtonInfo, new RecordItemIndex(1));
@@ -88,15 +88,15 @@ namespace TrendyolTest
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.trendyol.com/kahve-dunyasi/orta-kavrulmus-turk-kahvesi-100-gr-4-lu-paket-orta-kavrulmus-turk-kahvesi-100-gr-4-lu-paket-p-42720773' with browser 'Chrome' in maximized mode.", new RecordItemIndex(2));
-            Host.Current.OpenBrowser("https://www.trendyol.com/kahve-dunyasi/orta-kavrulmus-turk-kahvesi-100-gr-4-lu-paket-orta-kavrulmus-turk-kahvesi-100-gr-4-lu-paket-p-42720773", "Chrome", "", false, true, false, false, false, false, false, true);
+            Host.Current.OpenBrowser("https://www.trendyol.com/kahve-dunyasi/orta-kavrulmus-turk-kahvesi-100-gr-4-lu-paket-orta-kavrulmus-turk-kahvesi-100-gr-4-lu-paket-p-42720773", "Chrome", "", false, true, false, false, false, true);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'trendyol.AddToCartButton' at Center.", repo.trendyol.AddToCartButtonInfo, new RecordItemIndex(3));
             repo.trendyol.AddToCartButton.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'trendyol.Sepetim' at Center.", repo.trendyol.SepetimInfo, new RecordItemIndex(4));
-            repo.trendyol.Sepetim.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'trendyol.MyBasketButton' at Center.", repo.trendyol.MyBasketButtonInfo, new RecordItemIndex(4));
+            repo.trendyol.MyBasketButton.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'trendyol.ProceedToCheckoutButton' at Center.", repo.trendyol.ProceedToCheckoutButtonInfo, new RecordItemIndex(5));

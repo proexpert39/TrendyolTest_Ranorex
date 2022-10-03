@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="34.82s"
+		durationms="34822"
+		type="root"
+		rid="473a67a1552e308"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="9.3.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="3.10.2022 16:13:59"
+		timestampiso="2022-10-03T13:13:59"
+		endtime="3.10.2022 16:14:34"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CloseBrowser">
+		<detail>
+			CloseBrowser
+		</detail>
+		<errormessage>
+			Element for item 'Self' does not exist (Failed to find item 'TrendyolTestRepository.MozillaFirefox.Self'. Please check that your whitelist allows Ranorex to access the process. No element found for path '/form[@title='Mozilla Firefox']' at step 'form[@title='Mozilla Firefox']' after 517 attempts within 30s.).
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.640"
+			timeRelativeToTestModuleStartTime="00:04.640"
+			timeWallClock="16:14:03"
+			time="00:04.640"
+			level="Warn"
+			category="Data"
+			errimg="images_CloseBro_8fd8c773\CloseBro_8fd8c773_d5ac8944_trace.jpg"
+			errthumb="images_CloseBro_8fd8c773\CloseBro_8fd8c773_d5ac8944_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>BrowserPID, isLoggedIn
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.663"
+			timeRelativeToTestModuleStartTime="00:04.663"
+			timeWallClock="16:14:04"
+			time="00:04.663"
+			level="Info"
+			category="Validation"
+			errimg="images_CloseBro_8fd8c773\CloseBro_8fd8c773_d5ac8944_trace.jpg"
+			errthumb="images_CloseBro_8fd8c773\CloseBro_8fd8c773_d5ac8944_trace_thumb.jpg">
+			<message>
+				Validating Exists on item 'MozillaFirefox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Mozilla Firefox']"
+				itempath="/form[@title='Mozilla Firefox']"
+				fullname="TrendyolTestRepository.MozillaFirefox.Self"
+				id="1a1889f26dae40329536948da000015d"
+				timeout="30000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\CloseBrowser.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.708"
+			timeRelativeToTestModuleStartTime="00:34.708"
+			timeWallClock="16:14:34"
+			time="00:34.708"
+			level="Failure"
+			category="Validation"
+			errimg="images_CloseBro_8fd8c773\CloseBro_8fd8c773_cb21d28c_trace.jpg"
+			errthumb="images_CloseBro_8fd8c773\CloseBro_8fd8c773_cb21d28c_trace_thumb.jpg">
+			<message>
+				Element for item 'Self' does not exist (Failed to find item 'TrendyolTestRepository.MozillaFirefox.Self'. Please check that your whitelist allows Ranorex to access the process. No element found for path '/form[@title='Mozilla Firefox']' at step 'form[@title='Mozilla Firefox']' after 517 attempts within 30s.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Mozilla Firefox']"
+				itempath="/form[@title='Mozilla Firefox']"
+				fullname="TrendyolTestRepository.MozillaFirefox.Self"
+				id="1a1889f26dae40329536948da000015d"
+				timeout="30000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\CloseBrowser.cs"
+				codeline="109"
+				failedStep="form[@title='Mozilla Firefox']"
+				bestPathPrefix=""
+				loglvl="Failure"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.713"
+			timeRelativeToTestModuleStartTime="00:34.713"
+			timeWallClock="16:14:34"
+			time="00:34.713"
+			level="Error"
+			category="Module"
+			errimg="images_CloseBro_8fd8c773\CloseBro_8fd8c773_cb21d28c_trace.jpg"
+			errthumb="images_CloseBro_8fd8c773\CloseBro_8fd8c773_cb21d28c_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Element for item 'Self' does not exist (Failed to find item 'TrendyolTestRepository.MozillaFirefox.Self'. Please check that your whitelist allows Ranorex to access the process. No element found for path '/form[@title='Mozilla Firefox']' at step 'form[@title='Mozilla Firefox']' after 517 attempts within 30s.).<br/>Failed to find item 'TrendyolTestRepository.MozillaFirefox.Self'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/form[@title='Mozilla Firefox']' at step 'form[@title='Mozilla Firefox']' after 517 attempts within 30s.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   konum: Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   konum: Ranorex.Validate.Exists(RepoItemInfo itemInfo, String message, Options options)
+   konum: Ranorex.Validate.Exists(RepoItemInfo itemInfo)
+   konum: TrendyolTest.CloseBrowser.Ranorex.Core.Testing.ITestModule.Run() C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\CloseBrowser.cs içinde: satır 109
+   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\CloseBrowser.cs"
+				codeline="109"
+				type="repoitem"
+				path="/form[@title='Mozilla Firefox']"
+				itempath="/form[@title='Mozilla Firefox']"
+				fullname="TrendyolTestRepository.MozillaFirefox.Self"
+				id="1a1889f26dae40329536948da000015d"
+				timeout="30000"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

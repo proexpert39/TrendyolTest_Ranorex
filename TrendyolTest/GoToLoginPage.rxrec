@@ -40,8 +40,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<arguments
 			id="8a940a1d-0251-4f42-a48b-097b6ce542d0">
@@ -72,8 +70,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<arguments
 			id="eec427c8-56c6-49e2-9e65-1e16f0f473b5">

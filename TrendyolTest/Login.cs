@@ -43,6 +43,7 @@ namespace TrendyolTest
         {
             InputEmail = "alperenkumcu@gmail.com";
             InputPassword = "23mSBg9nC&v9nnR";
+            isLoggedIn = "false";
         }
 
         /// <summary>
@@ -79,6 +80,18 @@ namespace TrendyolTest
             set { _InputPassword = value; }
         }
 
+        string _isLoggedIn;
+
+        /// <summary>
+        /// Gets or sets the value of variable isLoggedIn.
+        /// </summary>
+        [TestVariable("9f5fb931-f342-4e1e-ae07-038803516458")]
+        public string isLoggedIn
+        {
+            get { return _isLoggedIn; }
+            set { _isLoggedIn = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -108,121 +121,116 @@ namespace TrendyolTest
             // Go to Login Page
             Report.Log(ReportLevel.Info, "Section", "Go to Login Page", new RecordItemIndex(0));
             
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Navigate('https://www.trendyol.com/giris') on item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(1));
-            repo.trendyol.Self.Navigate("https://www.trendyol.com/giris");
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'trendyol.LoginButton'.", repo.trendyol.LoginButtonInfo, new RecordItemIndex(1));
+            Validate.Exists(repo.trendyol.LoginButtonInfo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Focus() on item 'trendyol.LoginButton'.", repo.trendyol.LoginButtonInfo, new RecordItemIndex(2));
+            repo.trendyol.LoginButton.Focus();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking PerformClick() on item 'trendyol.LoginButton'.", repo.trendyol.LoginButtonInfo, new RecordItemIndex(3));
+            repo.trendyol.LoginButton.Element.InvokeActionWithText("PerformClick");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(4));
             repo.trendyol.Self.WaitForDocumentLoaded();
             Delay.Milliseconds(0);
             
-            // Email input
-            Report.Log(ReportLevel.Info, "Section", "Email input", new RecordItemIndex(3));
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'trendyol.LoginPage.LoginEmailInput' at Center.", repo.trendyol.LoginPage.LoginEmailInputInfo, new RecordItemIndex(4));
-            //repo.trendyol.LoginPage.LoginEmailInput.MoveTo();
-            //Delay.Milliseconds(0);
-            
-            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(5));
-            //Delay.Duration(1000, false);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'trendyol.LoginPage.LoginEmailInput' at Center.", repo.trendyol.LoginPage.LoginEmailInputInfo, new RecordItemIndex(6));
-            //repo.trendyol.LoginPage.LoginEmailInput.Click();
-            //Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(5));
             Delay.Duration(1000, false);
+            
+            // Email input
+            Report.Log(ReportLevel.Info, "Section", "Email input", new RecordItemIndex(6));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'trendyol.LoginPage.LoginEmailInput'.", repo.trendyol.LoginPage.LoginEmailInputInfo, new RecordItemIndex(7));
+            Validate.Exists(repo.trendyol.LoginPage.LoginEmailInputInfo);
+            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Invoke action", "Invoking PerformClick() on item 'trendyol.LoginPage.LoginEmailInput'.", repo.trendyol.LoginPage.LoginEmailInputInfo, new RecordItemIndex(8));
             repo.trendyol.LoginPage.LoginEmailInput.PerformClick();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$InputEmail' with focus on 'trendyol.LoginPage.LoginEmailInput'.", repo.trendyol.LoginPage.LoginEmailInputInfo, new RecordItemIndex(9));
-            repo.trendyol.LoginPage.LoginEmailInput.PressKeys(InputEmail);
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Focus() on item 'trendyol.LoginPage.LoginEmailInput'.", repo.trendyol.LoginPage.LoginEmailInputInfo, new RecordItemIndex(9));
+            repo.trendyol.LoginPage.LoginEmailInput.Focus();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$InputEmail'.", new RecordItemIndex(10));
+            Keyboard.Press(InputEmail);
             Delay.Milliseconds(20);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Value=$InputEmail) on item 'trendyol.LoginPage.LoginEmailInput'.", repo.trendyol.LoginPage.LoginEmailInputInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(11));
+            Delay.Duration(1000, false);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Value=$InputEmail) on item 'trendyol.LoginPage.LoginEmailInput'.", repo.trendyol.LoginPage.LoginEmailInputInfo, new RecordItemIndex(12));
             Validate.AttributeEqual(repo.trendyol.LoginPage.LoginEmailInputInfo, "Value", InputEmail);
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(13));
+            Delay.Duration(1000, false);
+            
             // Password input
-            Report.Log(ReportLevel.Info, "Section", "Password input", new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Section", "Password input", new RecordItemIndex(14));
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'trendyol.LoginPage.LoginPasswordInput' at Center.", repo.trendyol.LoginPage.LoginPasswordInputInfo, new RecordItemIndex(12));
-            //repo.trendyol.LoginPage.LoginPasswordInput.MoveTo();
-            //Delay.Milliseconds(0);
-            
-            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(13));
-            //Delay.Duration(1000, false);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'trendyol.LoginPage.LoginPasswordInput' at Center.", repo.trendyol.LoginPage.LoginPasswordInputInfo, new RecordItemIndex(14));
-            //repo.trendyol.LoginPage.LoginPasswordInput.Click();
-            //Delay.Milliseconds(0);
-            
-            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(15));
-            //Delay.Duration(1000, false);
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'trendyol.LoginPage.LoginPasswordInput'.", repo.trendyol.LoginPage.LoginPasswordInputInfo, new RecordItemIndex(15));
+            Validate.Exists(repo.trendyol.LoginPage.LoginPasswordInputInfo);
+            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Invoke action", "Invoking PerformClick() on item 'trendyol.LoginPage.LoginPasswordInput'.", repo.trendyol.LoginPage.LoginPasswordInputInfo, new RecordItemIndex(16));
             repo.trendyol.LoginPage.LoginPasswordInput.PerformClick();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$InputPassword' with focus on 'trendyol.LoginPage.LoginPasswordInput'.", repo.trendyol.LoginPage.LoginPasswordInputInfo, new RecordItemIndex(17));
-            repo.trendyol.LoginPage.LoginPasswordInput.PressKeys(InputPassword);
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Focus() on item 'trendyol.LoginPage.LoginPasswordInput'.", repo.trendyol.LoginPage.LoginPasswordInputInfo, new RecordItemIndex(17));
+            repo.trendyol.LoginPage.LoginPasswordInput.Focus();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$InputPassword'.", new RecordItemIndex(18));
+            Keyboard.Press(InputPassword);
             Delay.Milliseconds(20);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Value=$InputPassword) on item 'trendyol.LoginPage.LoginPasswordInput'.", repo.trendyol.LoginPage.LoginPasswordInputInfo, new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(19));
+            Delay.Duration(1000, false);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Value=$InputPassword) on item 'trendyol.LoginPage.LoginPasswordInput'.", repo.trendyol.LoginPage.LoginPasswordInputInfo, new RecordItemIndex(20));
             Validate.AttributeEqual(repo.trendyol.LoginPage.LoginPasswordInputInfo, "Value", InputPassword);
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(21));
+            Delay.Duration(1000, false);
+            
             // Click Login Button
-            Report.Log(ReportLevel.Info, "Section", "Click Login Button", new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Section", "Click Login Button", new RecordItemIndex(22));
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'trendyol.LoginPage.LoginButton' at Center.", repo.trendyol.LoginPage.LoginButtonInfo, new RecordItemIndex(20));
-            //repo.trendyol.LoginPage.LoginButton.MoveTo();
-            //Delay.Milliseconds(0);
-            
-            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(21));
-            //Delay.Duration(1000, false);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'trendyol.LoginPage.LoginButton' at Center.", repo.trendyol.LoginPage.LoginButtonInfo, new RecordItemIndex(22));
-            //repo.trendyol.LoginPage.LoginButton.Click();
-            //Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking PerformClick() on item 'trendyol.LoginPage.LoginButton'.", repo.trendyol.LoginPage.LoginButtonInfo, new RecordItemIndex(23));
-            repo.trendyol.LoginPage.LoginButton.As<WebElement>().PerformClick();
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Focus() on item 'trendyol.LoginPage.LoginBtn'.", repo.trendyol.LoginPage.LoginBtnInfo, new RecordItemIndex(23));
+            repo.trendyol.LoginPage.LoginBtn.Focus();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(24));
-            Delay.Duration(5000, false);
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking PerformClick() on item 'trendyol.LoginPage.LoginBtn'.", repo.trendyol.LoginPage.LoginBtnInfo, new RecordItemIndex(24));
+            repo.trendyol.LoginPage.LoginBtn.Element.InvokeActionWithText("PerformClick");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(25));
+            Delay.Duration(1000, false);
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(26));
+            repo.trendyol.Self.WaitForDocumentLoaded();
+            Delay.Milliseconds(0);
             
             // Validate if logged in
-            Report.Log(ReportLevel.Info, "Section", "Validate if logged in", new RecordItemIndex(25));
+            Report.Log(ReportLevel.Info, "Section", "Validate if logged in", new RecordItemIndex(27));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'trendyol.MyAccountButton'.", repo.trendyol.MyAccountButtonInfo, new RecordItemIndex(26));
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'trendyol.MyAccountButton'.", repo.trendyol.MyAccountButtonInfo, new RecordItemIndex(28));
             Validate.Exists(repo.trendyol.MyAccountButtonInfo);
             Delay.Milliseconds(100);
             
-            try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating ContainsImage (Screenshot: 'MyAccountButtonScreenshot' with region {X=0,Y=0,Width=54,Height=18}) on item 'trendyol.MyAccountButton'.", repo.trendyol.MyAccountButtonInfo, new RecordItemIndex(27));
-                Validate.ContainsImage(repo.trendyol.MyAccountButtonInfo, MyAccountButton_MyAccountButtonScreenshot, MyAccountButton_MyAccountButtonScreenshot_Options, null, false);
-                Delay.Milliseconds(100);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(27)); }
+            setLoggedIn(null);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", isLoggedIn, new RecordItemIndex(30));
             
         }
 
 #region Image Feature Data
-        /// <summary>
-        /// DO NOT REFERENCE THIS CODE  - auto generated
-        /// </summary>
-        CompressedImage MyAccountButton_MyAccountButtonScreenshot
-        { get { return repo.trendyol.MyAccountButtonInfo.GetMyAccountButtonScreenshot(new Rectangle(0, 0, 54, 18)); } }
-
-        /// <summary>
-        /// DO NOT REFERENCE THIS CODE  - auto generated
-        /// </summary>
-        Imaging.FindOptions MyAccountButton_MyAccountButtonScreenshot_Options
-        { get { return Imaging.FindOptions.Default; } }
-
 #endregion
     }
 #pragma warning restore 0436

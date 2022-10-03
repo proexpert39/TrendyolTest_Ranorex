@@ -23,68 +23,222 @@ mode="Global">
 	namespace="TrendyolTest">
 	</codegen>
 	<variables>
-		<var
-		id="8dc1394f-8622-4c57-bf07-2cc3b3b5d5e0"
-		name="RegistrationPage">
-			https://www.trendyol.com/uyelik
-		</var>
 	</variables>
 	<recorditems>
-		<invokeactionrecorditem
-		action="Navigate"
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				Go to register page
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<validationitem
+		action="Exists"
 		enabled="True"
 		optional="False"
-		searchpropertyid="99d91df2-cbf8-4be0-bff9-b0cf6ff1e490">
+		searchpropertyid="9d29df55-71e7-4ef6-a05f-f84707512410">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="20f41ba7-5a28-40ae-a06a-52591aa57649"
-			sourcename="ItemRecorderEditor">
+			id="e4781eb1-e4f6-4a35-8183-9f3abf8e8d92"
+			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='www.trendyol.com']
+					/dom[@domain='www.trendyol.com']//div[@class~'user-notloggedin-container']/div[@class~'login-button']
 				</path>
-				<robustPath>
-				</robustPath>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<invokeactionrecorditem
+		action="Focus"
+		enabled="True"
+		optional="False"
+		searchpropertyid="8be0466b-e506-47e2-9d3c-9f9b89adbd13">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e4781eb1-e4f6-4a35-8183-9f3abf8e8d92"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//div[@class~'user-notloggedin-container']/div[@class~'login-button']
+				</path>
 			</info>
 			<arguments
-			id="1be8669e-1e51-4248-9c05-cd77cdc61635">
-				<argument
-				argname="url"
-				id="cbc55433-fcf7-4565-9d3d-e01e8a74754a"
-				variable="RegistrationPage">
-					<argvaluetype>
-						System.String
-					</argvaluetype>
-					<argvalue>
-						https://www.trendyol.com/uyelik
-					</argvalue>
-				</argument>
+			id="5363c5df-22a8-4147-a223-6f367b2a6945">
+			</arguments>
+		</invokeactionrecorditem>
+		<invokeactionrecorditem
+		action="PerformClick"
+		enabled="True"
+		optional="False"
+		searchpropertyid="ce18471b-9e1e-4bf9-bdf4-60837621e753">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e4781eb1-e4f6-4a35-8183-9f3abf8e8d92"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//div[@class~'user-notloggedin-container']/div[@class~'login-button']
+				</path>
+			</info>
+			<arguments
+			id="9a089e16-7511-4ca3-a70c-148a7a08ebbf">
 			</arguments>
 		</invokeactionrecorditem>
 		<invokeactionrecorditem
 		action="WaitForDocumentLoaded"
 		enabled="True"
 		optional="False"
-		searchpropertyid="7ef26016-23dc-4ccf-b6bb-9a1aac591e2f">
+		searchpropertyid="94c3c62a-d0b3-43c8-bb21-6afbb0d154cf">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
 			id="20f41ba7-5a28-40ae-a06a-52591aa57649"
-			sourcename="ItemRecorderEditor">
+			sourcename="RepositoryEditor">
 				<path>
 					/dom[@domain='www.trendyol.com']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<arguments
-			id="b0471815-bc18-420c-b378-51daaf3c4a39">
+			id="a2a171cd-8a86-4134-81ff-f1f120f6e707">
 			</arguments>
 		</invokeactionrecorditem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				Switch to register tab
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="e2868e4e-10fa-43ec-9196-840d136ffae8">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f4da5022-77f0-43cc-b8e3-7d639c9b1891"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//div[@class~'header-buttons']/*[text()~'Üye Ol']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<invokeactionrecorditem
+		action="Focus"
+		enabled="True"
+		optional="False"
+		searchpropertyid="8c6e3bee-8b81-4535-bb09-127f7460b05d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f4da5022-77f0-43cc-b8e3-7d639c9b1891"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//div[@class~'header-buttons']//button[text()~'Üye Ol']
+				</path>
+			</info>
+			<arguments
+			id="fc227fa9-6214-4b28-b491-b4614f5bc523">
+			</arguments>
+		</invokeactionrecorditem>
+		<invokeactionrecorditem
+		action="PerformClick"
+		enabled="True"
+		optional="False"
+		searchpropertyid="aaf34d99-578a-443b-86e4-af82e99cf9ff">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f4da5022-77f0-43cc-b8e3-7d639c9b1891"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//div[@class~'header-buttons']//button[text()~'Üye Ol']
+				</path>
+			</info>
+			<arguments
+			id="fdaaa7f2-bea5-408f-92e6-8318432b779b">
+			</arguments>
+		</invokeactionrecorditem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				Validate is switched to register tab
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="a5475b0d-c867-460b-a3e1-592f857fc22c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c9bff0e1-a362-48fc-b19c-6d09b44fe94e"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//div[@class~'q-layout register']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				true
+			</matchvalue>
+		</validationitem>
 	</recorditems>
 	<repository
 	id="9353f6bf-9d2b-48ce-9be0-8d0a4a110d98"

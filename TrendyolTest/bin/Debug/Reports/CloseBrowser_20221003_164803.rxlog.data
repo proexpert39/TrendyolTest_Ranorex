@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="35.67s"
+		durationms="35671"
+		type="root"
+		rid="11231f8cfc6cd94"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="9.3.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="3.10.2022 16:48:07"
+		timestampiso="2022-10-03T13:48:07"
+		endtime="3.10.2022 16:48:42"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CloseBrowser">
+		<detail>
+			CloseBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.422"
+			timeRelativeToTestModuleStartTime="00:04.422"
+			timeWallClock="16:48:11"
+			time="00:04.422"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>BrowserPID, isLoggedIn
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.444"
+			timeRelativeToTestModuleStartTime="00:04.444"
+			timeWallClock="16:48:11"
+			time="00:04.444"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'trendyol'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']"
+				itempath="/dom[@domain='www.trendyol.com']"
+				fullname="TrendyolTestRepository.trendyol.Self"
+				id="20f41ba75a2840aea06a52591aa57649"
+				timeout="30000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\CloseBrowser.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.632"
+			timeRelativeToTestModuleStartTime="00:05.632"
+			timeWallClock="16:48:12"
+			time="00:05.632"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Self' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']"
+				itempath="/dom[@domain='www.trendyol.com']"
+				fullname="TrendyolTestRepository.trendyol.Self"
+				id="20f41ba75a2840aea06a52591aa57649"
+				timeout="30000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\CloseBrowser.cs"
+				codeline="109"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.633"
+			timeRelativeToTestModuleStartTime="00:05.633"
+			timeWallClock="16:48:12"
+			time="00:05.633"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'trendyol'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']"
+				itempath="/dom[@domain='www.trendyol.com']"
+				fullname="TrendyolTestRepository.trendyol.Self"
+				id="20f41ba75a2840aea06a52591aa57649"
+				timeout="30000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\CloseBrowser.cs"
+				codeline="112"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.657"
+			timeRelativeToTestModuleStartTime="00:05.657"
+			timeWallClock="16:48:12"
+			time="00:05.657"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating Exists on item 'buttonInfo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="//toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+				itempath="//toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+				fullname="TrendyolTestRepository.Kapat"
+				id="27475d0e0f484bec9a131593d78396f4"
+				timeout="30000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\CloseBrowser.UserCode.cs"
+				codeline="50"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.671"
+			timeRelativeToTestModuleStartTime="00:35.671"
+			timeWallClock="16:48:42"
+			time="00:35.671"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'TrendyolTestRepository.Kapat' does not exist (Failed to find item 'TrendyolTestRepository.Kapat'. Please check that your whitelist allows Ranorex to access the process. No element found for path '//toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']' at step 'descendant-or-self::toolbar[@accessiblename='Tarayıcı sekmeleri']' after 554 attempts within 30s.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="//toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+				itempath="//toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+				fullname="TrendyolTestRepository.Kapat"
+				id="27475d0e0f484bec9a131593d78396f4"
+				timeout="30000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\CloseBrowser.UserCode.cs"
+				codeline="51"
+				failedStep="descendant-or-self::toolbar[@accessiblename='Tarayıcı sekmeleri']"
+				bestPathPrefix=""
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

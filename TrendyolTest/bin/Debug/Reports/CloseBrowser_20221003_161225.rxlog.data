@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="5.37s"
+		durationms="5372"
+		type="root"
+		rid="3d8a2fc1d640ac9"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="9.3.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="3.10.2022 16:12:28"
+		timestampiso="2022-10-03T13:12:28"
+		endtime="3.10.2022 16:12:33"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CloseBrowser">
+		<detail>
+			CloseBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.446"
+			timeRelativeToTestModuleStartTime="00:04.446"
+			timeWallClock="16:12:32"
+			time="00:04.446"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>BrowserPID, isLoggedIn
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.467"
+			timeRelativeToTestModuleStartTime="00:04.467"
+			timeWallClock="16:12:32"
+			time="00:04.467"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MozillaFirefox.Kapat' at 16;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Mozilla Firefox']/toolbar/button[@accessiblename='Kapat']"
+				itempath="toolbar/button[@accessiblename='Kapat']"
+				fullname="TrendyolTestRepository.MozillaFirefox.Kapat"
+				id="a36a3a61f2e54d44852bbf662012d3f0"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\CloseBrowser.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.963"
+			timeRelativeToTestModuleStartTime="00:04.963"
+			timeWallClock="16:12:33"
+			time="00:04.963"
+			level="Warn"
+			category="Click"
+			errimg="images_CloseBro_19fd2544\CloseBro_49a50bf0_rxlog.jpg"
+			errthumb="images_CloseBro_19fd2544\CloseBro_49a50bf0_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\CloseBrowser.cs"
+				codeline="109"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

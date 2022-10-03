@@ -118,8 +118,8 @@ namespace TrendyolTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (Title>$ProductNameWishlistPage) on item 'trendyol.ProductNameCartPage'.", repo.trendyol.ProductNameCartPageInfo, new RecordItemIndex(0));
-            Validate.AttributeContains(repo.trendyol.ProductNameCartPageInfo, "Title", ProductNameWishlistPage);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (Title>$ProductNameWishlistPage) on item 'trendyol.FirstProductNameWishlist'.", repo.trendyol.FirstProductNameWishlistInfo, new RecordItemIndex(0));
+            Validate.AttributeContains(repo.trendyol.FirstProductNameWishlistInfo, "Title", ProductNameWishlistPage);
             Delay.Milliseconds(0);
             
         }

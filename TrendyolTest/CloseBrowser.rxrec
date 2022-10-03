@@ -23,26 +23,57 @@ mode="Global">
 	namespace="TrendyolTest">
 	</codegen>
 	<variables>
+		<var
+		id="d51ab651-28b4-45ea-90b1-01941df24bbf"
+		name="BrowserPID">
+			-1
+		</var>
+		<var
+		id="2f082654-d187-4a65-a3bc-a72a7ef6239d"
+		name="isLoggedIn">
+			false
+		</var>
 	</variables>
 	<recorditems>
-		<closeapprecorditem
+		<validationitem
+		action="Exists"
 		enabled="True"
-		graceperiod="0ms"
-		method="CloseWindow"
-		optional="False"
-		searchpropertyid="a75e1dd3-6c06-48a4-ad18-21eb259055d8">
+		optional="True"
+		searchpropertyid="6c02bd92-5527-4313-a89b-f4c93e6921f1">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="f5c8c8e1-4e7e-4e3f-8aac-e82fd27c022c"
+			id="20f41ba7-5a28-40ae-a06a-52591aa57649"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="True"
+		searchpropertyid="f6b1cbe9-b4b0-4013-bae2-0a51cda91297">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="20f41ba7-5a28-40ae-a06a-52591aa57649"
 			sourcename="RepositoryEditor">
 				<path>
-					/form
+					/dom[@domain='www.trendyol.com']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 		</closeapprecorditem>
 	</recorditems>

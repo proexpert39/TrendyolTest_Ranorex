@@ -41,6 +41,8 @@ namespace TrendyolTest
         /// </summary>
         public CloseBrowser()
         {
+            BrowserPID = "-1";
+            isLoggedIn = "false";
         }
 
         /// <summary>
@@ -52,6 +54,30 @@ namespace TrendyolTest
         }
 
 #region Variables
+
+        string _BrowserPID;
+
+        /// <summary>
+        /// Gets or sets the value of variable BrowserPID.
+        /// </summary>
+        [TestVariable("d51ab651-28b4-45ea-90b1-01941df24bbf")]
+        public string BrowserPID
+        {
+            get { return _BrowserPID; }
+            set { _BrowserPID = value; }
+        }
+
+        string _isLoggedIn;
+
+        /// <summary>
+        /// Gets or sets the value of variable isLoggedIn.
+        /// </summary>
+        [TestVariable("2f082654-d187-4a65-a3bc-a72a7ef6239d")]
+        public string isLoggedIn
+        {
+            get { return _isLoggedIn; }
+            set { _isLoggedIn = value; }
+        }
 
 #endregion
 
@@ -79,9 +105,17 @@ namespace TrendyolTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'Chrome'.", repo.Chrome.SelfInfo, new RecordItemIndex(0));
-            Host.Current.CloseApplication(repo.Chrome.Self, new Duration(0));
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating Exists on item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(0));
+                Validate.Exists(repo.trendyol.SelfInfo, null, false);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Application", "(Optional Action)\r\nClosing application containing item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(1));
+                Host.Current.CloseApplication(repo.trendyol.Self, new Duration(0));
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
             
         }
 

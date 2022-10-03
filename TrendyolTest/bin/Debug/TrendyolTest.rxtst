@@ -3,87 +3,318 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			id="02db57f4-4828-47e9-847e-08311ebf4c6f"
+			name="OpenBrowser"
+			ref="707ab480-8839-4b5e-9a59-39309dfd2ae0"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="HomePageUrl"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="85a95ad7-1921-439c-8bf2-c26db25439a2"
+					variablename="Url">
+					</var>
+					<var
+					dataname="BrowserPID"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="63bafb15-fb53-40a1-bd02-a5c9d40a8914"
+					variablename="BrowserPID">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="HomePageUrl"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="40ec5d3d-344c-47a7-9132-685dc95a1dc5"
+					variablename="HomePageUrl">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
+			id="05d6666c-9697-461d-be12-326a8aa4de71"
+			name="GoToRegisterPage"
+			ref="b23aa907-f7be-4af2-96d6-901520759c17"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="08a0853d-2472-4822-b6fa-c65473705928"
 			name="Logout"
 			ref="a8795fe2-6377-423e-b9b7-ada5ccbc62f9"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="varcart"
+					datasourceid="0bd0deaf-c8dc-4f35-8438-a3761dcc75f9"
+					variableid="e210ca6a-d5bb-40b2-8de1-98da58263bea"
+					variablename="vareren">
+					</var>
+				</missingdatabinding>
 			</testmodule>
+			<teardown
+			id="0c96bb27-ce2f-4889-bcad-76280bc337e9"
+			name="teardown">
+			</teardown>
 			<setup
 			id="0d0df94f-e2ef-4b16-b52f-fdff5de075aa"
 			name="setup">
 			</setup>
 			<testmodule
-			id="0d4b49c8-8b2e-4f95-9c6b-b715a32cab4a"
-			name="CheckProductIfExistsInWishlistPage"
-			ref="e3ad91a5-9a88-458d-945d-89e577f77d50"
+			id="0e92018b-8696-4811-acd5-0f6ca2d0f3e4"
+			name="CheckIfNotLoggedIn"
+			ref="6492cabf-87ad-4dac-a3cf-62d0839f9783"
 			type="Recording">
 				<databinding>
 					<var
-					dataname="ProductName"
-					datasourceid="56e4463d-bf95-4a2b-a6d8-0a21d832f2b7"
-					variableid="ad3d84bc-f34d-4c2c-a43f-fb0448914614"
-					variablename="ProductName">
-					</var>
-					<var
-					dataname="ProductName_Cart"
-					datasourceid="56e4463d-bf95-4a2b-a6d8-0a21d832f2b7"
-					variableid="e6b47195-0761-42bf-95f8-e91948cfcc89"
-					variablename="ProductName_Cart">
-					</var>
-					<var
-					dataname="ProductNameWishlistPage"
-					datasourceid="56e4463d-bf95-4a2b-a6d8-0a21d832f2b7"
-					variableid="e0bd456b-2525-4479-99fb-c410ebea2451"
-					variablename="ProductNameWishlistPage">
+					dataname="isLoggedIn"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="9297a7b0-e0e8-4757-8246-fc402f81a769"
+					variablename="isLoggedIn">
 					</var>
 				</databinding>
 			</testmodule>
 			<testmodule
-			id="0ea8e771-1193-48f7-a481-451ef1d7e614"
-			name="SearchProduct"
+			id="192c420c-26df-455a-aa41-65bd6f9fe924"
+			name="AddToCartProduct"
 			ref="8e7f3ea2-bde1-48c0-9faa-75625e8a54c4"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="ProductUrl_AddedToCart"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="61be6eb4-ace3-4615-8a2d-0c8be74d66a1"
+					variablename="ProductUrl_AddedToCart">
+					</var>
+					<var
+					dataname="FirstProductLinkInCartPage"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="259c9e1e-fb8f-466a-a904-4270e3fa2490"
+					variablename="FirstProductLinkInCartPage">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
-			id="17cc37f5-ce00-49c5-b4a9-db346ad19674"
-			name="GoToLoginPage"
-			ref="730e824c-ec7e-4221-bcbf-bc5efe4d1a9c"
+			id="1b982b9a-1475-484d-a785-e224074aa74a"
+			name="AddToCartProduct"
+			ref="8e7f3ea2-bde1-48c0-9faa-75625e8a54c4"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="ProductUrl_AddedToCart"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="61be6eb4-ace3-4615-8a2d-0c8be74d66a1"
+					variablename="ProductUrl_AddedToCart">
+					</var>
+					<var
+					dataname="FirstProductLinkInCartPage"
+					datasourceid="c8ffc20b-f242-4a18-906e-d8ffc68c6563"
+					variableid="259c9e1e-fb8f-466a-a904-4270e3fa2490"
+					variablename="FirstProductLinkInCartPage">
+					</var>
+				</databinding>
+			</testmodule>
+			<teardown
+			id="2360d0b2-1e80-477f-8000-8a8ea5c0722c"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="2369e820-1de7-4cf2-b49b-77d64edda224"
+			name="OpenBrowser"
+			ref="707ab480-8839-4b5e-9a59-39309dfd2ae0"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="HomePageUrl"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="85a95ad7-1921-439c-8bf2-c26db25439a2"
+					variablename="Url">
+					</var>
+					<var
+					dataname="BrowserPID"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="63bafb15-fb53-40a1-bd02-a5c9d40a8914"
+					variablename="BrowserPID">
+					</var>
+				</databinding>
+			</testmodule>
+			<teardown
+			id="29561d03-c72f-4f12-8557-d6874c923f24"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="2d622d11-ad75-4c96-8007-be796614d8e9"
+			name="CheckIfNotLoggedIn"
+			ref="6492cabf-87ad-4dac-a3cf-62d0839f9783"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="isLoggedIn"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="9297a7b0-e0e8-4757-8246-fc402f81a769"
+					variablename="isLoggedIn">
+					</var>
+				</databinding>
 			</testmodule>
 			<testcase
-			datasource="AddToWishlistTest_DataSource"
+			datarangeactive="True"
+			datasource="NewConnector12"
 			id="30075852-d831-4dbb-a2ac-a3d3eab0a01b"
+			maxrange="0"
+			minrange="0"
 			name="AddToWishlistTest">
+				<description>
+					<![CDATA[<p>Verify that users can add products to the wishlist(favorites).</p>]]>
+				</description>
+				<conditiongroup
+				comparison="AND"
+				enabled="False">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="isLoggedIn"
+								id="f3531557-cc9e-4968-818b-0a70bd481802">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="true">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</testcase>
 			<testcase
+			datarangeactive="True"
+			datasource="NewConnector12"
 			id="36e3825b-18ab-41ee-ac39-4387a44affc5"
+			maxrange="0"
+			minrange="0"
 			name="VerifyMandatoryFieldsExists">
 				<description>
 					<![CDATA[Verify that not filling the mandatory fields and clicking the submit button will lead to validation error.]]>
 				</description>
 			</testcase>
 			<testmodule
-			id="3adcb8cc-6164-42c8-a771-ee734ee7d859"
-			name="GoToRegisterPage"
-			ref="b23aa907-f7be-4af2-96d6-901520759c17"
+			id="3a309cd0-765c-4e2f-b012-446d70a89cfd"
+			name="AddToCartProduct"
+			ref="8e7f3ea2-bde1-48c0-9faa-75625e8a54c4"
 			type="Recording">
 				<databinding>
 					<var
-					dataname="RegistrationPage"
-					datasourceid="8323668b-0ff2-4ca2-a7c1-999e1899767d"
-					variableid="8dc1394f-8622-4c57-bf07-2cc3b3b5d5e0"
-					variablename="RegistrationPage">
+					dataname="ProductUrl_AddedToCart"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="61be6eb4-ace3-4615-8a2d-0c8be74d66a1"
+					variablename="ProductUrl_AddedToCart">
+					</var>
+					<var
+					dataname="FirstProductLinkInCartPage"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="259c9e1e-fb8f-466a-a904-4270e3fa2490"
+					variablename="FirstProductLinkInCartPage">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="ProductUrl"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="ca589e3b-8562-435c-9741-89d602273641"
+					variablename="ProductUrl">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<teardown
+			id="3b8149d5-f6ce-4cf0-a917-cc4358ffdf33"
+			name="teardown">
+			</teardown>
+			<testcase
+			datarangeactive="True"
+			datasource="NewConnector12"
+			id="3c5d5b4c-3a01-4ad9-840c-bd501a83e4f9"
+			maxrange="0"
+			minrange="0"
+			name="LogoutTest">
+				<description>
+					<![CDATA[<p>Verify that the user can logout successfully.</p>]]>
+				</description>
+				<conditiongroup
+				comparison="AND"
+				enabled="False">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="isLoggedIn"
+								id="f3531557-cc9e-4968-818b-0a70bd481802">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="true">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
+			</testcase>
+			<testmodule
+			id="3c71e6e1-e45c-42e8-9f5c-45585452e8af"
+			name="SearchProduct"
+			ref="ca6ae3b1-a41f-44f9-b54f-802c7f41ad4c"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="SearchKeyword"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="4fddce82-48ba-4132-9cdc-bc9936dbb388"
+					variablename="SearchKeyword">
+					</var>
+					<var
+					dataname="ProductUrl_AddedToCart"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="fc841108-028a-4233-baab-3f61f1810d8e"
+					variablename="ProductUrl">
+					</var>
+				</databinding>
+				<missingdatavariablesbinding>
+					<var
+					dataname="ProductUrl_AddedToWishlist"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="fb02f903-2149-4ec6-882f-dd36df7bf3ed"
+					variablename="ProductUrl_AddedToWishlist">
+					</var>
+				</missingdatavariablesbinding>
+			</testmodule>
+			<smartfoldernode
+			id="427e3a4b-7b5a-4870-9822-8fa333d4de6f"
+			maxrange="0"
+			minrange="0"
+			name="Product1_AddToCart">
+			</smartfoldernode>
+			<testmodule
+			id="44617214-cd2f-4c61-ba74-c1005c1a78bc"
+			name="OpenBrowser"
+			ref="707ab480-8839-4b5e-9a59-39309dfd2ae0"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="HomePageUrl"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="85a95ad7-1921-439c-8bf2-c26db25439a2"
+					variablename="Url">
+					</var>
+					<var
+					dataname="BrowserPID"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="63bafb15-fb53-40a1-bd02-a5c9d40a8914"
+					variablename="BrowserPID">
 					</var>
 				</databinding>
 			</testmodule>
-			<testcase
-			id="3c5d5b4c-3a01-4ad9-840c-bd501a83e4f9"
-			name="LogoutTest">
-			</testcase>
-			<smartfoldernode
-			id="427e3a4b-7b5a-4870-9822-8fa333d4de6f"
-			name="Product1_AddToCart">
-			</smartfoldernode>
 			<testcase
 			id="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
 			name="TrendyolTest"
@@ -93,47 +324,134 @@
 					name="isLoggedIn"
 					value="false">
 					</param>
+					<param
+					name="BrowserPID"
+					value="">
+					</param>
 				</parameters>
 			</testcase>
+			<testmodule
+			id="4bb641f8-2b5c-4ac6-b96d-b373516b6620"
+			name="CloseBrowser"
+			ref="528ab128-e5c7-4d0e-acf9-bd225d141d89"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="isLoggedIn"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="2f082654-d187-4a65-a3bc-a72a7ef6239d"
+					variablename="isLoggedIn">
+					</var>
+					<var
+					dataname="BrowserPID"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="d51ab651-28b4-45ea-90b1-01941df24bbf"
+					variablename="BrowserPID">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="4cbdbe53-a6ec-4b58-ad96-47db6f6a9a73"
+			name="CloseBrowser"
+			ref="528ab128-e5c7-4d0e-acf9-bd225d141d89"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="BrowserPID"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="d51ab651-28b4-45ea-90b1-01941df24bbf"
+					variablename="BrowserPID">
+					</var>
+					<var
+					dataname="isLoggedIn"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="2f082654-d187-4a65-a3bc-a72a7ef6239d"
+					variablename="isLoggedIn">
+					</var>
+				</databinding>
+			</testmodule>
 			<setup
 			id="50768b94-1b48-48be-a524-f710bc31a53d"
 			name="setup">
 			</setup>
+			<teardown
+			id="5666d2a1-33e9-458f-88c9-626ba881ae2d"
+			name="teardown">
+			</teardown>
 			<testmodule
-			id="57e3e0d1-4268-4daa-8ad9-2b747bc73c5b"
-			name="GoHomePage"
-			ref="e97fea61-2381-47af-a7de-598b8aa61a6e"
+			id="586515bb-aea8-4302-a1e3-5882a8716bb6"
+			name="CloseBrowser"
+			ref="528ab128-e5c7-4d0e-acf9-bd225d141d89"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="isLoggedIn"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="2f082654-d187-4a65-a3bc-a72a7ef6239d"
+					variablename="isLoggedIn">
+					</var>
+					<var
+					dataname="BrowserPID"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="d51ab651-28b4-45ea-90b1-01941df24bbf"
+					variablename="BrowserPID">
+					</var>
+				</databinding>
 			</testmodule>
 			<smartfoldernode
+			datarangeactive="True"
 			id="58d82a3a-44ef-4266-a774-c67622c4b79b"
+			maxrange="1"
+			minrange="1"
 			name="Product2_AddToCart">
 			</smartfoldernode>
 			<testmodule
-			id="5a970e8f-1857-43b5-84eb-75f684fa775f"
-			name="AddToCart"
-			ref="b26515fe-4cd1-4099-b3c7-e6127a6c7083"
+			id="5fb9d5c7-f54f-4840-be00-6bfb7424bdb4"
+			name="GoToRegisterPage"
+			ref="b23aa907-f7be-4af2-96d6-901520759c17"
 			type="Recording">
 			</testmodule>
 			<testmodule
-			id="65aa2766-d97f-48c5-88ce-73b6042cb6b7"
-			name="SearchProduct"
-			ref="8e7f3ea2-bde1-48c0-9faa-75625e8a54c4"
+			id="633bf74a-7be7-40ef-b4ff-591fd31e5e5e"
+			name="CheckIfLoggedIn"
+			ref="40b263cc-006f-4860-b1e8-1ad672634f83"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="isLoggedIn"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="5b9aea3c-207a-4564-947a-b62ef49aa148"
+					variablename="isLoggedIn">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
-			id="69dae1f8-c931-41e2-837b-47a0e94302ba"
+			id="6c36245c-ee73-4262-9bfb-b6bedbe31314"
 			name="SearchProduct"
-			ref="8e7f3ea2-bde1-48c0-9faa-75625e8a54c4"
+			ref="ca6ae3b1-a41f-44f9-b54f-802c7f41ad4c"
 			type="Recording">
 				<databinding>
 					<var
 					dataname="SearchKeyword"
-					datasourceid="32a3ccd7-7f96-4548-b685-42afbcca5d79"
-					variableid="380126c1-b383-40ae-a755-e0889a9187e4"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="4fddce82-48ba-4132-9cdc-bc9936dbb388"
 					variablename="SearchKeyword">
 					</var>
+					<var
+					dataname="ProductUrl_AddedToCart"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="fc841108-028a-4233-baab-3f61f1810d8e"
+					variablename="ProductUrl">
+					</var>
 				</databinding>
+				<missingdatavariablesbinding>
+					<var
+					dataname="ProductUrl_AddedToWishlist"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="fb02f903-2149-4ec6-882f-dd36df7bf3ed"
+					variablename="ProductUrl_AddedToWishlist">
+					</var>
+				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
 			id="6f753638-69aa-4cc7-8ac2-977be19d7e7b"
@@ -142,44 +460,90 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
-			id="70d1b69e-7a12-427c-ac99-3eb362397c80"
+			id="7420fab2-4497-440c-aa6e-6f6ce010e39e"
 			name="OpenBrowser"
 			ref="707ab480-8839-4b5e-9a59-39309dfd2ae0"
 			type="Recording">
-			</testmodule>
-			<setup
-			id="79ae64f9-9d9f-40e7-b65f-b7c29e0b3b47"
-			name="setup">
-			</setup>
-			<testcase
-			id="8323668b-0ff2-4ca2-a7c1-999e1899767d"
-			name="VerifySpecifiedFieldsExists">
-				<description>
-					<![CDATA[Verify that all the specified fields are present on the registration page.]]>
-				</description>
-				<parameters>
-					<param
-					name="RegistrationPage"
-					value="https://www.trendyol.com/uyelik">
-					</param>
-				</parameters>
-			</testcase>
-			<testmodule
-			id="87a5932d-baa5-4863-9798-19d1c7c7321c"
-			name="SearchProduct"
-			ref="8e7f3ea2-bde1-48c0-9faa-75625e8a54c4"
-			type="Recording">
 				<databinding>
 					<var
-					dataname="SearchKeyword"
-					datasourceid="56e4463d-bf95-4a2b-a6d8-0a21d832f2b7"
-					variableid="380126c1-b383-40ae-a755-e0889a9187e4"
-					variablename="SearchKeyword">
+					dataname="HomePageUrl"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="85a95ad7-1921-439c-8bf2-c26db25439a2"
+					variablename="Url">
+					</var>
+					<var
+					dataname="BrowserPID"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="63bafb15-fb53-40a1-bd02-a5c9d40a8914"
+					variablename="BrowserPID">
 					</var>
 				</databinding>
 			</testmodule>
 			<testcase
+			datarangeactive="True"
+			datasource="NewConnector12"
+			id="8323668b-0ff2-4ca2-a7c1-999e1899767d"
+			maxrange="0"
+			minrange="0"
+			name="VerifySpecifiedFieldsExists">
+				<description>
+					<![CDATA[Verify that all the specified fields are present on the registration page.]]>
+				</description>
+			</testcase>
+			<testmodule
+			id="8980cd9f-2698-45c6-8282-ff95915fab97"
+			name="SearchProduct"
+			ref="ca6ae3b1-a41f-44f9-b54f-802c7f41ad4c"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="SearchKeyword"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="4fddce82-48ba-4132-9cdc-bc9936dbb388"
+					variablename="SearchKeyword">
+					</var>
+					<var
+					dataname="ProductUrl"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="fc841108-028a-4233-baab-3f61f1810d8e"
+					variablename="ProductUrl">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="SearchKeyword"
+					datasourceid="56e4463d-bf95-4a2b-a6d8-0a21d832f2b7"
+					variableid="4fddce82-48ba-4132-9cdc-bc9936dbb388"
+					variablename="SearchKeyword">
+					</var>
+					<var
+					dataname="ProductUrl_ToBeAddedWishlist"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="fb02f903-2149-4ec6-882f-dd36df7bf3ed"
+					variablename="ProductUrl_AddedToWishlist">
+					</var>
+				</missingdatabinding>
+				<missingdatavariablesbinding>
+					<var
+					dataname="ProductUrl_AddedToWishlist"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="fb02f903-2149-4ec6-882f-dd36df7bf3ed"
+					variablename="ProductUrl_AddedToWishlist">
+					</var>
+					<var
+					dataname="ProductName_ToBeAddedWishlist"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="1f23645f-ed0d-4ab0-9fa1-60ce2e7cf31c"
+					variablename="ProductUrl_ToBeAddedWishlist">
+					</var>
+				</missingdatavariablesbinding>
+			</testmodule>
+			<testcase
+			datarangeactive="True"
+			datasource="NewConnector12"
 			id="8ac5078a-d512-485d-94d4-b9f26e884eb2"
+			maxrange="0"
+			minrange="0"
 			name="LoginTest">
 				<description>
 					<![CDATA[Verify that user can login]]>
@@ -195,67 +559,129 @@
 					</param>
 				</parameters>
 			</testcase>
+			<teardown
+			id="9560d50d-2b19-42c5-bada-13a0f8c9b40e"
+			name="teardown">
+			</teardown>
 			<testmodule
-			id="927f21fa-653d-4099-9503-b539a92a0cd1"
-			name="GoToWishlistPage"
-			ref="7edaa8a0-43e4-4fd5-a1b2-0d9e866625c1"
+			id="95ab12f1-1e3a-43de-8659-5f3dd8834687"
+			name="CloseBrowser"
+			ref="528ab128-e5c7-4d0e-acf9-bd225d141d89"
 			type="Recording">
 				<databinding>
 					<var
-					dataname="WishlistPageUrl"
-					datasourceid="56e4463d-bf95-4a2b-a6d8-0a21d832f2b7"
-					variableid="06562ce9-d07a-4501-8658-d9e90bd27a05"
-					variablename="WishlistPageUrl">
+					dataname="isLoggedIn"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="2f082654-d187-4a65-a3bc-a72a7ef6239d"
+					variablename="isLoggedIn">
+					</var>
+					<var
+					dataname="BrowserPID"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="d51ab651-28b4-45ea-90b1-01941df24bbf"
+					variablename="BrowserPID">
 					</var>
 				</databinding>
 			</testmodule>
 			<testmodule
-			id="9976e6d8-8183-4419-82f7-39a0741d7123"
-			name="GoHomePage"
-			ref="e97fea61-2381-47af-a7de-598b8aa61a6e"
+			id="974f6963-820c-4cba-a8fd-6bf5da2b2e65"
+			name="CheckIfLoggedIn"
+			ref="40b263cc-006f-4860-b1e8-1ad672634f83"
 			type="Recording">
-			</testmodule>
-			<testmodule
-			id="9d76230c-aeb7-46c0-8577-394f2c3a9d39"
-			name="AddToCart"
-			ref="b26515fe-4cd1-4099-b3c7-e6127a6c7083"
-			type="Recording">
+				<databinding>
+					<var
+					dataname="isLoggedIn"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="5b9aea3c-207a-4564-947a-b62ef49aa148"
+					variablename="isLoggedIn">
+					</var>
+				</databinding>
 			</testmodule>
 			<setup
 			id="a547a904-69b9-4ed7-99ff-f8ac180333e5"
 			name="setup">
 			</setup>
 			<testmodule
-			id="b532c12b-edc5-4718-84c0-33634f8438d7"
-			name="GoToCartPage"
-			ref="1c82fb79-0c39-4d27-8f1b-5bc8e0558003"
+			id="a6aace8a-c887-40c1-99d4-c7f86de5155c"
+			name="CloseBrowser"
+			ref="528ab128-e5c7-4d0e-acf9-bd225d141d89"
 			type="Recording">
 				<databinding>
 					<var
-					dataname="CartUrl"
-					datasourceid="32a3ccd7-7f96-4548-b685-42afbcca5d79"
-					variableid="6b022691-510c-4429-90d1-e2adb64fa641"
-					variablename="CartUrl">
+					dataname="isLoggedIn"
+					datasourceid="c8ffc20b-f242-4a18-906e-d8ffc68c6563"
+					variableid="2f082654-d187-4a65-a3bc-a72a7ef6239d"
+					variablename="isLoggedIn">
 					</var>
 					<var
-					dataname="ProductName_Cart"
-					datasourceid="32a3ccd7-7f96-4548-b685-42afbcca5d79"
-					variableid="93e6ee0f-78d0-4a01-b1de-277280783197"
-					variablename="ProductName_Cart">
-					</var>
-					<var
-					dataname="ProductName"
-					datasourceid="32a3ccd7-7f96-4548-b685-42afbcca5d79"
-					variableid="8e6eb13d-1b5e-4f51-bf94-22b27ea4c1ad"
-					variablename="ProductName">
+					dataname="BrowserPID"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="d51ab651-28b4-45ea-90b1-01941df24bbf"
+					variablename="BrowserPID">
 					</var>
 				</databinding>
 			</testmodule>
 			<testmodule
-			id="b63861df-2f51-4714-8fa6-00309637278c"
-			name="GoHomePage"
-			ref="e97fea61-2381-47af-a7de-598b8aa61a6e"
+			id="aca0e611-8905-4c1c-b50c-bb1de7c930c0"
+			name="CloseBrowser"
+			ref="528ab128-e5c7-4d0e-acf9-bd225d141d89"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="BrowserPID"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="d51ab651-28b4-45ea-90b1-01941df24bbf"
+					variablename="BrowserPID">
+					</var>
+					<var
+					dataname="isLoggedIn"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="2f082654-d187-4a65-a3bc-a72a7ef6239d"
+					variablename="isLoggedIn">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="ba331c55-5a57-4cd0-a956-f40753bdfb22"
+			name="GoToWishlistPageAndCheck"
+			ref="f0eeb7d1-01c5-4750-bda5-6431d616a4e8"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ProductName_ToBeAddedWishlist"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="b75f1bb6-f41a-45c8-aefd-1f4e1823f8d0"
+					variablename="ProductName_ToBeAddedWishlist">
+					</var>
+					<var
+					dataname="ProductUrl"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="10d913cf-c7ef-4f23-a60b-087806bac558"
+					variablename="ProductUrl_ToBeAddedWishlist">
+					</var>
+				</databinding>
+				<missingdatavariablesbinding>
+					<var
+					dataname="ProductUrl_AddedToWishlist"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="4e250b26-f07b-4208-9611-afe3817d882b"
+					variablename="ProductUrl_AddedToWishlist">
+					</var>
+				</missingdatavariablesbinding>
+			</testmodule>
+			<testmodule
+			id="bbd7ecff-8362-4e79-9091-e7b50dcd143a"
+			name="CheckIfNotLoggedIn"
+			ref="6492cabf-87ad-4dac-a3cf-62d0839f9783"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="isLoggedIn"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="9297a7b0-e0e8-4757-8246-fc402f81a769"
+					variablename="isLoggedIn">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="bd549586-be5d-4476-a3d9-80d7c91d4d58"
@@ -271,69 +697,86 @@
 			VideoFps="15"
 			VideoRecordingMode="Off"
 			VideoSource="Auto"
-			createsinglereportpdfchecked="False"
 			enabletracingscreenshots="True"
 			id="be7b5f16-1bf0-4632-a0eb-1ebfc4d595ae"
-			includeimageschecked="False"
-			includerecordingschecked="False"
 			junitreport="False"
 			name="TrendyolTest"
-			overwritefilechecked="False"
 			reportcompress="False"
 			reportdirectoryname="Reports"
 			reportenabled="True"
 			reportfilename="%S_%Y%M%D_%T.rxlog"
 			reporttemplatefolder=""
-			reportwriteinterval="30000ms"
-			singlereportpdfdirectory="SingleReportPDF">
+			reportwriteinterval="30000ms">
 			</testsuite>
+			<testmodule
+			id="bf4aa86b-aecb-4d05-991c-081df7d34f70"
+			name="SearchProduct"
+			ref="ca6ae3b1-a41f-44f9-b54f-802c7f41ad4c"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="SearchKeyword"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="4fddce82-48ba-4132-9cdc-bc9936dbb388"
+					variablename="SearchKeyword">
+					</var>
+					<var
+					dataname="ProductUrl_AddedToCart"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="fc841108-028a-4233-baab-3f61f1810d8e"
+					variablename="ProductUrl">
+					</var>
+				</databinding>
+				<missingdatavariablesbinding>
+					<var
+					dataname="ProductUrl_AddedToWishlist"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="fb02f903-2149-4ec6-882f-dd36df7bf3ed"
+					variablename="ProductUrl_AddedToWishlist">
+					</var>
+					<var
+					dataname="ProductUrl_AddedToCart"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="1f23645f-ed0d-4ab0-9fa1-60ce2e7cf31c"
+					variablename="ProductUrl_ToBeAddedWishlist">
+					</var>
+				</missingdatavariablesbinding>
+			</testmodule>
 			<setup
 			id="c09524d4-f4fa-44ae-b4db-aca4fed009f6"
 			name="setup">
 			</setup>
-			<testmodule
-			id="c319450e-7bc2-4451-ade6-0b6ded72b36b"
-			name="CheckProductIfExists"
-			ref="1989ecd6-8298-42ae-b855-557a977949be"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="WishlistItemAdded"
-					datasourceid="32a3ccd7-7f96-4548-b685-42afbcca5d79"
-					variableid="bbf24092-27a4-433d-b66d-e2736b237630"
-					variablename="WishlistItemAdded">
-					</var>
-					<var
-					dataname="ProductNameWishlist"
-					datasourceid="32a3ccd7-7f96-4548-b685-42afbcca5d79"
-					variableid="f9ed84dc-9ce3-4c35-8066-c6166c0e5170"
-					variablename="ProductNameWishlist">
-					</var>
-					<var
-					dataname="ProductName_Cart"
-					datasourceid="32a3ccd7-7f96-4548-b685-42afbcca5d79"
-					variableid="2213b37e-3368-4cca-90e1-7000960dd46f"
-					variablename="ProductName_Cart">
-					</var>
-					<var
-					dataname="ProductName"
-					datasourceid="32a3ccd7-7f96-4548-b685-42afbcca5d79"
-					variableid="a78c973c-dd71-452b-8c03-980ea7eb8663"
-					variablename="ProductName">
-					</var>
-				</databinding>
-			</testmodule>
 			<testcase
+			datarangeactive="True"
+			datasource="NewConnector12"
 			id="c44a623d-24a0-4306-8c26-784d69c1d244"
+			maxrange="0"
+			minrange="0"
 			name="BlankSpacesOnMandatoryFieldsTest">
 				<description>
 					<![CDATA[Verify that entering blank spaces on mandatory fields leads to validation error.]]>
 				</description>
+				<parameters>
+					<param
+					name="NewParameter"
+					value="">
+					</param>
+				</parameters>
 			</testcase>
+			<teardown
+			id="c506bf77-2f11-4d3e-bca3-c5d3dee27657"
+			name="teardown">
+			</teardown>
 			<testcase
-			datasource="AddToCartTest_DataSource"
+			datarangeactive="True"
+			datasource="NewConnector12"
 			id="c8ffc20b-f242-4a18-906e-d8ffc68c6563"
+			maxrange="0"
+			minrange="0"
 			name="AddToCartTest">
+				<description>
+					<![CDATA[<p>Verify that the user can add to cart one or more products.</p>]]>
+				</description>
 				<parameters>
 					<param
 					name="InputEmail"
@@ -341,6 +784,38 @@
 					</param>
 					<param
 					name="InputPassword"
+					value="">
+					</param>
+					<param
+					name="ProductUrl"
+					value="">
+					</param>
+					<param
+					name="NewParameter"
+					value="">
+					</param>
+					<param
+					name="Url"
+					value="">
+					</param>
+					<param
+					name="varSearch"
+					value="">
+					</param>
+					<param
+					name="SearchKeyword"
+					value="">
+					</param>
+					<param
+					name="CartUrl"
+					value="">
+					</param>
+					<param
+					name="FirstProductLinkInCartPage"
+					value="">
+					</param>
+					<param
+					name="isLoggedIn"
 					value="">
 					</param>
 				</parameters>
@@ -352,9 +827,9 @@
 						<leftvalue>
 							<datavaluesource>
 								<databinding
-								bindingtype="Parameter"
+								bindingtype="DataConnector"
 								dataname="isLoggedIn"
-								id="473d3b13-88ac-4a30-9b5c-bd6063ace7f8">
+								id="f3531557-cc9e-4968-818b-0a70bd481802">
 								</databinding>
 							</datavaluesource>
 						</leftvalue>
@@ -370,10 +845,6 @@
 			id="caba97fa-89e0-4c11-a2f8-06d362077c57"
 			name="setup">
 			</setup>
-			<teardown
-			id="cd4dbc86-92d0-4c2c-bfdc-07600b41ede0"
-			name="teardown">
-			</teardown>
 			<testmodule
 			id="cdd7e128-3b0f-4213-9327-405b544eb130"
 			name="Login"
@@ -392,14 +863,48 @@
 					variableid="3e12afe3-7283-47a2-8aa1-4bffa4c6d145"
 					variablename="InputEmail">
 					</var>
+					<var
+					dataname="isLoggedIn"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="9f5fb931-f342-4e1e-ae07-038803516458"
+					variablename="isLoggedIn">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="cdf5d597-bc86-42be-a4c4-26ddc6040fb7"
+			name="CheckIfLoggedIn"
+			ref="40b263cc-006f-4860-b1e8-1ad672634f83"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="isLoggedIn"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="5b9aea3c-207a-4564-947a-b62ef49aa148"
+					variablename="isLoggedIn">
+					</var>
 				</databinding>
 			</testmodule>
 			<testmodule
 			id="d44c0621-dc0a-411a-84f5-c21a22315d14"
-			name="AddToWishlist"
+			name="AddToWishlistProduct"
 			ref="4d691ce2-d48c-4c18-9e93-d38d0a4917f0"
 			type="Recording">
 				<databinding>
+					<var
+					dataname="ProductName_ToBeAddedWishlist"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="8025a691-2bb5-4e7c-b440-98c092d4107f"
+					variablename="ProductName_ToBeAddedWishlist">
+					</var>
+					<var
+					dataname="ProductUrl_AddedToWishlist"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="e4927ba3-b568-4361-8ece-4c118ba37c2a"
+					variablename="ProductUrl_AddedToWishList">
+					</var>
+				</databinding>
+				<missingdatabinding>
 					<var
 					dataname="ProductName"
 					datasourceid="56e4463d-bf95-4a2b-a6d8-0a21d832f2b7"
@@ -412,7 +917,13 @@
 					variableid="29c84ac9-4c44-4e42-9634-8cab71679f83"
 					variablename="WishlistItemToBeAdded">
 					</var>
-				</databinding>
+					<var
+					dataname="ProductName_ToBeAddedWishlist"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="8025a691-2bb5-4e7c-b440-98c092d4107f"
+					variablename="ProductName_ToBeAddedWishlist">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<setup
 			id="d4f7efa0-40dc-415f-9542-28cd401b21c0"
@@ -425,10 +936,52 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
-			id="d910cee5-eedf-41d8-88c3-d212978e6e2f"
+			id="dc5b5c13-44a2-498a-abd6-a92373c2eceb"
 			name="OpenBrowser"
 			ref="707ab480-8839-4b5e-9a59-39309dfd2ae0"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="HomePageUrl"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="85a95ad7-1921-439c-8bf2-c26db25439a2"
+					variablename="Url">
+					</var>
+					<var
+					dataname="BrowserPID"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="63bafb15-fb53-40a1-bd02-a5c9d40a8914"
+					variablename="BrowserPID">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Url"
+					datasourceid="00871545-b4ca-4ff1-ac94-b8dc553bd42a"
+					variableid="85a95ad7-1921-439c-8bf2-c26db25439a2"
+					variablename="Url">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
+			id="dc8b07a2-de89-4233-b721-01488c9fa006"
+			name="CloseBrowser"
+			ref="528ab128-e5c7-4d0e-acf9-bd225d141d89"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="BrowserPID"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="d51ab651-28b4-45ea-90b1-01941df24bbf"
+					variablename="BrowserPID">
+					</var>
+					<var
+					dataname="isLoggedIn"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="2f082654-d187-4a65-a3bc-a72a7ef6239d"
+					variablename="isLoggedIn">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="dd499d3c-2959-45b2-95da-0d8b91786f68"
@@ -436,11 +989,99 @@
 			ref="20e99209-5a6c-4426-9011-5db57b59c61d"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="de6068af-5aa1-4385-9020-01cbe561b913"
+			name="setup">
+			</setup>
 			<testmodule
-			id="e865c735-b427-4ca6-9392-3a3d12fae935"
-			name="GoToRegisterPage"
-			ref="b23aa907-f7be-4af2-96d6-901520759c17"
+			id="deacfbdc-2035-40b9-84a0-f8b9a14e0eda"
+			name="CheckIfLoggedIn"
+			ref="40b263cc-006f-4860-b1e8-1ad672634f83"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="isLoggedIn"
+					datasourceid="c8ffc20b-f242-4a18-906e-d8ffc68c6563"
+					variableid="5b9aea3c-207a-4564-947a-b62ef49aa148"
+					variablename="isLoggedIn">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="e20926ba-a62d-460a-83e5-86c7d5352aaa"
+			name="OpenBrowser"
+			ref="707ab480-8839-4b5e-9a59-39309dfd2ae0"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="HomePageUrl"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="85a95ad7-1921-439c-8bf2-c26db25439a2"
+					variablename="Url">
+					</var>
+					<var
+					dataname="BrowserPID"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="63bafb15-fb53-40a1-bd02-a5c9d40a8914"
+					variablename="BrowserPID">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Url"
+					datasourceid="48a6cd29-2760-4e48-a0a9-6eaace3b9c8c"
+					variableid="85a95ad7-1921-439c-8bf2-c26db25439a2"
+					variablename="Url">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
+			id="e41db753-26d3-48d4-af85-02388a7b2b67"
+			name="OpenBrowser"
+			ref="707ab480-8839-4b5e-9a59-39309dfd2ae0"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="HomePageUrl"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="85a95ad7-1921-439c-8bf2-c26db25439a2"
+					variablename="Url">
+					</var>
+					<var
+					dataname="BrowserPID"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="63bafb15-fb53-40a1-bd02-a5c9d40a8914"
+					variablename="BrowserPID">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="HomePageUrl"
+					datasourceid="c799c7ca-4aa7-402b-ac48-beea5d42da90"
+					variableid="85a95ad7-1921-439c-8bf2-c26db25439a2"
+					variablename="Url">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
+			id="e4ebc2c1-ccff-4da9-ac93-7af2647500cf"
+			name="CloseBrowser"
+			ref="528ab128-e5c7-4d0e-acf9-bd225d141d89"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="isLoggedIn"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="2f082654-d187-4a65-a3bc-a72a7ef6239d"
+					variablename="isLoggedIn">
+					</var>
+					<var
+					dataname="BrowserPID"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="d51ab651-28b4-45ea-90b1-01941df24bbf"
+					variablename="BrowserPID">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="ea255235-61fa-47d6-8abd-1bf0a8ed972a"
@@ -449,58 +1090,16 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
-			id="eebfad56-9222-43fe-913c-a0fc88549101"
-			name="AddToCart"
-			ref="b26515fe-4cd1-4099-b3c7-e6127a6c7083"
+			id="ec8de72d-8321-4fc2-8e56-e4d24884a5d2"
+			name="CheckIfNotLoggedIn"
+			ref="6492cabf-87ad-4dac-a3cf-62d0839f9783"
 			type="Recording">
 				<databinding>
 					<var
-					dataname="BodyInnerText"
-					datasourceid="32a3ccd7-7f96-4548-b685-42afbcca5d79"
-					variableid="430061e4-0e8d-4a26-9a21-2f8d11333e6a"
-					variablename="BodyInnerText">
-					</var>
-					<var
-					dataname="CartUrl"
-					datasourceid="32a3ccd7-7f96-4548-b685-42afbcca5d79"
-					variableid="e43a21ba-5499-4059-97c8-44d0b96a499f"
-					variablename="CartUrl">
-					</var>
-					<var
-					dataname="ProductName_Cart"
-					datasourceid="32a3ccd7-7f96-4548-b685-42afbcca5d79"
-					variableid="beec0769-561f-4887-a0c4-b666e37939cd"
-					variablename="ProductName_Cart">
-					</var>
-					<var
-					dataname="CardProductsCountBefore"
-					datasourceid="32a3ccd7-7f96-4548-b685-42afbcca5d79"
-					variableid="eb4b8d0f-29d7-49dc-8b57-9495aa05422a"
-					variablename="CardProductsCountBefore">
-					</var>
-					<var
-					dataname="CardProductsCountAfter"
-					datasourceid="32a3ccd7-7f96-4548-b685-42afbcca5d79"
-					variableid="995aee8e-cefa-46cc-b86f-34cffd6710c0"
-					variablename="CardProductsCountAfter">
-					</var>
-					<var
-					dataname="CartProductsCount"
-					datasourceid="32a3ccd7-7f96-4548-b685-42afbcca5d79"
-					variableid="d77b2691-f09a-4daa-ac62-ed340843a803"
-					variablename="CartProductsCount">
-					</var>
-					<var
-					dataname="ProductName"
-					datasourceid="32a3ccd7-7f96-4548-b685-42afbcca5d79"
-					variableid="54006aca-5f1b-49fc-b755-569d2461c6ca"
-					variablename="ProductName">
-					</var>
-					<var
-					dataname="SearchKeyword"
-					datasourceid="32a3ccd7-7f96-4548-b685-42afbcca5d79"
-					variableid="b58a28c9-300f-4a38-b309-12cbb2ab20e2"
-					variablename="SearchKeyword">
+					dataname="isLoggedIn"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="9297a7b0-e0e8-4757-8246-fc402f81a769"
+					variablename="isLoggedIn">
 					</var>
 				</databinding>
 			</testmodule>
@@ -510,14 +1109,66 @@
 			ref="6b75094d-ce25-4cde-b9db-b40c572b2d83"
 			type="Recording">
 			</testmodule>
+			<teardown
+			id="f0e7ac32-24ab-4947-af79-b2850b7f58db"
+			name="teardown">
+			</teardown>
 			<setup
 			id="f2d8fcdb-61a0-4f45-90f8-760e7081dc69"
 			name="setup">
 			</setup>
 			<testcase
+			datarangeactive="True"
+			datasource="NewConnector12"
 			id="fa43bbff-80f1-4b77-b329-b74c1f74551d"
+			maxrange="0"
+			minrange="0"
 			name="BuyProductsTest">
+				<description>
+					<![CDATA[<p>Verify that the user can successfully buy more than one product that was added to his/her cart.</p>]]>
+				</description>
+				<conditiongroup
+				comparison="AND"
+				enabled="False">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="isLoggedIn"
+								id="f3531557-cc9e-4968-818b-0a70bd481802">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="true">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</testcase>
+			<testmodule
+			id="fd656eca-b62f-404b-8c52-cbb4da0d73ee"
+			name="OpenBrowser"
+			ref="707ab480-8839-4b5e-9a59-39309dfd2ae0"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="HomePageUrl"
+					datasourceid="f3531557-cc9e-4968-818b-0a70bd481802"
+					variableid="85a95ad7-1921-439c-8bf2-c26db25439a2"
+					variablename="Url">
+					</var>
+					<var
+					dataname="BrowserPID"
+					datasourceid="473d3b13-88ac-4a30-9b5c-bd6063ace7f8"
+					variableid="63bafb15-fb53-40a1-bd02-a5c9d40a8914"
+					variablename="BrowserPID">
+					</var>
+				</databinding>
+			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -533,11 +1184,15 @@
 						id="c09524d4-f4fa-44ae-b4db-aca4fed009f6"
 						name="setup">
 							<testmodule
-							id="d910cee5-eedf-41d8-88c3-d212978e6e2f"
+							id="02db57f4-4828-47e9-847e-08311ebf4c6f"
 							name="OpenBrowser">
 							</testmodule>
 							<testmodule
-							id="3adcb8cc-6164-42c8-a771-ee734ee7d859"
+							id="2d622d11-ad75-4c96-8007-be796614d8e9"
+							name="CheckIfNotLoggedIn">
+							</testmodule>
+							<testmodule
+							id="5fb9d5c7-f54f-4840-be00-6bfb7424bdb4"
 							name="GoToRegisterPage">
 							</testmodule>
 						</setup>
@@ -545,6 +1200,14 @@
 						id="6f753638-69aa-4cc7-8ac2-977be19d7e7b"
 						name="VerifyFields">
 						</testmodule>
+						<teardown
+						id="0c96bb27-ce2f-4889-bcad-76280bc337e9"
+						name="teardown">
+							<testmodule
+							id="aca0e611-8905-4c1c-b50c-bb1de7c930c0"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
 					</testcase>
 					<testcase
 					id="36e3825b-18ab-41ee-ac39-4387a44affc5"
@@ -553,7 +1216,15 @@
 						id="d4f7efa0-40dc-415f-9542-28cd401b21c0"
 						name="setup">
 							<testmodule
-							id="e865c735-b427-4ca6-9392-3a3d12fae935"
+							id="e20926ba-a62d-460a-83e5-86c7d5352aaa"
+							name="OpenBrowser">
+							</testmodule>
+							<testmodule
+							id="ec8de72d-8321-4fc2-8e56-e4d24884a5d2"
+							name="CheckIfNotLoggedIn">
+							</testmodule>
+							<testmodule
+							id="05d6666c-9697-461d-be12-326a8aa4de71"
 							name="GoToRegisterPage">
 							</testmodule>
 						</setup>
@@ -561,6 +1232,14 @@
 						id="f05708b4-95c8-460a-9215-cd09c0e2e57d"
 						name="VerifyMandatoryFieldsExists">
 						</testmodule>
+						<teardown
+						id="29561d03-c72f-4f12-8557-d6874c923f24"
+						name="teardown">
+							<testmodule
+							id="95ab12f1-1e3a-43de-8659-5f3dd8834687"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
 					</testcase>
 					<testcase
 					id="c44a623d-24a0-4306-8c26-784d69c1d244"
@@ -568,6 +1247,14 @@
 						<setup
 						id="a547a904-69b9-4ed7-99ff-f8ac180333e5"
 						name="setup">
+							<testmodule
+							id="dc5b5c13-44a2-498a-abd6-a92373c2eceb"
+							name="OpenBrowser">
+							</testmodule>
+							<testmodule
+							id="0e92018b-8696-4811-acd5-0f6ca2d0f3e4"
+							name="CheckIfNotLoggedIn">
+							</testmodule>
 							<testmodule
 							id="d7fa16f1-97ac-4972-b244-ac69d6ea72ad"
 							name="GoToRegisterPage">
@@ -577,6 +1264,14 @@
 						id="bd549586-be5d-4476-a3d9-80d7c91d4d58"
 						name="BlankSpacesOnMandatoryFields">
 						</testmodule>
+						<teardown
+						id="2360d0b2-1e80-477f-8000-8a8ea5c0722c"
+						name="teardown">
+							<testmodule
+							id="dc8b07a2-de89-4233-b721-01488c9fa006"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
 					</testcase>
 					<testcase
 					id="8ac5078a-d512-485d-94d4-b9f26e884eb2"
@@ -585,14 +1280,26 @@
 						id="f2d8fcdb-61a0-4f45-90f8-760e7081dc69"
 						name="setup">
 							<testmodule
-							id="17cc37f5-ce00-49c5-b4a9-db346ad19674"
-							name="GoToLoginPage">
+							id="e41db753-26d3-48d4-af85-02388a7b2b67"
+							name="OpenBrowser">
+							</testmodule>
+							<testmodule
+							id="bbd7ecff-8362-4e79-9091-e7b50dcd143a"
+							name="CheckIfNotLoggedIn">
 							</testmodule>
 						</setup>
 						<testmodule
 						id="cdd7e128-3b0f-4213-9327-405b544eb130"
 						name="Login">
 						</testmodule>
+						<teardown
+						id="f0e7ac32-24ab-4947-af79-b2850b7f58db"
+						name="teardown">
+							<testmodule
+							id="586515bb-aea8-4302-a1e3-5882a8716bb6"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
 					</testcase>
 					<testcase
 					id="c8ffc20b-f242-4a18-906e-d8ffc68c6563"
@@ -601,26 +1308,30 @@
 						id="caba97fa-89e0-4c11-a2f8-06d362077c57"
 						name="setup">
 							<testmodule
-							id="9976e6d8-8183-4419-82f7-39a0741d7123"
-							name="GoHomePage">
+							id="fd656eca-b62f-404b-8c52-cbb4da0d73ee"
+							name="OpenBrowser">
+							</testmodule>
+							<testmodule
+							id="deacfbdc-2035-40b9-84a0-f8b9a14e0eda"
+							name="CheckIfLoggedIn">
 							</testmodule>
 						</setup>
 						<testmodule
-						id="69dae1f8-c931-41e2-837b-47a0e94302ba"
+						id="bf4aa86b-aecb-4d05-991c-081df7d34f70"
 						name="SearchProduct">
 						</testmodule>
 						<testmodule
-						id="eebfad56-9222-43fe-913c-a0fc88549101"
-						name="AddToCart">
+						id="1b982b9a-1475-484d-a785-e224074aa74a"
+						name="AddToCartProduct">
 						</testmodule>
-						<testmodule
-						id="b532c12b-edc5-4718-84c0-33634f8438d7"
-						name="GoToCartPage">
-						</testmodule>
-						<testmodule
-						id="c319450e-7bc2-4451-ade6-0b6ded72b36b"
-						name="CheckProductIfExists">
-						</testmodule>
+						<teardown
+						id="3b8149d5-f6ce-4cf0-a917-cc4358ffdf33"
+						name="teardown">
+							<testmodule
+							id="a6aace8a-c887-40c1-99d4-c7f86de5155c"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
 					</testcase>
 					<testcase
 					id="30075852-d831-4dbb-a2ac-a3d3eab0a01b"
@@ -629,29 +1340,33 @@
 						id="50768b94-1b48-48be-a524-f710bc31a53d"
 						name="setup">
 							<testmodule
-							id="57e3e0d1-4268-4daa-8ad9-2b747bc73c5b"
-							name="GoHomePage">
+							id="44617214-cd2f-4c61-ba74-c1005c1a78bc"
+							name="OpenBrowser">
+							</testmodule>
+							<testmodule
+							id="633bf74a-7be7-40ef-b4ff-591fd31e5e5e"
+							name="CheckIfLoggedIn">
 							</testmodule>
 						</setup>
 						<testmodule
-						id="87a5932d-baa5-4863-9798-19d1c7c7321c"
+						id="8980cd9f-2698-45c6-8282-ff95915fab97"
 						name="SearchProduct">
 						</testmodule>
 						<testmodule
 						id="d44c0621-dc0a-411a-84f5-c21a22315d14"
-						name="AddToWishlist">
+						name="AddToWishlistProduct">
 						</testmodule>
 						<testmodule
-						id="927f21fa-653d-4099-9503-b539a92a0cd1"
-						name="GoToWishlistPage">
-						</testmodule>
-						<testmodule
-						id="0d4b49c8-8b2e-4f95-9c6b-b715a32cab4a"
-						name="CheckProductIfExistsInWishlistPage">
+						id="ba331c55-5a57-4cd0-a956-f40753bdfb22"
+						name="GoToWishlistPageAndCheck">
 						</testmodule>
 						<teardown
-						id="cd4dbc86-92d0-4c2c-bfdc-07600b41ede0"
+						id="5666d2a1-33e9-458f-88c9-626ba881ae2d"
 						name="teardown">
+							<testmodule
+							id="4cbdbe53-a6ec-4b58-ad96-47db6f6a9a73"
+							name="CloseBrowser">
+							</testmodule>
 						</teardown>
 					</testcase>
 					<testcase
@@ -661,32 +1376,36 @@
 						id="0d0df94f-e2ef-4b16-b52f-fdff5de075aa"
 						name="setup">
 							<testmodule
-							id="b63861df-2f51-4714-8fa6-00309637278c"
-							name="GoHomePage">
+							id="2369e820-1de7-4cf2-b49b-77d64edda224"
+							name="OpenBrowser">
+							</testmodule>
+							<testmodule
+							id="cdf5d597-bc86-42be-a4c4-26ddc6040fb7"
+							name="CheckIfLoggedIn">
 							</testmodule>
 						</setup>
 						<smartfoldernode
 						id="427e3a4b-7b5a-4870-9822-8fa333d4de6f"
 						name="Product1_AddToCart">
 							<testmodule
-							id="65aa2766-d97f-48c5-88ce-73b6042cb6b7"
+							id="6c36245c-ee73-4262-9bfb-b6bedbe31314"
 							name="SearchProduct">
 							</testmodule>
 							<testmodule
-							id="9d76230c-aeb7-46c0-8577-394f2c3a9d39"
-							name="AddToCart">
+							id="3a309cd0-765c-4e2f-b012-446d70a89cfd"
+							name="AddToCartProduct">
 							</testmodule>
 						</smartfoldernode>
 						<smartfoldernode
 						id="58d82a3a-44ef-4266-a774-c67622c4b79b"
 						name="Product2_AddToCart">
 							<testmodule
-							id="0ea8e771-1193-48f7-a481-451ef1d7e614"
+							id="3c71e6e1-e45c-42e8-9f5c-45585452e8af"
 							name="SearchProduct">
 							</testmodule>
 							<testmodule
-							id="5a970e8f-1857-43b5-84eb-75f684fa775f"
-							name="AddToCart">
+							id="192c420c-26df-455a-aa41-65bd6f9fe924"
+							name="AddToCartProduct">
 							</testmodule>
 						</smartfoldernode>
 						<testmodule
@@ -697,22 +1416,42 @@
 						id="dd499d3c-2959-45b2-95da-0d8b91786f68"
 						name="ProceedToCheckout">
 						</testmodule>
+						<teardown
+						id="9560d50d-2b19-42c5-bada-13a0f8c9b40e"
+						name="teardown">
+							<testmodule
+							id="4bb641f8-2b5c-4ac6-b96d-b373516b6620"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
 					</testcase>
 					<testcase
 					id="3c5d5b4c-3a01-4ad9-840c-bd501a83e4f9"
 					name="LogoutTest">
 						<setup
-						id="79ae64f9-9d9f-40e7-b65f-b7c29e0b3b47"
+						id="de6068af-5aa1-4385-9020-01cbe561b913"
 						name="setup">
 							<testmodule
-							id="70d1b69e-7a12-427c-ac99-3eb362397c80"
+							id="7420fab2-4497-440c-aa6e-6f6ce010e39e"
 							name="OpenBrowser">
+							</testmodule>
+							<testmodule
+							id="974f6963-820c-4cba-a8fd-6bf5da2b2e65"
+							name="CheckIfLoggedIn">
 							</testmodule>
 						</setup>
 						<testmodule
 						id="08a0853d-2472-4822-b6fa-c65473705928"
 						name="Logout">
 						</testmodule>
+						<teardown
+						id="c506bf77-2f11-4d3e-bca3-c5d3dee27657"
+						name="teardown">
+							<testmodule
+							id="e4ebc2c1-ccff-4da9-ac93-7af2647500cf"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
 					</testcase>
 				</testcase>
 			</testsuite>
@@ -720,85 +1459,51 @@
 	</testsuiteentryhierarchy>
 	<datasources>
 		<DataSource
-		id="32a3ccd7-7f96-4548-b685-42afbcca5d79"
+		filename="Data.xlsx"
+		id="f3531557-cc9e-4968-818b-0a70bd481802"
 		includefile="Checked"
-		lastknownrowcount="1"
-		name="AddToCartTest_DataSource"
-		type="Ranorex.Core.Data.CsvDataConnector"
-		withheaders="True">
+		lastknownrowcount="2"
+		name="NewConnector12"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Sayfa1"
+		worksheetrange="Auto-Range">
 			<lastknowncolumns>
+				<column>
+					HomePageUrl
+				</column>
+				<column>
+					email
+				</column>
+				<column>
+					password
+				</column>
 				<column>
 					SearchKeyword
 				</column>
 				<column>
-					ProductName
+					ProductUrl
 				</column>
 				<column>
-					CartProductsCount
+					ProductName_AddedToWishlist
 				</column>
 				<column>
-					CardProductsCountAfter
+					ProductUrl_AddedToWishlist
 				</column>
 				<column>
-					CardProductsCountBefore
+					ProductUrl_AddedToCart
 				</column>
 				<column>
-					ProductName_Cart
+					isLoggedIn
 				</column>
 				<column>
-					CartUrl
+					ProductName_ToBeAddedWishlist
 				</column>
 				<column>
-					BodyInnerText
-				</column>
-				<column>
-					ProductNameWishlist
-				</column>
-				<column>
-					WishlistItemAdded
+					FirstProductLinkInCartPage
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
 			</maskedcolumns>
-			<file>
-				AddToCartTest_DataSource.csv
-			</file>
-		</DataSource>
-		<DataSource
-		id="56e4463d-bf95-4a2b-a6d8-0a21d832f2b7"
-		includefile="Checked"
-		lastknownrowcount="1"
-		name="AddToWishlistTest_DataSource"
-		type="Ranorex.Core.Data.CsvDataConnector"
-		withheaders="True">
-			<lastknowncolumns>
-				<column>
-					SearchKeyword
-				</column>
-				<column>
-					ProductName
-				</column>
-				<column>
-					WishlistItemToBeAdded
-				</column>
-				<column>
-					WishlistPageUrl
-				</column>
-				<column>
-					ProductName_Cart
-				</column>
-				<column>
-					ProductNameWishlistPage
-				</column>
-				<column>
-					NewColumn
-				</column>
-			</lastknowncolumns>
-			<maskedcolumns>
-			</maskedcolumns>
-			<file>
-				AddToWishlistTest_DataSource1.csv
-			</file>
 		</DataSource>
 	</datasources>
 	<testconfigurations
@@ -815,7 +1520,13 @@
 			id="3c5d5b4c-3a01-4ad9-840c-bd501a83e4f9">
 			</testcontainer>
 			<testcontainer
+			id="427e3a4b-7b5a-4870-9822-8fa333d4de6f">
+			</testcontainer>
+			<testcontainer
 			id="473d3b13-88ac-4a30-9b5c-bd6063ace7f8">
+			</testcontainer>
+			<testcontainer
+			id="58d82a3a-44ef-4266-a774-c67622c4b79b">
 			</testcontainer>
 			<testcontainer
 			id="8323668b-0ff2-4ca2-a7c1-999e1899767d">
@@ -828,6 +1539,9 @@
 			</testcontainer>
 			<testcontainer
 			id="c8ffc20b-f242-4a18-906e-d8ffc68c6563">
+			</testcontainer>
+			<testcontainer
+			id="fa43bbff-80f1-4b77-b329-b74c1f74551d">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

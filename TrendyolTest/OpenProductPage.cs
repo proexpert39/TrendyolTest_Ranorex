@@ -80,7 +80,7 @@ namespace TrendyolTest
             Init();
 
             Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.trendyol.com/irmak/kup-seker-sargili-750-gr-p-43497508?boutiqueId=613502&merchantId=457005' with browser 'Chrome' in maximized mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("https://www.trendyol.com/irmak/kup-seker-sargili-750-gr-p-43497508?boutiqueId=613502&merchantId=457005", "Chrome", "", false, true, false, false, false, false, false, true);
+            Host.Current.OpenBrowser("https://www.trendyol.com/irmak/kup-seker-sargili-750-gr-p-43497508?boutiqueId=613502&merchantId=457005", "Chrome", "", false, true, false, false, false, true);
             Delay.Milliseconds(0);
             
         }

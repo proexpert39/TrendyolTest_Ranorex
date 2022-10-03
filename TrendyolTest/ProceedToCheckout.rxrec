@@ -81,8 +81,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[1]/?/?/span[@innertext='Sepeti Onayla']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="f0f3c07f-c8ae-46f4-94fb-7549dfb6c1ad">

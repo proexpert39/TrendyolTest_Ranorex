@@ -23,3 +23,17 @@ C:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\
 C:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\bin\Debug\RepositoryImages\TrendyolTestRepository62222601.rximgres
 C:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\bin\Debug\AddToWishlistTest_DataSource1.csv
 C:\Users\SYS00289\Downloads\TrendyolTest_Ranorex-main\TrendyolTest_Ranorex-main\TrendyolTest\bin\Debug\AddToCartTest_DataSource.csv
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\bin\Debug\TrendyolTest.rxtmg
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\bin\Debug\TrendyolTest.rxtst
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\bin\Debug\RepositoryImages\TrendyolTestRepository62222601.rximgres
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\bin\Debug\TrendyolTest.exe.config
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\bin\Debug\TrendyolTest.xml
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\bin\Debug\TrendyolTest.exe
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\bin\Debug\TrendyolTest.pdb
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\obj\x86\Debug\TrendyolTest.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\obj\x86\Debug\TrendyolTest.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\obj\x86\Debug\TrendyolTest.csproj.CopyComplete
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\obj\x86\Debug\TrendyolTest.exe
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\obj\x86\Debug\TrendyolTest.pdb
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\bin\Debug\Data.xlsx

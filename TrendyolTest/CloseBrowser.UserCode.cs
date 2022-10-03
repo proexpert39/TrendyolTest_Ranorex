@@ -13,6 +13,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Drawing;
 using System.Threading;
+using System.Diagnostics;
 using WinForms = System.Windows.Forms;
 
 using Ranorex;
@@ -31,6 +32,46 @@ namespace TrendyolTest
         private void Init()
         {
             // Your recording specific initialization code goes here.
+        }
+
+        public void Mouse_Click_Kapat(RepoItemInfo buttonInfo)
+        {
+            Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'buttonInfo' at Center.", buttonInfo);
+            buttonInfo.FindAdapter<Button>().Click();
+        }
+
+        public void Mouse_Move_Kapat(RepoItemInfo buttonInfo)
+        {
+            Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Move item 'buttonInfo' at Center.", buttonInfo);
+            buttonInfo.FindAdapter<Button>().MoveTo();
+        }
+
+        public void ClickCloseBrowserButton(RepoItemInfo buttonInfo)
+        {
+            Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating Exists on item 'buttonInfo'.", buttonInfo);
+            bool isBrowserNotClosed = Validate.NotExists(buttonInfo, null, false);
+            
+            if(!isBrowserNotClosed){
+            	Mouse_Move_Kapat(buttonInfo);
+            	Mouse_Click_Kapat(buttonInfo);
+            	
+            }
+            
+        }
+        
+        public void KillFirefoxBrowsers(){
+        	Process[] workers = Process.GetProcessesByName("firefox");
+        	try{
+				foreach (Process worker in workers)
+				{
+				     worker.Kill();
+				     worker.WaitForExit();
+				     worker.Dispose();
+				}
+        	}catch(Exception e){
+        		//
+        	}
+
         }
 
     }

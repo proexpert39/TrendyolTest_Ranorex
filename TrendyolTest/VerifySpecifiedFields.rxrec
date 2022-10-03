@@ -159,8 +159,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']//input[#'register-email']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<matchname>
 				Id
@@ -303,8 +301,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']//input[#'register-password-input']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="e241a2ed-386f-400a-b0d2-07a59ede1eaa">
@@ -556,8 +552,6 @@ JUcDF48scncw/U0UUhklFFFABRRRQAU0fdFFFAC0UUUAf//Z
 				<path>
 					/dom[@domain='www.trendyol.com']/dom[@domain='www.trendyol.com']//div[@class='marketing-checkbox']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<matchname>
 			</matchname>
@@ -580,8 +574,6 @@ JUcDF48scncw/U0UUhklFFFABRRRQAU0fdFFFAC0UUUAf//Z
 				<path>
 					/dom[@domain='www.trendyol.com']/dom[@domain='www.trendyol.com']//div[@class='personal-checkbox']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<matchname>
 			</matchname>
@@ -604,8 +596,6 @@ JUcDF48scncw/U0UUhklFFFABRRRQAU0fdFFFAC0UUUAf//Z
 				<path>
 					/dom[@domain='www.trendyol.com']//button[@type='submit']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<matchname>
 			</matchname>

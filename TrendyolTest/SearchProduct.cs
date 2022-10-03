@@ -26,7 +26,7 @@ namespace TrendyolTest
     /// <summary>
     ///The SearchProduct recording.
     /// </summary>
-    [TestModule("8e7f3ea2-bde1-48c0-9faa-75625e8a54c4", ModuleType.Recording, 1)]
+    [TestModule("ca6ae3b1-a41f-44f9-b54f-802c7f41ad4c", ModuleType.Recording, 1)]
     public partial class SearchProduct : ITestModule
     {
         /// <summary>
@@ -43,8 +43,6 @@ namespace TrendyolTest
         {
             SearchKeyword = "iphone 11";
             ProductUrl = "";
-            CartUrl = "https://www.trendyol.com/sepet";
-            FirstProductLinkInCartPage = "";
         }
 
         /// <summary>
@@ -62,7 +60,7 @@ namespace TrendyolTest
         /// <summary>
         /// Gets or sets the value of variable SearchKeyword.
         /// </summary>
-        [TestVariable("380126c1-b383-40ae-a755-e0889a9187e4")]
+        [TestVariable("4fddce82-48ba-4132-9cdc-bc9936dbb388")]
         public string SearchKeyword
         {
             get { return _SearchKeyword; }
@@ -74,35 +72,11 @@ namespace TrendyolTest
         /// <summary>
         /// Gets or sets the value of variable ProductUrl.
         /// </summary>
-        [TestVariable("ca589e3b-8562-435c-9741-89d602273641")]
+        [TestVariable("fc841108-028a-4233-baab-3f61f1810d8e")]
         public string ProductUrl
         {
             get { return _ProductUrl; }
             set { _ProductUrl = value; }
-        }
-
-        string _CartUrl;
-
-        /// <summary>
-        /// Gets or sets the value of variable CartUrl.
-        /// </summary>
-        [TestVariable("4a329c3a-957d-440b-b01b-b52b66f72850")]
-        public string CartUrl
-        {
-            get { return _CartUrl; }
-            set { _CartUrl = value; }
-        }
-
-        string _FirstProductLinkInCartPage;
-
-        /// <summary>
-        /// Gets or sets the value of variable FirstProductLinkInCartPage.
-        /// </summary>
-        [TestVariable("259c9e1e-fb8f-466a-a904-4270e3fa2490")]
-        public string FirstProductLinkInCartPage
-        {
-            get { return _FirstProductLinkInCartPage; }
-            set { _FirstProductLinkInCartPage = value; }
         }
 
 #endregion
@@ -135,81 +109,51 @@ namespace TrendyolTest
             repo.trendyol.Self.Focus();
             Delay.Milliseconds(0);
             
-            // Search Product
-            Report.Log(ReportLevel.Info, "Section", "Search Product", new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(1));
+            Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Focus() on item 'trendyol.SearchInput'.", repo.trendyol.SearchInputInfo, new RecordItemIndex(2));
+            // Search Product
+            Report.Log(ReportLevel.Info, "Section", "Search Product", new RecordItemIndex(2));
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Focus() on item 'trendyol.SearchInput'.", repo.trendyol.SearchInputInfo, new RecordItemIndex(3));
             repo.trendyol.SearchInput.Focus();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(3));
-            Delay.Duration(1000, false);
-            
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '$SearchKeyword' on item 'trendyol.SearchInput'.", repo.trendyol.SearchInputInfo, new RecordItemIndex(4));
-            repo.trendyol.SearchInput.Element.SetAttributeValue("Value", SearchKeyword);
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking PerformClick() on item 'trendyol.SearchInput'.", repo.trendyol.SearchInputInfo, new RecordItemIndex(4));
+            repo.trendyol.SearchInput.PerformClick();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(5));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Enter' Press with focus on 'trendyol.SearchInput'.", repo.trendyol.SearchInputInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '$SearchKeyword' on item 'trendyol.SearchInput'.", repo.trendyol.SearchInputInfo, new RecordItemIndex(6));
+            repo.trendyol.SearchInput.Element.SetAttributeValue("Value", SearchKeyword);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(7));
+            Delay.Duration(1000, false);
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(8));
+            repo.trendyol.Self.WaitForDocumentLoaded();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Enter' Press with focus on 'trendyol.SearchInput'.", repo.trendyol.SearchInputInfo, new RecordItemIndex(9));
             Keyboard.PrepareFocus(repo.trendyol.SearchInput);
             Keyboard.Press(System.Windows.Forms.Keys.Return, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(7));
-            repo.trendyol.Self.WaitForDocumentLoaded();
-            Delay.Milliseconds(0);
-            
             // Go to Details Page of First Product in search results
-            Report.Log(ReportLevel.Info, "Section", "Go to Details Page of First Product in search results", new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Section", "Go to Details Page of First Product in search results", new RecordItemIndex(10));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'trendyol.FirstProductLinkInSearchPage'.", repo.trendyol.FirstProductLinkInSearchPageInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'trendyol.FirstProductLinkInSearchPage'.", repo.trendyol.FirstProductLinkInSearchPageInfo, new RecordItemIndex(11));
             Validate.Exists(repo.trendyol.FirstProductLinkInSearchPageInfo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'Href' from item 'trendyol.FirstProductLinkInSearchPage' and assigning its value to variable 'ProductUrl'.", repo.trendyol.FirstProductLinkInSearchPageInfo, new RecordItemIndex(10));
-            ProductUrl = repo.trendyol.FirstProductLinkInSearchPage.Element.GetAttributeValueText("Href");
+            Get_value_FirstProductLinkInSearchPage1(repo.trendyol.FirstProductLinkInSearchPageInfo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Navigate(variable $ProductUrl) on item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Navigate(variable $ProductUrl) on item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(13));
             repo.trendyol.Self.Navigate(ProductUrl);
-            Delay.Milliseconds(0);
-            
-            // Add to cart the product
-            Report.Log(ReportLevel.Info, "Section", "Add to cart the product", new RecordItemIndex(12));
-            
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking PerformClick() on item 'trendyol.AddToCartButton'.", repo.trendyol.AddToCartButtonInfo, new RecordItemIndex(13));
-            repo.trendyol.AddToCartButton.As<WebElement>().PerformClick();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(14));
-            Delay.Duration(5000, false);
-            
-            // Go To Cart Page
-            Report.Log(ReportLevel.Info, "Section", "Go To Cart Page", new RecordItemIndex(15));
-            
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Navigate(variable $CartUrl) on item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(16));
-            repo.trendyol.Self.Navigate(CartUrl);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(17));
-            repo.trendyol.Self.WaitForDocumentLoaded();
-            Delay.Milliseconds(0);
-            
-            // Check product if exists in cart page
-            Report.Log(ReportLevel.Info, "Section", "Check product if exists in cart page", new RecordItemIndex(18));
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'trendyol.FirstProductLinkInCartPage'.", repo.trendyol.FirstProductLinkInCartPageInfo, new RecordItemIndex(19));
-            Validate.Exists(repo.trendyol.FirstProductLinkInCartPageInfo);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'Href' from item 'trendyol.FirstProductLinkInCartPage' and assigning its value to variable 'FirstProductLinkInCartPage'.", repo.trendyol.FirstProductLinkInCartPageInfo, new RecordItemIndex(20));
-            FirstProductLinkInCartPage = repo.trendyol.FirstProductLinkInCartPage.Element.GetAttributeValueText("Href");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual ($FirstProductLinkInCartPage=$ProductUrl) on item 'trendyol.FirstProductLinkInCartPage'.", repo.trendyol.FirstProductLinkInCartPageInfo, new RecordItemIndex(21));
-            Validate.AttributeEqual(repo.trendyol.FirstProductLinkInCartPageInfo, FirstProductLinkInCartPage, ProductUrl);
             Delay.Milliseconds(0);
             
         }

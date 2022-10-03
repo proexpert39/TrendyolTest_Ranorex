@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="12.97s"
+		durationms="12968"
+		type="root"
+		rid="224dd7ffcbdbfbc"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="9.3.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="3840x1082"
+		timestamp="3.10.2022 15:30:59"
+		timestampiso="2022-10-03T12:30:59"
+		endtime="3.10.2022 15:31:12"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Logout">
+		<detail>
+			Logout
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.440"
+			timeRelativeToTestModuleStartTime="00:05.440"
+			timeWallClock="15:31:04"
+			time="00:05.440"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'trendyol.MyAccountButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//p[text()~'Hesabım']"
+				itempath=".//p[text()~'Hesabım']"
+				fullname="TrendyolTestRepository.trendyol.MyAccountButton"
+				id="7c14b9ca221d4a8780762e1f24a83769"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\Logout.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.228"
+			timeRelativeToTestModuleStartTime="00:07.228"
+			timeWallClock="15:31:06"
+			time="00:07.228"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\Logout.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.229"
+			timeRelativeToTestModuleStartTime="00:10.229"
+			timeWallClock="15:31:09"
+			time="00:10.229"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Focus() on item 'trendyol.LogoutButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//*[@class='loggedin-account-item']/p[text()~'Çıkış']"
+				itempath=".//*[@class='loggedin-account-item']/p[text()~'Çıkış']"
+				fullname="TrendyolTestRepository.trendyol.LogoutButton"
+				id="ec3932f7c41f4335b62f4cbf1a883e25"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\Logout.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.316"
+			timeRelativeToTestModuleStartTime="00:10.316"
+			timeWallClock="15:31:09"
+			time="00:10.316"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking PerformClick() on item 'trendyol.LogoutButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//*[@class='loggedin-account-item']/p[text()~'Çıkış']"
+				itempath=".//*[@class='loggedin-account-item']/p[text()~'Çıkış']"
+				fullname="TrendyolTestRepository.trendyol.LogoutButton"
+				id="ec3932f7c41f4335b62f4cbf1a883e25"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\Logout.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.442"
+			timeRelativeToTestModuleStartTime="00:10.442"
+			timeWallClock="15:31:09"
+			time="00:10.442"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking WaitForDocumentLoaded() on item 'trendyol'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']"
+				itempath="/dom[@domain='www.trendyol.com']"
+				fullname="TrendyolTestRepository.trendyol.Self"
+				id="20f41ba75a2840aea06a52591aa57649"
+				timeout="30000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\Logout.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.748"
+			timeRelativeToTestModuleStartTime="00:12.748"
+			timeWallClock="15:31:11"
+			time="00:12.748"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'trendyol.LoginPage.UserNotLoggedInContainer'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[@class='user-notloggedin-container']"
+				itempath=".//div[@class='user-notloggedin-container']"
+				fullname="TrendyolTestRepository.trendyol.LoginPage.UserNotLoggedInContainer"
+				id="fcb005b873ca41219846634fef9f40db"
+				timeout="90000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\Logout.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.966"
+			timeRelativeToTestModuleStartTime="00:12.966"
+			timeWallClock="15:31:12"
+			time="00:12.966"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'UserNotLoggedInContainer' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[@class='user-notloggedin-container']"
+				itempath=".//div[@class='user-notloggedin-container']"
+				fullname="TrendyolTestRepository.trendyol.LoginPage.UserNotLoggedInContainer"
+				id="fcb005b873ca41219846634fef9f40db"
+				timeout="90000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\Logout.cs"
+				codeline="102"
+				loglvl="Success"
+				itemindex="5">
+			</metainfo>
+		</item>
+	</activity>
+</report>

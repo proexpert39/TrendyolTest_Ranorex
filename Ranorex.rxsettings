@@ -1,5 +1,5 @@
 ﻿<configuration
-rxversion="10.2">
+rxversion="9.3">
 	<adapter.defaultsearchtimeout>
 		10000ms
 	</adapter.defaultsearchtimeout>
@@ -79,7 +79,7 @@ rxversion="10.2">
 		25
 	</rxpath.maxmatchtextlen>
 	<rxpath.buildmode>
-		ExtendedStepCostReduce
+		StepCostReduce
 	</rxpath.buildmode>
 	<rxpath.weights>
 		<rxpathweights>
@@ -409,7 +409,7 @@ rxversion="10.2">
 		True
 	</TestCase.Retry.ShowWarning>
 	<TestCase.Autobind.Action>
-		AskUser
+		Always
 	</TestCase.Autobind.Action>
 	<Testing.Data.ExcelDataLoadingPreference>
 		PreferExcel
@@ -607,10 +607,6 @@ rxversion="10.2">
 	<plugins.qt.quickfiltered>
 		True
 	</plugins.qt.quickfiltered>
-	<plugin.mobile.android.instrumentation>
-	</plugin.mobile.android.instrumentation>
-	<plugin.mobile.ios.instrumentation>
-	</plugin.mobile.ios.instrumentation>
 	<plugin.mobile.android.ConnectTimout>
 		30000ms
 	</plugin.mobile.android.ConnectTimout>
@@ -638,9 +634,6 @@ rxversion="10.2">
 	<plugin.mobile.android.UseAndroidOS>
 		False
 	</plugin.mobile.android.UseAndroidOS>
-	<plugin.mobile.android.ForceAndroidOS>
-		False
-	</plugin.mobile.android.ForceAndroidOS>
 	<plugin.mobile.android.FetchAndroidOSScreenshots>
 		True
 	</plugin.mobile.android.FetchAndroidOSScreenshots>
@@ -678,4 +671,11 @@ rxversion="10.2">
 	<plugin.webdriver.screenshotUpdate>
 		False
 	</plugin.webdriver.screenshotUpdate>
+	<plugin.mobile.android.instrumentation>
+	</plugin.mobile.android.instrumentation>
+	<plugin.mobile.ios.instrumentation>
+	</plugin.mobile.ios.instrumentation>
+	<plugin.mobile.android.ForceAndroidOS>
+		False
+	</plugin.mobile.android.ForceAndroidOS>
 </configuration>

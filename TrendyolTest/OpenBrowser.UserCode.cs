@@ -32,6 +32,12 @@ namespace TrendyolTest
         {
             // Your recording specific initialization code goes here.
         }
+        
+        public void OpenFirefoxBrowser()
+        {
+            Report.Log(ReportLevel.Info, "Website", "Opening web site URL in variable $Url with browser 'Firefox' in maximized mode.");
+            BrowserPID = Host.Current.OpenBrowser(Url, "Firefox", "", false, true, false, false, false, true).ToString();
+        }
 
     }
 }

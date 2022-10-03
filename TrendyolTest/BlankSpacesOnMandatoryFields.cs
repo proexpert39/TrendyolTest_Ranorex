@@ -82,70 +82,90 @@ namespace TrendyolTest
             // Email Input
             Report.Log(ReportLevel.Info, "Section", "Email Input", new RecordItemIndex(0));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'trendyol.RegisterEmailInput' at Center.", repo.trendyol.RegisterEmailInputInfo, new RecordItemIndex(1));
-            repo.trendyol.RegisterEmailInput.MoveTo();
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'trendyol.RegisterPage.RegisterEmailInput'.", repo.trendyol.RegisterPage.RegisterEmailInputInfo, new RecordItemIndex(1));
+            repo.trendyol.RegisterPage.RegisterEmailInput.EnsureVisible();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'trendyol.RegisterEmailInput' at Center.", repo.trendyol.RegisterEmailInputInfo, new RecordItemIndex(2));
-            repo.trendyol.RegisterEmailInput.Click();
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Focus() on item 'trendyol.RegisterPage.RegisterEmailInput'.", repo.trendyol.RegisterPage.RegisterEmailInputInfo, new RecordItemIndex(2));
+            repo.trendyol.RegisterPage.RegisterEmailInput.Focus();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '  ' with focus on 'trendyol.RegisterEmailInput'.", repo.trendyol.RegisterEmailInputInfo, new RecordItemIndex(3));
-            repo.trendyol.RegisterEmailInput.PressKeys("  ");
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking PerformClick() on item 'trendyol.RegisterPage.RegisterEmailInput'.", repo.trendyol.RegisterPage.RegisterEmailInputInfo, new RecordItemIndex(3));
+            repo.trendyol.RegisterPage.RegisterEmailInput.PerformClick();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Type to ' ' on item 'trendyol.RegisterPage.RegisterEmailInput'.", repo.trendyol.RegisterPage.RegisterEmailInputInfo, new RecordItemIndex(4));
+            repo.trendyol.RegisterPage.RegisterEmailInput.Element.SetAttributeValue("Type", " ");
             Delay.Milliseconds(0);
             
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeNotContains (TagValue!>' ') on item 'trendyol.RegisterEmailInput'.", repo.trendyol.RegisterEmailInputInfo, new RecordItemIndex(4));
-                Validate.AttributeNotContains(repo.trendyol.RegisterEmailInputInfo, "TagValue", " ", null, false);
-                Delay.Milliseconds(100);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeNotContains (Value!>'') on item 'trendyol.RegisterEmailInput'.", repo.trendyol.RegisterEmailInputInfo, new RecordItemIndex(5));
-                Validate.AttributeNotContains(repo.trendyol.RegisterEmailInputInfo, "Value", "", null, false);
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeNotContains (TagValue!>' ') on item 'trendyol.RegisterPage.RegisterEmailInput'.", repo.trendyol.RegisterPage.RegisterEmailInputInfo, new RecordItemIndex(5));
+                Validate.AttributeNotContains(repo.trendyol.RegisterPage.RegisterEmailInputInfo, "TagValue", " ", null, false);
                 Delay.Milliseconds(100);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
             
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeNotContains (Value!>' ') on item 'trendyol.RegisterPage.RegisterEmailInput'.", repo.trendyol.RegisterPage.RegisterEmailInputInfo, new RecordItemIndex(6));
+                Validate.AttributeNotContains(repo.trendyol.RegisterPage.RegisterEmailInputInfo, "Value", " ", null, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(6)); }
+            
             // Password Input
-            Report.Log(ReportLevel.Info, "Section", "Password Input", new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Section", "Password Input", new RecordItemIndex(7));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'trendyol.RegisterPasswordInput' at Center.", repo.trendyol.RegisterPasswordInputInfo, new RecordItemIndex(7));
-            repo.trendyol.RegisterPasswordInput.Click();
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'trendyol.RegisterPage.RegisterPasswordInput'.", repo.trendyol.RegisterPage.RegisterPasswordInputInfo, new RecordItemIndex(8));
+            repo.trendyol.RegisterPage.RegisterPasswordInput.EnsureVisible();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '  ' with focus on 'trendyol.RegisterPasswordInput'.", repo.trendyol.RegisterPasswordInputInfo, new RecordItemIndex(8));
-            repo.trendyol.RegisterPasswordInput.PressKeys("  ");
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Focus() on item 'trendyol.RegisterPage.RegisterPasswordInput'.", repo.trendyol.RegisterPage.RegisterPasswordInputInfo, new RecordItemIndex(9));
+            repo.trendyol.RegisterPage.RegisterPasswordInput.Focus();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking PerformClick() on item 'trendyol.RegisterPage.RegisterPasswordInput'.", repo.trendyol.RegisterPage.RegisterPasswordInputInfo, new RecordItemIndex(10));
+            repo.trendyol.RegisterPage.RegisterPasswordInput.PerformClick();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to ' ' on item 'trendyol.RegisterPage.RegisterPasswordInput'.", repo.trendyol.RegisterPage.RegisterPasswordInputInfo, new RecordItemIndex(11));
+            repo.trendyol.RegisterPage.RegisterPasswordInput.Element.SetAttributeValue("Value", " ");
             Delay.Milliseconds(0);
             
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeNotContains (TagValue!>' ') on item 'trendyol.RegisterPasswordInput'.", repo.trendyol.RegisterPasswordInputInfo, new RecordItemIndex(9));
-                Validate.AttributeNotContains(repo.trendyol.RegisterPasswordInputInfo, "TagValue", " ", null, false);
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeNotContains (TagValue!>' ') on item 'trendyol.RegisterPage.RegisterPasswordInput'.", repo.trendyol.RegisterPage.RegisterPasswordInputInfo, new RecordItemIndex(12));
+                Validate.AttributeNotContains(repo.trendyol.RegisterPage.RegisterPasswordInputInfo, "TagValue", " ", null, false);
                 Delay.Milliseconds(100);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(9)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeNotContains (Value!>' ') on item 'trendyol.RegisterPasswordInput'.", repo.trendyol.RegisterPasswordInputInfo, new RecordItemIndex(10));
-                Validate.AttributeNotContains(repo.trendyol.RegisterPasswordInputInfo, "Value", " ", null, false);
-                Delay.Milliseconds(100);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(10)); }
-            
-            // Marketing Email Checkbox
-            Report.Log(ReportLevel.Info, "Section", "Marketing Email Checkbox", new RecordItemIndex(11));
-            
-            try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (TagValue='false') on item 'trendyol.MarketingEmailCheckboxDiv'.", repo.trendyol.MarketingEmailCheckboxDivInfo, new RecordItemIndex(12));
-                Validate.AttributeEqual(repo.trendyol.MarketingEmailCheckboxDivInfo, "TagValue", "false", null, false);
-                Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(12)); }
             
-            // Personal Data Checkbox
-            Report.Log(ReportLevel.Info, "Section", "Personal Data Checkbox", new RecordItemIndex(13));
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeNotContains (Value!>' ') on item 'trendyol.RegisterPage.RegisterPasswordInput'.", repo.trendyol.RegisterPage.RegisterPasswordInputInfo, new RecordItemIndex(13));
+                Validate.AttributeNotContains(repo.trendyol.RegisterPage.RegisterPasswordInputInfo, "Value", " ", null, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(13)); }
+            
+            // Marketing Email Checkbox
+            Report.Log(ReportLevel.Info, "Section", "Marketing Email Checkbox", new RecordItemIndex(14));
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'trendyol.RegisterPage.MarketingEmailCheckboxDiv'.", repo.trendyol.RegisterPage.MarketingEmailCheckboxDivInfo, new RecordItemIndex(15));
+            repo.trendyol.RegisterPage.MarketingEmailCheckboxDiv.EnsureVisible();
+            Delay.Milliseconds(0);
             
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (TagValue='false') on item 'trendyol.PersonalDataCheckboxDiv'.", repo.trendyol.PersonalDataCheckboxDivInfo, new RecordItemIndex(14));
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (TagValue='false') on item 'trendyol.RegisterPage.MarketingEmailCheckboxDiv'.", repo.trendyol.RegisterPage.MarketingEmailCheckboxDivInfo, new RecordItemIndex(16));
+                Validate.AttributeEqual(repo.trendyol.RegisterPage.MarketingEmailCheckboxDivInfo, "TagValue", "false", null, false);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(16)); }
+            
+            // Personal Data Checkbox
+            Report.Log(ReportLevel.Info, "Section", "Personal Data Checkbox", new RecordItemIndex(17));
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'trendyol.RegisterPage.MarketingEmailCheckboxDiv'.", repo.trendyol.RegisterPage.MarketingEmailCheckboxDivInfo, new RecordItemIndex(18));
+            repo.trendyol.RegisterPage.MarketingEmailCheckboxDiv.EnsureVisible();
+            Delay.Milliseconds(0);
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (TagValue='false') on item 'trendyol.PersonalDataCheckboxDiv'.", repo.trendyol.PersonalDataCheckboxDivInfo, new RecordItemIndex(19));
                 Validate.AttributeEqual(repo.trendyol.PersonalDataCheckboxDivInfo, "TagValue", "false", null, false);
                 Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(14)); }
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(19)); }
             
         }
 

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="8e7f3ea2-bde1-48c0-9faa-75625e8a54c4"
+id="ca6ae3b1-a41f-44f9-b54f-802c7f41ad4c"
 mode="Global">
 	<repeatcount>
 		1
@@ -24,22 +24,13 @@ mode="Global">
 	</codegen>
 	<variables>
 		<var
-		id="380126c1-b383-40ae-a755-e0889a9187e4"
+		id="4fddce82-48ba-4132-9cdc-bc9936dbb388"
 		name="SearchKeyword">
 			iphone 11
 		</var>
 		<var
-		id="ca589e3b-8562-435c-9741-89d602273641"
+		id="fc841108-028a-4233-baab-3f61f1810d8e"
 		name="ProductUrl">
-		</var>
-		<var
-		id="4a329c3a-957d-440b-b01b-b52b66f72850"
-		name="CartUrl">
-			https://www.trendyol.com/sepet
-		</var>
-		<var
-		id="259c9e1e-fb8f-466a-a904-4270e3fa2490"
-		name="FirstProductLinkInCartPage">
 		</var>
 	</variables>
 	<recorditems>
@@ -58,13 +49,20 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<arguments
 			id="0985a91b-f063-48a9-a2a2-4edf6170a8f8">
 			</arguments>
 		</invokeactionrecorditem>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<separatoritem
 		enabled="True"
 		optional="False">
@@ -89,11 +87,29 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']//div[@id='sfx-discovery-search-suggestions']//input
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<arguments
 			id="c7afda90-af3b-4401-bcfd-d5092dde69b4">
+			</arguments>
+		</invokeactionrecorditem>
+		<invokeactionrecorditem
+		action="PerformClick"
+		enabled="True"
+		optional="False"
+		searchpropertyid="bdd164d5-42e5-4eea-8ca5-3552ede707b7">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9802ff52-3124-481d-8de5-384343e9aa44"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//div[@id='sfx-discovery-search-suggestions']//input
+				</path>
+			</info>
+			<arguments
+			id="c03c4de7-9041-4ee1-916f-0a190e129245">
 			</arguments>
 		</invokeactionrecorditem>
 		<explicitdelayitem
@@ -124,8 +140,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']//div[@id='sfx-discovery-search-suggestions']//input
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<AttributeValue>
 			</AttributeValue>
@@ -139,30 +153,6 @@ mode="Global">
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
-		<keyitem
-		action="Press"
-		data="Return"
-		duration="20ms"
-		enabled="True"
-		optional="False"
-		presstime="20ms"
-		scancode="0"
-		searchpropertyid="520fb74d-a131-49f0-a23e-553f75a38b93"
-		setModifiers="True">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="9802ff52-3124-481d-8de5-384343e9aa44"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='www.trendyol.com']//div[@id='sfx-discovery-search-suggestions']//input
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-		</keyitem>
 		<invokeactionrecorditem
 		action="WaitForDocumentLoaded"
 		enabled="True"
@@ -178,13 +168,33 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<arguments
 			id="b567ac5a-aa4a-480e-a683-46d0b7a8f77e">
 			</arguments>
 		</invokeactionrecorditem>
+		<keyitem
+		action="Press"
+		data="Return"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		scancode="0"
+		searchpropertyid="c9907ad3-aaab-42d7-83a4-60aaf4be2ba0"
+		setModifiers="True">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9802ff52-3124-481d-8de5-384343e9aa44"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//div[@id='sfx-discovery-search-suggestions']//input
+				</path>
+			</info>
+		</keyitem>
 		<separatoritem
 		enabled="True"
 		optional="False">
@@ -204,13 +214,11 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="cc9739c1-2ad2-49e2-8513-9477a7a6bbdb"
+			id="d643e97f-8fa0-444e-bd58-81129fbd9738"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='www.trendyol.com']//div[@class~'p-card-chldrn-cntnr card-border']/a
+					/dom[@domain='www.trendyol.com']//div[@class~'p-card-chldrn-cntnr']/a
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<matchname>
 				Text
@@ -219,26 +227,37 @@ mode="Global">
 				yourtext
 			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="Href"
+		<userrecorditem
+		classname="SearchProduct"
 		enabled="True"
-		optional="False"
-		searchpropertyid="56577987-ed08-4b8b-b916-c273111c52d8"
-		varname="ProductUrl">
+		isexternaltestmethod="False"
+		methodname="Get_value_FirstProductLinkInSearchPage1"
+		namespace="TrendyolTest"
+		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<info
-			id="cc9739c1-2ad2-49e2-8513-9477a7a6bbdb"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='www.trendyol.com']//div[@class~'p-card-chldrn-cntnr card-border']/a
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-		</getvaluerecorditem>
+			<arguments
+			id="c21f59ec-a4a6-4169-930d-d748e981a0c6">
+				<argument
+				argname="atagInfo"
+				id="1ad9e17c-a6a0-4f94-9235-6fe41374027b">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="d643e97f-8fa0-444e-bd58-81129fbd9738"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/dom[@domain='www.trendyol.com']//div[@class~'p-card-chldrn-cntnr']/a
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
 		<invokeactionrecorditem
 		action="Navigate"
 		enabled="True"
@@ -254,8 +273,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<arguments
 			id="25416d67-c307-441f-be9e-4dc26b9a0ea2">
@@ -271,196 +288,6 @@ mode="Global">
 				</argument>
 			</arguments>
 		</invokeactionrecorditem>
-		<separatoritem
-		enabled="True"
-		optional="False">
-			<comment>
-				Add to cart the product
-			</comment>
-			<bindings>
-			</bindings>
-		</separatoritem>
-		<invokeactionrecorditem
-		action="PerformClick"
-		enabled="True"
-		optional="False"
-		searchpropertyid="30a9a7c2-a947-44f9-b425-3304802744bc">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="145f3143-f3e4-4cf9-9a65-31ce6beb267b"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='www.trendyol.com']//button[@class='add-to-basket']
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-			<arguments
-			id="1fbd0f73-d523-4682-b9d6-b0cd5370f40b">
-			</arguments>
-		</invokeactionrecorditem>
-		<explicitdelayitem
-		duration="5000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
-		<separatoritem
-		enabled="True"
-		optional="False">
-			<comment>
-				Go To Cart Page
-			</comment>
-			<bindings>
-			</bindings>
-		</separatoritem>
-		<invokeactionrecorditem
-		action="Navigate"
-		enabled="True"
-		optional="False"
-		searchpropertyid="9ee8af9b-fc2a-404a-832e-8e9824ba6563">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="20f41ba7-5a28-40ae-a06a-52591aa57649"
-			sourcename="ItemRecorderEditor">
-				<path>
-					/dom[@domain='www.trendyol.com']
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-			<arguments
-			id="0c80eec7-9d1e-4313-9687-1e27562f8d55">
-				<argument
-				argname="url"
-				id="b61f752c-8259-4434-9b72-8d087d62f5db"
-				variable="CartUrl">
-					<argvaluetype>
-						System.String
-					</argvaluetype>
-					<argvalue>
-						https://www.trendyol.com/sepet
-					</argvalue>
-				</argument>
-			</arguments>
-		</invokeactionrecorditem>
-		<invokeactionrecorditem
-		action="WaitForDocumentLoaded"
-		enabled="True"
-		optional="False"
-		searchpropertyid="a78d814a-3dbe-4228-82d5-4c12293bec88">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="20f41ba7-5a28-40ae-a06a-52591aa57649"
-			sourcename="ItemRecorderEditor">
-				<path>
-					/dom[@domain='www.trendyol.com']
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-			<arguments
-			id="75a92a6b-19ea-44cd-81d3-aa2a8025c7e2">
-			</arguments>
-		</invokeactionrecorditem>
-		<separatoritem
-		enabled="True"
-		optional="False">
-			<comment>
-				Check product if exists in cart page
-			</comment>
-			<bindings>
-			</bindings>
-		</separatoritem>
-		<validationitem
-		action="Exists"
-		enabled="True"
-		optional="False"
-		searchpropertyid="9b9d9430-0c7f-4190-97cb-bb7320294d69">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="562e393f-d3ee-4c03-8464-d3d86e336eaf"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='www.trendyol.com']//div[@class='pb-basket-item']/a
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-			<matchname>
-				Title
-			</matchname>
-			<matchvalue>
-				Apple iPhone 11 64GB Aksesuarsız Kutu Kırmızı Cep Telefonu (Apple Türkiye Garantili)
-			</matchvalue>
-		</validationitem>
-		<getvaluerecorditem
-		attrname="Href"
-		enabled="True"
-		optional="False"
-		searchpropertyid="f77bc6f3-3910-421c-a38a-374d32ce4c2c"
-		varname="FirstProductLinkInCartPage">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="562e393f-d3ee-4c03-8464-d3d86e336eaf"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='www.trendyol.com']//div[@class='pb-basket-item']/a
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-		</getvaluerecorditem>
-		<validationitem
-		action="AttributeEqual"
-		enabled="True"
-		optional="False"
-		searchpropertyid="6c944a20-7780-43b2-aa7e-977cb2d43d68">
-			<comment>
-			</comment>
-			<bindings>
-				<binding
-				target="MatchName"
-				variable="FirstProductLinkInCartPage">
-				</binding>
-				<binding
-				target="MatchValue"
-				variable="ProductUrl">
-				</binding>
-			</bindings>
-			<info
-			id="562e393f-d3ee-4c03-8464-d3d86e336eaf"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='www.trendyol.com']//div[@class='pb-basket-item']/a
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-			<matchname>
-				Text
-			</matchname>
-			<matchvalue>
-			</matchvalue>
-		</validationitem>
 	</recorditems>
 	<repository
 	id="9353f6bf-9d2b-48ce-9be0-8d0a4a110d98"

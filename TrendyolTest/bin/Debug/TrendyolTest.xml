@@ -19,25 +19,6 @@
             Constructs a new instance.
             </summary>
         </member>
-        <member name="M:TrendyolTest.AddToCart.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:TrendyolTest.AddToCart.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:TrendyolTest.AddToCart.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:TrendyolTest.AddToCart.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
         <member name="P:TrendyolTest.AddToCart.Instance">
             <summary>
             Gets a static instance of this recording.
@@ -83,6 +64,25 @@
             Gets or sets the value of variable BodyInnerText.
             </summary>
         </member>
+        <member name="M:TrendyolTest.AddToCart.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.AddToCart.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.AddToCart.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.AddToCart.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:TrendyolTest.BlankSpacesOnMandatoryFields">
              <summary>
             The BlankSpacesOnMandatoryFields recording.
@@ -96,6 +96,11 @@
         <member name="M:TrendyolTest.BlankSpacesOnMandatoryFields.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.BlankSpacesOnMandatoryFields.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:TrendyolTest.BlankSpacesOnMandatoryFields.Start">
@@ -117,11 +122,6 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:TrendyolTest.BlankSpacesOnMandatoryFields.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
         <member name="T:TrendyolTest.BuyProducts">
              <summary>
             The BuyProducts recording.
@@ -135,6 +135,11 @@
         <member name="M:TrendyolTest.BuyProducts.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.BuyProducts.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:TrendyolTest.BuyProducts.Start">
@@ -156,9 +161,92 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:TrendyolTest.BuyProducts.Instance">
+        <member name="T:TrendyolTest.CheckIfLoggedIn">
+             <summary>
+            The CheckIfLoggedIn recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.CheckIfLoggedIn.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.CheckIfLoggedIn.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.CheckIfLoggedIn.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.CheckIfLoggedIn.isLoggedIn">
+            <summary>
+            Gets or sets the value of variable isLoggedIn.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.CheckIfLoggedIn.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.CheckIfLoggedIn.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.CheckIfLoggedIn.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.CheckIfLoggedIn.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.CheckIfNotLoggedIn">
+             <summary>
+            The CheckIfNotLoggedIn recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.CheckIfNotLoggedIn.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.CheckIfNotLoggedIn.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.CheckIfNotLoggedIn.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.CheckIfNotLoggedIn.isLoggedIn">
+            <summary>
+            Gets or sets the value of variable isLoggedIn.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.CheckIfNotLoggedIn.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.CheckIfNotLoggedIn.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.CheckIfNotLoggedIn.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.CheckIfNotLoggedIn.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
             </summary>
         </member>
         <member name="T:TrendyolTest.CheckProductIfExists">
@@ -174,25 +262,6 @@
         <member name="M:TrendyolTest.CheckProductIfExists.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="M:TrendyolTest.CheckProductIfExists.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:TrendyolTest.CheckProductIfExists.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:TrendyolTest.CheckProductIfExists.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:TrendyolTest.CheckProductIfExists.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
             </summary>
         </member>
         <member name="P:TrendyolTest.CheckProductIfExists.Instance">
@@ -220,6 +289,35 @@
             Gets or sets the value of variable WishlistItemAdded.
             </summary>
         </member>
+        <member name="P:TrendyolTest.CheckProductIfExists.FirstProductLinkInCartPage">
+            <summary>
+            Gets or sets the value of variable FirstProductLinkInCartPage.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.CheckProductIfExists.ProductUrl">
+            <summary>
+            Gets or sets the value of variable ProductUrl.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.CheckProductIfExists.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.CheckProductIfExists.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.CheckProductIfExists.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.CheckProductIfExists.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:TrendyolTest.CheckProductIfExistsInWishlistPage">
              <summary>
             The CheckProductIfExistsInWishlistPage recording.
@@ -233,25 +331,6 @@
         <member name="M:TrendyolTest.CheckProductIfExistsInWishlistPage.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="M:TrendyolTest.CheckProductIfExistsInWishlistPage.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:TrendyolTest.CheckProductIfExistsInWishlistPage.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:TrendyolTest.CheckProductIfExistsInWishlistPage.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:TrendyolTest.CheckProductIfExistsInWishlistPage.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
             </summary>
         </member>
         <member name="P:TrendyolTest.CheckProductIfExistsInWishlistPage.Instance">
@@ -274,6 +353,25 @@
             Gets or sets the value of variable ProductNameWishlistPage.
             </summary>
         </member>
+        <member name="M:TrendyolTest.CheckProductIfExistsInWishlistPage.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.CheckProductIfExistsInWishlistPage.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.CheckProductIfExistsInWishlistPage.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.CheckProductIfExistsInWishlistPage.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:TrendyolTest.CloseBrowser">
              <summary>
             The CloseBrowser recording.
@@ -287,6 +385,21 @@
         <member name="M:TrendyolTest.CloseBrowser.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.CloseBrowser.BrowserPID">
+            <summary>
+            Gets or sets the value of variable BrowserPID.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.CloseBrowser.isLoggedIn">
+            <summary>
+            Gets or sets the value of variable isLoggedIn.
             </summary>
         </member>
         <member name="M:TrendyolTest.CloseBrowser.Start">
@@ -308,11 +421,6 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:TrendyolTest.CloseBrowser.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
         <member name="T:TrendyolTest.GoToCartPage">
              <summary>
             The GoToCartPage recording.
@@ -326,6 +434,11 @@
         <member name="M:TrendyolTest.GoToCartPage.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.GoToCartPage.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:TrendyolTest.GoToCartPage.Start">
@@ -347,24 +460,53 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:TrendyolTest.GoToCartPage.Instance">
+        <member name="T:TrendyolTest.GoToWishlistPageAndCheck">
+             <summary>
+            The GoToWishlistPageAndCheck recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.GoToWishlistPageAndCheck.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.GoToWishlistPageAndCheck.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.GoToWishlistPageAndCheck.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:TrendyolTest.GoToCartPage.CartUrl">
+        <member name="P:TrendyolTest.GoToWishlistPageAndCheck.ProductName_ToBeAddedWishlist">
             <summary>
-            Gets or sets the value of variable CartUrl.
+            Gets or sets the value of variable ProductName_ToBeAddedWishlist.
             </summary>
         </member>
-        <member name="P:TrendyolTest.GoToCartPage.ProductName_Cart">
+        <member name="P:TrendyolTest.GoToWishlistPageAndCheck.ProductUrl_ToBeAddedWishlist">
             <summary>
-            Gets or sets the value of variable ProductName_Cart.
+            Gets or sets the value of variable ProductUrl_ToBeAddedWishlist.
             </summary>
         </member>
-        <member name="P:TrendyolTest.GoToCartPage.ProductName">
+        <member name="M:TrendyolTest.GoToWishlistPageAndCheck.Start">
             <summary>
-            Gets or sets the value of variable ProductName.
+            Starts the replay of the static recording <see cref="P:TrendyolTest.GoToWishlistPageAndCheck.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.GoToWishlistPageAndCheck.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.GoToWishlistPageAndCheck.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
             </summary>
         </member>
         <member name="T:TrendyolTest.ProceedToCheckout">
@@ -380,6 +522,11 @@
         <member name="M:TrendyolTest.ProceedToCheckout.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.ProceedToCheckout.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:TrendyolTest.ProceedToCheckout.Start">
@@ -401,11 +548,6 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:TrendyolTest.ProceedToCheckout.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
         <member name="T:TrendyolTest.GoToWishlistPage">
              <summary>
             The GoToWishlistPage recording.
@@ -419,6 +561,16 @@
         <member name="M:TrendyolTest.GoToWishlistPage.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.GoToWishlistPage.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.GoToWishlistPage.WishlistPageUrl">
+            <summary>
+            Gets or sets the value of variable WishlistPageUrl.
             </summary>
         </member>
         <member name="M:TrendyolTest.GoToWishlistPage.Start">
@@ -440,16 +592,6 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:TrendyolTest.GoToWishlistPage.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.GoToWishlistPage.WishlistPageUrl">
-            <summary>
-            Gets or sets the value of variable WishlistPageUrl.
-            </summary>
-        </member>
         <member name="T:TrendyolTest.Login">
              <summary>
             The Login recording.
@@ -463,6 +605,26 @@
         <member name="M:TrendyolTest.Login.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.Login.InputEmail">
+            <summary>
+            Gets or sets the value of variable InputEmail.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.Login.InputPassword">
+            <summary>
+            Gets or sets the value of variable InputPassword.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.Login.isLoggedIn">
+            <summary>
+            Gets or sets the value of variable isLoggedIn.
             </summary>
         </member>
         <member name="M:TrendyolTest.Login.Start">
@@ -484,31 +646,6 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:TrendyolTest.Login.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.Login.InputEmail">
-            <summary>
-            Gets or sets the value of variable InputEmail.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.Login.InputPassword">
-            <summary>
-            Gets or sets the value of variable InputPassword.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.Login.MyAccountButton_MyAccountButtonScreenshot">
-            <summary>
-            DO NOT REFERENCE THIS CODE  - auto generated
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.Login.MyAccountButton_MyAccountButtonScreenshot_Options">
-            <summary>
-            DO NOT REFERENCE THIS CODE  - auto generated
-            </summary>
-        </member>
         <member name="T:TrendyolTest.Logout">
              <summary>
             The Logout recording.
@@ -522,6 +659,11 @@
         <member name="M:TrendyolTest.Logout.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.Logout.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:TrendyolTest.Logout.Start">
@@ -543,11 +685,6 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:TrendyolTest.Logout.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
         <member name="T:TrendyolTest.GoHomePage">
              <summary>
             The GoHomePage recording.
@@ -561,6 +698,16 @@
         <member name="M:TrendyolTest.GoHomePage.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.GoHomePage.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.GoHomePage.varSearch">
+            <summary>
+            Gets or sets the value of variable varSearch.
             </summary>
         </member>
         <member name="M:TrendyolTest.GoHomePage.Start">
@@ -582,9 +729,53 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:TrendyolTest.GoHomePage.Instance">
+        <member name="T:TrendyolTest.AddToCartProduct">
+             <summary>
+            The AddToCartProduct recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.AddToCartProduct.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.AddToCartProduct.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.AddToCartProduct.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.AddToCartProduct.FirstProductLinkInCartPage">
+            <summary>
+            Gets or sets the value of variable FirstProductLinkInCartPage.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.AddToCartProduct.ProductUrl_AddedToCart">
+            <summary>
+            Gets or sets the value of variable ProductUrl_AddedToCart.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.AddToCartProduct.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.AddToCartProduct.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.AddToCartProduct.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.AddToCartProduct.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
             </summary>
         </member>
         <member name="T:TrendyolTest.SearchProduct">
@@ -600,6 +791,21 @@
         <member name="M:TrendyolTest.SearchProduct.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.SearchProduct.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.SearchProduct.SearchKeyword">
+            <summary>
+            Gets or sets the value of variable SearchKeyword.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.SearchProduct.ProductUrl">
+            <summary>
+            Gets or sets the value of variable ProductUrl.
             </summary>
         </member>
         <member name="M:TrendyolTest.SearchProduct.Start">
@@ -621,26 +827,6 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:TrendyolTest.SearchProduct.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.SearchProduct.SearchKeyword">
-            <summary>
-            Gets or sets the value of variable SearchKeyword.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.SearchProduct.ProductLink">
-            <summary>
-            Gets or sets the value of variable ProductLink.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.SearchProduct.FirstProductNameInSearch">
-            <summary>
-            Gets or sets the value of variable FirstProductNameInSearch.
-            </summary>
-        </member>
         <member name="T:TrendyolTest.VerifyMandatoryFieldsExists">
              <summary>
             The VerifyMandatoryFieldsExists recording.
@@ -654,6 +840,11 @@
         <member name="M:TrendyolTest.VerifyMandatoryFieldsExists.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.VerifyMandatoryFieldsExists.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:TrendyolTest.VerifyMandatoryFieldsExists.Start">
@@ -675,11 +866,6 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:TrendyolTest.VerifyMandatoryFieldsExists.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
         <member name="T:TrendyolTest.OpenBrowser">
              <summary>
             The OpenBrowser recording.
@@ -693,6 +879,21 @@
         <member name="M:TrendyolTest.OpenBrowser.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.OpenBrowser.Url">
+            <summary>
+            Gets or sets the value of variable Url.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.OpenBrowser.BrowserPID">
+            <summary>
+            Gets or sets the value of variable BrowserPID.
             </summary>
         </member>
         <member name="M:TrendyolTest.OpenBrowser.Start">
@@ -714,11 +915,6 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:TrendyolTest.OpenBrowser.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
         <member name="T:TrendyolTest.GoToLoginPage">
              <summary>
             The GoToLoginPage recording.
@@ -732,6 +928,11 @@
         <member name="M:TrendyolTest.GoToLoginPage.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.GoToLoginPage.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:TrendyolTest.GoToLoginPage.Start">
@@ -753,11 +954,6 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:TrendyolTest.GoToLoginPage.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
         <member name="T:TrendyolTest.OpenProductPage">
              <summary>
             The OpenProductPage recording.
@@ -771,6 +967,11 @@
         <member name="M:TrendyolTest.OpenProductPage.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.OpenProductPage.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:TrendyolTest.OpenProductPage.Start">
@@ -792,11 +993,6 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:TrendyolTest.OpenProductPage.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
         <member name="T:TrendyolTest.GoToRegisterPage">
              <summary>
             The GoToRegisterPage recording.
@@ -810,6 +1006,11 @@
         <member name="M:TrendyolTest.GoToRegisterPage.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.GoToRegisterPage.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:TrendyolTest.GoToRegisterPage.Start">
@@ -831,24 +1032,9 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:TrendyolTest.GoToRegisterPage.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.GoToRegisterPage.RegistrationPage">
-            <summary>
-            Gets or sets the value of variable RegistrationPage.
-            </summary>
-        </member>
         <member name="T:TrendyolTest.TrendyolTestRepository">
             <summary>
             The class representing the TrendyolTestRepository element repository.
-            </summary>
-        </member>
-        <member name="M:TrendyolTest.TrendyolTestRepository.#ctor">
-            <summary>
-            Repository class constructor.
             </summary>
         </member>
         <member name="P:TrendyolTest.TrendyolTestRepository.Instance">
@@ -856,29 +1042,19 @@
             Gets the singleton class instance representing the TrendyolTestRepository element repository.
             </summary>
         </member>
+        <member name="M:TrendyolTest.TrendyolTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
         <member name="P:TrendyolTest.TrendyolTestRepository.SelfInfo">
             <summary>
             The Self item info.
             </summary>
         </member>
-        <member name="P:TrendyolTest.TrendyolTestRepository.ErrorBoxWrapper">
-            <summary>
-            The ErrorBoxWrapper item.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.TrendyolTestRepository.ErrorBoxWrapperInfo">
-            <summary>
-            The ErrorBoxWrapper item info.
-            </summary>
-        </member>
         <member name="P:TrendyolTest.TrendyolTestRepository.trendyol">
             <summary>
             The trendyol folder.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.TrendyolTestRepository.Chrome">
-            <summary>
-            The Chrome folder.
             </summary>
         </member>
         <member name="T:TrendyolTest.TrendyolTestRepositoryFolders">
@@ -906,16 +1082,6 @@
             The Self item info.
             </summary>
         </member>
-        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.MarketingEmailCheckboxDiv">
-            <summary>
-            The MarketingEmailCheckboxDiv item.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.MarketingEmailCheckboxDivInfo">
-            <summary>
-            The MarketingEmailCheckboxDiv item info.
-            </summary>
-        </member>
         <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.PersonalDataCheckboxDiv">
             <summary>
             The PersonalDataCheckboxDiv item.
@@ -926,6 +1092,26 @@
             The PersonalDataCheckboxDiv item info.
             </summary>
         </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.MyBasketButton">
+            <summary>
+            The MyBasketButton item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.MyBasketButtonInfo">
+            <summary>
+            The MyBasketButton item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.MyFavoritesButton">
+            <summary>
+            The MyFavoritesButton item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.MyFavoritesButtonInfo">
+            <summary>
+            The MyFavoritesButton item info.
+            </summary>
+        </member>
         <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.AddToCartButton">
             <summary>
             The AddToCartButton item.
@@ -934,16 +1120,6 @@
         <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.AddToCartButtonInfo">
             <summary>
             The AddToCartButton item info.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.Sepetim">
-            <summary>
-            The Sepetim item.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.SepetimInfo">
-            <summary>
-            The Sepetim item info.
             </summary>
         </member>
         <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.ProceedToCheckoutButton">
@@ -986,64 +1162,14 @@
             The MyAccountButton item info.
             </summary>
         </member>
-        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.FirstProductNameInSearch">
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.FirstProductNameWishlist">
             <summary>
-            The FirstProductNameInSearch item.
+            The FirstProductNameWishlist item.
             </summary>
         </member>
-        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.FirstProductNameInSearchInfo">
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.FirstProductNameWishlistInfo">
             <summary>
-            The FirstProductNameInSearch item info.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.ProductNameSpan">
-            <summary>
-            The ProductNameSpan item.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.ProductNameSpanInfo">
-            <summary>
-            The ProductNameSpan item info.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.ProductNameCartPage">
-            <summary>
-            The ProductNameCartPage item.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.ProductNameCartPageInfo">
-            <summary>
-            The ProductNameCartPage item info.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.RegisterEmailInput">
-            <summary>
-            The RegisterEmailInput item.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.RegisterEmailInputInfo">
-            <summary>
-            The RegisterEmailInput item info.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.RegisterPasswordInput">
-            <summary>
-            The RegisterPasswordInput item.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.RegisterPasswordInputInfo">
-            <summary>
-            The RegisterPasswordInput item info.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.UserNotLoggedInContainer">
-            <summary>
-            The UserNotLoggedInContainer item.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.UserNotLoggedInContainerInfo">
-            <summary>
-            The UserNotLoggedInContainer item info.
+            The FirstProductNameWishlist item info.
             </summary>
         </member>
         <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.FirstProductLinkInSearchPage">
@@ -1054,6 +1180,66 @@
         <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.FirstProductLinkInSearchPageInfo">
             <summary>
             The FirstProductLinkInSearchPage item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.FirstProductLinkInWishlistPage">
+            <summary>
+            The FirstProductLinkInWishlistPage item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.FirstProductLinkInWishlistPageInfo">
+            <summary>
+            The FirstProductLinkInWishlistPage item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.FirstProductLinkInCartPage">
+            <summary>
+            The FirstProductLinkInCartPage item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.FirstProductLinkInCartPageInfo">
+            <summary>
+            The FirstProductLinkInCartPage item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.ErrorBoxWrapper">
+            <summary>
+            The ErrorBoxWrapper item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.ErrorBoxWrapperInfo">
+            <summary>
+            The ErrorBoxWrapper item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.UserLoginContainer">
+            <summary>
+            The UserLoginContainer item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.UserLoginContainerInfo">
+            <summary>
+            The UserLoginContainer item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.LoginButton">
+            <summary>
+            The LoginButton item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.LoginButtonInfo">
+            <summary>
+            The LoginButton item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.SepetimTitle">
+            <summary>
+            The SepetimTitle item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.SepetimTitleInfo">
+            <summary>
+            The SepetimTitle item info.
             </summary>
         </member>
         <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.RegisterPage">
@@ -1075,29 +1261,6 @@
             <summary>
             The LoginPage folder.
             </summary>
-        </member>
-        <member name="T:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.MyAccountButtonInfoClass">
-            <summary>
-            The MyAccountButtonInfoClass folder.
-            </summary>
-        </member>
-        <member name="M:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.MyAccountButtonInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
-            <summary>
-            MyAccountButtonInfoClass class constructor.
-            </summary>
-        </member>
-        <member name="M:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.MyAccountButtonInfoClass.GetMyAccountButtonScreenshot">
-            <summary>
-            Gets the MyAccountButtonScreenshot item image.
-            </summary>
-            <returns>The MyAccountButtonScreenshot image.</returns>
-        </member>
-        <member name="M:TrendyolTest.TrendyolTestRepositoryFolders.TrendyolAppFolder.MyAccountButtonInfoClass.GetMyAccountButtonScreenshot(System.Drawing.Rectangle)">
-            <summary>
-            Gets the MyAccountButtonScreenshot item image.
-            </summary>
-            <param name="cropRect">The bounds of the sub-image to return.</param>
-            <returns>The cropped image.</returns>
         </member>
         <member name="T:TrendyolTest.TrendyolTestRepositoryFolders.RegisterPageFolder">
             <summary>
@@ -1129,6 +1292,16 @@
             The PersonalCheckboxDiv item info.
             </summary>
         </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.RegisterPageFolder.MarketingEmailCheckboxDiv">
+            <summary>
+            The MarketingEmailCheckboxDiv item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.RegisterPageFolder.MarketingEmailCheckboxDivInfo">
+            <summary>
+            The MarketingEmailCheckboxDiv item info.
+            </summary>
+        </member>
         <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.RegisterPageFolder.MarketingCheckboxDiv">
             <summary>
             The MarketingCheckboxDiv item.
@@ -1147,6 +1320,46 @@
         <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.RegisterPageFolder.RegisterButtonInfo">
             <summary>
             The RegisterButton item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.RegisterPageFolder.RegisterEmailInput">
+            <summary>
+            The RegisterEmailInput item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.RegisterPageFolder.RegisterEmailInputInfo">
+            <summary>
+            The RegisterEmailInput item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.RegisterPageFolder.RegisterPasswordInput">
+            <summary>
+            The RegisterPasswordInput item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.RegisterPageFolder.RegisterPasswordInputInfo">
+            <summary>
+            The RegisterPasswordInput item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.RegisterPageFolder.RegisterTabButton">
+            <summary>
+            The RegisterTabButton item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.RegisterPageFolder.RegisterTabButtonInfo">
+            <summary>
+            The RegisterTabButton item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.RegisterPageFolder.RegisterTabContainer">
+            <summary>
+            The RegisterTabContainer item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.RegisterPageFolder.RegisterTabContainerInfo">
+            <summary>
+            The RegisterTabContainer item info.
             </summary>
         </member>
         <member name="T:TrendyolTest.TrendyolTestRepositoryFolders.ProductDetailsFolder">
@@ -1177,6 +1390,16 @@
         <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ProductDetailsFolder.AddToFavoritesBtnInfo">
             <summary>
             The AddToFavoritesBtn item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ProductDetailsFolder.AddedToFavoritesBtn">
+            <summary>
+            The AddedToFavoritesBtn item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ProductDetailsFolder.AddedToFavoritesBtnInfo">
+            <summary>
+            The AddedToFavoritesBtn item info.
             </summary>
         </member>
         <member name="T:TrendyolTest.TrendyolTestRepositoryFolders.CartPageFolder">
@@ -1269,34 +1492,24 @@
             The LoginPasswordInput item info.
             </summary>
         </member>
-        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.LoginPageFolder.LoginButton">
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.LoginPageFolder.LoginBtn">
             <summary>
-            The LoginButton item.
+            The LoginBtn item.
             </summary>
         </member>
-        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.LoginPageFolder.LoginButtonInfo">
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.LoginPageFolder.LoginBtnInfo">
             <summary>
-            The LoginButton item info.
+            The LoginBtn item info.
             </summary>
         </member>
-        <member name="T:TrendyolTest.TrendyolTestRepositoryFolders.ChromeAppFolder">
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.LoginPageFolder.UserNotLoggedInContainer">
             <summary>
-            The ChromeAppFolder folder.
+            The UserNotLoggedInContainer item.
             </summary>
         </member>
-        <member name="M:TrendyolTest.TrendyolTestRepositoryFolders.ChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.LoginPageFolder.UserNotLoggedInContainerInfo">
             <summary>
-            Creates a new Chrome  folder.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ChromeAppFolder.Self">
-            <summary>
-            The Self item.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ChromeAppFolder.SelfInfo">
-            <summary>
-            The Self item info.
+            The UserNotLoggedInContainer item info.
             </summary>
         </member>
         <member name="T:TrendyolTest.VerifyFields">
@@ -1312,6 +1525,11 @@
         <member name="M:TrendyolTest.VerifyFields.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.VerifyFields.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:TrendyolTest.VerifyFields.Start">
@@ -1333,32 +1551,42 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:TrendyolTest.VerifyFields.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="T:TrendyolTest.AddToWishlist">
+        <member name="T:TrendyolTest.AddToWishlistProduct">
              <summary>
-            The AddToWishlist recording.
+            The AddToWishlistProduct recording.
              </summary>
         </member>
-        <member name="F:TrendyolTest.AddToWishlist.repo">
+        <member name="F:TrendyolTest.AddToWishlistProduct.repo">
             <summary>
             Holds an instance of the TrendyolTestRepository repository.
             </summary>
         </member>
-        <member name="M:TrendyolTest.AddToWishlist.#ctor">
+        <member name="M:TrendyolTest.AddToWishlistProduct.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="M:TrendyolTest.AddToWishlist.Start">
+        <member name="P:TrendyolTest.AddToWishlistProduct.Instance">
             <summary>
-            Starts the replay of the static recording <see cref="P:TrendyolTest.AddToWishlist.Instance"/>.
+            Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="M:TrendyolTest.AddToWishlist.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="P:TrendyolTest.AddToWishlistProduct.ProductName_ToBeAddedWishlist">
+            <summary>
+            Gets or sets the value of variable ProductName_ToBeAddedWishlist.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.AddToWishlistProduct.ProductUrl_AddedToWishList">
+            <summary>
+            Gets or sets the value of variable ProductUrl_AddedToWishList.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.AddToWishlistProduct.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.AddToWishlistProduct.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.AddToWishlistProduct.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -1366,25 +1594,16 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:TrendyolTest.AddToWishlist.Init">
+        <member name="M:TrendyolTest.AddToWishlistProduct.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:TrendyolTest.AddToWishlist.Instance">
+        <member name="M:TrendyolTest.AddToWishlist.Init">
             <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.AddToWishlist.ProductName">
-            <summary>
-            Gets or sets the value of variable ProductName.
-            </summary>
-        </member>
-        <member name="P:TrendyolTest.AddToWishlist.WishlistItemToBeAdded">
-            <summary>
-            Gets or sets the value of variable WishlistItemToBeAdded.
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
             </summary>
         </member>
         <member name="T:__RxMain.__RxProgram">

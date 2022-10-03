@@ -162,6 +162,30 @@
       <UserCode>true</UserCode>
       <id>4afeba2b-855b-44a1-88b4-e3e5add9c290</id>
     </Compile>
+    <Compile Include="CheckIfLoggedIn.cs">
+      <BoundTo>5623a8b3-09ba-44d5-943a-f42a377abb24</BoundTo>
+      <DependentUpon>CheckIfLoggedIn.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f5ad32fa-f92a-4416-832c-e5dffc19ebe8</id>
+    </Compile>
+    <Compile Include="CheckIfLoggedIn.UserCode.cs">
+      <BoundTo>5623a8b3-09ba-44d5-943a-f42a377abb24</BoundTo>
+      <DependentUpon>CheckIfLoggedIn.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3d364e00-663c-4096-bf72-879f6dd905f5</id>
+    </Compile>
+    <Compile Include="CheckIfNotLoggedIn.cs">
+      <BoundTo>cfcd8406-6e74-463d-9a4b-4013992691dc</BoundTo>
+      <DependentUpon>CheckIfNotLoggedIn.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a47dc026-4805-4a21-888a-2ff8f04829a1</id>
+    </Compile>
+    <Compile Include="CheckIfNotLoggedIn.UserCode.cs">
+      <BoundTo>cfcd8406-6e74-463d-9a4b-4013992691dc</BoundTo>
+      <DependentUpon>CheckIfNotLoggedIn.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>12a318a1-c677-493a-8034-ddedc2745ddb</id>
+    </Compile>
     <Compile Include="CheckProductIfExistsInCartPage.cs">
       <BoundTo>81a63e4f-859c-420b-b2bc-2a915bcb7bcf</BoundTo>
       <DependentUpon>CheckProductIfExistsInCartPage.rxrec</DependentUpon>
@@ -209,6 +233,18 @@
       <DependentUpon>GoToCartPage.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>1b0e7a00-ee79-4c6b-8fa2-bc88e16472d0</id>
+    </Compile>
+    <Compile Include="GoToWishlistPageAndCheck.cs">
+      <BoundTo>65007d26-876d-4f38-bed3-bf96ccc8722d</BoundTo>
+      <DependentUpon>GoToWishlistPageAndCheck.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a42d8694-6422-4245-aa7d-a6e7e4f4606d</id>
+    </Compile>
+    <Compile Include="GoToWishlistPageAndCheck.UserCode.cs">
+      <BoundTo>65007d26-876d-4f38-bed3-bf96ccc8722d</BoundTo>
+      <DependentUpon>GoToWishlistPageAndCheck.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>510c88f6-88fb-4f46-ba73-229b082a9b47</id>
     </Compile>
     <Compile Include="ProceedToCheckout.cs">
       <BoundTo>1a7ebfe9-3c9e-4dcb-bc43-f99f062b7024</BoundTo>
@@ -270,17 +306,29 @@
       <UserCode>true</UserCode>
       <id>2ed7426b-ef45-42e3-bbbe-70ac34c8e2a1</id>
     </Compile>
-    <Compile Include="SearchProduct.cs">
+    <Compile Include="AddToCartProduct.cs">
       <BoundTo>5342412d-67af-4bc9-ae29-07960d0175fc</BoundTo>
-      <DependentUpon>SearchProduct.rxrec</DependentUpon>
+      <DependentUpon>AddToCartProduct.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>25a16cb9-6a5f-4499-ab71-a7b0574505cb</id>
+      <id>3b8656f4-70ef-42aa-adfa-22b7464b5320</id>
     </Compile>
-    <Compile Include="SearchProduct.UserCode.cs">
+    <Compile Include="AddToCartProduct.UserCode.cs">
       <BoundTo>5342412d-67af-4bc9-ae29-07960d0175fc</BoundTo>
-      <DependentUpon>SearchProduct.rxrec</DependentUpon>
+      <DependentUpon>AddToCartProduct.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>395c0448-ab35-4624-846c-cb1a8cf15356</id>
+    </Compile>
+    <Compile Include="SearchProduct.cs">
+      <BoundTo>bc934415-e6ae-4fc0-a67a-a5fd673c5c6e</BoundTo>
+      <DependentUpon>SearchProduct.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>87d534a9-1277-4820-9504-37ef78efd851</id>
+    </Compile>
+    <Compile Include="SearchProduct.UserCode.cs">
+      <BoundTo>bc934415-e6ae-4fc0-a67a-a5fd673c5c6e</BoundTo>
+      <DependentUpon>SearchProduct.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9f9703f4-e08b-4978-a3a4-8105ae11a1c3</id>
     </Compile>
     <Compile Include="VerifyMandatoryFieldsExists.cs">
       <BoundTo>f22af87c-a193-4fda-bbd4-92d22f402807</BoundTo>
@@ -363,15 +411,15 @@
       <UserCode>true</UserCode>
       <id>38856020-8b2a-4e2d-8428-648b0d08024d</id>
     </Compile>
-    <Compile Include="AddToWishlist.cs">
+    <Compile Include="AddToWishlistProduct.cs">
       <BoundTo>ebd7c079-b9ff-4af6-a609-f6cc851914ee</BoundTo>
-      <DependentUpon>AddToWishlist.rxrec</DependentUpon>
+      <DependentUpon>AddToWishlistProduct.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>11bfb185-2242-4906-875b-fe037cb23f61</id>
     </Compile>
-    <Compile Include="AddToWishlist.UserCode.cs">
+    <Compile Include="AddToWishlistProduct.UserCode.cs">
       <BoundTo>ebd7c079-b9ff-4af6-a609-f6cc851914ee</BoundTo>
-      <DependentUpon>AddToWishlist.rxrec</DependentUpon>
+      <DependentUpon>AddToWishlistProduct.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>5284421c-f452-42a5-925a-74acf9505ee0</id>
     </Compile>
@@ -382,20 +430,6 @@
       <id>6819395e-8b91-43d2-883b-a72c8f15ac03</id>
       <recordtableid>b26515fe-4cd1-4099-b3c7-e6127a6c7083</recordtableid>
     </None>
-    <Content Include="AddToWishlistTest_DataSource1.csv">
-      <Link>AddToWishlistTest_DataSource1.csv</Link>
-      <BoundTo>5942b839-62bf-4672-b944-a7a37671d919</BoundTo>
-      <DependentUpon>TrendyolTest.rxtst</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>28e208e2-3dbb-4027-a7ab-69c69d75f6a9</id>
-    </Content>
-    <Content Include="AddToCartTest_DataSource.csv">
-      <Link>AddToCartTest_DataSource.csv</Link>
-      <BoundTo>5942b839-62bf-4672-b944-a7a37671d919</BoundTo>
-      <DependentUpon>TrendyolTest.rxtst</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>9a0131e5-4dfb-4233-8424-7060a79c332a</id>
-    </Content>
     <None Include="app.config">
       <id>f43930a6-2bf3-4884-ab3e-357a8114e419</id>
     </None>
@@ -408,6 +442,16 @@
       <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
       <id>9677bd39-6e8d-4f67-a7b0-ab780ae0a36f</id>
       <recordtableid>556cfc3c-9b34-4611-8949-9f94c8806a62</recordtableid>
+    </None>
+    <None Include="CheckIfLoggedIn.rxrec">
+      <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
+      <id>5623a8b3-09ba-44d5-943a-f42a377abb24</id>
+      <recordtableid>40b263cc-006f-4860-b1e8-1ad672634f83</recordtableid>
+    </None>
+    <None Include="CheckIfNotLoggedIn.rxrec">
+      <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
+      <id>cfcd8406-6e74-463d-9a4b-4013992691dc</id>
+      <recordtableid>6492cabf-87ad-4dac-a3cf-62d0839f9783</recordtableid>
     </None>
     <None Include="CheckProductIfExistsInCartPage.rxrec">
       <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
@@ -424,10 +468,22 @@
       <id>300d49b7-5370-4823-a08b-dc7b7667c48a</id>
       <recordtableid>528ab128-e5c7-4d0e-acf9-bd225d141d89</recordtableid>
     </None>
+    <Content Include="Data.xlsx">
+      <Link>Data.xlsx</Link>
+      <BoundTo>5942b839-62bf-4672-b944-a7a37671d919</BoundTo>
+      <DependentUpon>TrendyolTest.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>aadc4b7b-47b8-4a40-97c0-16ac952e2497</id>
+    </Content>
     <None Include="GoToCartPage.rxrec">
       <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
       <id>bd829a50-dd42-4140-9cee-e8de597c2cae</id>
       <recordtableid>1c82fb79-0c39-4d27-8f1b-5bc8e0558003</recordtableid>
+    </None>
+    <None Include="GoToWishlistPageAndCheck.rxrec">
+      <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
+      <id>65007d26-876d-4f38-bed3-bf96ccc8722d</id>
+      <recordtableid>f0eeb7d1-01c5-4750-bda5-6431d616a4e8</recordtableid>
     </None>
     <None Include="ProceedToCheckout.rxrec">
       <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
@@ -454,10 +510,15 @@
       <id>3fe07b78-8c45-4726-9ee6-adc2ee3756d3</id>
       <recordtableid>e97fea61-2381-47af-a7de-598b8aa61a6e</recordtableid>
     </None>
-    <None Include="SearchProduct.rxrec">
+    <None Include="AddToCartProduct.rxrec">
       <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
       <id>5342412d-67af-4bc9-ae29-07960d0175fc</id>
       <recordtableid>8e7f3ea2-bde1-48c0-9faa-75625e8a54c4</recordtableid>
+    </None>
+    <None Include="SearchProduct.rxrec">
+      <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
+      <id>bc934415-e6ae-4fc0-a67a-a5fd673c5c6e</id>
+      <recordtableid>ca6ae3b1-a41f-44f9-b54f-802c7f41ad4c</recordtableid>
     </None>
     <None Include="VerifyMandatoryFieldsExists.rxrec">
       <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
@@ -500,7 +561,7 @@
       <id>a2f626b3-8add-4b54-a6c0-b5e0535bcb27</id>
       <recordtableid>b0f775a6-e7cc-46e4-9db9-0c990a3f9e56</recordtableid>
     </None>
-    <None Include="AddToWishlist.rxrec">
+    <None Include="AddToWishlistProduct.rxrec">
       <BoundTo>3e97372e-0db6-41a8-9740-b0e101a38833</BoundTo>
       <id>ebd7c079-b9ff-4af6-a609-f6cc851914ee</id>
       <recordtableid>4d691ce2-d48c-4c18-9e93-d38d0a4917f0</recordtableid>

@@ -23,31 +23,49 @@ mode="Desktop">
 	namespace="TrendyolTest">
 	</codegen>
 	<variables>
+		<var
+		id="85a95ad7-1921-439c-8bf2-c26db25439a2"
+		name="Url">
+		</var>
+		<var
+		id="63bafb15-fb53-40a1-bd02-a5c9d40a8914"
+		name="BrowserPID">
+		</var>
 	</variables>
 	<recorditems>
-		<openwebsiterecorditem
-		args=""
-		browser="chrome"
-		clearcache="False"
-		clearcodecache="False"
-		clearcookies="False"
-		clearserviceworker="False"
+		<userrecorditem
+		classname="OpenBrowser"
 		enabled="True"
-		incognito="False"
-		instrument="True"
-		killexisting="False"
-		maximized="True"
+		isexternaltestmethod="False"
+		methodname="OpenFirefoxBrowser"
+		namespace="TrendyolTest"
 		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<url>
-				https://www.trendyol.com
-			</url>
-		</openwebsiterecorditem>
+			<arguments
+			id="510b0836-7ee6-49ad-b70a-86b4b45e0c44">
+			</arguments>
+		</userrecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="4cc855a1-cce8-4492-a3fa-d179b0fc98cb">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="BrowserPID">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
 		<invokeactionrecorditem
-		action="EnsureVisible"
+		action="WaitForDocumentLoaded"
 		enabled="True"
 		optional="False"
 		searchpropertyid="69d3b1a6-6f14-46fe-800b-09a406b797f9">
@@ -61,8 +79,6 @@ mode="Desktop">
 				<path>
 					/dom[@domain='www.trendyol.com']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<arguments
 			id="3c29e7c7-1dce-4891-a23f-ec72d81d1f7d">

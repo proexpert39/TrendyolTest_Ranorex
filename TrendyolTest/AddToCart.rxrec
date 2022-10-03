@@ -87,8 +87,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']//button[@class='add-to-basket']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<arguments
 			id="1fbd0f73-d523-4682-b9d6-b0cd5370f40b">

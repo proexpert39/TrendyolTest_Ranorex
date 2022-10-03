@@ -23,6 +23,10 @@ mode="Global">
 	namespace="TrendyolTest">
 	</codegen>
 	<variables>
+		<var
+		id="bef1ba65-5abf-4d68-b178-0ea24317d0aa"
+		name="varSearch">
+		</var>
 	</variables>
 	<recorditems>
 		<invokeactionrecorditem
@@ -40,8 +44,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<arguments
 			id="c2e4bb7e-0953-4e11-945e-e0c813de9f2e">
@@ -72,8 +74,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<arguments
 			id="f7874127-41d9-47f9-b7d5-ffcfcef52af0">

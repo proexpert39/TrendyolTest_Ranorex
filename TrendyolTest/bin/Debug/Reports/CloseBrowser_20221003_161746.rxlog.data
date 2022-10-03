@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.3s"
+		durationms="7295"
+		type="root"
+		rid="4710c4b795909dc"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="9.3.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="3.10.2022 16:17:48"
+		timestampiso="2022-10-03T13:17:48"
+		endtime="3.10.2022 16:17:56"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CloseBrowser">
+		<detail>
+			CloseBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.966"
+			timeRelativeToTestModuleStartTime="00:04.966"
+			timeWallClock="16:17:53"
+			time="00:04.966"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>BrowserPID, isLoggedIn
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.988"
+			timeRelativeToTestModuleStartTime="00:04.988"
+			timeWallClock="16:17:53"
+			time="00:04.988"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'Kapat'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="//toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+				itempath="//toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+				fullname="TrendyolTestRepository.Kapat"
+				id="27475d0e0f484bec9a131593d78396f4"
+				timeout="30000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\CloseBrowser.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.339"
+			timeRelativeToTestModuleStartTime="00:06.339"
+			timeWallClock="16:17:55"
+			time="00:06.339"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Kapat' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="//toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+				itempath="//toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+				fullname="TrendyolTestRepository.Kapat"
+				id="27475d0e0f484bec9a131593d78396f4"
+				timeout="30000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\CloseBrowser.cs"
+				codeline="109"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.340"
+			timeRelativeToTestModuleStartTime="00:06.340"
+			timeWallClock="16:17:55"
+			time="00:06.340"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'Kapat' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="//toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+				itempath="//toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+				fullname="TrendyolTestRepository.Kapat"
+				id="27475d0e0f484bec9a131593d78396f4"
+				timeout="30000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\CloseBrowser.cs"
+				codeline="112"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.785"
+			timeRelativeToTestModuleStartTime="00:06.785"
+			timeWallClock="16:17:55"
+			time="00:06.785"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Kapat' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="//toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+				itempath="//toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+				fullname="TrendyolTestRepository.Kapat"
+				id="27475d0e0f484bec9a131593d78396f4"
+				timeout="30000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\CloseBrowser.cs"
+				codeline="116"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

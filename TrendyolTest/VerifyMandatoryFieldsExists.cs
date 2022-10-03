@@ -83,16 +83,16 @@ namespace TrendyolTest
             repo.trendyol.Self.Focus();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Value='') on item 'trendyol.RegisterEmailInput'.", repo.trendyol.RegisterEmailInputInfo, new RecordItemIndex(1));
-            Validate.AttributeEqual(repo.trendyol.RegisterEmailInputInfo, "Value", "");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Value='') on item 'trendyol.RegisterPage.RegisterEmailInput'.", repo.trendyol.RegisterPage.RegisterEmailInputInfo, new RecordItemIndex(1));
+            Validate.AttributeEqual(repo.trendyol.RegisterPage.RegisterEmailInputInfo, "Value", "");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Value='') on item 'trendyol.RegisterPasswordInput'.", repo.trendyol.RegisterPasswordInputInfo, new RecordItemIndex(2));
-            Validate.AttributeEqual(repo.trendyol.RegisterPasswordInputInfo, "Value", "");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Value='') on item 'trendyol.RegisterPage.RegisterPasswordInput'.", repo.trendyol.RegisterPage.RegisterPasswordInputInfo, new RecordItemIndex(2));
+            Validate.AttributeEqual(repo.trendyol.RegisterPage.RegisterPasswordInputInfo, "Value", "");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue='false') on item 'trendyol.MarketingEmailCheckboxDiv'.", repo.trendyol.MarketingEmailCheckboxDivInfo, new RecordItemIndex(3));
-            Validate.AttributeEqual(repo.trendyol.MarketingEmailCheckboxDivInfo, "TagValue", "false");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue='false') on item 'trendyol.RegisterPage.MarketingEmailCheckboxDiv'.", repo.trendyol.RegisterPage.MarketingEmailCheckboxDivInfo, new RecordItemIndex(3));
+            Validate.AttributeEqual(repo.trendyol.RegisterPage.MarketingEmailCheckboxDivInfo, "TagValue", "false");
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue='false') on item 'trendyol.PersonalDataCheckboxDiv'.", repo.trendyol.PersonalDataCheckboxDivInfo, new RecordItemIndex(4));
@@ -107,8 +107,8 @@ namespace TrendyolTest
             Delay.Duration(2000, false);
             
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Visible='False') on item 'ErrorBoxWrapper'.", repo.ErrorBoxWrapperInfo, new RecordItemIndex(7));
-                Validate.AttributeEqual(repo.ErrorBoxWrapperInfo, "Visible", "False", null, false);
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Visible='true') on item 'trendyol.ErrorBoxWrapper'.", repo.trendyol.ErrorBoxWrapperInfo, new RecordItemIndex(7));
+                Validate.AttributeEqual(repo.trendyol.ErrorBoxWrapperInfo, "Visible", "true", null, false);
                 Delay.Milliseconds(100);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
             

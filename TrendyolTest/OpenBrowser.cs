@@ -41,6 +41,8 @@ namespace TrendyolTest
         /// </summary>
         public OpenBrowser()
         {
+            Url = "";
+            BrowserPID = "";
         }
 
         /// <summary>
@@ -52,6 +54,30 @@ namespace TrendyolTest
         }
 
 #region Variables
+
+        string _Url;
+
+        /// <summary>
+        /// Gets or sets the value of variable Url.
+        /// </summary>
+        [TestVariable("85a95ad7-1921-439c-8bf2-c26db25439a2")]
+        public string Url
+        {
+            get { return _Url; }
+            set { _Url = value; }
+        }
+
+        string _BrowserPID;
+
+        /// <summary>
+        /// Gets or sets the value of variable BrowserPID.
+        /// </summary>
+        [TestVariable("63bafb15-fb53-40a1-bd02-a5c9d40a8914")]
+        public string BrowserPID
+        {
+            get { return _BrowserPID; }
+            set { _BrowserPID = value; }
+        }
 
 #endregion
 
@@ -79,12 +105,13 @@ namespace TrendyolTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.trendyol.com' with browser 'chrome' in maximized mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("https://www.trendyol.com", "chrome", "", false, true, false, false, false, false, false, true);
+            OpenFirefoxBrowser();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(1));
-            repo.trendyol.Self.EnsureVisible();
+            Report.Log(ReportLevel.Info, "User", BrowserPID, new RecordItemIndex(1));
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(2));
+            repo.trendyol.Self.WaitForDocumentLoaded();
             Delay.Milliseconds(0);
             
         }

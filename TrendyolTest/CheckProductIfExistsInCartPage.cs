@@ -157,6 +157,18 @@ namespace TrendyolTest
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'trendyol.FirstProductLinkInCartPage'.", repo.trendyol.FirstProductLinkInCartPageInfo, new RecordItemIndex(0));
+            Validate.Exists(repo.trendyol.FirstProductLinkInCartPageInfo);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'Href' from item 'trendyol.FirstProductLinkInCartPage' and assigning its value to variable 'FirstProductLinkInCartPage'.", repo.trendyol.FirstProductLinkInCartPageInfo, new RecordItemIndex(1));
+            FirstProductLinkInCartPage = repo.trendyol.FirstProductLinkInCartPage.Element.GetAttributeValueText("Href");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual ($FirstProductLinkInCartPage=$ProductUrl) on item 'trendyol.FirstProductLinkInCartPage'.", repo.trendyol.FirstProductLinkInCartPageInfo, new RecordItemIndex(2));
+            Validate.AttributeEqual(repo.trendyol.FirstProductLinkInCartPageInfo, FirstProductLinkInCartPage, ProductUrl);
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

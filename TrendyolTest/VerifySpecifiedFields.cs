@@ -79,12 +79,12 @@ namespace TrendyolTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'trendyol.RegisterEmailInput'.", repo.trendyol.RegisterEmailInputInfo, new RecordItemIndex(0));
-            Validate.Exists(repo.trendyol.RegisterEmailInputInfo);
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'trendyol.RegisterPage.RegisterEmailInput'.", repo.trendyol.RegisterPage.RegisterEmailInputInfo, new RecordItemIndex(0));
+            Validate.Exists(repo.trendyol.RegisterPage.RegisterEmailInputInfo);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'trendyol.RegisterPasswordInput'.", repo.trendyol.RegisterPasswordInputInfo, new RecordItemIndex(1));
-            Validate.Exists(repo.trendyol.RegisterPasswordInputInfo);
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'trendyol.RegisterPage.RegisterPasswordInput'.", repo.trendyol.RegisterPage.RegisterPasswordInputInfo, new RecordItemIndex(1));
+            Validate.Exists(repo.trendyol.RegisterPage.RegisterPasswordInputInfo);
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'trendyol.RegisterPage.MarketingCheckboxDiv'.", repo.trendyol.RegisterPage.MarketingCheckboxDivInfo, new RecordItemIndex(2));

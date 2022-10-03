@@ -41,6 +41,7 @@ namespace TrendyolTest
         /// </summary>
         public GoHomePage()
         {
+            varSearch = "";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace TrendyolTest
         }
 
 #region Variables
+
+        string _varSearch;
+
+        /// <summary>
+        /// Gets or sets the value of variable varSearch.
+        /// </summary>
+        [TestVariable("bef1ba65-5abf-4d68-b178-0ea24317d0aa")]
+        public string varSearch
+        {
+            get { return _varSearch; }
+            set { _varSearch = value; }
+        }
 
 #endregion
 

@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="15s"
+		durationms="15004"
+		type="root"
+		rid="1d53974f77736870"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="9.3.4.0"
+		host="DESKTOP-Q62ICD1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="3.10.2022 16:13:17"
+		timestampiso="2022-10-03T13:13:17"
+		endtime="3.10.2022 16:13:32"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CloseBrowser">
+		<detail>
+			CloseBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.685"
+			timeRelativeToTestModuleStartTime="00:04.685"
+			timeWallClock="16:13:21"
+			time="00:04.685"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>BrowserPID, isLoggedIn
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.707"
+			timeRelativeToTestModuleStartTime="00:04.707"
+			timeWallClock="16:13:21"
+			time="00:04.707"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'MozillaFirefox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Mozilla Firefox']"
+				itempath="/form[@title='Mozilla Firefox']"
+				fullname="TrendyolTestRepository.MozillaFirefox.Self"
+				id="1a1889f26dae40329536948da000015d"
+				timeout="30000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\CloseBrowser.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.617"
+			timeRelativeToTestModuleStartTime="00:13.617"
+			timeWallClock="16:13:30"
+			time="00:13.617"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Self' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Mozilla Firefox']"
+				itempath="/form[@title='Mozilla Firefox']"
+				fullname="TrendyolTestRepository.MozillaFirefox.Self"
+				id="1a1889f26dae40329536948da000015d"
+				timeout="30000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\CloseBrowser.cs"
+				codeline="109"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.618"
+			timeRelativeToTestModuleStartTime="00:13.618"
+			timeWallClock="16:13:30"
+			time="00:13.618"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Focus() on item 'MozillaFirefox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Mozilla Firefox']"
+				itempath="/form[@title='Mozilla Firefox']"
+				fullname="TrendyolTestRepository.MozillaFirefox.Self"
+				id="1a1889f26dae40329536948da000015d"
+				timeout="30000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\CloseBrowser.cs"
+				codeline="112"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.620"
+			timeRelativeToTestModuleStartTime="00:13.620"
+			timeWallClock="16:13:30"
+			time="00:13.620"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'MozillaFirefox.Kapat' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Mozilla Firefox']/toolbar/button[@accessiblename='Kapat']"
+				itempath="toolbar/button[@accessiblename='Kapat']"
+				fullname="TrendyolTestRepository.MozillaFirefox.Kapat"
+				id="a36a3a61f2e54d44852bbf662012d3f0"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\CloseBrowser.cs"
+				codeline="116"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.520"
+			timeRelativeToTestModuleStartTime="00:14.520"
+			timeWallClock="16:13:31"
+			time="00:14.520"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MozillaFirefox.Kapat' at 16;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Mozilla Firefox']/toolbar/button[@accessiblename='Kapat']"
+				itempath="toolbar/button[@accessiblename='Kapat']"
+				fullname="TrendyolTestRepository.MozillaFirefox.Kapat"
+				id="a36a3a61f2e54d44852bbf662012d3f0"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\CloseBrowser.cs"
+				codeline="120"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.611"
+			timeRelativeToTestModuleStartTime="00:14.611"
+			timeWallClock="16:13:31"
+			time="00:14.611"
+			level="Warn"
+			category="Click"
+			errimg="images_CloseBro_314099df\CloseBro_60c8808b_rxlog.jpg"
+			errthumb="images_CloseBro_314099df\CloseBro_60c8808b_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest_Ranorex\TrendyolTest\CloseBrowser.cs"
+				codeline="121"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

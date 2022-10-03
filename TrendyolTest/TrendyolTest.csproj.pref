@@ -8,8 +8,12 @@
   </Array>
   <Properties name="projectSavedData">
     <Array name="recentusercodeselections">
-      <Element value="TrendyolTest.AddToCart.Validate_BasketAppContainer(RepoItemInfo divtagInfo)" />
-      <Element value="TrendyolTest.AddToCart.Validate_BasketAppContainer(RepoItemInfo divtagInfo)" />
+      <Element value="TrendyolTest.CloseBrowser.KillFirefoxBrowsers()" />
+      <Element value="TrendyolTest.CloseBrowser.KillFirefoxBrowsers()" />
+      <Element value="TrendyolTest.CloseBrowser.ClickCloseBrowserButton(RepoItemInfo buttonInfo)" />
+      <Element value="TrendyolTest.CloseBrowser.Mouse_Click_Kapat(RepoItemInfo buttonInfo)" />
+      <Element value="TrendyolTest.SearchProduct.Get_value_FirstProductLinkInSearchPage1(RepoItemInfo atagInfo)" />
+      <Element value="TrendyolTest.SearchProduct.Get_value_FirstProductLinkInSearchPage(RepoItemInfo atagInfo)" />
     </Array>
   </Properties>
 </Properties>

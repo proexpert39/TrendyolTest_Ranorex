@@ -52,17 +52,17 @@ mode="Global">
 				</binding>
 			</bindings>
 			<info
-			id="3ce6aebc-722b-4549-ad7c-5bd29b78943f"
+			id="156233b6-dd73-4971-b504-f2446de3774e"
 			sourcename="RepositoryEditor">
 				<element
-				capabilities="webelement, ptag"
+				capabilities="webelement, spantag"
 				dontcache="True"
 				enabled="True"
 				flavor="chromeweb"
 				hasfocus="False"
-				index="0"
-				prefcap="ptag"
-				rect="162,463,179,6"
+				index="1"
+				prefcap="spantag"
+				rect="453,737,245,45"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -70,7 +70,7 @@ mode="Global">
 					<attribute
 					name="class"
 					type="System.String">
-						pb-item
+						prdct-desc-cntnr-name no-white-space
 					</attribute>
 					<attribute
 					name="draggable"
@@ -85,29 +85,27 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						iPhone 11 64GB Aksesuarsız Kutu Kırmızı Cep Telefonu (Apple Türkiye Garantili)
+						iPhone 14 Pro 256GB Derin Mor
 					</attribute>
 					<attribute
 					name="safeclass"
 					type="System.String">
-						pb-item
+						no-white-space prdct-desc-cntnr-name
 					</attribute>
 					<attribute
 					name="tagname"
 					type="System.String">
-						p
+						span
 					</attribute>
 					<attribute
 					name="title"
 					type="System.String">
-						Apple iPhone 11 64GB Aksesuarsız Kutu Kırmızı Cep Telefonu (Apple Türkiye Garantili)
+						iPhone 14 Pro 256GB Derin Mor
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='www.trendyol.com']//p[@class='pb-item'][1]
+					/dom[@domain='www.trendyol.com']//span[@class~'prdct-desc-cntnr-name'][1]
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<matchname>
 				Title

@@ -40,8 +40,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<arguments
 			id="a9199321-b8c3-4b9c-8ac4-0cd68f4cbda9">
@@ -181,8 +179,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']//input[#'register-email']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<matchname>
 				Value
@@ -324,8 +320,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']//input[#'register-password-input']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<matchname>
 				Value
@@ -349,8 +343,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']//div[@name='marketing-email']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<matchname>
 				TagValue
@@ -375,8 +367,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']//div[@name='personal-data-error']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<matchname>
 				TagValue
@@ -400,8 +390,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']//form/button
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<arguments
 			id="33687548-0211-4c9b-94c9-b87f70c08fd0">
@@ -470,8 +458,6 @@ mode="Global">
 				<path>
 					/dom[@domain='www.trendyol.com']//div[#'error-box-wrapper']
 				</path>
-				<robustPath>
-				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="31fac1b5-be8c-40e9-ab64-cca7c01487ca">
@@ -721,7 +707,7 @@ KKKACiiigD//2Q==
 				Visible
 			</matchname>
 			<matchvalue>
-				False
+				true
 			</matchvalue>
 		</validationitem>
 	</recorditems>

@@ -41,9 +41,6 @@ namespace TrendyolTest
         /// </summary>
         public GoToCartPage()
         {
-            CartUrl = "https://www.trendyol.com/sepet";
-            ProductName_Cart = "";
-            ProductName = "iphone 11";
         }
 
         /// <summary>
@@ -55,42 +52,6 @@ namespace TrendyolTest
         }
 
 #region Variables
-
-        string _CartUrl;
-
-        /// <summary>
-        /// Gets or sets the value of variable CartUrl.
-        /// </summary>
-        [TestVariable("6b022691-510c-4429-90d1-e2adb64fa641")]
-        public string CartUrl
-        {
-            get { return _CartUrl; }
-            set { _CartUrl = value; }
-        }
-
-        string _ProductName_Cart;
-
-        /// <summary>
-        /// Gets or sets the value of variable ProductName_Cart.
-        /// </summary>
-        [TestVariable("93e6ee0f-78d0-4a01-b1de-277280783197")]
-        public string ProductName_Cart
-        {
-            get { return _ProductName_Cart; }
-            set { _ProductName_Cart = value; }
-        }
-
-        string _ProductName;
-
-        /// <summary>
-        /// Gets or sets the value of variable ProductName.
-        /// </summary>
-        [TestVariable("8e6eb13d-1b5e-4f51-bf94-22b27ea4c1ad")]
-        public string ProductName
-        {
-            get { return _ProductName; }
-            set { _ProductName = value; }
-        }
 
 #endregion
 
@@ -118,11 +79,15 @@ namespace TrendyolTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Navigate(variable $CartUrl) on item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(0));
-            repo.trendyol.Self.Navigate(CartUrl);
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Focus() on item 'trendyol.MyBasketButton'.", repo.trendyol.MyBasketButtonInfo, new RecordItemIndex(0));
+            repo.trendyol.MyBasketButton.Focus();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking PerformClick() on item 'trendyol.MyBasketButton'.", repo.trendyol.MyBasketButtonInfo, new RecordItemIndex(1));
+            repo.trendyol.MyBasketButton.PerformClick();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(2));
             repo.trendyol.Self.WaitForDocumentLoaded();
             Delay.Milliseconds(0);
             

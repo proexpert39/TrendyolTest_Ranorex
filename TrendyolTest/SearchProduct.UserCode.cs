@@ -33,5 +33,11 @@ namespace TrendyolTest
             // Your recording specific initialization code goes here.
         }
 
+        public void Get_value_FirstProductLinkInSearchPage1(RepoItemInfo atagInfo)
+        {
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'Href' from item 'atagInfo' and assigning its value to variable 'ProductUrl_ToBeAddedWishlist'.", atagInfo);
+            ProductUrl = atagInfo.FindAdapter<ATag>().Element.GetAttributeValueText("Href").Split('?')[0]; // get before ? character to pretend errors
+        }
+
     }
 }

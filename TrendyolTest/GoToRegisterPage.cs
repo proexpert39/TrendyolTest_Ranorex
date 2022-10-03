@@ -41,7 +41,6 @@ namespace TrendyolTest
         /// </summary>
         public GoToRegisterPage()
         {
-            RegistrationPage = "https://www.trendyol.com/uyelik";
         }
 
         /// <summary>
@@ -53,18 +52,6 @@ namespace TrendyolTest
         }
 
 #region Variables
-
-        string _RegistrationPage;
-
-        /// <summary>
-        /// Gets or sets the value of variable RegistrationPage.
-        /// </summary>
-        [TestVariable("8dc1394f-8622-4c57-bf07-2cc3b3b5d5e0")]
-        public string RegistrationPage
-        {
-            get { return _RegistrationPage; }
-            set { _RegistrationPage = value; }
-        }
 
 #endregion
 
@@ -92,12 +79,51 @@ namespace TrendyolTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Navigate(variable $RegistrationPage) on item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(0));
-            repo.trendyol.Self.Navigate(RegistrationPage);
+            // Go to register page
+            Report.Log(ReportLevel.Info, "Section", "Go to register page", new RecordItemIndex(0));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'trendyol.LoginButton'.", repo.trendyol.LoginButtonInfo, new RecordItemIndex(1));
+            Validate.Exists(repo.trendyol.LoginButtonInfo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Focus() on item 'trendyol.LoginButton'.", repo.trendyol.LoginButtonInfo, new RecordItemIndex(2));
+            repo.trendyol.LoginButton.Focus();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking PerformClick() on item 'trendyol.LoginButton'.", repo.trendyol.LoginButtonInfo, new RecordItemIndex(3));
+            repo.trendyol.LoginButton.Element.InvokeActionWithText("PerformClick");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(4));
             repo.trendyol.Self.WaitForDocumentLoaded();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(5));
+            Delay.Duration(1000, false);
+            
+            // Switch to register tab
+            Report.Log(ReportLevel.Info, "Section", "Switch to register tab", new RecordItemIndex(6));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'trendyol.RegisterPage.RegisterTabButton'.", repo.trendyol.RegisterPage.RegisterTabButtonInfo, new RecordItemIndex(7));
+            Validate.Exists(repo.trendyol.RegisterPage.RegisterTabButtonInfo);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Focus() on item 'trendyol.RegisterPage.RegisterTabButton'.", repo.trendyol.RegisterPage.RegisterTabButtonInfo, new RecordItemIndex(8));
+            repo.trendyol.RegisterPage.RegisterTabButton.Focus();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking PerformClick() on item 'trendyol.RegisterPage.RegisterTabButton'.", repo.trendyol.RegisterPage.RegisterTabButtonInfo, new RecordItemIndex(9));
+            repo.trendyol.RegisterPage.RegisterTabButton.Element.InvokeActionWithText("PerformClick");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(10));
+            Delay.Duration(1000, false);
+            
+            // Validate is switched to register tab
+            Report.Log(ReportLevel.Info, "Section", "Validate is switched to register tab", new RecordItemIndex(11));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'trendyol.RegisterPage.RegisterTabContainer'.", repo.trendyol.RegisterPage.RegisterTabContainerInfo, new RecordItemIndex(12));
+            Validate.Exists(repo.trendyol.RegisterPage.RegisterTabContainerInfo);
             Delay.Milliseconds(0);
             
         }

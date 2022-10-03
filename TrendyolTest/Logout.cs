@@ -79,15 +79,27 @@ namespace TrendyolTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking PerformClick() on item 'trendyol.LogoutButton'.", repo.trendyol.LogoutButtonInfo, new RecordItemIndex(0));
-            repo.trendyol.LogoutButton.As<WebElement>().PerformClick();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'trendyol.MyAccountButton' at Center.", repo.trendyol.MyAccountButtonInfo, new RecordItemIndex(0));
+            repo.trendyol.MyAccountButton.MoveTo();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(1));
-            Delay.Duration(5000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(1));
+            Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'trendyol.UserNotLoggedInContainer'.", repo.trendyol.UserNotLoggedInContainerInfo, new RecordItemIndex(2));
-            Validate.Exists(repo.trendyol.UserNotLoggedInContainerInfo);
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Focus() on item 'trendyol.LogoutButton'.", repo.trendyol.LogoutButtonInfo, new RecordItemIndex(2));
+            repo.trendyol.LogoutButton.Focus();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking PerformClick() on item 'trendyol.LogoutButton'.", repo.trendyol.LogoutButtonInfo, new RecordItemIndex(3));
+            repo.trendyol.LogoutButton.PerformClick();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'trendyol'.", repo.trendyol.SelfInfo, new RecordItemIndex(4));
+            repo.trendyol.Self.WaitForDocumentLoaded();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'trendyol.LoginPage.UserNotLoggedInContainer'.", repo.trendyol.LoginPage.UserNotLoggedInContainerInfo, new RecordItemIndex(5));
+            Validate.Exists(repo.trendyol.LoginPage.UserNotLoggedInContainerInfo);
             Delay.Milliseconds(0);
             
         }
